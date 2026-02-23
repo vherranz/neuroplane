@@ -40,7 +40,6 @@ header:
     show_language: false
     # Enable the day/night switch in the navbar.
     show_day_night: true
-    show_theme_chooser: true
     show_search: false
     highlight_active_link: true
 

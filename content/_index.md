@@ -1,78 +1,61 @@
 ---
 # Leave the homepage title empty to use the site title
 title:
-date: 2022-10-24
+date: 2024-01-01
 type: landing
 
 sections:
   - block: hero
     content:
       title: |
-        Wowchemy
-        Research Group
-      image:
-        filename: welcome.jpg
+        NeuroPlaNe Lab
+        Neurogénesis y Plasticidad Neural
       text: |
-        <br>
-        
-        The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
-  
-  - block: collection
-    content:
-      title: Latest News
-      subtitle:
-      text:
-      count: 5
-      filters:
-        author: ''
-        category: ''
-        exclude_featured: false
-        publication_type: ''
-        tag: ''
-      offset: 0
-      order: desc
-      page_type: post
-    design:
-      view: card
-      columns: '1'
-  
+        The NeuroPlaNe Lab investigates neural stem cells and populations of immature neurons with prolonged maturation in the mammalian brain.
+
+        Our research integrates developmental neurobiology, comparative neuroscience, and translational approaches to better understand human brain development and neurological disorders.
+
+        Based at the Universitat de València, we combine histological, molecular, and advanced imaging strategies to study neural progenitors, amygdala organization, and neurodevelopmental pathologies such as Rett syndrome.
+
   - block: markdown
     content:
-      title:
-      subtitle: ''
-      text:
+      title: Research Areas
+      text: |
+        **Human Brain Development**  
+        Development of neural progenitors arising from the caudal ganglionic eminence and their contribution to cortical and limbic circuitry.
+
+        **Paralaminar Nucleus of the Amygdala**  
+        Comparative and functional organization of the paralaminar nucleus across species.
+
+        **Immature Neurons and Rett Syndrome**  
+        Protracted neuronal maturation and its vulnerability in neurodevelopmental disorders.
     design:
       columns: '1'
-      background:
-        image: 
-          filename: coders.jpg
-          filters:
-            brightness: 1
-          parallax: false
-          position: center
-          size: cover
-          text_color_light: true
-      spacing:
-        padding: ['20px', '0', '20px', '0']
-      css_class: fullscreen
 
   - block: collection
     content:
-      title: Latest Preprints
-      text: ""
+      title: Latest News
+      count: 3
+      filters:
+        page_type: post
+      order: desc
+    design:
+      view: card
+      columns: '1'
+
+  - block: collection
+    content:
+      title: Selected Publications
       count: 5
       filters:
         folders:
           - publication
-        publication_type: 'article'
     design:
       view: citation
       columns: '1'
 
   - block: markdown
     content:
-      title:
-      subtitle:
       text: |
         {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
     design:

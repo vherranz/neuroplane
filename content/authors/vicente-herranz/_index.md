@@ -1,7 +1,5 @@
 ---
 title: "Vicente Herranz Pérez"
-first_name: "Vicente"
-last_name: "Herranz Pérez"
 
 role: "Principal Investigator"
 superuser: true
@@ -10,10 +8,15 @@ organizations:
   - name: "Universitat de València"
     url: "https://www.uv.es"
 
+# Needed because People page sorts by Params.last_name
+params:
+  first_name: "Vicente"
+  last_name: "Herranz Pérez"
+
 bio: >-
   Principal Investigator of the NeuroPlaNe Lab (Neurogénesis y Plasticidad Neural).
-  Research focuses on neural stem cells, populations of immature neurons with protracted
-  maturation, comparative neurobiology, and neurodevelopmental disorders.
+  Research focuses on neural stem cells, immature neuronal populations with protracted maturation,
+  comparative neurobiology, and neurodevelopmental disorders.
 
 interests:
   - "Neural stem cells"

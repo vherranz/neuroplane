@@ -9,9 +9,6 @@ sections:
       title: |
         Neurogenesis & Neural Plasticity Lab
       text: ""
-    design:
-      spacing:
-        padding: ["4.5rem","0","2.5rem","0"]
 
   - block: markdown
     content:

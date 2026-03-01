@@ -49,7 +49,7 @@ header:
 
 social:
   - icon: bluesky
-    icon_pack: custom
+    icon_pack: fab
     link: 'https://bsky.app/profile/neuroplanelab.bsky.social'
 
 # Site footer

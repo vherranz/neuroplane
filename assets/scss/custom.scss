@@ -1,5 +1,15 @@
+// Make page header alignment consistent with widget page header alignment
+.universal-wrapper h1 {
+  text-align: center;
+}
+
+// Center the CTA shortcode button
+.cta-group {
+  justify-content: center;
+}
+
 /* Make hero more compact */
-.compact-hero {
-  padding-top: 3.5rem !important;
-  padding-bottom: 2rem !important;
+.hero {
+  padding-top: 3rem !important;
+  padding-bottom: 1.5rem !important;
 }

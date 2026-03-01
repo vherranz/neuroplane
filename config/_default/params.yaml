@@ -51,10 +51,6 @@ footer:
     license:
       enable: false
 
-  show_powered_by: false
-  powered_by:
-    enable: false
-
 # Localization
 
 locale:

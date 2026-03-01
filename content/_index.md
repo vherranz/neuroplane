@@ -21,8 +21,8 @@ sections:
         By bridging basic and translational perspectives, we aim to understand how the timing and regulation of neuronal development influence brain function across the lifespan, and how alterations in these processes may contribute to neurodevelopmental disorders. Through this framework, the lab seeks to advance a deeper cellular understanding of brain plasticity in health and disease.
     design:
       columns: "1"
-    
-    - block: collection
+
+  - block: collection
     content:
       title: "[Latest news](/post/)"
       count: 1

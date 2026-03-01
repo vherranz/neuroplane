@@ -42,6 +42,15 @@ header:
     show_day_night: true
     show_search: false
     highlight_active_link: true
+    # Show social icons (e.g., Bluesky) in the navbar
+    show_social: true
+
+# Social links (shown in navbar when show_social = true)
+
+social:
+  - icon: bluesky
+    icon_pack: custom
+    link: 'https://bsky.app/profile/neuroplanelab.bsky.social'
 
 # Site footer
 

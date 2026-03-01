@@ -22,9 +22,9 @@ sections:
     design:
       columns: "1"
     
-  - block: collection
+   - block: collection
     content:
-      title: Latest news
+      title: '[Latest news](/post/)'
       count: 1
       filters:
         folders:

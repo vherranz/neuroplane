@@ -1,7 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
 title:
-date: 2024-01-01
+date: 2026-03-01
 type: landing
 
 sections:
@@ -24,10 +24,10 @@ sections:
     content:
       title: ""
       text: |
-        NeuroPlaNe is a neuroscience research group at the **Universitat de València** (Valencia, Spain).
-        We investigate neural stem cells and populations of immature neurons with prolonged maturation, using comparative approaches across mammalian species.
-        Based at the **Institut Cavanilles** (Campus Burjassot-Paterna), we combine histology, molecular methods, and advanced microscopy to study brain development, circuit plasticity, and neurodevelopmental disorders.
+        NeuroPlaNe is a neuroscience research group at the **Universitat de València**.
+        We study how neural progenitors and populations of immature neurons are generated, mature, and integrate into brain circuits across development and across species.
 
+        Our work focuses on the developmental origins of limbic and cortical structures, including progenitor domains such as the caudal ganglionic eminence and regions such as the paralaminar nucleus of the amygdala. Through comparative neurobiology, quantitative histology, and advanced microscopy, we investigate mechanisms of neural plasticity and their relevance to human brain development and neurodevelopmental disorders. We combine structural, cellular, and translational approaches to understand brain maturation in health and disease.
     design:
       columns: '1'
 

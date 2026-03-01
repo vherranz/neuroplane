@@ -7,7 +7,7 @@ sections:
   - block: hero
     content:
       title: |
-        Neurogenesis and Neural Plasticity Lab
+        Neurogenesis & Neural Plasticity Lab
       text: ""
 
   - block: markdown

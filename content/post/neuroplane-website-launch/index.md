@@ -1,8 +1,7 @@
 ---
-title: "Neuroplane Lab website is now live"
+title: "NeuroPlaNe Lab website is now live"
 date: 2026-03-01
-summary: "We are pleased to announce the launch of the Neuroplane Lab website."
-tags: ["Lab update"]
+summary: "We are pleased to announce the launch of the NeuroPlaNe Lab website."
 draft: false
 ---
 

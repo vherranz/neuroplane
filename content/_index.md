@@ -14,7 +14,7 @@ sections:
     content:
       title: ""
       text: |
-        NeuroPlaNe Lab is a neuroscience research group based at the Universitat de València. Our interest lies in understanding how the brain builds and reshapes itself from early development through postnatal and adult life, with a particular focus on neurogenesis, prolonged neuronal maturation, and neural plasticity.
+        The NeuroPlaNe Lab is a neuroscience research group located in the Department of Cell Biology, Functional Biology and Physical Anthropology at the Universitat de València. We study how the brain builds and reshapes itself from early development through postnatal and adult life, with a particular focus on neurogenesis, prolonged neuronal maturation, and neural plasticity.
 
         We study how neural stem and progenitor cells generate neurons across developmental stages, how specific neuronal populations remain in an immature state for extended periods, and how these processes contribute to the progressive refinement and remodeling of brain circuits. Our work integrates developmental and postnatal neuroscience with comparative approaches across species in order to identify fundamental principles governing brain maturation and structural plasticity.
 

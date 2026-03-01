@@ -24,7 +24,7 @@ sections:
 
   - block: collection
     content:
-      title: "[Latest news](/post/)"
+      title: "[Latest news](post/)"
       count: 1
       filters:
         folders:

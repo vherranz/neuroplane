@@ -25,7 +25,7 @@ sections:
   - block: collection
     content:
       title: Latest news
-      count: 3
+      count: 1
       filters:
         page_type: post
       order: desc

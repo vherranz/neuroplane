@@ -50,7 +50,10 @@ footer:
     notice: '© {year} NeuroPlaNe Lab · Universitat de València'
     license:
       enable: false
-      powered_by: false
+
+  show_powered_by: false
+  powered_by:
+    enable: false
 
 # Localization
 

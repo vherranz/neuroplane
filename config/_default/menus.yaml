@@ -1,18 +1,32 @@
 # Navigation Links
 
 main:
+  - name: Home
+    url: /
+    weight: 5
+    icon: home
+    icon_pack: fas
+
   - name: Research
     url: research
     weight: 10
+    icon: flask
+    icon_pack: fas
 
   - name: Lab Members
     url: people
     weight: 20
+    icon: users
+    icon_pack: fas
 
   - name: Publications
     url: publication
     weight: 30
+    icon: file-alt
+    icon_pack: fas
 
   - name: Contact
     url: contact
     weight: 40
+    icon: envelope
+    icon_pack: fas

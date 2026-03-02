@@ -1,5 +1,5 @@
 ---
-title: Contact
+title: Neuroplane Lab @UV
 date: 2022-10-24
 type: landing
 
@@ -8,15 +8,15 @@ sections:
     content:
       title: Contact
       text: |
-        **Vicente Herranz Pérez**  
+        **Vicente Herranz Pérez, PhD**  
         Jeroni Muñoz Research Building — Lab 1.63  
         Universitat de València  
         Av. Vicent Andrés Estellés, 19  
         46100 Burjassot (Valencia)  
         Spain
 
-        **E-mail:** <a id="email-link" href="#" rel="nofollow">click to reveal</a>  
-        **Tel:** +34 9635 44637
+        **E-mail:** vicente.herranz / uv . es  *(anti-spam)* — <a id="email-link" href="#" rel="nofollow">Send email</a>  
+        **Tel:** (+34) 963544637
 
         <script>
           (function () {
@@ -26,19 +26,19 @@ sections:
             const a = document.getElementById("email-link");
             if (a) {
               a.href = "mailto:" + email;
-              a.textContent = email;
+              // keep link text as "Send email" (do not reveal address)
             }
           })();
         </script>
 
         <br>
 
-        <div style="max-width: 900px">
+        <div style="max-width: 980px">
           <iframe
-            title="Map"
-            src="https://www.google.com/maps?q=Av.%20Vicent%20Andr%C3%A9s%20Estell%C3%A9s%2C%2019%2C%2046100%20Burjassot%2C%20Spain&output=embed"
+            title="Edificio de Investigación Jeroni Muñoz (UV)"
+            src="https://www.google.com/maps?q=Edificio%20de%20Investigaci%C3%B3n%20Jeroni%20Mu%C3%B1oz%20Universitat%20de%20Val%C3%A8ncia%20Burjassot&output=embed"
             width="100%"
-            height="380"
+            height="420"
             style="border:0"
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade">

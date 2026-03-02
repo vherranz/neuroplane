@@ -73,3 +73,20 @@ p {
   padding-top: 3rem !important;
   padding-bottom: 1.5rem !important;
 }
+
+// =============================
+// NAVBAR ICON REFINEMENT
+// =============================
+
+.navbar-nav .nav-link i {
+  font-size: 0.85em;
+  margin-right: 0.35rem;
+  opacity: 0.75;
+}
+
+// Icon spacing alignment
+.navbar-nav .nav-link {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}

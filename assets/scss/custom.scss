@@ -1,39 +1,43 @@
 // =============================
-// TYPOGRAPHY REFINEMENT (Raleway)
+// TYPOGRAPHY REFINEMENT (Raleway) — Reiter-like
 // =============================
 
 body {
-  font-weight: 400;
-  line-height: 1.65;
+  font-weight: 300;      // <- más fino tipo Reiter
+  line-height: 1.7;      // <- compensa el peso light para legibilidad
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-// Títulos algo más presentes (Raleway lo agradece)
+// Títulos con presencia (si no, todo queda demasiado light)
 h1, h2, h3 {
   font-weight: 500;
   letter-spacing: -0.01em;
+}
+
+// (Opcional) párrafos ligeramente más “editorial”
+p {
+  font-weight: 300;
 }
 
 // =============================
 // NAVBAR: FORCE CONSISTENCY ACROSS ALL PAGES
 // =============================
 
-// Mismo padding en todas las variantes de navbar
 .navbar {
   padding-top: 0.9rem !important;
   padding-bottom: 0.9rem !important;
 }
 
-// Forzar estilo en links del navbar (home + páginas internas)
 .navbar .nav-link,
 .navbar-nav .nav-link {
   text-transform: uppercase !important;
   letter-spacing: 0.08em !important;
-  font-weight: 500 !important;
+  font-weight: 500 !important;   // <- navbar firme
   font-size: 0.85rem !important;
   line-height: 1.2 !important;
 }
 
-// Si hay dropdowns en el menú, que también sean consistentes
 .navbar .dropdown-item {
   text-transform: uppercase !important;
   letter-spacing: 0.06em !important;
@@ -41,7 +45,6 @@ h1, h2, h3 {
   font-size: 0.85rem !important;
 }
 
-// (Opcional) un hover sobrio
 .navbar .nav-link:hover {
   opacity: 0.75;
 }
@@ -50,7 +53,6 @@ h1, h2, h3 {
 // PAGE HEADER ALIGNMENT
 // =============================
 
-// Make page header alignment consistent with widget page header alignment
 .universal-wrapper h1 {
   text-align: center;
 }
@@ -59,7 +61,6 @@ h1, h2, h3 {
 // CTA BUTTON CENTERING
 // =============================
 
-// Center the CTA shortcode button
 .cta-group {
   justify-content: center;
 }
@@ -68,36 +69,7 @@ h1, h2, h3 {
 // HERO COMPACT ADJUSTMENT
 // =============================
 
-/* Make hero more compact */
 .hero {
   padding-top: 3rem !important;
   padding-bottom: 1.5rem !important;
-}
-
-// =============================
-// HERO TEXT: TRY RALEWAY LIGHT
-// =============================
-
-// Make the hero paragraph/tagline lighter without affecting headings/navbar
-.hero p,
-.hero .lead {
-  font-weight: 300 !important;
-}
-/* Compact the FIRST section on the homepage (the hero) */
-.home-section:first-of-type {
-  padding-top: 3rem !important;
-  padding-bottom: 1.5rem !important;
-}
-
-// =============================
-// HOMEPAGE TEXT WIDTH CONTROL
-// =============================
-
-/* Limit width of the homepage intro text (your markdown block) */
-.home-section .markdown {
-  max-width: 1100px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
 }

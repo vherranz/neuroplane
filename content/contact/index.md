@@ -20,7 +20,7 @@ sections:
 
         <br>
 
-        <div style="max-width: 880px; margin: 0 auto;">
+        <div style="max-width: 880px;">
           <iframe
             title="Jeroni Muñoz Research Building (Universitat de València)"
             src="https://www.google.com/maps?q=Edificio%20de%20Investigaci%C3%B3n%20Jeroni%20Mu%C3%B1oz%20Universitat%20de%20Val%C3%A8ncia%20Burjassot&z=17&output=embed"

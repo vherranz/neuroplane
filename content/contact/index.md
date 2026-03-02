@@ -23,7 +23,7 @@ sections:
         <div style="max-width: 980px">
           <iframe
             title="Jeroni Muñoz Research Building (Universitat de València)"
-            src="https://www.google.com/maps?q=Edificio%20de%20Investigaci%C3%B3n%20Jeroni%20Mu%C3%B1oz%20Universitat%20de%20Val%C3%A8ncia%20Burjassot&output=embed"
+            src="https://www.google.com/maps?q=Edificio%20de%20Investigaci%C3%B3n%20Jeroni%20Mu%C3%B1oz%20Universitat%20de%20Val%C3%A8ncia%20Burjassot&z=17&output=embed"
             width="100%"
             height="420"
             style="border:0"

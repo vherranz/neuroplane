@@ -7,24 +7,43 @@ body {
   line-height: 1.65;
 }
 
+// Títulos algo más presentes (Raleway lo agradece)
 h1, h2, h3 {
   font-weight: 500;
   letter-spacing: -0.01em;
 }
 
 // =============================
-// NAVBAR REFINEMENT
+// NAVBAR: FORCE CONSISTENCY ACROSS ALL PAGES
 // =============================
 
-.navbar-nav .nav-link {
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  font-weight: 500;
+// Mismo padding en todas las variantes de navbar
+.navbar {
+  padding-top: 0.9rem !important;
+  padding-bottom: 0.9rem !important;
 }
 
-.navbar {
-  padding-top: 0.9rem;
-  padding-bottom: 0.9rem;
+// Forzar estilo en links del navbar (home + páginas internas)
+.navbar .nav-link,
+.navbar-nav .nav-link {
+  text-transform: uppercase !important;
+  letter-spacing: 0.08em !important;
+  font-weight: 500 !important;
+  font-size: 0.85rem !important;
+  line-height: 1.2 !important;
+}
+
+// Si hay dropdowns en el menú, que también sean consistentes
+.navbar .dropdown-item {
+  text-transform: uppercase !important;
+  letter-spacing: 0.06em !important;
+  font-weight: 500 !important;
+  font-size: 0.85rem !important;
+}
+
+// (Opcional) un hover sobrio
+.navbar .nav-link:hover {
+  opacity: 0.75;
 }
 
 // =============================
@@ -40,6 +59,7 @@ h1, h2, h3 {
 // CTA BUTTON CENTERING
 // =============================
 
+// Center the CTA shortcode button
 .cta-group {
   justify-content: center;
 }
@@ -48,12 +68,13 @@ h1, h2, h3 {
 // HERO COMPACT ADJUSTMENT
 // =============================
 
+/* Make hero more compact */
 .hero {
   padding-top: 3rem !important;
   padding-bottom: 1.5rem !important;
 }
 
-// Compact the FIRST section on the homepage (the hero)
+/* Compact the FIRST section on the homepage (the hero) */
 .home-section:first-of-type {
   padding-top: 3rem !important;
   padding-bottom: 1.5rem !important;
@@ -63,6 +84,7 @@ h1, h2, h3 {
 // HOMEPAGE TEXT WIDTH CONTROL
 // =============================
 
+/* Limit width of the homepage intro text (your markdown block) */
 .home-section .markdown {
   max-width: 1100px;
   margin-left: auto;

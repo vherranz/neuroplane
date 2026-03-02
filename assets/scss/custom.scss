@@ -74,6 +74,15 @@ h1, h2, h3 {
   padding-bottom: 1.5rem !important;
 }
 
+// =============================
+// HERO TEXT: TRY RALEWAY LIGHT
+// =============================
+
+// Make the hero paragraph/tagline lighter without affecting headings/navbar
+.hero p,
+.hero .lead {
+  font-weight: 300 !important;
+}
 /* Compact the FIRST section on the homepage (the hero) */
 .home-section:first-of-type {
   padding-top: 3rem !important;

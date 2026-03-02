@@ -1,6 +1,6 @@
 ---
 title: Contact
-date: 2026-03-202
+date: 2026-03-02
 type: landing
 
 sections:
@@ -8,15 +8,15 @@ sections:
     content:
       title: Contact
       text: |
-        **Vicente Herranz Pérez, PhD**  
+        **Neuroplane Lab @UV**  
         Jeroni Muñoz Research Building — Lab 1.63  
         Universitat de València  
         Av. Vicent Andrés Estellés, 19  
         46100 Burjassot (Valencia)  
         Spain
 
-        **E-mail:** vicente.herranz / uv . es  *(anti-spam)* — <a id="email-link" href="#" rel="nofollow">Send email</a>  
-        **Tel:** (+34) 963544637
+        **E-mail:** vicente.herranz / uv ,es
+        **Tel:** (+34) 96.35.44637
 
         <script>
           (function () {

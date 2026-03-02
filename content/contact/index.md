@@ -30,18 +30,22 @@ sections:
             }
           })();
         </script>
+
+        <br>
+
+        <div style="max-width: 900px">
+          <iframe
+            title="Map"
+            src="https://www.google.com/maps?q=Av.%20Vicent%20Andr%C3%A9s%20Estell%C3%A9s%2C%2019%2C%2046100%20Burjassot%2C%20Spain&output=embed"
+            width="100%"
+            height="380"
+            style="border:0"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
     design:
       columns: "1"
-      background:
-        image:
-          filename: contact.jpg
-          filters:
-            brightness: 1
-          parallax: false
-          position: center
-          size: cover
-          text_color_light: true
       spacing:
         padding: ["20px", "0", "20px", "0"]
-      css_class: fullscreen
 ---

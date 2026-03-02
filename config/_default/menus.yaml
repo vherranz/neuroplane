@@ -4,29 +4,24 @@ main:
   - name: Home
     url: /
     weight: 5
-    icon: home
-    icon_pack: fas
+    pre: '<i class="fas fa-home"></i>'
 
   - name: Research
-    url: research
+    url: /research/
     weight: 10
-    icon: flask
-    icon_pack: fas
+    pre: '<i class="fas fa-flask"></i>'
 
   - name: Lab Members
-    url: people
+    url: /people/
     weight: 20
-    icon: users
-    icon_pack: fas
+    pre: '<i class="fas fa-users"></i>'
 
   - name: Publications
-    url: publication
+    url: /publication/
     weight: 30
-    icon: file-alt
-    icon_pack: fas
+    pre: '<i class="fas fa-file-alt"></i>'
 
   - name: Contact
-    url: contact
+    url: /contact/
     weight: 40
-    icon: envelope
-    icon_pack: fas
+    pre: '<i class="fas fa-envelope"></i>'

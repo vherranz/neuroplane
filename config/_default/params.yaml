@@ -9,8 +9,14 @@ appearance:
   # You can swap these for any other HugoBlox/Wowchemy built-in themes later.
   theme_day: ocean
   theme_night: dark
-  font: native
+  font: raleway
   font_size: L
+
+# Google Fonts (Typography)
+
+google_fonts:
+  - family: Raleway
+    weights: [300,400,500,600]
 
 # SEO
 

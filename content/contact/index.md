@@ -1,6 +1,6 @@
 ---
-title: Neuroplane Lab @UV
-date: 2022-10-24
+title: Contact
+date: 2026-03-202
 type: landing
 
 sections:
@@ -8,7 +8,7 @@ sections:
     content:
       title: Contact
       text: |
-        **Vicente Herranz Pérez, PhD**  
+        **Neuroplane Lab @UV**  
         Jeroni Muñoz Research Building — Lab 1.63  
         Universitat de València  
         Av. Vicent Andrés Estellés, 19  

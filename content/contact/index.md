@@ -8,7 +8,7 @@ sections:
     content:
       title: Contact
       text: |
-        <div class="row g-4 align-items-start mt-lg-5">
+        <div class="row g-4 align-items-start mt-5">
         <div class="col-12 col-lg-5">
 
         <h3 class="mt-0">NeuroPlaNe Lab @ UV</h3>

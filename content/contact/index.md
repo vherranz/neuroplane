@@ -8,19 +8,17 @@ sections:
     content:
       title: Contact
       text: |
-        **NeuroPlaNe Lab @UV**  
-        Jeroni Muñoz Research Building — Lab 1.63  
+        ### NeuroPlaNe Lab @ UV
+
+        **Jeroni Muñoz Research Building — Lab 1.63**  
         Universitat de València  
         Av. Vicent Andrés Estellés, 19  
-        46100 Burjassot (Valencia)  
-        Spain  
+        46100 Burjassot (Valencia), Spain  
 
-        **E-mail:** vicente.herranz / uv ,es  
-        **Tel:** (+34) 96.35.44637  
+        **E-mail:** vicente.herranz [at] uv [dot] es  
+        **Tel:** (+34) 96 35 44 637  
 
-        <br>
-
-        <div style="max-width: 880px;">
+        <div style="max-width: 880px; margin-top: 2rem;">
           <iframe
             title="Jeroni Muñoz Research Building (Universitat de València)"
             src="https://www.google.com/maps?q=Edificio%20de%20Investigaci%C3%B3n%20Jeroni%20Mu%C3%B1oz%20Universitat%20de%20Val%C3%A8ncia%20Burjassot&z=17&output=embed"
@@ -34,5 +32,5 @@ sections:
     design:
       columns: "1"
       spacing:
-        padding: ["20px", "0", "20px", "0"]
+        padding: ["96px", "0", "80px", "0"]
 ---

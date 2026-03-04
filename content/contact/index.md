@@ -30,7 +30,7 @@ sections:
 
         </div>
 
-        <div class="col-12 col-lg-7 mt-4 mt-lg-0">
+        <div class="col-12 col-lg-7 mt-5 mt-lg-0">
 
         <div style="width:100%; border-radius:12px; overflow:hidden;">
         <iframe

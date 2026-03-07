@@ -9,11 +9,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+// Títulos con presencia
 h1, h2, h3 {
   font-weight: 500;
   letter-spacing: -0.01em;
 }
 
+// Párrafos ligeramente más “editorial”
 p {
   font-weight: 300;
 }
@@ -48,25 +50,22 @@ p {
 }
 
 // =============================
+// NAVBAR ICONS
+// =============================
+
+.navbar .nav-link i {
+  font-size: 0.9em;
+  margin-right: 0.35rem;
+  opacity: 0.75;
+}
+
+// =============================
 // PAGE HEADER
 // =============================
 
 .universal-wrapper h1 {
   text-align: center;
-}
-
-/* SPACE BELOW PAGE TITLE */
-
-.universal-wrapper h1 {
   margin-bottom: 2.5rem;
-}
-
-// =============================
-// CTA BUTTON CENTERING
-// =============================
-
-.cta-group {
-  justify-content: center;
 }
 
 // =============================
@@ -79,27 +78,35 @@ p {
 }
 
 // =============================
-// NAVBAR ICONS
+// CTA BUTTON CENTERING
 // =============================
 
-.navbar .nav-link i {
-  font-size: 0.9em;
-  margin-right: 0.35rem;
-  opacity: 0.75;
+.cta-group {
+  justify-content: center;
 }
 
 // =============================
-// WIDER CONTENT (PUBLICATIONS)
+// DEFAULT PAGE WIDTH
 // =============================
 
-.universal-wrapper {
-  max-width: 1200px;
+.page-wrapper .universal-wrapper {
+  max-width: 900px;
   margin-left: auto;
   margin-right: auto;
 }
 
 // =============================
-// SPACE BETWEEN PUBLICATIONS
+// WIDER PUBLICATIONS PAGE
+// =============================
+
+.page-publication .universal-wrapper,
+.taxonomy-publication .universal-wrapper,
+.publication .universal-wrapper {
+  max-width: 1200px;
+}
+
+// =============================
+// PUBLICATION SPACING
 // =============================
 
 .pub-list-item {

@@ -3,25 +3,23 @@
 // =============================
 
 body {
-  font-weight: 300;      // <- más fino
-  line-height: 1.7;      // <- compensa el peso light para legibilidad
+  font-weight: 300;
+  line-height: 1.7;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-// Títulos con presencia (si no, todo queda demasiado light)
 h1, h2, h3 {
   font-weight: 500;
   letter-spacing: -0.01em;
 }
 
-// (Opcional) párrafos ligeramente más “editorial”
 p {
   font-weight: 300;
 }
 
 // =============================
-// NAVBAR: FORCE CONSISTENCY ACROSS ALL PAGES
+// NAVBAR
 // =============================
 
 .navbar {
@@ -33,7 +31,7 @@ p {
 .navbar-nav .nav-link {
   text-transform: uppercase !important;
   letter-spacing: 0.08em !important;
-  font-weight: 500 !important;   // <- navbar firme
+  font-weight: 500 !important;
   font-size: 0.85rem !important;
   line-height: 1.2 !important;
 }
@@ -50,11 +48,17 @@ p {
 }
 
 // =============================
-// PAGE HEADER ALIGNMENT
+// PAGE HEADER
 // =============================
 
 .universal-wrapper h1 {
   text-align: center;
+}
+
+/* SPACE BELOW PAGE TITLE */
+
+.universal-wrapper h1 {
+  margin-bottom: 2.5rem;
 }
 
 // =============================
@@ -74,28 +78,30 @@ p {
   padding-bottom: 1.5rem !important;
 }
 
-/* Navbar icons: subtle, consistent */
+// =============================
+// NAVBAR ICONS
+// =============================
+
 .navbar .nav-link i {
   font-size: 0.9em;
   margin-right: 0.35rem;
   opacity: 0.75;
 }
 
-/* =================================
-   WIDER CONTENT FOR PUBLICATIONS
-   ================================= */
+// =============================
+// WIDER CONTENT (PUBLICATIONS)
+// =============================
 
-.page-body {
-  max-width: 1100px;
-  margin: 0 auto;
+.universal-wrapper {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/* More space below page title */
-.page-header {
-  margin-bottom: 2.5rem;
-}
+// =============================
+// SPACE BETWEEN PUBLICATIONS
+// =============================
 
-/* More breathing room between publication entries */
 .pub-list-item {
-  margin-bottom: 1.8rem;
+  margin-bottom: 2rem;
 }

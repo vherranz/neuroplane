@@ -19,7 +19,4 @@ doi: 10.1016/j.tice.2025.102737
 tags:
 - Confocal microscopy; Cranial nerve I; Electron microscopy; Human olfactory tract;
   Immunogold; Olfactory system;My papers
-links:
-- name: URL
-  url: https://doi.org/10.1016/j.tice.2025.102737
 ---

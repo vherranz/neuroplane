@@ -19,7 +19,4 @@ doi: 10.3389/fnana.2021.696376
 tags:
 - BCAS1; OPCs; human oligodendrocytes; immunogold; oligodendrocytes; transmission
   electron microscopy;My papers
-links:
-- name: URL
-  url: https://doi.org/10.3389/fnana.2021.696376
 ---

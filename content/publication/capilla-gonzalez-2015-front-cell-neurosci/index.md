@@ -14,7 +14,4 @@ doi: 10.3389/fncel.2015.00365
 tags:
 - aging; cell migration; neural stem cells; neurogenesis; oligodendrogenesis; rostral
   migratory stream; subventricular zone;Mendeley Import (Dec 05);My papers
-links:
-- name: URL
-  url: https://doi.org/10.3389/fncel.2015.00365
 ---

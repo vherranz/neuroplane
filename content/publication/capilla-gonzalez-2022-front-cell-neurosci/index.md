@@ -15,7 +15,4 @@ doi: 10.3389/fncel.2022.932281
 tags:
 - clinical translation; immunomodulation; mesenchymal stromal/stem cell (MSC); modes
   of action (MoA); regeneration;My papers
-links:
-- name: URL
-  url: https://doi.org/10.3389/fncel.2022.932281
 ---

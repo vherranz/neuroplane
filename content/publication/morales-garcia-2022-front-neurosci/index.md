@@ -14,7 +14,4 @@ doi: 10.3389/fnins.2022.868876
 tags:
 - hippocampus; neural stem and progenitor cell; neurodegenerative diseases; neurogenesis;
   subgranular zone (SGZ); subventricular zone (SVZ);My papers
-links:
-- name: URL
-  url: https://doi.org/10.3389/fnins.2022.868876
 ---

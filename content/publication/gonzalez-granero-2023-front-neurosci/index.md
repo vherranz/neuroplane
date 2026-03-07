@@ -15,7 +15,4 @@ doi: 10.3389/fnins.2023.1125999
 tags:
 - adult neurogenesis; lizard; neural stem cells; neuroblast migration; radial glia;
   reptiles; sulci; tangential migration;My papers
-links:
-- name: URL
-  url: https://doi.org/10.3389/fnins.2023.1125999
 ---

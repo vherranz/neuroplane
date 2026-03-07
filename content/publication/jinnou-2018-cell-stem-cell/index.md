@@ -25,7 +25,4 @@ doi: 10.1016/j.stem.2017.11.005
 tags:
 - N-cadherin; gait behavior; neonatal brain injury; neuronal migration; neuronal regeneration;
   postnatal neurogenesis; radial glial cell; ventricular-subventricular zone;My papers
-links:
-- name: URL
-  url: https://doi.org/10.1016/j.stem.2017.11.005
 ---

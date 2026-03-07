@@ -18,7 +18,4 @@ doi: 10.1016/j.cell.2016.11.036
 tags:
 - BBSome; GPCR; Hedgehog; actin; cilia; drebrin; exosomes; extracellular vesicles;
   myosin 6;Mendeley Import (Dec 05);My papers
-links:
-- name: URL
-  url: https://doi.org/10.1016/j.cell.2016.11.036
 ---

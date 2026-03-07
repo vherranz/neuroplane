@@ -45,7 +45,4 @@ publication: '*Acta Neuropathol.*'
 doi: 10.1007/s00401-024-02794-y
 tags:
 - Amyotrophic lateral sclerosis; FOXO1; FUS; Glycolysis; Myogenesis; TDP-43;My papers
-links:
-- name: URL
-  url: https://doi.org/10.1007/s00401-024-02794-y
 ---

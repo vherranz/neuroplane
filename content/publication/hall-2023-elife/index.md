@@ -29,7 +29,4 @@ doi: 10.7554/eLife.79299
 tags:
 - centriolar satellites; centriole; centrosome; cilia; ciliary vesicle; ciliogenesis;
   condensates; developmental biology; human; mouse;My papers
-links:
-- name: URL
-  url: https://doi.org/10.7554/eLife.79299
 ---

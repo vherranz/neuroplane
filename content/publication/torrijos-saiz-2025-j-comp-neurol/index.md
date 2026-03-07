@@ -18,7 +18,4 @@ doi: 10.1002/cne.70070
 tags:
 - adult neurogenesis; neuroblast migration; rostral migratory stream; swine brain;
   ventricular-subventricular zone;My papers
-links:
-- name: URL
-  url: https://doi.org/10.1002/cne.70070
 ---

@@ -13,7 +13,4 @@ publication: '*Front. Neurosci.*'
 doi: 10.3389/fnins.2021.668243
 tags:
 - ID4; brain; development; ependymal cell; transcription factor;My papers
-links:
-- name: URL
-  url: https://doi.org/10.3389/fnins.2021.668243
 ---

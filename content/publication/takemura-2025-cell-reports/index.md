@@ -26,7 +26,4 @@ doi: 10.1016/j.celrep.2025.116029
 tags:
 - 'CP: Developmental biology; CP: Stem cell research; birth; development; neural stem
   cells; radial glia;My papers'
-links:
-- name: URL
-  url: https://doi.org/10.1016/j.celrep.2025.116029
 ---

@@ -22,7 +22,4 @@ publication: '*J. Cell Biol.*'
 doi: 10.1083/jcb.202011133
 tags:
 - My papers
-links:
-- name: URL
-  url: https://doi.org/10.1083/jcb.202011133
 ---

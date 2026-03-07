@@ -38,7 +38,4 @@ publication: '*Nat. Commun.*'
 doi: 10.1038/s41467-024-45825-8
 tags:
 - My papers
-links:
-- name: URL
-  url: https://doi.org/10.1038/s41467-024-45825-8
 ---

@@ -21,7 +21,4 @@ publication_types:
 doi: 10.7554/elife.99502.1
 tags:
 - My papers
-links:
-- name: URL
-  url: https://doi.org/10.7554/elife.99502.1
 ---

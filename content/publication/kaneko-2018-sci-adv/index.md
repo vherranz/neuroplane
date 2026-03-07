@@ -22,7 +22,4 @@ publication: '*Sci. Adv.*'
 doi: 10.1126/sciadv.aav0618
 tags:
 - My papers
-links:
-- name: URL
-  url: https://doi.org/10.1126/sciadv.aav0618
 ---

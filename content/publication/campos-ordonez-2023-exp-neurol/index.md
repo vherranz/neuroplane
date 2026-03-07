@@ -19,7 +19,4 @@ doi: 10.1016/j.expneurol.2023.114412
 tags:
 - Hydrocephalus treatment; Normal pressure hydrocephalus; Oligodendrocyte precursor
   cells; White matter;My papers
-links:
-- name: URL
-  url: https://doi.org/10.1016/j.expneurol.2023.114412
 ---

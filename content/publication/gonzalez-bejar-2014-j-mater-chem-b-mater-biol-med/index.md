@@ -16,6 +16,6 @@ date: '2014-07-01'
 publishDate: '2026-03-07T21:56:46.372363Z'
 publication_types:
 - article-journal
-publication: '*J. Mater. Chem. B Mater. Biol. Med.*'
+publication: '*J. Mater. Chem. B Mater. Biol. Med*'
 doi: 10.1039/c4tb00340c
 ---

@@ -14,6 +14,6 @@ date: '2014-11-01'
 publishDate: '2026-03-07T21:56:46.406926Z'
 publication_types:
 - article-journal
-publication: '*Exp. Neurol.*'
+publication: '*Exp. Neurol*'
 doi: 10.1016/j.expneurol.2014.05.011
 ---

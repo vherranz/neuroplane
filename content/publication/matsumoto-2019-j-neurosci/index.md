@@ -24,6 +24,6 @@ date: '2019-12-01'
 publishDate: '2026-03-07T21:56:46.303479Z'
 publication_types:
 - article-journal
-publication: '*J. Neurosci.*'
+publication: '*J. Neurosci*'
 doi: 10.1523/JNEUROSCI.1503-19.2019
 ---

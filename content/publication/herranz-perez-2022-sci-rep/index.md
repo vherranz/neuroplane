@@ -12,6 +12,6 @@ date: '2022-01-01'
 publishDate: '2026-03-07T21:56:46.229739Z'
 publication_types:
 - article-journal
-publication: '*Sci. Rep.*'
+publication: '*Sci. Rep*'
 doi: 10.1038/s41598-022-05526-y
 ---

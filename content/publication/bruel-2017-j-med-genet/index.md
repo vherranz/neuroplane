@@ -58,6 +58,6 @@ date: '2017-06-01'
 publishDate: '2026-03-07T21:56:46.466107Z'
 publication_types:
 - article-journal
-publication: '*J. Med. Genet.*'
+publication: '*J. Med. Genet*'
 doi: 10.1136/jmedgenet-2016-104436
 ---

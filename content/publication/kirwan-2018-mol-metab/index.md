@@ -21,6 +21,6 @@ date: '2018-11-01'
 publishDate: '2026-03-07T21:56:46.331074Z'
 publication_types:
 - article-journal
-publication: '*Mol. Metab.*'
+publication: '*Mol. Metab*'
 doi: 10.1016/j.molmet.2018.08.006
 ---

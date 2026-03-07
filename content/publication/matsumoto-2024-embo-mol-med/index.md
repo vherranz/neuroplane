@@ -23,6 +23,6 @@ date: '2024-06-01'
 publishDate: '2026-03-07T21:56:46.149756Z'
 publication_types:
 - article-journal
-publication: '*EMBO Mol. Med.*'
+publication: '*EMBO Mol. Med*'
 doi: 10.1038/s44321-024-00073-7
 ---

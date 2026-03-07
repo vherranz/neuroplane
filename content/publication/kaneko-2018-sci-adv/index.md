@@ -18,6 +18,6 @@ date: '2018-12-01'
 publishDate: '2026-03-07T21:56:46.324224Z'
 publication_types:
 - article-journal
-publication: '*Sci. Adv.*'
+publication: '*Sci. Adv*'
 doi: 10.1126/sciadv.aav0618
 ---

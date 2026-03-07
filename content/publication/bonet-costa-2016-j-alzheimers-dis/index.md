@@ -17,6 +17,6 @@ date: '2016-01-01'
 publishDate: '2026-03-07T21:56:46.393466Z'
 publication_types:
 - article-journal
-publication: '*J. Alzheimers. Dis.*'
+publication: '*J. Alzheimers. Dis*'
 doi: 10.3233/JAD-151020
 ---

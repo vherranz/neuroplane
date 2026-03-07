@@ -10,6 +10,6 @@ date: '2006-02-01'
 publishDate: '2026-03-07T21:56:46.440528Z'
 publication_types:
 - article-journal
-publication: '*Eur. J. Neurosci.*'
+publication: '*Eur. J. Neurosci*'
 doi: 10.1111/j.1460-9568.2006.04616.x
 ---

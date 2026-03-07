@@ -17,6 +17,6 @@ date: '2018-06-01'
 publishDate: '2026-03-07T21:56:46.338081Z'
 publication_types:
 - article-journal
-publication: '*Chem. Mater.*'
+publication: '*Chem. Mater*'
 doi: 10.1021/acs.chemmater.8b0027610.1021/acs.chemmater.8b00276.s001
 ---

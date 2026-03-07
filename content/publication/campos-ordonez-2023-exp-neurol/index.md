@@ -14,6 +14,6 @@ date: '2023-07-01'
 publishDate: '2026-03-07T21:56:46.170189Z'
 publication_types:
 - article-journal
-publication: '*Exp. Neurol.*'
+publication: '*Exp. Neurol*'
 doi: 10.1016/j.expneurol.2023.114412
 ---

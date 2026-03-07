@@ -15,6 +15,6 @@ date: '2016-10-01'
 publishDate: '2026-03-07T21:56:46.379355Z'
 publication_types:
 - article-journal
-publication: '*J. Comp. Neurol.*'
+publication: '*J. Comp. Neurol*'
 doi: 10.1002/cne.24001
 ---

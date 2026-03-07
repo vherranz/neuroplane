@@ -13,6 +13,6 @@ date: '2021-03-01'
 publishDate: '2026-03-07T21:56:46.269242Z'
 publication_types:
 - article-journal
-publication: '*J. Neuropathol. Exp. Neurol.*'
+publication: '*J. Neuropathol. Exp. Neurol*'
 doi: 10.1093/jnen/nlaa144
 ---

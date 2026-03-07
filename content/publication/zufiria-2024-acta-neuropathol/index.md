@@ -41,6 +41,6 @@ date: '2024-09-01'
 publishDate: '2026-03-07T21:56:46.127720Z'
 publication_types:
 - article-journal
-publication: '*Acta Neuropathol.*'
+publication: '*Acta Neuropathol*'
 doi: 10.1007/s00401-024-02794-y
 ---

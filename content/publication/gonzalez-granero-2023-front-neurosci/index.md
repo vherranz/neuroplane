@@ -10,6 +10,6 @@ date: '2023-02-01'
 publishDate: '2026-03-07T21:56:46.176785Z'
 publication_types:
 - article-journal
-publication: '*Front. Neurosci.*'
+publication: '*Front. Neurosci*'
 doi: 10.3389/fnins.2023.1125999
 ---

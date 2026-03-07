@@ -18,6 +18,6 @@ date: '2021-09-01'
 publishDate: '2026-03-07T21:56:46.242730Z'
 publication_types:
 - article-journal
-publication: '*J. Cell Biol.*'
+publication: '*J. Cell Biol*'
 doi: 10.1083/jcb.202011133
 ---

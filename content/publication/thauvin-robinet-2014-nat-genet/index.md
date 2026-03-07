@@ -35,6 +35,6 @@ date: '2014-08-01'
 publishDate: '2026-03-07T21:56:46.386088Z'
 publication_types:
 - article-journal
-publication: '*Nat. Genet.*'
+publication: '*Nat. Genet*'
 doi: 10.1038/ng.3031
 ---

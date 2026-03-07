@@ -14,6 +14,6 @@ date: '2022-06-01'
 publishDate: '2026-03-07T21:56:46.216706Z'
 publication_types:
 - article-journal
-publication: '*Curr. Res. Neurobiol.*'
+publication: '*Curr. Res. Neurobiol*'
 doi: 10.1016/j.crneur.2022.100042
 ---

@@ -34,6 +34,6 @@ date: '2024-03-01'
 publishDate: '2026-03-07T21:56:46.142313Z'
 publication_types:
 - article-journal
-publication: '*Nat. Commun.*'
+publication: '*Nat. Commun*'
 doi: 10.1038/s41467-024-45825-8
 ---

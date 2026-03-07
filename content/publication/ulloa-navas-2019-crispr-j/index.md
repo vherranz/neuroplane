@@ -10,6 +10,6 @@ date: '2019-12-01'
 publishDate: '2026-03-07T21:56:46.296579Z'
 publication_types:
 - article-journal
-publication: '*CRISPR J.*'
+publication: '*CRISPR J*'
 doi: 10.1089/crispr.2019.0032
 ---

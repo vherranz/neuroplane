@@ -13,6 +13,6 @@ date: '2006-12-01'
 publishDate: '2026-03-07T21:56:46.400297Z'
 publication_types:
 - article-journal
-publication: '*Hum. Mol. Genet.*'
+publication: '*Hum. Mol. Genet*'
 doi: 10.1093/hmg/ddl421
 ---

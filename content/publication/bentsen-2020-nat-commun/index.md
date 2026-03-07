@@ -35,6 +35,6 @@ date: '2020-09-01'
 publishDate: '2026-03-07T21:56:46.275835Z'
 publication_types:
 - article-journal
-publication: '*Nat. Commun.*'
+publication: '*Nat. Commun*'
 doi: 10.1038/s41467-020-17720-5
 ---

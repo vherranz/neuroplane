@@ -10,6 +10,6 @@ date: '2010-01-01'
 publishDate: '2026-03-07T21:56:46.358912Z'
 publication_types:
 - article-journal
-publication: '*Brain Res.*'
+publication: '*Brain Res*'
 doi: 10.1016/j.brainres.2009.10.013
 ---

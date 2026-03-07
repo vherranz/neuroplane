@@ -1,6 +1,6 @@
 ---
 title: Cellular Organization and Migration Pathways of the Ventricular-Subventricular
-  Zone in the Juvenile Swine Brain (textitSus scrofa domesticus)
+  Zone in the Juvenile Swine Brain (*Sus scrofa domesticus*)
 authors:
 - Lucía Inés Torrijos-Saiz
 - Júlia Freixes

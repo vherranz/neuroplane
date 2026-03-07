@@ -109,34 +109,4 @@ p {
 
 .pub-list-item {
   margin-bottom: 2rem;
-  display: flex;
-  flex-direction: column;
-}
-
-// =============================
-// PUBLICATION TYPOGRAPHY
-// =============================
-
-/* Title first visually */
-
-.pub-list-item .article-title {
-  order: 1;
-  font-size: 1.15rem;
-  font-weight: 500;
-}
-
-/* Authors second */
-
-.pub-list-item .article-metadata {
-  order: 2;
-  font-size: 0.95rem;
-  opacity: 0.85;
-}
-
-/* Journal third */
-
-.pub-list-item .pub-publication {
-  order: 3;
-  font-style: italic;
-  opacity: 0.8;
 }

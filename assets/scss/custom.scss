@@ -84,23 +84,13 @@ p {
 }
 
 // =============================
-// DEFAULT PAGE WIDTH
+// PAGE WIDTH
 // =============================
 
-.page-wrapper .universal-wrapper {
-  max-width: 900px;
+.universal-wrapper {
+  max-width: 1150px;
   margin-left: auto;
   margin-right: auto;
-}
-
-// =============================
-// WIDER PUBLICATIONS PAGE
-// =============================
-
-.page-publication .universal-wrapper,
-.taxonomy-publication .universal-wrapper,
-.publication .universal-wrapper {
-  max-width: 1600px;
 }
 
 // =============================

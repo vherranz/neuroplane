@@ -5,7 +5,7 @@ type: landing
 sections:
   - block: collection
     content:
-      title: ""
+      title: Publications
       count: 0
       filters:
         folders:

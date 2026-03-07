@@ -112,3 +112,25 @@ p {
 .pub-list-item {
   margin-bottom: 2rem;
 }
+
+/* =============================
+   PUBLICATION TYPOGRAPHY
+   ============================= */
+
+/* Paper title more prominent */
+.pub-list-item .article-title {
+  font-size: 1.15rem;
+  font-weight: 500;
+}
+
+/* Authors slightly lighter */
+.pub-list-item .article-metadata {
+  font-size: 0.95rem;
+  opacity: 0.85;
+}
+
+/* Journal slightly italic and subtle */
+.pub-list-item .pub-publication {
+  font-style: italic;
+  opacity: 0.8;
+}

@@ -15,7 +15,4 @@ publication_types:
 - article-journal
 publication: '*J. Neuropathol. Exp. Neurol.*'
 doi: 10.1093/jnen/nlaa144
-links:
-- name: URL
-  url: https://doi.org/10.1093/jnen/nlaa144
 ---

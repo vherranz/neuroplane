@@ -23,7 +23,4 @@ publication_types:
 - article-journal
 publication: '*J. Neurosci.*'
 doi: 10.1523/JNEUROSCI.1960-17.2018
-links:
-- name: URL
-  url: https://doi.org/10.1523/JNEUROSCI.1960-17.2018
 ---

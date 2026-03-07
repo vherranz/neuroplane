@@ -11,7 +11,4 @@ publication_types:
 - article-journal
 publication: '*Front. Neurosci.*'
 doi: 10.3389/fnins.2021.668243
-links:
-- name: URL
-  url: https://doi.org/10.3389/fnins.2021.668243
 ---

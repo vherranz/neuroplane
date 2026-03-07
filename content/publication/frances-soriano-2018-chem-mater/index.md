@@ -19,7 +19,4 @@ publication_types:
 - article-journal
 publication: '*Chem. Mater.*'
 doi: 10.1021/acs.chemmater.8b0027610.1021/acs.chemmater.8b00276.s001
-links:
-- name: URL
-  url: https://doi.org/10.1021/acs.chemmater.8b0027610.1021/acs.chemmater.8b00276.s001
 ---

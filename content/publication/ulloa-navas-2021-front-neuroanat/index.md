@@ -16,7 +16,4 @@ publication_types:
 - article-journal
 publication: '*Front. Neuroanat.*'
 doi: 10.3389/fnana.2021.696376
-links:
-- name: URL
-  url: https://doi.org/10.3389/fnana.2021.696376
 ---

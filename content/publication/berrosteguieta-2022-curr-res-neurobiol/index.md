@@ -16,7 +16,4 @@ publication_types:
 - article-journal
 publication: '*Curr. Res. Neurobiol.*'
 doi: 10.1016/j.crneur.2022.100042
-links:
-- name: URL
-  url: https://doi.org/10.1016/j.crneur.2022.100042
 ---

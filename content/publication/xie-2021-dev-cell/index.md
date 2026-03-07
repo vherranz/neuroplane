@@ -13,7 +13,4 @@ publication_types:
 - article-journal
 publication: '*Dev. Cell*'
 doi: 10.1016/j.devcel.2021.11.020
-links:
-- name: URL
-  url: https://doi.org/10.1016/j.devcel.2021.11.020
 ---

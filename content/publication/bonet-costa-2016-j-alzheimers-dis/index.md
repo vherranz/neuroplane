@@ -19,7 +19,4 @@ publication_types:
 - article-journal
 publication: '*J. Alzheimers. Dis.*'
 doi: 10.3233/JAD-151020
-links:
-- name: URL
-  url: https://doi.org/10.3233/JAD-151020
 ---

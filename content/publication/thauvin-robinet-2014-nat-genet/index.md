@@ -37,7 +37,4 @@ publication_types:
 - article-journal
 publication: '*Nat. Genet.*'
 doi: 10.1038/ng.3031
-links:
-- name: URL
-  url: https://doi.org/10.1038/ng.3031
 ---

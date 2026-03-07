@@ -22,7 +22,4 @@ publication_types:
 - article-journal
 publication: '*Nature*'
 doi: 10.1038/s41586-023-06981-x
-links:
-- name: URL
-  url: https://doi.org/10.1038/s41586-023-06981-x
 ---

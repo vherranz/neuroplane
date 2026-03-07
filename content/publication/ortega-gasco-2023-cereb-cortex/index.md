@@ -19,7 +19,4 @@ publication_types:
 - article-journal
 publication: '*Cereb. Cortex*'
 doi: 10.1093/cercor/bhad340
-links:
-- name: URL
-  url: https://doi.org/10.1093/cercor/bhad340
 ---

@@ -19,7 +19,4 @@ publishDate: '2026-03-07T21:56:46.135568Z'
 publication_types:
 - article-journal
 doi: 10.7554/elife.99502.1
-links:
-- name: URL
-  url: https://doi.org/10.7554/elife.99502.1
 ---

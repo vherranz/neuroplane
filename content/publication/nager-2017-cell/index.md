@@ -15,7 +15,4 @@ publication_types:
 - article-journal
 publication: '*Cell*'
 doi: 10.1016/j.cell.2016.11.036
-links:
-- name: URL
-  url: https://doi.org/10.1016/j.cell.2016.11.036
 ---

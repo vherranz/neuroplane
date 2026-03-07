@@ -12,7 +12,4 @@ publication_types:
 - article-journal
 publication: '*CRISPR J.*'
 doi: 10.1089/crispr.2019.0032
-links:
-- name: URL
-  url: https://doi.org/10.1089/crispr.2019.0032
 ---

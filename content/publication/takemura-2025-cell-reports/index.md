@@ -21,7 +21,7 @@ date: '2025-08-01'
 publishDate: '2026-03-07T21:14:34.476340Z'
 publication_types:
 - article-journal
-publication: '*Cell Rep.*'
+publication: '*Cell Rep*'
 doi: 10.1016/j.celrep.2025.116029
 abstract: A common feature of various postnatal stem cells is their close association
   with blood vessels. Postnatal neural stem cells (NSCs) in the ventricular-subventricular
@@ -37,7 +37,4 @@ abstract: A common feature of various postnatal stem cells is their close associ
 tags:
 - 'CP: Developmental biology; CP: Stem cell research; birth; development; neural stem
   cells; radial glia;My papers'
-links:
-- name: URL
-  url: https://doi.org/10.1016/j.celrep.2025.116029
 ---

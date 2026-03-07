@@ -36,7 +36,4 @@ abstract: In animal tissues, several cell types migrate along blood vessels, rai
   function for food-seeking behavior during starvation.
 tags:
 - My papers
-links:
-- name: URL
-  url: https://doi.org/10.7554/elife.99502.1
 ---

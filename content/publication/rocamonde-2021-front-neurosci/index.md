@@ -9,7 +9,7 @@ date: '2021-04-01'
 publishDate: '2026-03-07T21:14:34.620666Z'
 publication_types:
 - article-journal
-publication: '*Front. Neurosci.*'
+publication: '*Front. Neurosci*'
 doi: 10.3389/fnins.2021.668243
 abstract: Ependymal cells are radial glia-derived multiciliated cells lining the lateral
   ventricles of the brain and spinal cord. Correct development and coordinated cilia
@@ -24,7 +24,4 @@ abstract: Ependymal cells are radial glia-derived multiciliated cells lining the
   cilia function.
 tags:
 - ID4; brain; development; ependymal cell; transcription factor;My papers
-links:
-- name: URL
-  url: https://doi.org/10.3389/fnins.2021.668243
 ---

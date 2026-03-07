@@ -39,7 +39,4 @@ abstract: 'The mammalian olfactory system is responsible for processing environm
 tags:
 - Confocal microscopy; Cranial nerve I; Electron microscopy; Human olfactory tract;
   Immunogold; Olfactory system;My papers
-links:
-- name: URL
-  url: https://doi.org/10.1016/j.tice.2025.102737
 ---

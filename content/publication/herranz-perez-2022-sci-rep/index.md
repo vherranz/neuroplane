@@ -12,7 +12,7 @@ date: '2022-01-01'
 publishDate: '2026-03-07T21:14:34.590500Z'
 publication_types:
 - article-journal
-publication: '*Sci. Rep.*'
+publication: '*Sci. Rep*'
 doi: 10.1038/s41598-022-05526-y
 abstract: "The fusion protein of uncharacterised zinc finger translocation associated
   (ZFTA) and effector transcription factor of tumorigenic NF-κB signalling, RELA (ZFTA-RELA),
@@ -33,7 +33,4 @@ abstract: "The fusion protein of uncharacterised zinc finger translocation assoc
   cells, and ZFTA-RELA enhances its own expression using positive feedback."
 tags:
 - My papers
-links:
-- name: URL
-  url: https://doi.org/10.1038/s41598-022-05526-y
 ---

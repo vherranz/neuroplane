@@ -14,7 +14,7 @@ date: '2021-06-01'
 publishDate: '2026-03-07T21:14:34.613115Z'
 publication_types:
 - article-journal
-publication: '*Front. Neuroanat.*'
+publication: '*Front. Neuroanat*'
 doi: 10.3389/fnana.2021.696376
 abstract: Oligodendrocytes are the myelinating cells of the central nervous system.
   They provide trophic, metabolic, and structural support to neurons. In several pathologies
@@ -34,7 +34,4 @@ abstract: Oligodendrocytes are the myelinating cells of the central nervous syst
 tags:
 - BCAS1; OPCs; human oligodendrocytes; immunogold; oligodendrocytes; transmission
   electron microscopy;My papers
-links:
-- name: URL
-  url: https://doi.org/10.3389/fnana.2021.696376
 ---

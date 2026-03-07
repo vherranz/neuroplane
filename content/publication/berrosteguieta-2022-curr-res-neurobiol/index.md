@@ -14,7 +14,7 @@ date: '2022-06-01'
 publishDate: '2026-03-07T21:14:34.576051Z'
 publication_types:
 - article-journal
-publication: '*Curr. Res. Neurobiol.*'
+publication: '*Curr. Res. Neurobiol*'
 doi: 10.1016/j.crneur.2022.100042
 abstract: Austrolebias annual fishes exhibit cell proliferation and neurogenesis throughout
   life. They withstand extreme environmental changes as their habitat dries out, pressuring
@@ -36,7 +36,4 @@ abstract: Austrolebias annual fishes exhibit cell proliferation and neurogenesis
   rates significantly higher than that of brain visual areas.
 tags:
 - Ciliary marginal zone; Fish brain; Rods; Stem cell;My papers
-links:
-- name: URL
-  url: https://doi.org/10.1016/j.crneur.2022.100042
 ---

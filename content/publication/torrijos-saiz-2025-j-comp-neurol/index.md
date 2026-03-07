@@ -13,7 +13,7 @@ date: '2025-07-01'
 publishDate: '2026-03-07T21:14:34.487430Z'
 publication_types:
 - article-journal
-publication: '*J. Comp. Neurol.*'
+publication: '*J. Comp. Neurol*'
 doi: 10.1002/cne.70070
 abstract: The ventricular-subventricular zone (V-SVZ), lining the lateral walls of
   the lateral ventricles, is a major neurogenic region in the adult brain of many
@@ -41,7 +41,4 @@ abstract: The ventricular-subventricular zone (V-SVZ), lining the lateral walls 
 tags:
 - adult neurogenesis; neuroblast migration; rostral migratory stream; swine brain;
   ventricular-subventricular zone;My papers
-links:
-- name: URL
-  url: https://doi.org/10.1002/cne.70070
 ---

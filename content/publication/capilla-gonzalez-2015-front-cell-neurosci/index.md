@@ -9,7 +9,7 @@ date: '2015-09-01'
 publishDate: '2026-03-07T21:14:34.673568Z'
 publication_types:
 - article-journal
-publication: '*Front. Cell. Neurosci.*'
+publication: '*Front. Cell. Neurosci*'
 doi: 10.3389/fncel.2015.00365
 abstract: Neural stem cells (NSCs) persist in the adult mammalian brain through life.
   The subventricular zone (SVZ) is the largest source of stem cells in the nervous
@@ -27,7 +27,4 @@ abstract: Neural stem cells (NSCs) persist in the adult mammalian brain through 
 tags:
 - aging; cell migration; neural stem cells; neurogenesis; oligodendrogenesis; rostral
   migratory stream; subventricular zone;Mendeley Import (Dec 05);My papers
-links:
-- name: URL
-  url: https://doi.org/10.3389/fncel.2015.00365
 ---

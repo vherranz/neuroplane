@@ -10,12 +10,9 @@ date: '2022-05-01'
 publishDate: '2026-03-07T21:14:34.569512Z'
 publication_types:
 - article-journal
-publication: '*Front. Cell. Neurosci.*'
+publication: '*Front. Cell. Neurosci*'
 doi: 10.3389/fncel.2022.932281
 tags:
 - clinical translation; immunomodulation; mesenchymal stromal/stem cell (MSC); modes
   of action (MoA); regeneration;My papers
-links:
-- name: URL
-  url: https://doi.org/10.3389/fncel.2022.932281
 ---

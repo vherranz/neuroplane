@@ -41,7 +41,7 @@ date: '2024-09-01'
 publishDate: '2026-03-07T21:14:34.503884Z'
 publication_types:
 - article-journal
-publication: '*Acta Neuropathol.*'
+publication: '*Acta Neuropathol*'
 doi: 10.1007/s00401-024-02794-y
 abstract: Amyotrophic Lateral Sclerosis (ALS) is a multisystemic neurodegenerative
   disorder, with accumulating evidence indicating metabolic disruptions in the skeletal
@@ -67,7 +67,4 @@ abstract: Amyotrophic Lateral Sclerosis (ALS) is a multisystemic neurodegenerati
   focus on the skeletal muscle as complementary target tissue.
 tags:
 - Amyotrophic lateral sclerosis; FOXO1; FUS; Glycolysis; Myogenesis; TDP-43;My papers
-links:
-- name: URL
-  url: https://doi.org/10.1007/s00401-024-02794-y
 ---

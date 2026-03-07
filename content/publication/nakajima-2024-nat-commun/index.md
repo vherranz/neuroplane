@@ -34,7 +34,7 @@ date: '2024-03-01'
 publishDate: '2026-03-07T21:14:34.520728Z'
 publication_types:
 - article-journal
-publication: '*Nat. Commun.*'
+publication: '*Nat. Commun*'
 doi: 10.1038/s41467-024-45825-8
 abstract: Axonal growth cones mediate axonal guidance and growth regulation. We show
   that migrating neurons in mice possess a growth cone at the tip of their leading
@@ -50,7 +50,4 @@ abstract: Axonal growth cones mediate axonal guidance and growth regulation. We 
   environments and acts as a primary regulator of neuronal migration.
 tags:
 - My papers
-links:
-- name: URL
-  url: https://doi.org/10.1038/s41467-024-45825-8
 ---

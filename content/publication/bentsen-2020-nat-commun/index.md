@@ -35,7 +35,7 @@ date: '2020-09-01'
 publishDate: '2026-03-07T21:14:34.635222Z'
 publication_types:
 - article-journal
-publication: '*Nat. Commun.*'
+publication: '*Nat. Commun*'
 doi: 10.1038/s41467-020-17720-5
 abstract: In rodent models of type 2 diabetes (T2D), sustained remission of hyperglycemia
   can be induced by a single intracerebroventricular (icv) injection of fibroblast
@@ -56,7 +56,4 @@ abstract: In rodent models of type 2 diabetes (T2D), sustained remission of hype
   on intact melanocortin signaling.
 tags:
 - My papers
-links:
-- name: URL
-  url: https://doi.org/10.1038/s41467-020-17720-5
 ---

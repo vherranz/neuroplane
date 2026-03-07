@@ -10,7 +10,7 @@ date: '2023-02-01'
 publishDate: '2026-03-07T21:14:34.545452Z'
 publication_types:
 - article-journal
-publication: '*Front. Neurosci.*'
+publication: '*Front. Neurosci*'
 doi: 10.3389/fnins.2023.1125999
 abstract: In adult lizards, new neurons are generated from neural stem cells in the
   ventricular zone of the lateral ventricles. These new neurons migrate and integrate
@@ -41,7 +41,4 @@ abstract: In adult lizards, new neurons are generated from neural stem cells in 
 tags:
 - adult neurogenesis; lizard; neural stem cells; neuroblast migration; radial glia;
   reptiles; sulci; tangential migration;My papers
-links:
-- name: URL
-  url: https://doi.org/10.3389/fnins.2023.1125999
 ---

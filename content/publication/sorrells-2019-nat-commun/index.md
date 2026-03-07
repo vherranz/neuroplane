@@ -18,7 +18,7 @@ date: '2019-06-01'
 publishDate: '2026-03-07T21:14:34.643469Z'
 publication_types:
 - article-journal
-publication: '*Nat. Commun.*'
+publication: '*Nat. Commun*'
 doi: 10.1038/s41467-019-10765-1
 abstract: The human amygdala grows during childhood, and its abnormal development
   is linked to mood disorders. The primate amygdala contains a large population of
@@ -35,7 +35,4 @@ abstract: The human amygdala grows during childhood, and its abnormal developmen
   plasticity at the interface of the hippocampus and amygdala.
 tags:
 - Adult human neurogenesis;My papers
-links:
-- name: URL
-  url: https://doi.org/10.1038/s41467-019-10765-1
 ---

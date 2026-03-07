@@ -41,7 +41,4 @@ abstract: The mammalian brain has very limited ability to regenerate lost neuron
 tags:
 - Injectable hydrogel; Neuronal migration; Neuronal regeneration; Scaffold material;
   Self-assembling peptide; Ventricular-subventricular zone;My papers
-links:
-- name: URL
-  url: https://doi.org/10.1016/j.biomaterials.2023.122003
 ---

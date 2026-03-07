@@ -14,7 +14,7 @@ date: '2023-07-01'
 publishDate: '2026-03-07T21:14:34.537178Z'
 publication_types:
 - article-journal
-publication: '*Exp. Neurol.*'
+publication: '*Exp. Neurol*'
 doi: 10.1016/j.expneurol.2023.114412
 abstract: 'Normal pressure hydrocephalus (NPH) compromises the morphology of the corpus
   callosum (CC). This study aims to determine whether 60- or 120-day NPH disrupts
@@ -41,7 +41,4 @@ abstract: 'Normal pressure hydrocephalus (NPH) compromises the morphology of the
 tags:
 - Hydrocephalus treatment; Normal pressure hydrocephalus; Oligodendrocyte precursor
   cells; White matter;My papers
-links:
-- name: URL
-  url: https://doi.org/10.1016/j.expneurol.2023.114412
 ---

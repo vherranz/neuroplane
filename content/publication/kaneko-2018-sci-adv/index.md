@@ -18,7 +18,7 @@ date: '2018-12-01'
 publishDate: '2026-03-07T21:14:34.650970Z'
 publication_types:
 - article-journal
-publication: '*Sci. Adv.*'
+publication: '*Sci. Adv*'
 doi: 10.1126/sciadv.aav0618
 abstract: After brain injury, neural stem cell-derived neuronal precursors (neuroblasts)
   in the ventricular-subventricular zone migrate toward the lesion. However, the ability
@@ -34,7 +34,4 @@ abstract: After brain injury, neural stem cell-derived neuronal precursors (neur
   regeneration in stem/progenitor cell-based therapies for brain injury.
 tags:
 - My papers
-links:
-- name: URL
-  url: https://doi.org/10.1126/sciadv.aav0618
 ---

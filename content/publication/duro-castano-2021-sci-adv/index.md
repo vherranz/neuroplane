@@ -18,7 +18,7 @@ date: '2021-03-01'
 publishDate: '2026-03-07T21:14:34.627736Z'
 publication_types:
 - article-journal
-publication: '*Sci. Adv.*'
+publication: '*Sci. Adv*'
 doi: 10.1126/sciadv.abf9180
 abstract: Alzheimer's disease (AD), the most prevalent form of dementia, remains incurable
   mainly due to our failings in the search for effective pharmacological strategies.
@@ -36,7 +36,4 @@ abstract: Alzheimer's disease (AD), the most prevalent form of dementia, remains
   and neurotrophic potential for AD treatment.
 tags:
 - My papers
-links:
-- name: URL
-  url: https://doi.org/10.1126/sciadv.abf9180
 ---

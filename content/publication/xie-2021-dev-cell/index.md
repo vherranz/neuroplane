@@ -30,7 +30,4 @@ abstract: Centrioles comprise the heart of centrosomes, microtubule-organizing c
 tags:
 - ERK; apoptosis; centriole; endoderm; intestine development; lung branching; p53;My
   papers
-links:
-- name: URL
-  url: https://doi.org/10.1016/j.devcel.2021.11.020
 ---

@@ -40,7 +40,4 @@ abstract: The human amygdala paralaminar nucleus (PL) contains many immature exc
 tags:
 - adolescence; birthdating; cross-species; doublecortin; endopiriform; human; intercalated;
   neurogenesis; postnatal development; transcriptomics;My papers
-links:
-- name: URL
-  url: https://doi.org/10.1016/j.neuron.2023.11.010
 ---

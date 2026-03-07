@@ -18,7 +18,7 @@ date: '2021-09-01'
 publishDate: '2026-03-07T21:14:34.605550Z'
 publication_types:
 - article-journal
-publication: '*J. Cell Biol.*'
+publication: '*J. Cell Biol*'
 doi: 10.1083/jcb.202011133
 abstract: Cells inherit two centrioles, the older of which is uniquely capable of
   generating a cilium. Using proteomics and superresolved imaging, we identify a module
@@ -36,7 +36,4 @@ abstract: Cells inherit two centrioles, the older of which is uniquely capable o
   in which cause human ciliopathies.
 tags:
 - My papers
-links:
-- name: URL
-  url: https://doi.org/10.1083/jcb.202011133
 ---

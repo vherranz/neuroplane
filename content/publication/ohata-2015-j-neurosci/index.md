@@ -1,0 +1,53 @@
+---
+title: Mechanosensory genes Pkd1 and Pkd2 contribute to the planar polarization of
+  brain ventricular epithelium
+authors:
+- Shinya Ohata
+- Vicente Herranz-Pérez
+- Jin Nakatani
+- Alessandra Boletta
+- José Manuel García-Verdugo
+- Arturo Álvarez-Buylla
+date: '2015-08-01'
+publishDate: '2026-03-07T21:46:05.971730Z'
+publication_types:
+- article-journal
+publication: '*J. Neurosci.*'
+doi: 10.1523/JNEUROSCI.0686-15.2015
+abstract: "Directional beating of ependymal (E) cells' cilia in the walls of the ventricles
+  in the brain is essential for proper CSF flow. E cells display two forms of planar
+  cell polarity (PCP): rotational polarity of individual cilium and translational
+  polarity (asymmetric positioning of cilia in the apical area). The orientation of
+  individual E cells varies according to their location in the ventricular wall (location-specific
+  PCP). It has been hypothesized that hydrodynamic forces on the apical surface of
+  radial glia cells (RGCs), the embryonic precursors of E cells, could guide location-specific
+  PCP in the ventricular epithelium. However, the detection mechanisms for these hydrodynamic
+  forces have not been identified. Here, we show that the mechanosensory proteins
+  polycystic kidney disease 1 (Pkd1) and Pkd2 are present in primary cilia of RGCs.
+  Ablation of Pkd1 or Pkd2 in Nestin-Cre;Pkd1(flox/flox) or Nestin-Cre;Pkd2(flox/flox)
+  mice, affected PCP development in RGCs and E cells. Early shear forces on the ventricular
+  epithelium may activate Pkd1 and Pkd2 in primary cilia of RGCs to properly polarize
+  RGCs and E cells. Consistently, Pkd1, Pkd2, or primary cilia on RGCs were required
+  for the proper asymmetric localization of the PCP protein Vangl2 in E cells' apical
+  area. Analyses of single- and double-heterozygous mutants for Pkd1 and/or Vangl2
+  suggest that these genes function in the same pathway to establish E cells' PCP.
+  We conclude that Pkd1 and Pkd2 mechanosensory proteins contribute to the development
+  of brain PCP and prevention of hydrocephalus. SIGNIFICANCE STATEMENT: This study
+  identifies key molecules in the development of planar cell polarity (PCP) in the
+  brain and prevention of hydrocephalus. Multiciliated ependymal (E) cells within
+  the brain ventricular epithelium generate CSF flow through ciliary beating. E cells
+  display location-specific PCP in the orientation and asymmetric positioning of their
+  cilia. Defects in this PCP can result in hydrocephalus. Hydrodynamic forces on radial
+  glial cells (RGCs), the embryonic progenitors of E cells, have been suggested to
+  guide PCP. We show that the mechanosensory proteins Pkd1 and Pkd2 localize to primary
+  cilia in RGCs, and their ablation disrupts the development of PCP in E cells. Early
+  shear forces on RGCs may activate Pkd1 and Pkd2 in RGCs' primary cilia to properly
+  orient E cells. This study identifies key molecules in the development of brain
+  PCP and prevention of hydrocephalus."
+tags:
+- cilia; ependymal cell; epithelium; neural stem cell; planar cell polarity; polycystin;Mendeley
+  Import (Dec 05);My papers
+links:
+- name: URL
+  url: https://doi.org/10.1523/JNEUROSCI.0686-15.2015
+---

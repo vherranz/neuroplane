@@ -704,3 +704,25 @@ html.dark .navbar-brand::after,
     height: 180px;
   }
 }
+
+/* =============================
+   GLOBAL HERO BACKGROUND
+   ============================= */
+
+.hero {
+  background: linear-gradient(
+    135deg,
+    #1b3f8b 0%,
+    #2e6bd1 35%,
+    #7bb3ff 70%,
+    #d8ecff 100%
+  );
+  color: white;
+}
+
+.hero h1,
+.hero h2,
+.hero h3,
+.hero p {
+  color: white !important;
+}

@@ -255,3 +255,29 @@ p {
   font-weight: 500 !important;
   letter-spacing: 0.02em !important;
 }
+
+// =============================
+// PUBLICATION META LINE
+// =============================
+
+.pub-meta {
+  margin-top: 0.02rem !important;
+  margin-bottom: 0.12rem !important;
+  font-size: 0.90rem !important;
+  line-height: 1.4 !important;
+}
+
+.pub-meta .pub-publication {
+  font-style: italic !important;
+  color: rgba(0, 0, 0, 0.72) !important;
+}
+
+.pub-meta .pub-year {
+  color: rgba(0, 0, 0, 0.52) !important;
+  margin-left: 0.35rem;
+}
+
+.pub-meta .pub-year::before {
+  content: "·";
+  margin-right: 0.35rem;
+}

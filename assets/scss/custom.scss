@@ -634,3 +634,24 @@ html.dark .navbar-brand::after,
   font-weight: 300;
   opacity: 0.75;
 }
+
+/* =============================
+   FIX BLOG IMAGE SIZE
+   ============================= */
+
+.article-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Imagen principal del post */
+.article-container .article-featured-image img {
+  max-height: 420px;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* Evita que sobresalga del contenedor */
+.article-container {
+  overflow: hidden;
+}

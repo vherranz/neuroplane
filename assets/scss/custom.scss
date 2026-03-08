@@ -126,7 +126,6 @@ p {
 // =============================
 
 @media (min-width: 1600px) {
-
   .universal-wrapper,
   .article-container,
   .container,
@@ -138,7 +137,6 @@ p {
     max-width: 1800px !important;
     width: 94% !important;
   }
-
 }
 
 // =============================
@@ -146,12 +144,10 @@ p {
 // =============================
 
 @media (max-width: 768px) {
-
   .pub-list-item,
   .media.stream-item {
     margin-bottom: 0.85rem !important;
   }
-
 }
 
 // =============================
@@ -172,13 +168,11 @@ p {
 .media.stream-item .article-metadata,
 .media.stream-item .authors,
 .media.stream-item .article-style {
-
   font-size: 0.90rem !important;
   line-height: 1.42 !important;
   font-weight: 300 !important;
   color: rgba(0, 0, 0, 0.70) !important;
   margin-bottom: 0.03rem !important;
-
 }
 
 // TITLE
@@ -193,14 +187,12 @@ p {
 .media.stream-item h3,
 .media.stream-item h2,
 .media.stream-item h1 {
-
   font-size: 0.99rem !important;
   line-height: 1.22 !important;
   font-weight: 500 !important;
   margin-top: 0 !important;
   margin-bottom: 0.02rem !important;
   letter-spacing: -0.003em !important;
-
 }
 
 // =============================
@@ -213,66 +205,105 @@ p {
 .media.stream-item h3 a,
 .media.stream-item h2 a,
 .media.stream-item h1 a {
-
   color: #1b3f8b !important;
   text-decoration: none !important;
   transition: color 0.15s ease;
   text-underline-offset: 3px;
-
 }
 
 .pub-list-item .title a:hover,
 .pub-list-item .article-title a:hover,
-.media.stream-item .article-title a:hover {
-
+.media.stream-item .article-title a:hover,
+.media.stream-item h3 a:hover,
+.media.stream-item h2 a:hover,
+.media.stream-item h1 a:hover {
   text-decoration: underline !important;
   color: #142e66 !important;
-
 }
 
 // =============================
-// JOURNAL / PUBLICATION LINE
+// JOURNAL / YEAR LINE
 // =============================
 
 .pub-list-item .publication,
 .pub-list-item .pub-publication,
 .media.stream-item .publication,
 .media.stream-item .pub-publication {
-
   font-size: 0.90rem !important;
   line-height: 1.4 !important;
-  margin-top: 0 !important;
-  margin-bottom: 0.12rem !important;
   color: rgba(0, 0, 0, 0.70) !important;
   font-style: italic !important;
-
 }
 
-// =============================
-// JOURNAL + YEAR DISPLAY
-// =============================
-
-.pub-list-item .pub-publication,
-.media.stream-item .pub-publication,
-.pub-list-item .publication,
-.media.stream-item .publication {
-  display: inline !important;
-}
-
+// Force metadata containers to behave as one compact line
+.pub-list-item .stream-meta,
+.media.stream-item .stream-meta,
 .pub-list-item .article-metadata,
 .media.stream-item .article-metadata {
-  display: inline !important;
+  display: block !important;
+  margin-top: 0 !important;
+  margin-bottom: 0.12rem !important;
   font-size: 0.88rem !important;
-  font-weight: 300 !important;
+  line-height: 1.35 !important;
   color: rgba(0, 0, 0, 0.52) !important;
-  margin-bottom: 0 !important;
 }
 
-.pub-list-item .article-metadata::before,
-.media.stream-item .article-metadata::before {
-  content: " · ";
+// Force all children inside metadata to align inline
+.pub-list-item .stream-meta > *,
+.media.stream-item .stream-meta > *,
+.pub-list-item .article-metadata > *,
+.media.stream-item .article-metadata > * {
+  display: inline !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+// Keep journal in darker italic, year in grey
+.pub-list-item .stream-meta .pub-publication,
+.media.stream-item .stream-meta .pub-publication,
+.pub-list-item .stream-meta .publication,
+.media.stream-item .stream-meta .publication,
+.pub-list-item .article-metadata .pub-publication,
+.media.stream-item .article-metadata .pub-publication,
+.pub-list-item .article-metadata .publication,
+.media.stream-item .article-metadata .publication {
+  color: rgba(0, 0, 0, 0.70) !important;
+  font-style: italic !important;
+  font-size: 0.90rem !important;
+}
+
+// Make all other metadata pieces grey (typically the year)
+.pub-list-item .stream-meta span,
+.pub-list-item .stream-meta time,
+.pub-list-item .stream-meta div,
+.media.stream-item .stream-meta span,
+.media.stream-item .stream-meta time,
+.media.stream-item .stream-meta div,
+.pub-list-item .article-metadata span,
+.pub-list-item .article-metadata time,
+.pub-list-item .article-metadata div,
+.media.stream-item .article-metadata span,
+.media.stream-item .article-metadata time,
+.media.stream-item .article-metadata div {
   color: rgba(0, 0, 0, 0.52) !important;
   font-style: normal !important;
+}
+
+// Add separator before metadata items after the first one
+.pub-list-item .stream-meta > * + *,
+.media.stream-item .stream-meta > * + *,
+.pub-list-item .article-metadata > * + *,
+.media.stream-item .article-metadata > * + * {
+  margin-left: 0.25rem !important;
+}
+
+.pub-list-item .stream-meta > * + *::before,
+.media.stream-item .stream-meta > * + *::before,
+.pub-list-item .article-metadata > * + *::before,
+.media.stream-item .article-metadata > * + *::before {
+  content: "·";
+  margin-right: 0.25rem;
+  color: rgba(0, 0, 0, 0.45) !important;
 }
 
 // =============================
@@ -281,19 +312,15 @@ p {
 
 .pub-list-item .btn-links,
 .media.stream-item .btn-links {
-
   display: flex !important;
   flex-wrap: wrap !important;
   gap: 0.3rem !important;
   margin-top: 0.1rem !important;
-
 }
 
 .pub-list-item .btn,
 .media.stream-item .btn {
-
   font-size: 0.75rem !important;
   font-weight: 500 !important;
   letter-spacing: 0.02em !important;
-
 }

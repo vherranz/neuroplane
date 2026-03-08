@@ -107,38 +107,6 @@ p {
   opacity: 1 !important;
 }
 
-// Fix HugoBlox highlighting HOME everywhere on inner pages
-.navbar-nav .nav-item:first-child .nav-link.active {
-  color: #666 !important;
-  font-weight: 400 !important;
-}
-
-.navbar-nav .nav-item:first-child .nav-link.active i {
-  color: #666 !important;
-}
-
-// But keep HOME highlighted on the real homepage
-.home-page .navbar-nav .nav-item:first-child .nav-link.active,
-body.home .navbar-nav .nav-item:first-child .nav-link.active,
-.home .navbar-nav .nav-item:first-child .nav-link.active,
-body.page-home .navbar-nav .nav-item:first-child .nav-link.active,
-.home-page .navbar-nav .nav-item:first-child .nav-link.active i,
-body.home .navbar-nav .nav-item:first-child .nav-link.active i,
-.home .navbar-nav .nav-item:first-child .nav-link.active i,
-body.page-home .navbar-nav .nav-item:first-child .nav-link.active i,
-.home-page .navbar-nav .nav-item:first-child .nav-link[aria-current="page"],
-body.home .navbar-nav .nav-item:first-child .nav-link[aria-current="page"],
-.home .navbar-nav .nav-item:first-child .nav-link[aria-current="page"],
-body.page-home .navbar-nav .nav-item:first-child .nav-link[aria-current="page"],
-.home-page .navbar-nav .nav-item:first-child .nav-link[aria-current="page"] i,
-body.home .navbar-nav .nav-item:first-child .nav-link[aria-current="page"] i,
-.home .navbar-nav .nav-item:first-child .nav-link[aria-current="page"] i,
-body.page-home .navbar-nav .nav-item:first-child .nav-link[aria-current="page"] i {
-  color: #111 !important;
-  font-weight: 600 !important;
-  opacity: 1 !important;
-}
-
 // =============================
 // NAVBAR TOGGLER
 // =============================
@@ -569,44 +537,6 @@ html.dark .navbar a[aria-current="page"] i,
 [data-theme="dark"] .navbar .navbar-nav .nav-link.active i,
 [data-theme="dark"] .navbar a[aria-current="page"] i {
   color: #ffffff !important;
-  opacity: 1 !important;
-}
-
-// Keep HOME highlighted on the real homepage in dark mode
-body.dark .home-page .navbar-nav .nav-item:first-child .nav-link.active,
-body.dark.home .navbar-nav .nav-item:first-child .nav-link.active,
-body.dark .home .navbar-nav .nav-item:first-child .nav-link.active,
-body.dark.page-home .navbar-nav .nav-item:first-child .nav-link.active,
-.dark .home-page .navbar-nav .nav-item:first-child .nav-link.active,
-.dark.home .navbar-nav .nav-item:first-child .nav-link.active,
-.dark .home .navbar-nav .nav-item:first-child .nav-link.active,
-.dark.page-home .navbar-nav .nav-item:first-child .nav-link.active,
-html.dark .home-page .navbar-nav .nav-item:first-child .nav-link.active,
-html.dark.home .navbar-nav .nav-item:first-child .nav-link.active,
-html.dark .home .navbar-nav .nav-item:first-child .nav-link.active,
-html.dark.page-home .navbar-nav .nav-item:first-child .nav-link.active,
-[data-theme="dark"] .home-page .navbar-nav .nav-item:first-child .nav-link.active,
-[data-theme="dark"].home .navbar-nav .nav-item:first-child .nav-link.active,
-[data-theme="dark"] .home .navbar-nav .nav-item:first-child .nav-link.active,
-[data-theme="dark"].page-home .navbar-nav .nav-item:first-child .nav-link.active,
-body.dark .home-page .navbar-nav .nav-item:first-child .nav-link[aria-current="page"],
-body.dark.home .navbar-nav .nav-item:first-child .nav-link[aria-current="page"],
-body.dark .home .navbar-nav .nav-item:first-child .nav-link[aria-current="page"],
-body.dark.page-home .navbar-nav .nav-item:first-child .nav-link[aria-current="page"],
-.dark .home-page .navbar-nav .nav-item:first-child .nav-link[aria-current="page"],
-.dark.home .navbar-nav .nav-item:first-child .nav-link[aria-current="page"],
-.dark .home .navbar-nav .nav-item:first-child .nav-link[aria-current="page"],
-.dark.page-home .navbar-nav .nav-item:first-child .nav-link[aria-current="page"],
-html.dark .home-page .navbar-nav .nav-item:first-child .nav-link[aria-current="page"],
-html.dark.home .navbar-nav .nav-item:first-child .nav-link[aria-current="page"],
-html.dark .home .navbar-nav .nav-item:first-child .nav-link[aria-current="page"],
-html.dark.page-home .navbar-nav .nav-item:first-child .nav-link[aria-current="page"],
-[data-theme="dark"] .home-page .navbar-nav .nav-item:first-child .nav-link[aria-current="page"],
-[data-theme="dark"].home .navbar-nav .nav-item:first-child .nav-link[aria-current="page"],
-[data-theme="dark"] .home .navbar-nav .nav-item:first-child .nav-link[aria-current="page"],
-[data-theme="dark"].page-home .navbar-nav .nav-item:first-child .nav-link[aria-current="page"] {
-  color: #ffffff !important;
-  font-weight: 600 !important;
   opacity: 1 !important;
 }
 

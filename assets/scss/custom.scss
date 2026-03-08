@@ -9,7 +9,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-weight: 500;
   letter-spacing: -0.01em;
 }
@@ -23,11 +25,11 @@ p {
 // =============================
 
 .navbar {
-  background: rgba(255,255,255,0.82) !important;
+  background: rgba(255, 255, 255, 0.82) !important;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  border-bottom: 1px solid rgba(0,0,0,0.06);
-  box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
   padding-top: 0.35rem !important;
   padding-bottom: 0.35rem !important;
 }
@@ -113,12 +115,11 @@ p {
 
 .navbar .navbar-toggler,
 .navbar-light .navbar-toggler {
-  border-color: rgba(0,0,0,0.15) !important;
+  border-color: rgba(0, 0, 0, 0.15) !important;
   color: #666 !important;
   box-shadow: none !important;
 }
 
-// Burger icon dark and visible
 .navbar .navbar-toggler-icon,
 .navbar-light .navbar-toggler-icon {
   background-image: none !important;
@@ -186,7 +187,11 @@ p {
 .universal-wrapper,
 .article-container,
 .container,
-.container-fluid {
+.container-fluid,
+.page-wrapper .universal-wrapper,
+.page-wrapper .article-container,
+.page-wrapper .container,
+.page-wrapper .container-fluid {
   max-width: 1600px !important;
   width: 94% !important;
   margin-left: auto !important;
@@ -194,25 +199,332 @@ p {
 }
 
 // =============================
-// PUBLICATION PAGE WIDTH
-// =============================
-
-.page-wrapper .universal-wrapper,
-.page-wrapper .article-container,
-.page-wrapper .container,
-.page-wrapper .container-fluid {
-  max-width: 1600px !important;
-  width: 94% !important;
-}
-
-// =============================
-// PUBLICATION LIST SPACING
+// PUBLICATION LIST SPACING + VISUAL REFINEMENT
 // =============================
 
 .pub-list-item,
 .media.stream-item {
   margin-bottom: 0.95rem !important;
   line-height: 1.5;
+  font-size: 0.97rem;
+}
+
+// AUTHORS
+
+.pub-list-item .article-metadata,
+.pub-list-item .pub-authors,
+.pub-list-item .authors,
+.pub-list-item .article-style,
+.media.stream-item .article-metadata,
+.media.stream-item .authors,
+.media.stream-item .article-style {
+  font-size: 0.90rem !important;
+  line-height: 1.42 !important;
+  font-weight: 300 !important;
+  color: rgba(0, 0, 0, 0.70) !important;
+  margin-bottom: 0.10rem !important;
+}
+
+// TITLE
+
+.pub-list-item .title,
+.pub-list-item .article-title,
+.pub-list-item h3,
+.pub-list-item h2,
+.pub-list-item h1,
+.media.stream-item .article-title,
+.media.stream-item h3.article-title,
+.media.stream-item h3,
+.media.stream-item h2,
+.media.stream-item h1 {
+  font-size: 0.99rem !important;
+  line-height: 1.24 !important;
+  font-weight: 500 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0.10rem !important;
+  letter-spacing: -0.003em !important;
+}
+
+// TITLE LINKS
+
+.pub-list-item .title a,
+.pub-list-item .article-title a,
+.media.stream-item .article-title a,
+.media.stream-item h3 a,
+.media.stream-item h2 a,
+.media.stream-item h1 a {
+  color: #1b3f8b !important;
+  text-decoration: none !important;
+  transition: color 0.15s ease;
+  text-underline-offset: 3px;
+}
+
+.pub-list-item .title a:hover,
+.pub-list-item .article-title a:hover,
+.media.stream-item .article-title a:hover,
+.media.stream-item h3 a:hover,
+.media.stream-item h2 a:hover,
+.media.stream-item h1 a:hover {
+  text-decoration: underline !important;
+  color: #142e66 !important;
+}
+
+// JOURNAL / PUBLICATION LINE
+
+.pub-list-item .publication,
+.pub-list-item .pub-publication,
+.media.stream-item .publication,
+.media.stream-item .pub-publication {
+  font-size: 0.90rem !important;
+  line-height: 1.4 !important;
+  margin-top: 0.02rem !important;
+  margin-bottom: 0.12rem !important;
+  color: rgba(0, 0, 0, 0.70) !important;
+  font-style: italic !important;
+}
+
+// DOI / BUTTON LINKS
+
+.pub-list-item .btn-links,
+.media.stream-item .btn-links {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 0.3rem !important;
+  margin-top: 0.12rem !important;
+}
+
+.pub-list-item .btn,
+.media.stream-item .btn {
+  font-size: 0.75rem !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.02em !important;
+}
+
+// =============================
+// DROPDOWN MENUS - LIGHT MODE
+// =============================
+
+.dropdown-menu,
+.theme-dropdown .dropdown-menu,
+#navbar-main .dropdown-menu,
+.nav-item.dropdown .dropdown-menu {
+  background: #ffffff !important;
+  border: 1px solid rgba(0, 0, 0, 0.08) !important;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08) !important;
+  border-radius: 0.5rem !important;
+  overflow: hidden !important;
+}
+
+.dropdown-menu .dropdown-item,
+.dropdown-menu a,
+.dropdown-menu button,
+.theme-dropdown .dropdown-item,
+.theme-dropdown .dropdown-menu a,
+.theme-dropdown .dropdown-menu button,
+.nav-item.dropdown .dropdown-menu a,
+.nav-item.dropdown .dropdown-menu button {
+  background: #ffffff !important;
+  color: #444 !important;
+}
+
+.theme-dropdown .dropdown-item.active,
+.theme-dropdown .dropdown-item:active,
+.theme-dropdown .dropdown-item[aria-current="true"],
+.theme-dropdown .dropdown-menu a.active,
+.theme-dropdown .dropdown-menu a:active,
+.theme-dropdown .dropdown-menu button.active,
+.theme-dropdown .dropdown-menu button:active,
+.nav-item.dropdown .dropdown-menu a.active,
+.nav-item.dropdown .dropdown-menu a:active,
+.nav-item.dropdown .dropdown-menu button.active,
+.nav-item.dropdown .dropdown-menu button:active {
+  background: #ffffff !important;
+  color: #111 !important;
+}
+
+.dropdown-menu .dropdown-item:hover,
+.dropdown-menu .dropdown-item:focus,
+.dropdown-menu a:hover,
+.dropdown-menu a:focus,
+.dropdown-menu button:hover,
+.dropdown-menu button:focus,
+.theme-dropdown .dropdown-item:hover,
+.theme-dropdown .dropdown-item:focus,
+.theme-dropdown .dropdown-menu a:hover,
+.theme-dropdown .dropdown-menu a:focus,
+.theme-dropdown .dropdown-menu button:hover,
+.theme-dropdown .dropdown-menu button:focus,
+.nav-item.dropdown .dropdown-menu a:hover,
+.nav-item.dropdown .dropdown-menu a:focus,
+.nav-item.dropdown .dropdown-menu button:hover,
+.nav-item.dropdown .dropdown-menu button:focus {
+  background: rgba(0, 0, 0, 0.04) !important;
+  color: #111 !important;
+}
+
+// =============================
+// MOBILE MENU - LIGHT MODE
+// =============================
+
+@media (max-width: 991px) {
+  .navbar-collapse {
+    background: #ffffff !important;
+    border-top: 1px solid rgba(0, 0, 0, 0.06);
+    padding-top: 0.8rem;
+  }
+
+  .navbar-nav .nav-link {
+    color: #444 !important;
+  }
+}
+
+// =============================
+// DARK MODE HELPERS
+// =============================
+
+body.dark,
+.dark,
+html.dark,
+[data-theme="dark"] {
+  // NAVBAR
+  .navbar {
+    background: rgba(15, 18, 24, 0.92) !important;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.22) !important;
+  }
+
+  .navbar-brand {
+    color: rgba(255, 255, 255, 0.92) !important;
+  }
+
+  .navbar .nav-link,
+  .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.68) !important;
+  }
+
+  .navbar .nav-link:hover,
+  .navbar .nav-link:focus {
+    color: rgba(255, 255, 255, 0.92) !important;
+    opacity: 1 !important;
+  }
+
+  .navbar .nav-link.active,
+  .navbar .navbar-nav .nav-link.active,
+  .navbar .nav-item .nav-link.active,
+  .navbar-nav .nav-link.active,
+  .navbar-nav .nav-item .nav-link.active,
+  .navbar a[aria-current="page"],
+  .navbar .nav-link[aria-current="page"] {
+    color: #ffffff !important;
+    font-weight: 600 !important;
+    opacity: 1 !important;
+  }
+
+  .navbar .nav-link.active i,
+  .navbar .navbar-nav .nav-link.active i,
+  .navbar a[aria-current="page"] i {
+    color: #ffffff !important;
+    opacity: 1 !important;
+  }
+
+  // TOGGLER
+  .navbar .navbar-toggler,
+  .navbar-light .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.18) !important;
+    color: rgba(255, 255, 255, 0.78) !important;
+  }
+
+  .navbar .navbar-toggler-icon::before,
+  .navbar-light .navbar-toggler-icon::before {
+    color: rgba(255, 255, 255, 0.78) !important;
+  }
+
+  // DROPDOWNS
+  .dropdown-menu,
+  .theme-dropdown .dropdown-menu,
+  #navbar-main .dropdown-menu {
+    background: #171b22 !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.28) !important;
+  }
+
+  .dropdown-menu .dropdown-item,
+  .dropdown-menu a,
+  .dropdown-menu button {
+    background: #171b22 !important;
+    color: rgba(255, 255, 255, 0.78) !important;
+  }
+
+  .dropdown-menu .dropdown-item:hover,
+  .dropdown-menu .dropdown-item:focus,
+  .dropdown-menu a:hover,
+  .dropdown-menu a:focus,
+  .dropdown-menu button:hover,
+  .dropdown-menu button:focus {
+    background: rgba(255, 255, 255, 0.06) !important;
+    color: #ffffff !important;
+  }
+
+  .theme-dropdown .dropdown-item.active,
+  .theme-dropdown .dropdown-item:active,
+  .theme-dropdown .dropdown-item[aria-current="true"] {
+    background: rgba(255, 255, 255, 0.06) !important;
+    color: #ffffff !important;
+  }
+
+  // PUBLICATION TITLE CONTRAST
+  .pub-list-item .title a,
+  .pub-list-item .article-title a,
+  .media.stream-item .article-title a,
+  .media.stream-item h3 a,
+  .media.stream-item h2 a,
+  .media.stream-item h1 a {
+    color: #6f9dff !important;
+  }
+
+  .pub-list-item .title a:hover,
+  .pub-list-item .article-title a:hover,
+  .media.stream-item .article-title a:hover,
+  .media.stream-item h3 a:hover,
+  .media.stream-item h2 a:hover,
+  .media.stream-item h1 a:hover {
+    color: #8bb3ff !important;
+  }
+}
+
+// =============================
+// MOBILE MENU - DARK MODE
+// =============================
+
+@media (max-width: 991px) {
+  body.dark .navbar-collapse,
+  .dark .navbar-collapse,
+  html.dark .navbar-collapse,
+  [data-theme="dark"] .navbar-collapse {
+    background: #171b22 !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.08) !important;
+  }
+
+  body.dark .navbar-collapse .nav-link,
+  .dark .navbar-collapse .nav-link,
+  html.dark .navbar-collapse .nav-link,
+  [data-theme="dark"] .navbar-collapse .nav-link {
+    color: rgba(255, 255, 255, 0.78) !important;
+  }
+
+  body.dark .navbar-collapse .nav-link.active,
+  body.dark .navbar-collapse a[aria-current="page"],
+  .dark .navbar-collapse .nav-link.active,
+  .dark .navbar-collapse a[aria-current="page"],
+  html.dark .navbar-collapse .nav-link.active,
+  html.dark .navbar-collapse a[aria-current="page"],
+  [data-theme="dark"] .navbar-collapse .nav-link.active,
+  [data-theme="dark"] .navbar-collapse a[aria-current="page"] {
+    color: #ffffff !important;
+    font-weight: 600 !important;
+  }
 }
 
 // =============================
@@ -242,496 +554,4 @@ p {
   .media.stream-item {
     margin-bottom: 0.85rem !important;
   }
-}
-
-// =============================
-// PUBLICATION VISUAL REFINEMENT
-// =============================
-
-.pub-list-item,
-.media.stream-item {
-  font-size: 0.97rem;
-}
-
-// AUTHORS
-
-.pub-list-item .article-metadata,
-.pub-list-item .pub-authors,
-.pub-list-item .authors,
-.pub-list-item .article-style,
-.media.stream-item .article-metadata,
-.media.stream-item .authors,
-.media.stream-item .article-style {
-  font-size: 0.90rem !important;
-  line-height: 1.42 !important;
-  font-weight: 300 !important;
-  color: rgba(0,0,0,0.70) !important;
-  margin-bottom: 0.10rem !important;
-}
-
-// TITLE
-
-.pub-list-item .title,
-.pub-list-item .article-title,
-.pub-list-item h3,
-.pub-list-item h2,
-.pub-list-item h1,
-.media.stream-item .article-title,
-.media.stream-item h3.article-title,
-.media.stream-item h3,
-.media.stream-item h2,
-.media.stream-item h1 {
-  font-size: 0.99rem !important;
-  line-height: 1.24 !important;
-  font-weight: 500 !important;
-  margin-top: 0 !important;
-  margin-bottom: 0.10rem !important;
-  letter-spacing: -0.003em !important;
-}
-
-// =============================
-// PUBLICATION TITLE LINK STYLE
-// =============================
-
-.pub-list-item .title a,
-.pub-list-item .article-title a,
-.media.stream-item .article-title a,
-.media.stream-item h3 a,
-.media.stream-item h2 a,
-.media.stream-item h1 a {
-  color: #1b3f8b !important;
-  text-decoration: none !important;
-  transition: color 0.15s ease;
-  text-underline-offset: 3px;
-}
-
-.pub-list-item .title a:hover,
-.pub-list-item .article-title a:hover,
-.media.stream-item .article-title a:hover,
-.media.stream-item h3 a:hover,
-.media.stream-item h2 a:hover,
-.media.stream-item h1 a:hover {
-  text-decoration: underline !important;
-  color: #142e66 !important;
-}
-
-// =============================
-// JOURNAL / PUBLICATION LINE
-// =============================
-
-.pub-list-item .publication,
-.pub-list-item .pub-publication,
-.media.stream-item .publication,
-.media.stream-item .pub-publication {
-  font-size: 0.90rem !important;
-  line-height: 1.4 !important;
-  margin-top: 0.02rem !important;
-  margin-bottom: 0.12rem !important;
-  color: rgba(0,0,0,0.70) !important;
-  font-style: italic !important;
-}
-
-// =============================
-// DOI BUTTON
-// =============================
-
-.pub-list-item .btn-links,
-.media.stream-item .btn-links {
-  display: flex !important;
-  flex-wrap: wrap !important;
-  gap: 0.3rem !important;
-  margin-top: 0.12rem !important;
-}
-
-.pub-list-item .btn,
-.media.stream-item .btn {
-  font-size: 0.75rem !important;
-  font-weight: 500 !important;
-  letter-spacing: 0.02em !important;
-}
-
-// =====================================================
-// DROPDOWN MENUS - LIGHT MODE
-// =====================================================
-
-.dropdown-menu {
-  background: #ffffff !important;
-  border: 1px solid rgba(0,0,0,0.08) !important;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.08) !important;
-  border-radius: 0.5rem !important;
-  overflow: hidden !important;
-}
-
-.dropdown-menu .dropdown-item,
-.dropdown-menu a,
-.dropdown-menu button {
-  background: #ffffff !important;
-  color: #444 !important;
-}
-
-.dropdown-menu .dropdown-item:hover,
-.dropdown-menu .dropdown-item:focus,
-.dropdown-menu a:hover,
-.dropdown-menu a:focus,
-.dropdown-menu button:hover,
-.dropdown-menu button:focus {
-  background: rgba(0,0,0,0.04) !important;
-  color: #111 !important;
-}
-
-// =====================================================
-// THEME SWITCHER - LIGHT MODE
-// =====================================================
-
-.theme-dropdown .dropdown-menu,
-#navbar-main .dropdown-menu,
-.nav-item.dropdown .dropdown-menu {
-  background: #ffffff !important;
-  border: 1px solid rgba(0,0,0,0.08) !important;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.08) !important;
-}
-
-.theme-dropdown .dropdown-item,
-.theme-dropdown .dropdown-menu a,
-.theme-dropdown .dropdown-menu button,
-.nav-item.dropdown .dropdown-menu a,
-.nav-item.dropdown .dropdown-menu button {
-  background: #ffffff !important;
-  color: #444 !important;
-}
-
-.theme-dropdown .dropdown-item.active,
-.theme-dropdown .dropdown-item:active,
-.theme-dropdown .dropdown-item[aria-current="true"],
-.theme-dropdown .dropdown-menu a.active,
-.theme-dropdown .dropdown-menu a:active,
-.theme-dropdown .dropdown-menu button.active,
-.theme-dropdown .dropdown-menu button:active,
-.nav-item.dropdown .dropdown-menu a.active,
-.nav-item.dropdown .dropdown-menu a:active,
-.nav-item.dropdown .dropdown-menu button.active,
-.nav-item.dropdown .dropdown-menu button:active {
-  background: #ffffff !important;
-  color: #111 !important;
-}
-
-.theme-dropdown .dropdown-item:hover,
-.theme-dropdown .dropdown-item:focus,
-.theme-dropdown .dropdown-menu a:hover,
-.theme-dropdown .dropdown-menu a:focus,
-.theme-dropdown .dropdown-menu button:hover,
-.theme-dropdown .dropdown-menu button:focus,
-.nav-item.dropdown .dropdown-menu a:hover,
-.nav-item.dropdown .dropdown-menu a:focus,
-.nav-item.dropdown .dropdown-menu button:hover,
-.nav-item.dropdown .dropdown-menu button:focus {
-  background: rgba(0,0,0,0.04) !important;
-  color: #111 !important;
-}
-
-// =====================================================
-// MOBILE MENU BACKGROUND - LIGHT MODE
-// =====================================================
-
-@media (max-width: 991px) {
-  .navbar-collapse {
-    background: #ffffff !important;
-    border-top: 1px solid rgba(0,0,0,0.06);
-    padding-top: 0.8rem;
-  }
-
-  .navbar-nav .nav-link {
-    color: #444 !important;
-  }
-}
-
-// =====================================================
-// DARK MODE - NAVBAR
-// =====================================================
-
-body.dark .navbar,
-.dark .navbar,
-html.dark .navbar,
-[data-theme="dark"] .navbar {
-  background: rgba(15,18,24,0.92) !important;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border-bottom: 1px solid rgba(255,255,255,0.08) !important;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.22) !important;
-}
-
-body.dark .navbar-brand,
-.dark .navbar-brand,
-html.dark .navbar-brand,
-[data-theme="dark"] .navbar-brand {
-  color: rgba(255,255,255,0.92) !important;
-}
-
-body.dark .navbar .nav-link,
-body.dark .navbar-nav .nav-link,
-.dark .navbar .nav-link,
-.dark .navbar-nav .nav-link,
-html.dark .navbar .nav-link,
-html.dark .navbar-nav .nav-link,
-[data-theme="dark"] .navbar .nav-link,
-[data-theme="dark"] .navbar-nav .nav-link {
-  color: rgba(255,255,255,0.68) !important;
-}
-
-body.dark .navbar .nav-link:hover,
-body.dark .navbar .nav-link:focus,
-.dark .navbar .nav-link:hover,
-.dark .navbar .nav-link:focus,
-html.dark .navbar .nav-link:hover,
-html.dark .navbar .nav-link:focus,
-[data-theme="dark"] .navbar .nav-link:hover,
-[data-theme="dark"] .navbar .nav-link:focus {
-  color: rgba(255,255,255,0.92) !important;
-  opacity: 1 !important;
-}
-
-// Active item in dark mode
-body.dark .navbar .nav-link.active,
-body.dark .navbar .navbar-nav .nav-link.active,
-body.dark .navbar .nav-item .nav-link.active,
-body.dark .navbar-nav .nav-link.active,
-body.dark .navbar-nav .nav-item .nav-link.active,
-body.dark .navbar a[aria-current="page"],
-body.dark .navbar .nav-link[aria-current="page"],
-.dark .navbar .nav-link.active,
-.dark .navbar .navbar-nav .nav-link.active,
-.dark .navbar .nav-item .nav-link.active,
-.dark .navbar-nav .nav-link.active,
-.dark .navbar-nav .nav-item .nav-link.active,
-.dark .navbar a[aria-current="page"],
-.dark .navbar .nav-link[aria-current="page"],
-html.dark .navbar .nav-link.active,
-html.dark .navbar .navbar-nav .nav-link.active,
-html.dark .navbar .nav-item .nav-link.active,
-html.dark .navbar-nav .nav-link.active,
-html.dark .navbar-nav .nav-item .nav-link.active,
-html.dark .navbar a[aria-current="page"],
-html.dark .navbar .nav-link[aria-current="page"],
-[data-theme="dark"] .navbar .nav-link.active,
-[data-theme="dark"] .navbar .navbar-nav .nav-link.active,
-[data-theme="dark"] .navbar .nav-item .nav-link.active,
-[data-theme="dark"] .navbar-nav .nav-link.active,
-[data-theme="dark"] .navbar-nav .nav-item .nav-link.active,
-[data-theme="dark"] .navbar a[aria-current="page"],
-[data-theme="dark"] .navbar .nav-link[aria-current="page"] {
-  color: #ffffff !important;
-  font-weight: 600 !important;
-  opacity: 1 !important;
-}
-
-body.dark .navbar .nav-link.active i,
-body.dark .navbar .navbar-nav .nav-link.active i,
-body.dark .navbar a[aria-current="page"] i,
-.dark .navbar .nav-link.active i,
-.dark .navbar .navbar-nav .nav-link.active i,
-.dark .navbar a[aria-current="page"] i,
-html.dark .navbar .nav-link.active i,
-html.dark .navbar .navbar-nav .nav-link.active i,
-html.dark .navbar a[aria-current="page"] i,
-[data-theme="dark"] .navbar .nav-link.active i,
-[data-theme="dark"] .navbar .navbar-nav .nav-link.active i,
-[data-theme="dark"] .navbar a[aria-current="page"] i {
-  color: #ffffff !important;
-  opacity: 1 !important;
-}
-
-// Burger icon in dark mode
-body.dark .navbar .navbar-toggler,
-body.dark .navbar-light .navbar-toggler,
-.dark .navbar .navbar-toggler,
-.dark .navbar-light .navbar-toggler,
-html.dark .navbar .navbar-toggler,
-html.dark .navbar-light .navbar-toggler,
-[data-theme="dark"] .navbar .navbar-toggler,
-[data-theme="dark"] .navbar-light .navbar-toggler {
-  border-color: rgba(255,255,255,0.18) !important;
-  color: rgba(255,255,255,0.78) !important;
-}
-
-body.dark .navbar .navbar-toggler-icon::before,
-body.dark .navbar-light .navbar-toggler-icon::before,
-.dark .navbar .navbar-toggler-icon::before,
-.dark .navbar-light .navbar-toggler-icon::before,
-html.dark .navbar .navbar-toggler-icon::before,
-html.dark .navbar-light .navbar-toggler-icon::before,
-[data-theme="dark"] .navbar .navbar-toggler-icon::before,
-[data-theme="dark"] .navbar-light .navbar-toggler-icon::before {
-  color: rgba(255,255,255,0.78) !important;
-}
-
-// =====================================================
-// DARK MODE - DROPDOWNS
-// =====================================================
-
-body.dark .dropdown-menu,
-.dark .dropdown-menu,
-html.dark .dropdown-menu,
-[data-theme="dark"] .dropdown-menu,
-body.dark .theme-dropdown .dropdown-menu,
-.dark .theme-dropdown .dropdown-menu,
-html.dark .theme-dropdown .dropdown-menu,
-[data-theme="dark"] .theme-dropdown .dropdown-menu,
-body.dark #navbar-main .dropdown-menu,
-.dark #navbar-main .dropdown-menu,
-html.dark #navbar-main .dropdown-menu,
-[data-theme="dark"] #navbar-main .dropdown-menu {
-  background: #171b22 !important;
-  border: 1px solid rgba(255,255,255,0.08) !important;
-  box-shadow: 0 8px 22px rgba(0,0,0,0.28) !important;
-}
-
-body.dark .dropdown-menu .dropdown-item,
-body.dark .dropdown-menu a,
-body.dark .dropdown-menu button,
-.dark .dropdown-menu .dropdown-item,
-.dark .dropdown-menu a,
-.dark .dropdown-menu button,
-html.dark .dropdown-menu .dropdown-item,
-html.dark .dropdown-menu a,
-html.dark .dropdown-menu button,
-[data-theme="dark"] .dropdown-menu .dropdown-item,
-[data-theme="dark"] .dropdown-menu a,
-[data-theme="dark"] .dropdown-menu button {
-  background: #171b22 !important;
-  color: rgba(255,255,255,0.78) !important;
-}
-
-body.dark .dropdown-menu .dropdown-item:hover,
-body.dark .dropdown-menu .dropdown-item:focus,
-body.dark .dropdown-menu a:hover,
-body.dark .dropdown-menu a:focus,
-body.dark .dropdown-menu button:hover,
-body.dark .dropdown-menu button:focus,
-.dark .dropdown-menu .dropdown-item:hover,
-.dark .dropdown-menu .dropdown-item:focus,
-.dark .dropdown-menu a:hover,
-.dark .dropdown-menu a:focus,
-.dark .dropdown-menu button:hover,
-.dark .dropdown-menu button:focus,
-html.dark .dropdown-menu .dropdown-item:hover,
-html.dark .dropdown-menu .dropdown-item:focus,
-html.dark .dropdown-menu a:hover,
-html.dark .dropdown-menu a:focus,
-html.dark .dropdown-menu button:hover,
-html.dark .dropdown-menu button:focus,
-[data-theme="dark"] .dropdown-menu .dropdown-item:hover,
-[data-theme="dark"] .dropdown-menu .dropdown-item:focus,
-[data-theme="dark"] .dropdown-menu a:hover,
-[data-theme="dark"] .dropdown-menu a:focus,
-[data-theme="dark"] .dropdown-menu button:hover,
-[data-theme="dark"] .dropdown-menu button:focus {
-  background: rgba(255,255,255,0.06) !important;
-  color: #ffffff !important;
-}
-
-body.dark .theme-dropdown .dropdown-item.active,
-body.dark .theme-dropdown .dropdown-item:active,
-body.dark .theme-dropdown .dropdown-item[aria-current="true"],
-.dark .theme-dropdown .dropdown-item.active,
-.dark .theme-dropdown .dropdown-item:active,
-.dark .theme-dropdown .dropdown-item[aria-current="true"],
-html.dark .theme-dropdown .dropdown-item.active,
-html.dark .theme-dropdown .dropdown-item:active,
-html.dark .theme-dropdown .dropdown-item[aria-current="true"],
-[data-theme="dark"] .theme-dropdown .dropdown-item.active,
-[data-theme="dark"] .theme-dropdown .dropdown-item:active,
-[data-theme="dark"] .theme-dropdown .dropdown-item[aria-current="true"] {
-  background: rgba(255,255,255,0.06) !important;
-  color: #ffffff !important;
-}
-
-// =====================================================
-// DARK MODE - MOBILE MENU
-// =====================================================
-
-@media (max-width: 991px) {
-  body.dark .navbar-collapse,
-  .dark .navbar-collapse,
-  html.dark .navbar-collapse,
-  [data-theme="dark"] .navbar-collapse {
-    background: #171b22 !important;
-    border-top: 1px solid rgba(255,255,255,0.08) !important;
-  }
-
-  body.dark .navbar-collapse .nav-link,
-  .dark .navbar-collapse .nav-link,
-  html.dark .navbar-collapse .nav-link,
-  [data-theme="dark"] .navbar-collapse .nav-link {
-    color: rgba(255,255,255,0.78) !important;
-  }
-
-  body.dark .navbar-collapse .nav-link.active,
-  body.dark .navbar-collapse a[aria-current="page"],
-  .dark .navbar-collapse .nav-link.active,
-  .dark .navbar-collapse a[aria-current="page"],
-  html.dark .navbar-collapse .nav-link.active,
-  html.dark .navbar-collapse a[aria-current="page"],
-  [data-theme="dark"] .navbar-collapse .nav-link.active,
-  [data-theme="dark"] .navbar-collapse a[aria-current="page"] {
-    color: #ffffff !important;
-    font-weight: 600 !important;
-  }
-}
-
-// =====================================================
-// DARK MODE - PUBLICATION TITLE CONTRAST
-// =====================================================
-
-body.dark .pub-list-item .title a,
-body.dark .pub-list-item .article-title a,
-body.dark .media.stream-item .article-title a,
-body.dark .media.stream-item h3 a,
-body.dark .media.stream-item h2 a,
-body.dark .media.stream-item h1 a,
-.dark .pub-list-item .title a,
-.dark .pub-list-item .article-title a,
-.dark .media.stream-item .article-title a,
-.dark .media.stream-item h3 a,
-.dark .media.stream-item h2 a,
-.dark .media.stream-item h1 a,
-html.dark .pub-list-item .title a,
-html.dark .pub-list-item .article-title a,
-html.dark .media.stream-item .article-title a,
-html.dark .media.stream-item h3 a,
-html.dark .media.stream-item h2 a,
-html.dark .media.stream-item h1 a,
-[data-theme="dark"] .pub-list-item .title a,
-[data-theme="dark"] .pub-list-item .article-title a,
-[data-theme="dark"] .media.stream-item .article-title a,
-[data-theme="dark"] .media.stream-item h3 a,
-[data-theme="dark"] .media.stream-item h2 a,
-[data-theme="dark"] .media.stream-item h1 a {
-  color: #6f9dff !important;
-}
-
-body.dark .pub-list-item .title a:hover,
-body.dark .pub-list-item .article-title a:hover,
-body.dark .media.stream-item .article-title a:hover,
-body.dark .media.stream-item h3 a:hover,
-body.dark .media.stream-item h2 a:hover,
-body.dark .media.stream-item h1 a:hover,
-.dark .pub-list-item .title a:hover,
-.dark .pub-list-item .article-title a:hover,
-.dark .media.stream-item .article-title a:hover,
-.dark .media.stream-item h3 a:hover,
-.dark .media.stream-item h2 a:hover,
-.dark .media.stream-item h1 a:hover,
-html.dark .pub-list-item .title a:hover,
-html.dark .pub-list-item .article-title a:hover,
-html.dark .media.stream-item .article-title a:hover,
-html.dark .media.stream-item h3 a:hover,
-html.dark .media.stream-item h2 a:hover,
-html.dark .media.stream-item h1 a:hover,
-[data-theme="dark"] .pub-list-item .title a:hover,
-[data-theme="dark"] .pub-list-item .article-title a:hover,
-[data-theme="dark"] .media.stream-item .article-title a:hover,
-[data-theme="dark"] .media.stream-item h3 a:hover,
-[data-theme="dark"] .media.stream-item h2 a:hover,
-[data-theme="dark"] .media.stream-item h1 a:hover {
-  color: #8bb3ff !important;
 }

@@ -339,3 +339,69 @@ p {
   font-weight: 500 !important;
   letter-spacing: 0.02em !important;
 }
+
+// =====================================================
+// DROPDOWN MENUS (REMOVE BLUE THEME COLOR)
+// =====================================================
+
+.dropdown-menu {
+  background: #ffffff !important;
+  border: 1px solid rgba(0,0,0,0.08) !important;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08) !important;
+}
+
+.dropdown-menu .dropdown-item {
+  color: #444 !important;
+}
+
+.dropdown-menu .dropdown-item:hover,
+.dropdown-menu .dropdown-item:focus {
+  background: rgba(0,0,0,0.04) !important;
+  color: #111 !important;
+}
+
+// =====================================================
+// THEME SWITCHER (LIGHT / DARK / AUTO)
+// =====================================================
+
+.theme-dropdown .dropdown-menu {
+  background: #ffffff !important;
+}
+
+.theme-dropdown .dropdown-item {
+  color: #444 !important;
+}
+
+.theme-dropdown .dropdown-item.active {
+  color: #111 !important;
+}
+
+// =====================================================
+// MOBILE MENU BACKGROUND
+// =====================================================
+
+@media (max-width: 991px) {
+
+  .navbar-collapse {
+    background: #ffffff !important;
+    border-top: 1px solid rgba(0,0,0,0.06);
+    padding-top: 0.8rem;
+  }
+
+  .navbar-nav .nav-link {
+    color: #444 !important;
+  }
+
+}
+
+// =====================================================
+// BURGER ICON COLOR
+// =====================================================
+
+.navbar-light .navbar-toggler {
+  border-color: rgba(0,0,0,0.15) !important;
+}
+
+.navbar-light .navbar-toggler-icon {
+  filter: invert(1) grayscale(1) brightness(0.2);
+}

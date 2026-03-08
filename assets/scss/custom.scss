@@ -710,19 +710,8 @@ html.dark .navbar-brand::after,
    ============================= */
 
 .hero {
-  background: linear-gradient(
-    135deg,
-    #1b3f8b 0%,
-    #2e6bd1 35%,
-    #7bb3ff 70%,
-    #d8ecff 100%
-  );
+  background: radial-gradient(circle at 20% 30%, #6fa8ff, transparent 40%),
+              radial-gradient(circle at 80% 70%, #b7d4ff, transparent 40%),
+              linear-gradient(135deg, #1b3f8b, #2e6bd1);
   color: white;
-}
-
-.hero h1,
-.hero h2,
-.hero h3,
-.hero p {
-  color: white !important;
 }

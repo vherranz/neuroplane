@@ -11,7 +11,7 @@ main:
     weight: 10
     pre: '<i class="fas fa-flask"></i>'
 
-  - name: Lab Members
+  - name: People
     url: /people/
     weight: 20
     pre: '<i class="fas fa-users"></i>'

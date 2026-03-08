@@ -85,7 +85,11 @@ p {
 .navbar .navbar-nav .nav-link.active:hover,
 .navbar .navbar-nav .nav-link.active:focus,
 .navbar-nav .nav-link.active:hover,
-.navbar-nav .nav-link.active:focus {
+.navbar-nav .nav-link.active:focus,
+.navbar a[aria-current="page"],
+.navbar .nav-link[aria-current="page"],
+.navbar-nav a[aria-current="page"],
+.navbar-nav .nav-link[aria-current="page"] {
   color: #111 !important;
   font-weight: 500 !important;
   opacity: 1 !important;
@@ -94,7 +98,11 @@ p {
 .navbar .nav-link.active i,
 .navbar .navbar-nav .nav-link.active i,
 .navbar .nav-item .nav-link.active i,
-.navbar-nav .nav-link.active i {
+.navbar-nav .nav-link.active i,
+.navbar a[aria-current="page"] i,
+.navbar .nav-link[aria-current="page"] i,
+.navbar-nav a[aria-current="page"] i,
+.navbar-nav .nav-link[aria-current="page"] i {
   color: #111 !important;
   opacity: 1 !important;
 }
@@ -113,12 +121,33 @@ p {
 // NAVBAR TOGGLER
 // =============================
 
-.navbar .navbar-toggler {
-  border-color: rgba(0,0,0,0.12) !important;
+.navbar .navbar-toggler,
+.navbar-light .navbar-toggler {
+  border-color: rgba(0,0,0,0.15) !important;
+  color: #666 !important;
 }
 
-.navbar .navbar-toggler-icon {
-  filter: invert(1) grayscale(1) brightness(0.35);
+// Make burger icon dark and clearly visible
+.navbar .navbar-toggler-icon,
+.navbar-light .navbar-toggler-icon {
+  background-image: none !important;
+  width: 1.25rem;
+  height: 1.25rem;
+  position: relative;
+  filter: none !important;
+}
+
+.navbar .navbar-toggler-icon::before,
+.navbar-light .navbar-toggler-icon::before {
+  content: "\f0c9";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: #666 !important;
+  font-size: 1.15rem;
+  line-height: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 // =============================
@@ -348,14 +377,23 @@ p {
   background: #ffffff !important;
   border: 1px solid rgba(0,0,0,0.08) !important;
   box-shadow: 0 6px 18px rgba(0,0,0,0.08) !important;
+  border-radius: 0.5rem !important;
+  overflow: hidden !important;
 }
 
-.dropdown-menu .dropdown-item {
+.dropdown-menu .dropdown-item,
+.dropdown-menu a,
+.dropdown-menu button {
+  background: #ffffff !important;
   color: #444 !important;
 }
 
 .dropdown-menu .dropdown-item:hover,
-.dropdown-menu .dropdown-item:focus {
+.dropdown-menu .dropdown-item:focus,
+.dropdown-menu a:hover,
+.dropdown-menu a:focus,
+.dropdown-menu button:hover,
+.dropdown-menu button:focus {
   background: rgba(0,0,0,0.04) !important;
   color: #111 !important;
 }
@@ -364,15 +402,49 @@ p {
 // THEME SWITCHER (LIGHT / DARK / AUTO)
 // =====================================================
 
-.theme-dropdown .dropdown-menu {
+.theme-dropdown .dropdown-menu,
+#navbar-main .dropdown-menu,
+.nav-item.dropdown .dropdown-menu {
   background: #ffffff !important;
+  border: 1px solid rgba(0,0,0,0.08) !important;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08) !important;
 }
 
-.theme-dropdown .dropdown-item {
+.theme-dropdown .dropdown-item,
+.theme-dropdown .dropdown-menu a,
+.theme-dropdown .dropdown-menu button,
+.nav-item.dropdown .dropdown-menu a,
+.nav-item.dropdown .dropdown-menu button {
+  background: #ffffff !important;
   color: #444 !important;
 }
 
-.theme-dropdown .dropdown-item.active {
+.theme-dropdown .dropdown-item.active,
+.theme-dropdown .dropdown-item:active,
+.theme-dropdown .dropdown-item[aria-current="true"],
+.theme-dropdown .dropdown-menu a.active,
+.theme-dropdown .dropdown-menu a:active,
+.theme-dropdown .dropdown-menu button.active,
+.theme-dropdown .dropdown-menu button:active,
+.nav-item.dropdown .dropdown-menu a.active,
+.nav-item.dropdown .dropdown-menu a:active,
+.nav-item.dropdown .dropdown-menu button.active,
+.nav-item.dropdown .dropdown-menu button:active {
+  background: #ffffff !important;
+  color: #111 !important;
+}
+
+.theme-dropdown .dropdown-item:hover,
+.theme-dropdown .dropdown-item:focus,
+.theme-dropdown .dropdown-menu a:hover,
+.theme-dropdown .dropdown-menu a:focus,
+.theme-dropdown .dropdown-menu button:hover,
+.theme-dropdown .dropdown-menu button:focus,
+.nav-item.dropdown .dropdown-menu a:hover,
+.nav-item.dropdown .dropdown-menu a:focus,
+.nav-item.dropdown .dropdown-menu button:hover,
+.nav-item.dropdown .dropdown-menu button:focus {
+  background: rgba(0,0,0,0.04) !important;
   color: #111 !important;
 }
 
@@ -392,16 +464,4 @@ p {
     color: #444 !important;
   }
 
-}
-
-// =====================================================
-// BURGER ICON COLOR
-// =====================================================
-
-.navbar-light .navbar-toggler {
-  border-color: rgba(0,0,0,0.15) !important;
-}
-
-.navbar-light .navbar-toggler-icon {
-  filter: invert(1) grayscale(1) brightness(0.2);
 }

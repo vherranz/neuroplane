@@ -55,7 +55,7 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} NeuroPlaNe Lab · <a href="https://www.uv.es" target="_blank" rel="noopener">Universitat de València</a>'
+    notice: "© {year} NeuroPlaNe Lab · [Universitat de València](https://www.uv.es)"
     license:
       enable: false
 

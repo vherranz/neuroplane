@@ -117,7 +117,7 @@ p {
 
 .pub-list-item,
 .media.stream-item {
-  margin-bottom: 1.15rem !important;
+  margin-bottom: 1.05rem !important;
   line-height: 1.5;
 }
 
@@ -161,7 +161,7 @@ p {
 
   .pub-list-item,
   .media.stream-item {
-    margin-bottom: 1rem !important;
+    margin-bottom: 0.95rem !important;
   }
 
 }
@@ -175,7 +175,7 @@ p {
   font-size: 0.98rem;
 }
 
-// AUTHORS / METADATA
+// AUTHORS
 
 .pub-list-item .article-metadata,
 .pub-list-item .pub-authors,
@@ -186,11 +186,11 @@ p {
 .media.stream-item .authors,
 .media.stream-item .article-style {
 
-  font-size: 0.96rem !important;
-  line-height: 1.5 !important;
+  font-size: 0.94rem !important;
+  line-height: 1.45 !important;
   font-weight: 300 !important;
-  color: rgba(0, 0, 0, 0.74) !important;
-  margin-bottom: 0.2rem !important;
+  color: rgba(0, 0, 0, 0.72) !important;
+  margin-bottom: 0.08rem !important;
 
 }
 
@@ -208,11 +208,11 @@ p {
 .media.stream-item h1 {
 
   font-size: 1.00rem !important;
-  line-height: 1.32 !important;
+  line-height: 1.28 !important;
   font-weight: 500 !important;
-  margin-top: 0.05rem !important;
-  margin-bottom: 0.18rem !important;
-  letter-spacing: -0.004em !important;
+  margin-top: 0.02rem !important;
+  margin-bottom: 0.08rem !important;
+  letter-spacing: -0.003em !important;
 
 }
 
@@ -227,7 +227,7 @@ p {
 .media.stream-item h2 a,
 .media.stream-item h1 a {
 
-  color: #2962ff !important;
+  color: #1f4ed8 !important;
   text-decoration: none !important;
   transition: color 0.15s ease;
   text-underline-offset: 3px;
@@ -242,7 +242,7 @@ p {
 .media.stream-item h1 a:hover {
 
   text-decoration: underline !important;
-  color: #1a4ed8 !important;
+  color: #173bb0 !important;
 
 }
 
@@ -261,8 +261,8 @@ p {
 .media.stream-item .btn-links,
 .media.stream-item .links {
 
-  font-size: 0.93rem !important;
-  line-height: 1.5 !important;
+  font-size: 0.92rem !important;
+  line-height: 1.45 !important;
 
 }
 
@@ -273,8 +273,8 @@ p {
 .media.stream-item .pub-publication,
 .media.stream-item .article-publication {
 
-  margin-top: 0.1rem !important;
-  margin-bottom: 0.25rem !important;
+  margin-top: 0.05rem !important;
+  margin-bottom: 0.18rem !important;
   color: rgba(0, 0, 0, 0.72) !important;
 
 }
@@ -291,8 +291,8 @@ p {
   display: flex !important;
   flex-wrap: wrap !important;
   align-items: center !important;
-  gap: 0.4rem !important;
-  margin-top: 0.2rem !important;
+  gap: 0.35rem !important;
+  margin-top: 0.15rem !important;
 
 }
 
@@ -301,7 +301,7 @@ p {
 .media.stream-item .btn,
 .media.stream-item .btn-sm {
 
-  font-size: 0.78rem !important;
+  font-size: 0.76rem !important;
   font-weight: 500 !important;
   letter-spacing: 0.02em !important;
 

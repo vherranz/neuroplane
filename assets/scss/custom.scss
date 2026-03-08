@@ -555,3 +555,18 @@ html.dark,
     margin-bottom: 0.85rem !important;
   }
 }
+
+// =============================
+// DARK MODE - PUBLICATION AUTHORS FIX
+// =============================
+
+body.dark .pub-list-item .article-metadata,
+.dark .pub-list-item .article-metadata,
+html.dark .pub-list-item .article-metadata,
+[data-theme="dark"] .pub-list-item .article-metadata,
+body.dark .media.stream-item .article-metadata,
+.dark .media.stream-item .article-metadata,
+html.dark .media.stream-item .article-metadata,
+[data-theme="dark"] .media.stream-item .article-metadata {
+  color: rgba(255,255,255,0.70) !important;
+}

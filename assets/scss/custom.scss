@@ -23,8 +23,19 @@ p {
 // =============================
 
 .navbar {
-  padding-top: 0.9rem !important;
-  padding-bottom: 0.9rem !important;
+  background: rgba(255, 255, 255, 0.78) !important;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+  padding-top: 0.45rem !important;
+  padding-bottom: 0.45rem !important;
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link,
+.navbar-nav .nav-link {
+  color: #333 !important;
 }
 
 .navbar .nav-link,
@@ -43,8 +54,23 @@ p {
   font-size: 0.85rem !important;
 }
 
-.navbar .nav-link:hover {
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+  color: #111 !important;
   opacity: 0.75;
+}
+
+.navbar .dropdown-item:hover,
+.navbar .dropdown-item:focus {
+  color: #111 !important;
+}
+
+.navbar .navbar-toggler {
+  border-color: rgba(0, 0, 0, 0.12) !important;
+}
+
+.navbar .navbar-toggler-icon {
+  filter: invert(1) grayscale(1) brightness(0.35);
 }
 
 // =============================

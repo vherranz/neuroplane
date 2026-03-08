@@ -7,10 +7,11 @@ body {
   line-height: 1.7;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #2f2f2f;
 }
 
 h1, h2, h3 {
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: -0.01em;
 }
 
@@ -19,58 +20,88 @@ p {
 }
 
 // =============================
-// NAVBAR
+// NAVBAR — CLEAN / REITER-LIKE
 // =============================
 
 .navbar {
-  background: rgba(255, 255, 255, 0.60) !important;
+  background: rgba(255, 255, 255, 0.88) !important;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
-  padding-top: 0.45rem !important;
-  padding-bottom: 0.45rem !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: none !important;
+  padding-top: 0.35rem !important;
+  padding-bottom: 0.35rem !important;
+  min-height: auto !important;
 }
+
+// Brand / lab name
 
 .navbar .navbar-brand,
-.navbar .nav-link,
-.navbar-nav .nav-link {
-  color: #333 !important;
+.navbar-brand {
+  color: #2f2f2f !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.03em !important;
+  font-size: 1.05rem !important;
 }
+
+// Menu links
 
 .navbar .nav-link,
 .navbar-nav .nav-link {
+  color: #343434 !important;
   text-transform: uppercase !important;
-  letter-spacing: 0.08em !important;
-  font-weight: 500 !important;
-  font-size: 0.85rem !important;
+  letter-spacing: 0.055em !important;
+  font-weight: 400 !important;
+  font-size: 0.82rem !important;
   line-height: 1.2 !important;
+  padding-left: 0.7rem !important;
+  padding-right: 0.7rem !important;
 }
+
+// Active item: neutral, not yellow
+
+.navbar .nav-link.active,
+.navbar .navbar-nav .nav-link.active,
+.navbar .nav-link.active:hover,
+.navbar .navbar-nav .nav-link.active:hover {
+  color: #111 !important;
+  opacity: 1 !important;
+}
+
+// Hover / focus
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus,
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+  color: #111 !important;
+  opacity: 0.78;
+}
+
+// Dropdown
 
 .navbar .dropdown-item {
   text-transform: uppercase !important;
-  letter-spacing: 0.06em !important;
-  font-weight: 500 !important;
-  font-size: 0.85rem !important;
-}
-
-.navbar .nav-link:hover,
-.navbar .nav-link:focus {
-  color: #111 !important;
-  opacity: 0.75;
+  letter-spacing: 0.05em !important;
+  font-weight: 400 !important;
+  font-size: 0.8rem !important;
+  color: #343434 !important;
 }
 
 .navbar .dropdown-item:hover,
 .navbar .dropdown-item:focus {
   color: #111 !important;
+  background: rgba(0, 0, 0, 0.03) !important;
 }
 
+// Toggler for mobile
+
 .navbar .navbar-toggler {
-  border-color: rgba(0, 0, 0, 0.12) !important;
+  border-color: rgba(0, 0, 0, 0.10) !important;
 }
 
 .navbar .navbar-toggler-icon {
-  filter: invert(1) grayscale(1) brightness(0.35);
+  filter: invert(1) grayscale(1) brightness(0.28);
 }
 
 // =============================
@@ -80,7 +111,7 @@ p {
 .navbar .nav-link i {
   font-size: 0.9em;
   margin-right: 0.35rem;
-  opacity: 0.75;
+  opacity: 0.72;
 }
 
 // =============================
@@ -91,7 +122,7 @@ p {
 .article-container h1,
 .container h1 {
   text-align: center;
-  margin-bottom: 2.5rem;
+  margin-bottom: 2.2rem;
 }
 
 // =============================
@@ -99,8 +130,8 @@ p {
 // =============================
 
 .hero {
-  padding-top: 3rem !important;
-  padding-bottom: 1.5rem !important;
+  padding-top: 2.25rem !important;
+  padding-bottom: 1.2rem !important;
 }
 
 // =============================
@@ -173,6 +204,18 @@ p {
   .pub-list-item,
   .media.stream-item {
     margin-bottom: 0.85rem !important;
+  }
+
+  .navbar .navbar-brand,
+  .navbar-brand {
+    font-size: 1rem !important;
+    letter-spacing: 0.02em !important;
+  }
+
+  .navbar .nav-link,
+  .navbar-nav .nav-link {
+    font-size: 0.8rem !important;
+    letter-spacing: 0.045em !important;
   }
 }
 
@@ -264,7 +307,7 @@ p {
 }
 
 // =============================
-// DOI BUTTON
+// DOI / LINK BUTTONS
 // =============================
 
 .pub-list-item .btn-links,

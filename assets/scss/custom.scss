@@ -165,3 +165,84 @@ p {
   }
 
 }
+
+// =============================
+// PUBLICATION VISUAL REFINEMENT
+// =============================
+
+.pub-list-item {
+  font-size: 0.98rem;
+}
+
+.pub-list-item .article-metadata,
+.pub-list-item .pub-authors,
+.pub-list-item .authors,
+.pub-list-item .article-style,
+.pub-list-item span[style*="author"] {
+  font-size: 0.92rem !important;
+  line-height: 1.55 !important;
+  font-weight: 300 !important;
+  color: rgba(0, 0, 0, 0.78) !important;
+}
+
+.pub-list-item .title,
+.pub-list-item .article-title,
+.pub-list-item h3,
+.pub-list-item h2,
+.pub-list-item h1 {
+  font-size: 1.16rem !important;
+  line-height: 1.35 !important;
+  font-weight: 500 !important;
+  margin-top: 0.25rem !important;
+  margin-bottom: 0.45rem !important;
+  letter-spacing: -0.01em !important;
+}
+
+.pub-list-item .title a,
+.pub-list-item .article-title a,
+.pub-list-item h3 a,
+.pub-list-item h2 a,
+.pub-list-item h1 a {
+  text-decoration: none !important;
+}
+
+.pub-list-item .title a:hover,
+.pub-list-item .article-title a:hover,
+.pub-list-item h3 a:hover,
+.pub-list-item h2 a:hover,
+.pub-list-item h1 a:hover {
+  opacity: 0.82;
+}
+
+.pub-list-item .publication,
+.pub-list-item .pub-publication,
+.pub-list-item .article-publication,
+.pub-list-item .btn-links,
+.pub-list-item .links {
+  font-size: 0.93rem !important;
+  line-height: 1.5 !important;
+}
+
+.pub-list-item .publication,
+.pub-list-item .pub-publication,
+.pub-list-item .article-publication {
+  margin-top: 0.15rem !important;
+  margin-bottom: 0.4rem !important;
+  color: rgba(0, 0, 0, 0.72) !important;
+}
+
+.pub-list-item .btn-links,
+.pub-list-item .links {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  align-items: center !important;
+  gap: 0.45rem !important;
+  margin-top: 0.25rem !important;
+}
+
+.pub-list-item .btn,
+.pub-list-item .btn-sm {
+  font-size: 0.8rem !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.02em !important;
+}

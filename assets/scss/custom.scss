@@ -107,7 +107,7 @@ p {
   opacity: 1 !important;
 }
 
-// Fix HugoBlox highlighting HOME everywhere
+// Fix HugoBlox highlighting HOME everywhere on inner pages
 .navbar-nav .nav-item:first-child .nav-link.active {
   color: #666 !important;
   font-weight: 400 !important;
@@ -115,6 +115,28 @@ p {
 
 .navbar-nav .nav-item:first-child .nav-link.active i {
   color: #666 !important;
+}
+
+// But keep HOME highlighted on the real homepage
+.home-page .navbar-nav .nav-item:first-child .nav-link.active,
+body.home .navbar-nav .nav-item:first-child .nav-link.active,
+.home .navbar-nav .nav-item:first-child .nav-link.active,
+body.page-home .navbar-nav .nav-item:first-child .nav-link.active,
+.home-page .navbar-nav .nav-item:first-child .nav-link.active i,
+body.home .navbar-nav .nav-item:first-child .nav-link.active i,
+.home .navbar-nav .nav-item:first-child .nav-link.active i,
+body.page-home .navbar-nav .nav-item:first-child .nav-link.active i,
+.home-page .navbar-nav .nav-item:first-child .nav-link[aria-current="page"],
+body.home .navbar-nav .nav-item:first-child .nav-link[aria-current="page"],
+.home .navbar-nav .nav-item:first-child .nav-link[aria-current="page"],
+body.page-home .navbar-nav .nav-item:first-child .nav-link[aria-current="page"],
+.home-page .navbar-nav .nav-item:first-child .nav-link[aria-current="page"] i,
+body.home .navbar-nav .nav-item:first-child .nav-link[aria-current="page"] i,
+.home .navbar-nav .nav-item:first-child .nav-link[aria-current="page"] i,
+body.page-home .navbar-nav .nav-item:first-child .nav-link[aria-current="page"] i {
+  color: #111 !important;
+  font-weight: 600 !important;
+  opacity: 1 !important;
 }
 
 // =============================
@@ -550,6 +572,44 @@ html.dark .navbar a[aria-current="page"] i,
   opacity: 1 !important;
 }
 
+// Keep HOME highlighted on the real homepage in dark mode
+body.dark .home-page .navbar-nav .nav-item:first-child .nav-link.active,
+body.dark.home .navbar-nav .nav-item:first-child .nav-link.active,
+body.dark .home .navbar-nav .nav-item:first-child .nav-link.active,
+body.dark.page-home .navbar-nav .nav-item:first-child .nav-link.active,
+.dark .home-page .navbar-nav .nav-item:first-child .nav-link.active,
+.dark.home .navbar-nav .nav-item:first-child .nav-link.active,
+.dark .home .navbar-nav .nav-item:first-child .nav-link.active,
+.dark.page-home .navbar-nav .nav-item:first-child .nav-link.active,
+html.dark .home-page .navbar-nav .nav-item:first-child .nav-link.active,
+html.dark.home .navbar-nav .nav-item:first-child .nav-link.active,
+html.dark .home .navbar-nav .nav-item:first-child .nav-link.active,
+html.dark.page-home .navbar-nav .nav-item:first-child .nav-link.active,
+[data-theme="dark"] .home-page .navbar-nav .nav-item:first-child .nav-link.active,
+[data-theme="dark"].home .navbar-nav .nav-item:first-child .nav-link.active,
+[data-theme="dark"] .home .navbar-nav .nav-item:first-child .nav-link.active,
+[data-theme="dark"].page-home .navbar-nav .nav-item:first-child .nav-link.active,
+body.dark .home-page .navbar-nav .nav-item:first-child .nav-link[aria-current="page"],
+body.dark.home .navbar-nav .nav-item:first-child .nav-link[aria-current="page"],
+body.dark .home .navbar-nav .nav-item:first-child .nav-link[aria-current="page"],
+body.dark.page-home .navbar-nav .nav-item:first-child .nav-link[aria-current="page"],
+.dark .home-page .navbar-nav .nav-item:first-child .nav-link[aria-current="page"],
+.dark.home .navbar-nav .nav-item:first-child .nav-link[aria-current="page"],
+.dark .home .navbar-nav .nav-item:first-child .nav-link[aria-current="page"],
+.dark.page-home .navbar-nav .nav-item:first-child .nav-link[aria-current="page"],
+html.dark .home-page .navbar-nav .nav-item:first-child .nav-link[aria-current="page"],
+html.dark.home .navbar-nav .nav-item:first-child .nav-link[aria-current="page"],
+html.dark .home .navbar-nav .nav-item:first-child .nav-link[aria-current="page"],
+html.dark.page-home .navbar-nav .nav-item:first-child .nav-link[aria-current="page"],
+[data-theme="dark"] .home-page .navbar-nav .nav-item:first-child .nav-link[aria-current="page"],
+[data-theme="dark"].home .navbar-nav .nav-item:first-child .nav-link[aria-current="page"],
+[data-theme="dark"] .home .navbar-nav .nav-item:first-child .nav-link[aria-current="page"],
+[data-theme="dark"].page-home .navbar-nav .nav-item:first-child .nav-link[aria-current="page"] {
+  color: #ffffff !important;
+  font-weight: 600 !important;
+  opacity: 1 !important;
+}
+
 // Burger icon in dark mode
 body.dark .navbar .navbar-toggler,
 body.dark .navbar-light .navbar-toggler,
@@ -686,4 +746,62 @@ html.dark .theme-dropdown .dropdown-item[aria-current="true"],
     color: #ffffff !important;
     font-weight: 600 !important;
   }
+}
+
+// =====================================================
+// DARK MODE - PUBLICATION TITLE CONTRAST
+// =====================================================
+
+body.dark .pub-list-item .title a,
+body.dark .pub-list-item .article-title a,
+body.dark .media.stream-item .article-title a,
+body.dark .media.stream-item h3 a,
+body.dark .media.stream-item h2 a,
+body.dark .media.stream-item h1 a,
+.dark .pub-list-item .title a,
+.dark .pub-list-item .article-title a,
+.dark .media.stream-item .article-title a,
+.dark .media.stream-item h3 a,
+.dark .media.stream-item h2 a,
+.dark .media.stream-item h1 a,
+html.dark .pub-list-item .title a,
+html.dark .pub-list-item .article-title a,
+html.dark .media.stream-item .article-title a,
+html.dark .media.stream-item h3 a,
+html.dark .media.stream-item h2 a,
+html.dark .media.stream-item h1 a,
+[data-theme="dark"] .pub-list-item .title a,
+[data-theme="dark"] .pub-list-item .article-title a,
+[data-theme="dark"] .media.stream-item .article-title a,
+[data-theme="dark"] .media.stream-item h3 a,
+[data-theme="dark"] .media.stream-item h2 a,
+[data-theme="dark"] .media.stream-item h1 a {
+  color: #6f9dff !important;
+}
+
+body.dark .pub-list-item .title a:hover,
+body.dark .pub-list-item .article-title a:hover,
+body.dark .media.stream-item .article-title a:hover,
+body.dark .media.stream-item h3 a:hover,
+body.dark .media.stream-item h2 a:hover,
+body.dark .media.stream-item h1 a:hover,
+.dark .pub-list-item .title a:hover,
+.dark .pub-list-item .article-title a:hover,
+.dark .media.stream-item .article-title a:hover,
+.dark .media.stream-item h3 a:hover,
+.dark .media.stream-item h2 a:hover,
+.dark .media.stream-item h1 a:hover,
+html.dark .pub-list-item .title a:hover,
+html.dark .pub-list-item .article-title a:hover,
+html.dark .media.stream-item .article-title a:hover,
+html.dark .media.stream-item h3 a:hover,
+html.dark .media.stream-item h2 a:hover,
+html.dark .media.stream-item h1 a:hover,
+[data-theme="dark"] .pub-list-item .title a:hover,
+[data-theme="dark"] .pub-list-item .article-title a:hover,
+[data-theme="dark"] .media.stream-item .article-title a:hover,
+[data-theme="dark"] .media.stream-item h3 a:hover,
+[data-theme="dark"] .media.stream-item h2 a:hover,
+[data-theme="dark"] .media.stream-item h1 a:hover {
+  color: #8bb3ff !important;
 }

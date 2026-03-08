@@ -38,23 +38,19 @@ p {
 
 .navbar-brand {
   font-weight: 400 !important;
-  letter-spacing: 0.22em !important;
+  letter-spacing: 0.26em !important;
   text-transform: uppercase !important;
   font-size: 0.95rem !important;
+  color: #222 !important;
 }
 
 // =============================
 // NAV LINKS
 // =============================
 
-.navbar .navbar-brand,
 .navbar .nav-link,
 .navbar-nav .nav-link {
-  color: #333 !important;
-}
-
-.navbar .nav-link,
-.navbar-nav .nav-link {
+  color: #555 !important;
   text-transform: uppercase !important;
   letter-spacing: 0.06em !important;
   font-weight: 400 !important;
@@ -72,13 +68,31 @@ p {
 .navbar .nav-link:hover,
 .navbar .nav-link:focus {
   color: #111 !important;
-  opacity: 0.75;
+  opacity: 0.8;
 }
 
 .navbar .dropdown-item:hover,
 .navbar .dropdown-item:focus {
   color: #111 !important;
 }
+
+// =============================
+// REMOVE YELLOW ACTIVE STATE
+// =============================
+
+.navbar .nav-link.active,
+.navbar .navbar-nav .nav-link.active,
+.navbar .nav-link.active:hover,
+.navbar .navbar-nav .nav-link.active:hover,
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.active:hover {
+  color: #111 !important;
+  opacity: 1 !important;
+}
+
+// =============================
+// NAVBAR TOGGLER
+// =============================
 
 .navbar .navbar-toggler {
   border-color: rgba(0, 0, 0, 0.12) !important;
@@ -95,7 +109,7 @@ p {
 .navbar .nav-link i {
   font-size: 0.9em;
   margin-right: 0.35rem;
-  opacity: 0.75;
+  opacity: 0.7;
 }
 
 // =============================

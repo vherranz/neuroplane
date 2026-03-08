@@ -106,6 +106,5 @@ extensions:
 # Citation style
 
 publications:
-  date_format: January 2006
   citation_style: apa
   date_format: "2006"

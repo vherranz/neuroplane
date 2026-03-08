@@ -14,7 +14,4 @@ publication_types:
 - article-journal
 publication: '*Neuroscience*'
 doi: 10.1016/j.neuroscience.2025.12.010
-links:
-- name: URL
-  url: https://doi.org/10.1016/j.neuroscience.2025.12.010
 ---

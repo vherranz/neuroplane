@@ -76,17 +76,37 @@ p {
 // =============================
 
 .navbar .nav-link.active,
-.navbar-nav .nav-link.active {
+.navbar .navbar-nav .nav-link.active,
+.navbar .nav-item .nav-link.active,
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-item .nav-link.active,
+.navbar .nav-link.active:hover,
+.navbar .nav-link.active:focus,
+.navbar .navbar-nav .nav-link.active:hover,
+.navbar .navbar-nav .nav-link.active:focus,
+.navbar-nav .nav-link.active:hover,
+.navbar-nav .nav-link.active:focus {
   color: #111 !important;
   font-weight: 500 !important;
   opacity: 1 !important;
 }
 
-// Fix HugoBlox highlighting HOME everywhere
+.navbar .nav-link.active i,
+.navbar .navbar-nav .nav-link.active i,
+.navbar .nav-item .nav-link.active i,
+.navbar-nav .nav-link.active i {
+  color: #111 !important;
+  opacity: 1 !important;
+}
 
+// Fix HugoBlox highlighting HOME everywhere
 .navbar-nav .nav-item:first-child .nav-link.active {
   color: #666 !important;
   font-weight: 400 !important;
+}
+
+.navbar-nav .nav-item:first-child .nav-link.active i {
+  color: #666 !important;
 }
 
 // =============================

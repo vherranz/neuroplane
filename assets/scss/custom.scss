@@ -19,7 +19,7 @@ p {
 }
 
 // =============================
-// NAVBAR
+// NAVBAR - LIGHT MODE
 // =============================
 
 .navbar {
@@ -61,7 +61,7 @@ p {
 .navbar .nav-link:hover,
 .navbar .nav-link:focus {
   color: #111 !important;
-  opacity: 0.8;
+  opacity: 0.85;
 }
 
 .navbar .dropdown-item {
@@ -91,7 +91,7 @@ p {
 .navbar-nav a[aria-current="page"],
 .navbar-nav .nav-link[aria-current="page"] {
   color: #111 !important;
-  font-weight: 500 !important;
+  font-weight: 600 !important;
   opacity: 1 !important;
 }
 
@@ -125,9 +125,10 @@ p {
 .navbar-light .navbar-toggler {
   border-color: rgba(0,0,0,0.15) !important;
   color: #666 !important;
+  box-shadow: none !important;
 }
 
-// Make burger icon dark and clearly visible
+// Burger icon dark and visible
 .navbar .navbar-toggler-icon,
 .navbar-light .navbar-toggler-icon {
   background-image: none !important;
@@ -229,7 +230,6 @@ p {
 // =============================
 
 @media (min-width: 1600px) {
-
   .universal-wrapper,
   .article-container,
   .container,
@@ -238,7 +238,6 @@ p {
   .page-wrapper .article-container,
   .page-wrapper .container,
   .page-wrapper .container-fluid {
-
     max-width: 1800px !important;
     width: 94% !important;
   }
@@ -249,7 +248,6 @@ p {
 // =============================
 
 @media (max-width: 768px) {
-
   .pub-list-item,
   .media.stream-item {
     margin-bottom: 0.85rem !important;
@@ -274,7 +272,6 @@ p {
 .media.stream-item .article-metadata,
 .media.stream-item .authors,
 .media.stream-item .article-style {
-
   font-size: 0.90rem !important;
   line-height: 1.42 !important;
   font-weight: 300 !important;
@@ -294,7 +291,6 @@ p {
 .media.stream-item h3,
 .media.stream-item h2,
 .media.stream-item h1 {
-
   font-size: 0.99rem !important;
   line-height: 1.24 !important;
   font-weight: 500 !important;
@@ -313,7 +309,6 @@ p {
 .media.stream-item h3 a,
 .media.stream-item h2 a,
 .media.stream-item h1 a {
-
   color: #1b3f8b !important;
   text-decoration: none !important;
   transition: color 0.15s ease;
@@ -326,7 +321,6 @@ p {
 .media.stream-item h3 a:hover,
 .media.stream-item h2 a:hover,
 .media.stream-item h1 a:hover {
-
   text-decoration: underline !important;
   color: #142e66 !important;
 }
@@ -339,7 +333,6 @@ p {
 .pub-list-item .pub-publication,
 .media.stream-item .publication,
 .media.stream-item .pub-publication {
-
   font-size: 0.90rem !important;
   line-height: 1.4 !important;
   margin-top: 0.02rem !important;
@@ -354,7 +347,6 @@ p {
 
 .pub-list-item .btn-links,
 .media.stream-item .btn-links {
-
   display: flex !important;
   flex-wrap: wrap !important;
   gap: 0.3rem !important;
@@ -363,14 +355,13 @@ p {
 
 .pub-list-item .btn,
 .media.stream-item .btn {
-
   font-size: 0.75rem !important;
   font-weight: 500 !important;
   letter-spacing: 0.02em !important;
 }
 
 // =====================================================
-// DROPDOWN MENUS (REMOVE BLUE THEME COLOR)
+// DROPDOWN MENUS - LIGHT MODE
 // =====================================================
 
 .dropdown-menu {
@@ -399,7 +390,7 @@ p {
 }
 
 // =====================================================
-// THEME SWITCHER (LIGHT / DARK / AUTO)
+// THEME SWITCHER - LIGHT MODE
 // =====================================================
 
 .theme-dropdown .dropdown-menu,
@@ -449,11 +440,10 @@ p {
 }
 
 // =====================================================
-// MOBILE MENU BACKGROUND
+// MOBILE MENU BACKGROUND - LIGHT MODE
 // =====================================================
 
 @media (max-width: 991px) {
-
   .navbar-collapse {
     background: #ffffff !important;
     border-top: 1px solid rgba(0,0,0,0.06);
@@ -463,5 +453,237 @@ p {
   .navbar-nav .nav-link {
     color: #444 !important;
   }
+}
 
+// =====================================================
+// DARK MODE - NAVBAR
+// =====================================================
+
+body.dark .navbar,
+.dark .navbar,
+html.dark .navbar,
+[data-theme="dark"] .navbar {
+  background: rgba(15,18,24,0.92) !important;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255,255,255,0.08) !important;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.22) !important;
+}
+
+body.dark .navbar-brand,
+.dark .navbar-brand,
+html.dark .navbar-brand,
+[data-theme="dark"] .navbar-brand {
+  color: rgba(255,255,255,0.92) !important;
+}
+
+body.dark .navbar .nav-link,
+body.dark .navbar-nav .nav-link,
+.dark .navbar .nav-link,
+.dark .navbar-nav .nav-link,
+html.dark .navbar .nav-link,
+html.dark .navbar-nav .nav-link,
+[data-theme="dark"] .navbar .nav-link,
+[data-theme="dark"] .navbar-nav .nav-link {
+  color: rgba(255,255,255,0.68) !important;
+}
+
+body.dark .navbar .nav-link:hover,
+body.dark .navbar .nav-link:focus,
+.dark .navbar .nav-link:hover,
+.dark .navbar .nav-link:focus,
+html.dark .navbar .nav-link:hover,
+html.dark .navbar .nav-link:focus,
+[data-theme="dark"] .navbar .nav-link:hover,
+[data-theme="dark"] .navbar .nav-link:focus {
+  color: rgba(255,255,255,0.92) !important;
+  opacity: 1 !important;
+}
+
+// Active item in dark mode
+body.dark .navbar .nav-link.active,
+body.dark .navbar .navbar-nav .nav-link.active,
+body.dark .navbar .nav-item .nav-link.active,
+body.dark .navbar-nav .nav-link.active,
+body.dark .navbar-nav .nav-item .nav-link.active,
+body.dark .navbar a[aria-current="page"],
+body.dark .navbar .nav-link[aria-current="page"],
+.dark .navbar .nav-link.active,
+.dark .navbar .navbar-nav .nav-link.active,
+.dark .navbar .nav-item .nav-link.active,
+.dark .navbar-nav .nav-link.active,
+.dark .navbar-nav .nav-item .nav-link.active,
+.dark .navbar a[aria-current="page"],
+.dark .navbar .nav-link[aria-current="page"],
+html.dark .navbar .nav-link.active,
+html.dark .navbar .navbar-nav .nav-link.active,
+html.dark .navbar .nav-item .nav-link.active,
+html.dark .navbar-nav .nav-link.active,
+html.dark .navbar-nav .nav-item .nav-link.active,
+html.dark .navbar a[aria-current="page"],
+html.dark .navbar .nav-link[aria-current="page"],
+[data-theme="dark"] .navbar .nav-link.active,
+[data-theme="dark"] .navbar .navbar-nav .nav-link.active,
+[data-theme="dark"] .navbar .nav-item .nav-link.active,
+[data-theme="dark"] .navbar-nav .nav-link.active,
+[data-theme="dark"] .navbar-nav .nav-item .nav-link.active,
+[data-theme="dark"] .navbar a[aria-current="page"],
+[data-theme="dark"] .navbar .nav-link[aria-current="page"] {
+  color: #ffffff !important;
+  font-weight: 600 !important;
+  opacity: 1 !important;
+}
+
+body.dark .navbar .nav-link.active i,
+body.dark .navbar .navbar-nav .nav-link.active i,
+body.dark .navbar a[aria-current="page"] i,
+.dark .navbar .nav-link.active i,
+.dark .navbar .navbar-nav .nav-link.active i,
+.dark .navbar a[aria-current="page"] i,
+html.dark .navbar .nav-link.active i,
+html.dark .navbar .navbar-nav .nav-link.active i,
+html.dark .navbar a[aria-current="page"] i,
+[data-theme="dark"] .navbar .nav-link.active i,
+[data-theme="dark"] .navbar .navbar-nav .nav-link.active i,
+[data-theme="dark"] .navbar a[aria-current="page"] i {
+  color: #ffffff !important;
+  opacity: 1 !important;
+}
+
+// Burger icon in dark mode
+body.dark .navbar .navbar-toggler,
+body.dark .navbar-light .navbar-toggler,
+.dark .navbar .navbar-toggler,
+.dark .navbar-light .navbar-toggler,
+html.dark .navbar .navbar-toggler,
+html.dark .navbar-light .navbar-toggler,
+[data-theme="dark"] .navbar .navbar-toggler,
+[data-theme="dark"] .navbar-light .navbar-toggler {
+  border-color: rgba(255,255,255,0.18) !important;
+  color: rgba(255,255,255,0.78) !important;
+}
+
+body.dark .navbar .navbar-toggler-icon::before,
+body.dark .navbar-light .navbar-toggler-icon::before,
+.dark .navbar .navbar-toggler-icon::before,
+.dark .navbar-light .navbar-toggler-icon::before,
+html.dark .navbar .navbar-toggler-icon::before,
+html.dark .navbar-light .navbar-toggler-icon::before,
+[data-theme="dark"] .navbar .navbar-toggler-icon::before,
+[data-theme="dark"] .navbar-light .navbar-toggler-icon::before {
+  color: rgba(255,255,255,0.78) !important;
+}
+
+// =====================================================
+// DARK MODE - DROPDOWNS
+// =====================================================
+
+body.dark .dropdown-menu,
+.dark .dropdown-menu,
+html.dark .dropdown-menu,
+[data-theme="dark"] .dropdown-menu,
+body.dark .theme-dropdown .dropdown-menu,
+.dark .theme-dropdown .dropdown-menu,
+html.dark .theme-dropdown .dropdown-menu,
+[data-theme="dark"] .theme-dropdown .dropdown-menu,
+body.dark #navbar-main .dropdown-menu,
+.dark #navbar-main .dropdown-menu,
+html.dark #navbar-main .dropdown-menu,
+[data-theme="dark"] #navbar-main .dropdown-menu {
+  background: #171b22 !important;
+  border: 1px solid rgba(255,255,255,0.08) !important;
+  box-shadow: 0 8px 22px rgba(0,0,0,0.28) !important;
+}
+
+body.dark .dropdown-menu .dropdown-item,
+body.dark .dropdown-menu a,
+body.dark .dropdown-menu button,
+.dark .dropdown-menu .dropdown-item,
+.dark .dropdown-menu a,
+.dark .dropdown-menu button,
+html.dark .dropdown-menu .dropdown-item,
+html.dark .dropdown-menu a,
+html.dark .dropdown-menu button,
+[data-theme="dark"] .dropdown-menu .dropdown-item,
+[data-theme="dark"] .dropdown-menu a,
+[data-theme="dark"] .dropdown-menu button {
+  background: #171b22 !important;
+  color: rgba(255,255,255,0.78) !important;
+}
+
+body.dark .dropdown-menu .dropdown-item:hover,
+body.dark .dropdown-menu .dropdown-item:focus,
+body.dark .dropdown-menu a:hover,
+body.dark .dropdown-menu a:focus,
+body.dark .dropdown-menu button:hover,
+body.dark .dropdown-menu button:focus,
+.dark .dropdown-menu .dropdown-item:hover,
+.dark .dropdown-menu .dropdown-item:focus,
+.dark .dropdown-menu a:hover,
+.dark .dropdown-menu a:focus,
+.dark .dropdown-menu button:hover,
+.dark .dropdown-menu button:focus,
+html.dark .dropdown-menu .dropdown-item:hover,
+html.dark .dropdown-menu .dropdown-item:focus,
+html.dark .dropdown-menu a:hover,
+html.dark .dropdown-menu a:focus,
+html.dark .dropdown-menu button:hover,
+html.dark .dropdown-menu button:focus,
+[data-theme="dark"] .dropdown-menu .dropdown-item:hover,
+[data-theme="dark"] .dropdown-menu .dropdown-item:focus,
+[data-theme="dark"] .dropdown-menu a:hover,
+[data-theme="dark"] .dropdown-menu a:focus,
+[data-theme="dark"] .dropdown-menu button:hover,
+[data-theme="dark"] .dropdown-menu button:focus {
+  background: rgba(255,255,255,0.06) !important;
+  color: #ffffff !important;
+}
+
+body.dark .theme-dropdown .dropdown-item.active,
+body.dark .theme-dropdown .dropdown-item:active,
+body.dark .theme-dropdown .dropdown-item[aria-current="true"],
+.dark .theme-dropdown .dropdown-item.active,
+.dark .theme-dropdown .dropdown-item:active,
+.dark .theme-dropdown .dropdown-item[aria-current="true"],
+html.dark .theme-dropdown .dropdown-item.active,
+html.dark .theme-dropdown .dropdown-item:active,
+html.dark .theme-dropdown .dropdown-item[aria-current="true"],
+[data-theme="dark"] .theme-dropdown .dropdown-item.active,
+[data-theme="dark"] .theme-dropdown .dropdown-item:active,
+[data-theme="dark"] .theme-dropdown .dropdown-item[aria-current="true"] {
+  background: rgba(255,255,255,0.06) !important;
+  color: #ffffff !important;
+}
+
+// =====================================================
+// DARK MODE - MOBILE MENU
+// =====================================================
+
+@media (max-width: 991px) {
+  body.dark .navbar-collapse,
+  .dark .navbar-collapse,
+  html.dark .navbar-collapse,
+  [data-theme="dark"] .navbar-collapse {
+    background: #171b22 !important;
+    border-top: 1px solid rgba(255,255,255,0.08) !important;
+  }
+
+  body.dark .navbar-collapse .nav-link,
+  .dark .navbar-collapse .nav-link,
+  html.dark .navbar-collapse .nav-link,
+  [data-theme="dark"] .navbar-collapse .nav-link {
+    color: rgba(255,255,255,0.78) !important;
+  }
+
+  body.dark .navbar-collapse .nav-link.active,
+  body.dark .navbar-collapse a[aria-current="page"],
+  .dark .navbar-collapse .nav-link.active,
+  .dark .navbar-collapse a[aria-current="page"],
+  html.dark .navbar-collapse .nav-link.active,
+  html.dark .navbar-collapse a[aria-current="page"],
+  [data-theme="dark"] .navbar-collapse .nav-link.active,
+  [data-theme="dark"] .navbar-collapse a[aria-current="page"] {
+    color: #ffffff !important;
+    font-weight: 600 !important;
+  }
 }

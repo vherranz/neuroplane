@@ -244,7 +244,35 @@ p {
   margin-top: 0 !important;
   margin-bottom: 0.12rem !important;
   color: rgba(0, 0, 0, 0.70) !important;
+  font-style: italic !important;
 
+}
+
+// =============================
+// JOURNAL + YEAR DISPLAY
+// =============================
+
+.pub-list-item .pub-publication,
+.media.stream-item .pub-publication,
+.pub-list-item .publication,
+.media.stream-item .publication {
+  display: inline !important;
+}
+
+.pub-list-item .article-metadata,
+.media.stream-item .article-metadata {
+  display: inline !important;
+  font-size: 0.88rem !important;
+  font-weight: 300 !important;
+  color: rgba(0, 0, 0, 0.52) !important;
+  margin-bottom: 0 !important;
+}
+
+.pub-list-item .article-metadata::before,
+.media.stream-item .article-metadata::before {
+  content: " · ";
+  color: rgba(0, 0, 0, 0.52) !important;
+  font-style: normal !important;
 }
 
 // =============================

@@ -42,7 +42,7 @@ header:
   navbar:
     enable: true
     align: r
-    show_logo: true
+    show_logo: false
     show_language: false
     # Enable the day/night switch in the navbar.
     show_day_night: true

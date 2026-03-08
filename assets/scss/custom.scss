@@ -93,8 +93,8 @@ p {
 .article-container,
 .container,
 .container-fluid {
-  max-width: 1500px !important;
-  width: 92% !important;
+  max-width: 1600px !important;
+  width: 94% !important;
   margin-left: auto !important;
   margin-right: auto !important;
 }
@@ -107,8 +107,8 @@ p {
 .page-wrapper .article-container,
 .page-wrapper .container,
 .page-wrapper .container-fluid {
-  max-width: 1500px !important;
-  width: 92% !important;
+  max-width: 1600px !important;
+  width: 94% !important;
 }
 
 // =============================
@@ -118,6 +118,7 @@ p {
 .pub-list-item,
 .media.stream-item {
   margin-bottom: 2rem;
+  line-height: 1.6;
 }
 
 // =============================
@@ -125,6 +126,7 @@ p {
 // =============================
 
 @media (min-width: 1600px) {
+
   .universal-wrapper,
   .article-container,
   .container,
@@ -133,9 +135,10 @@ p {
   .page-wrapper .article-container,
   .page-wrapper .container,
   .page-wrapper .container-fluid {
-    max-width: 1700px !important;
-    width: 90% !important;
+    max-width: 1800px !important;
+    width: 94% !important;
   }
+
 }
 
 // =============================
@@ -143,6 +146,7 @@ p {
 // =============================
 
 @media (max-width: 768px) {
+
   .universal-wrapper,
   .article-container,
   .container,
@@ -159,4 +163,5 @@ p {
   .media.stream-item {
     margin-bottom: 1.5rem;
   }
+
 }

@@ -86,22 +86,77 @@ p {
 }
 
 // =============================
-// BRUTE-FORCE PAGE WIDTH
+// GLOBAL PAGE WIDTH
 // =============================
 
 .universal-wrapper,
 .article-container,
 .container,
 .container-fluid {
-  max-width: 1150px !important;
+  max-width: 1500px !important;
+  width: 92% !important;
   margin-left: auto !important;
   margin-right: auto !important;
+}
+
+// =============================
+// PUBLICATION PAGE WIDTH
+// =============================
+
+.page-wrapper .universal-wrapper,
+.page-wrapper .article-container,
+.page-wrapper .container,
+.page-wrapper .container-fluid {
+  max-width: 1500px !important;
+  width: 92% !important;
 }
 
 // =============================
 // PUBLICATION LIST SPACING
 // =============================
 
-.pub-list-item {
+.pub-list-item,
+.media.stream-item {
   margin-bottom: 2rem;
+}
+
+// =============================
+// LARGE SCREEN OPTIMIZATION
+// =============================
+
+@media (min-width: 1600px) {
+  .universal-wrapper,
+  .article-container,
+  .container,
+  .container-fluid,
+  .page-wrapper .universal-wrapper,
+  .page-wrapper .article-container,
+  .page-wrapper .container,
+  .page-wrapper .container-fluid {
+    max-width: 1700px !important;
+    width: 90% !important;
+  }
+}
+
+// =============================
+// MOBILE SAFETY
+// =============================
+
+@media (max-width: 768px) {
+  .universal-wrapper,
+  .article-container,
+  .container,
+  .container-fluid,
+  .page-wrapper .universal-wrapper,
+  .page-wrapper .article-container,
+  .page-wrapper .container,
+  .page-wrapper .container-fluid {
+    width: 94% !important;
+    max-width: 100% !important;
+  }
+
+  .pub-list-item,
+  .media.stream-item {
+    margin-bottom: 1.5rem;
+  }
 }

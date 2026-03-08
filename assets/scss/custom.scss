@@ -598,3 +598,13 @@ html.dark .navbar-brand::after,
 [data-theme="dark"] .navbar-brand::after {
   color: rgba(255,255,255,0.92) !important;
 }
+
+// =============================
+// HOME CONTENT BACKGROUND FIX
+// =============================
+
+.home-section,
+.page-body,
+.section {
+  background: #ffffff !important;
+}

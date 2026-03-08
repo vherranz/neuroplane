@@ -570,3 +570,31 @@ html.dark .media.stream-item .article-metadata,
 [data-theme="dark"] .media.stream-item .article-metadata {
   color: rgba(255,255,255,0.70) !important;
 }
+
+// =============================
+// NAVBAR BRAND TEXT OVERRIDE
+// =============================
+
+// Oculta el texto/imagen original del brand sin quitar el enlace
+.navbar-brand {
+  font-size: 0 !important;
+}
+
+// Inserta el texto deseado manteniendo el estilo actual
+.navbar-brand::after {
+  content: "NEUROPLANE LAB";
+  font-size: 0.95rem !important;
+  font-weight: 400 !important;
+  letter-spacing: 0.26em !important;
+  text-transform: uppercase !important;
+  color: #222 !important;
+  line-height: 1;
+}
+
+// Dark mode
+body.dark .navbar-brand::after,
+.dark .navbar-brand::after,
+html.dark .navbar-brand::after,
+[data-theme="dark"] .navbar-brand::after {
+  color: rgba(255,255,255,0.92) !important;
+}

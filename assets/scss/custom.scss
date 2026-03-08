@@ -704,32 +704,3 @@ html.dark .navbar-brand::after,
     height: 180px;
   }
 }
-
-/* =============================
-   HERO BACKGROUND OVERRIDE
-   ============================= */
-
-.home-section.wg-hero,
-.home-section.wg-hero .home-section-bg,
-.home-section.wg-hero .wg-hero,
-.home-section.wg-hero .hero-widget {
-  background: radial-gradient(circle at 20% 30%, rgba(123, 179, 255, 0.45), transparent 35%),
-              radial-gradient(circle at 80% 70%, rgba(255, 184, 108, 0.28), transparent 32%),
-              linear-gradient(135deg, #16356f 0%, #2e5fb8 45%, #7bb3ff 100%) !important;
-}
-
-/* Asegura contraste del texto */
-.home-section.wg-hero h1,
-.home-section.wg-hero h2,
-.home-section.wg-hero h3,
-.home-section.wg-hero p,
-.home-section.wg-hero .hero-title,
-.home-section.wg-hero .hero-lead {
-  color: #ffffff !important;
-}
-
-/* Un poco de aire visual */
-.home-section.wg-hero {
-  position: relative;
-  overflow: hidden;
-}

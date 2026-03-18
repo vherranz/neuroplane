@@ -666,3 +666,28 @@ footer.site-footer {
   margin-top: 0 !important;
   padding-top: 20px !important;
 }
+
+/* =============================
+   ESPACIADO HOME (HERO / ABOUT)
+   ============================= */
+
+/* Espacio debajo del título principal */
+.home-section .hero-title {
+  margin-bottom: 2.5rem !important;
+}
+
+/* Espacio debajo del subtítulo */
+.home-section .hero-lead {
+  margin-bottom: 3rem !important;
+}
+
+/* Bloque About */
+.home-section .home-section-title {
+  margin-top: 2rem !important;
+  margin-bottom: 1.5rem !important;
+}
+
+/* Texto del About */
+.home-section p {
+  margin-bottom: 1.5rem;
+}

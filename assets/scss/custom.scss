@@ -252,9 +252,48 @@ section,
 
 .wg-markdown .markdown,
 .article-style {
-  max-width: 800px;
+  max-width: 1200px !important;
   margin-left: auto;
   margin-right: auto;
+}
+
+// =============================
+// ARTICLE / RESEARCH SPACING
+// =============================
+
+.article-style h3 {
+  margin-top: 3.1rem;
+  margin-bottom: 0.85rem;
+  color: #1f4e8c;
+}
+
+.article-style h3 + p em {
+  display: block;
+  font-size: 1.08rem;
+  color: #5f6b7a;
+  margin-bottom: 1.25rem;
+}
+
+.article-style p {
+  margin-bottom: 1.3rem;
+}
+
+.article-style hr {
+  margin: 3rem 0 2.8rem 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+// =============================
+// FUNDING LOGO
+// =============================
+
+.article-style img[alt="Generalitat Valenciana"] {
+  display: block !important;
+  margin-left: 0 !important;
+  margin-right: auto !important;
+  max-width: 540px !important;
+  width: 100%;
+  height: auto;
 }
 
 // =============================
@@ -464,6 +503,19 @@ section,
   .media.stream-item {
     margin-bottom: 0.85rem !important;
   }
+
+  .wg-markdown .markdown,
+  .article-style {
+    max-width: 100% !important;
+  }
+
+  .article-style h3 {
+    margin-top: 2.35rem;
+  }
+
+  .article-style img[alt="Generalitat Valenciana"] {
+    max-width: 100% !important;
+  }
 }
 
 // =============================
@@ -586,7 +638,7 @@ section,
 
 /* Cuerpo del post con ancho legible */
 .article-container .article-style {
-  max-width: 820px !important;
+  max-width: 1200px !important;
   margin-left: auto !important;
   margin-right: auto !important;
 }

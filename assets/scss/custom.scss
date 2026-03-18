@@ -319,7 +319,7 @@ section,
   font-size: 0.90rem !important;
   line-height: 1.42 !important;
   font-weight: 300 !important;
-  color: rgba(0, 0, 0, 0.70) !important;
+  color: rgba(0, 0, 0, 0.80) !important;
   margin-bottom: 0.10rem !important;
 }
 
@@ -655,59 +655,58 @@ section,
    REDUCIR ESPACIO ANTES DEL FOOTER
    ============================= */
 
-/* Quitar exceso en la última sección */
 .page-body .section:last-of-type {
   padding-bottom: 30px !important;
   margin-bottom: 0 !important;
 }
 
-/* Ajuste fino del footer */
 footer.site-footer {
   margin-top: 0 !important;
   padding-top: 20px !important;
 }
 
 /* =============================
-   ESPACIADO HOME (HERO / ABOUT)
+   HOME: AJUSTE FINO HERO -> ABOUT
    ============================= */
 
-/* Espacio debajo del título principal */
-.home-section .hero-title {
-  margin-bottom: 2.5rem !important;
+.home-section.wg-hero {
+  padding-top: 3rem !important;
+  padding-bottom: 0.75rem !important;
 }
 
-/* Espacio debajo del subtítulo */
-.home-section .hero-lead {
-  margin-bottom: 3rem !important;
+.home-section.wg-hero .hero-title {
+  margin-bottom: 2rem !important;
 }
 
-/* Bloque About */
-.home-section .home-section-title {
-  margin-top: 2rem !important;
-  margin-bottom: 1.5rem !important;
+.home-section.wg-hero .hero-lead {
+  margin-bottom: 1.25rem !important;
 }
 
-/* Texto del About */
-.home-section p {
-  margin-bottom: 1.5rem;
-}
-
-/* =============================
-   COMPACTAR BLOQUE ABOUT (HOME)
-   ============================= */
-
-/* Reducir espacio superior del bloque About */
-.home-section .universal-wrapper {
-  padding-top: 1rem !important;
-}
-
-/* Reducir espacio entre secciones */
-.home-section {
-  padding-top: 2rem !important;
-  padding-bottom: 2rem !important;
-}
-
-/* Ajuste fino del texto */
-.home-section p:first-of-type {
+.home-section.wg-hero + .home-section,
+.home-section.wg-hero + section.home-section {
+  padding-top: 0.5rem !important;
   margin-top: 0 !important;
+}
+
+.home-section.wg-hero + .home-section .universal-wrapper,
+.home-section.wg-hero + section.home-section .universal-wrapper,
+.home-section.wg-hero + .home-section .container,
+.home-section.wg-hero + section.home-section .container {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+.home-section.wg-hero + .home-section p:first-of-type,
+.home-section.wg-hero + section.home-section p:first-of-type,
+.home-section.wg-hero + .home-section .article-style > *:first-child,
+.home-section.wg-hero + section.home-section .article-style > *:first-child,
+.home-section.wg-hero + .home-section .markdown > *:first-child,
+.home-section.wg-hero + section.home-section .markdown > *:first-child {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+.home-section.wg-hero + .home-section p,
+.home-section.wg-hero + section.home-section p {
+  margin-bottom: 1.25rem !important;
 }

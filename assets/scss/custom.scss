@@ -262,24 +262,24 @@ section,
 // =============================
 
 .article-style h3 {
-  margin-top: 3.1rem;
-  margin-bottom: 0.85rem;
+  margin-top: 2.3rem;
+  margin-bottom: 0.55rem;
   color: #1f4e8c;
 }
 
 .article-style h3 + p em {
   display: block;
-  font-size: 1.08rem;
+  font-size: 1.05rem;
   color: #5f6b7a;
-  margin-bottom: 1.25rem;
+  margin-bottom: 0.95rem;
 }
 
 .article-style p {
-  margin-bottom: 1.3rem;
+  margin-bottom: 1.05rem;
 }
 
 .article-style hr {
-  margin: 3rem 0 2.8rem 0;
+  margin: 2.2rem 0 2rem 0;
   border-top: 1px solid rgba(0, 0, 0, 0.12);
 }
 
@@ -289,7 +289,7 @@ section,
 
 .article-style img[alt="Generalitat Valenciana"] {
   display: block !important;
-  margin-left: 0 !important;
+  margin-left: auto !important;
   margin-right: auto !important;
   max-width: 540px !important;
   width: 100%;
@@ -510,7 +510,7 @@ section,
   }
 
   .article-style h3 {
-    margin-top: 2.35rem;
+    margin-top: 1.9rem;
   }
 
   .article-style img[alt="Generalitat Valenciana"] {

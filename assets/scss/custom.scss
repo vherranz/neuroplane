@@ -676,12 +676,10 @@ footer.site-footer {
   --global-hero-height-mobile: 170px;
 }
 
-/* Contenedor principal */
 .page-body {
   position: relative;
 }
 
-/* Hero visual, sin empujar como bloque normal */
 .page-body::before {
   content: "";
   position: absolute;
@@ -694,13 +692,11 @@ footer.site-footer {
   pointer-events: none;
 }
 
-/* Asegurar que el contenido quede por encima */
 .page-body > * {
   position: relative;
   z-index: 1;
 }
 
-/* Dar espacio arriba al primer bloque para que no pise el hero */
 .page-body > section:first-of-type,
 .page-body > .universal-wrapper:first-of-type,
 .page-body > main:first-of-type,
@@ -708,7 +704,6 @@ footer.site-footer {
   padding-top: calc(var(--global-hero-height) - 40px) !important;
 }
 
-/* Móvil */
 @media (max-width: 768px) {
   .page-body::before {
     height: var(--global-hero-height-mobile);

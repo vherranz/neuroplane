@@ -719,3 +719,49 @@ html.dark .navbar-brand::after,
   margin-left: auto;
   margin-right: auto;
 }
+
+/* =============================
+   DARK MODE FIX (GLOBAL)
+============================= */
+
+body.dark {
+  background-color: #0e0e0e !important;
+  color: #eaeaea !important;
+}
+
+/* Secciones principales */
+body.dark .home-section,
+body.dark .wg-markdown,
+body.dark .wg-hero,
+body.dark .wg-collection {
+  background-color: #0e0e0e !important;
+}
+
+/* Texto */
+body.dark p,
+body.dark li,
+body.dark span {
+  color: #eaeaea !important;
+}
+
+/* Títulos */
+body.dark h1,
+body.dark h2,
+body.dark h3,
+body.dark h4 {
+  color: #ffffff !important;
+}
+
+/* Enlaces */
+body.dark a {
+  color: #6ca0ff;
+}
+
+body.dark a:hover {
+  color: #9ec1ff;
+}
+
+/* Navbar */
+body.dark .navbar {
+  background-color: #0e0e0e !important;
+}

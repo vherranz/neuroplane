@@ -1,6 +1,6 @@
 ---
 title: Research
-date: 2024-01-01
+date: 2026-03-18
 type: page
 ---
 
@@ -43,7 +43,7 @@ The paralaminar nucleus of the amygdala is a key system in our research. This re
 
 In primates, the paralaminar nucleus shows a distinctive developmental profile compared to the rest of the amygdala, suggesting that it may play a role in the refinement of emotional and associative circuits. However, its origin, organization, and function are still not well understood.
 
-We use this region as a model to study prolonged neuronal maturation in a more defined anatomical context. A major part of our work involves determining whether comparable structures exist in more accessible species, such as the mouse, and how this system varies across lissencephalic and gyrencephalic brains, including pigs and rabbits.
+We use this region as a model to study prolonged neuronal maturation in a more defined anatomical context. A major part of our work involves determining whether comparable structures exist in more accessible species, such as the mouse, and how this system varies across lissencephalic and gyrencephalic brains, including pigs and ferrets.
 
 Our approach combines molecular characterization, ultrastructural analysis, and developmental studies to understand how these neurons are generated, how they mature, and how they integrate into existing circuits.
 
@@ -56,5 +56,5 @@ This research is supported by the Generalitat Valenciana through the Prometeo Pr
 [Learn more about the project](https://www.uv.es/neurocomp/ciprom2023-53)
 
 <div style="margin-top:30px;">
-  <img src="/media/GVA.png" alt="Generalitat Valenciana" style="max-width:400px;">
+  <img src="/media/GVA.png" alt="Generalitat Valenciana" style="max-width:350px;">
 </div>

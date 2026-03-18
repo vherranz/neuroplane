@@ -10,7 +10,7 @@ sections:
       title: |
         Neurogenesis & Neural Plasticity Lab
       text: |
-        Understanding how the brain is built, maintained, and reshaped across the lifespan.
+        Understanding how the brain is built, maintained, and reshaped across the lifespan
 
   - block: markdown
     content:

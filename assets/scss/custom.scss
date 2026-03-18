@@ -650,3 +650,19 @@ section,
 .article-container .article-author-bottom * {
   text-align: left !important;
 }
+
+/* =============================
+   REDUCIR ESPACIO ANTES DEL FOOTER
+   ============================= */
+
+/* Quitar exceso en la última sección */
+.page-body .section:last-of-type {
+  padding-bottom: 30px !important;
+  margin-bottom: 0 !important;
+}
+
+/* Ajuste fino del footer */
+footer.site-footer {
+  margin-top: 0 !important;
+  padding-top: 20px !important;
+}

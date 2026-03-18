@@ -691,3 +691,23 @@ footer.site-footer {
 .home-section p {
   margin-bottom: 1.5rem;
 }
+
+/* =============================
+   COMPACTAR BLOQUE ABOUT (HOME)
+   ============================= */
+
+/* Reducir espacio superior del bloque About */
+.home-section .universal-wrapper {
+  padding-top: 1rem !important;
+}
+
+/* Reducir espacio entre secciones */
+.home-section {
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
+}
+
+/* Ajuste fino del texto */
+.home-section p:first-of-type {
+  margin-top: 0 !important;
+}

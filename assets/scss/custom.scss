@@ -467,29 +467,6 @@ section,
 }
 
 // =============================
-// HOMOGENIZE TYPOGRAPHY (NEWS)
-// =============================
-
-.article-title {
-  font-family: "Raleway", sans-serif;
-  font-weight: 500;
-  letter-spacing: 0.01em;
-}
-
-.media.stream-item .article-style {
-  font-family: "Raleway", sans-serif;
-  font-weight: 300;
-  font-size: 1rem;
-  line-height: 1.7;
-}
-
-.stream-meta {
-  font-family: "Raleway", sans-serif;
-  font-weight: 300;
-  opacity: 0.75;
-}
-
-// =============================
 // FIX BLOG IMAGE SIZE
 // =============================
 
@@ -539,42 +516,6 @@ section,
 }
 
 // =============================
-// LATEST NEWS - LEFT ALIGN FIX
-// =============================
-
-.home-section .media.stream-item,
-.home-section .media.stream-item .media-body,
-.home-section .media.stream-item .article-style,
-.home-section .media.stream-item .stream-meta,
-.home-section .media.stream-item .summary-link,
-.home-section .media.stream-item .section-subheading,
-.home-section .media.stream-item p,
-.home-section .media.stream-item h3,
-.home-section .media.stream-item h2 {
-  text-align: left !important;
-}
-
-.article-container .article-style,
-.article-container .article-style p,
-.article-container .article-style div,
-.article-container .article-style li,
-.article-container .article-style ul,
-.article-container .article-style ol {
-  text-align: left !important;
-}
-
-.article-container h1 {
-  text-align: center;
-}
-
-.article-container .media.author-card,
-.article-container .media.author-card .media-body,
-.article-container .media.author-card p,
-.article-container .media.author-card div {
-  text-align: left !important;
-}
-
-// =============================
 // MOBILE TWEAK FOR NEWS
 // =============================
 
@@ -589,4 +530,71 @@ section,
   .home-section .media.stream-item img {
     height: 180px;
   }
+}
+
+// =========================================
+// FORCE LEFT ALIGN - LATEST NEWS (HOME)
+// =========================================
+
+.home-section .view-card .card-simple,
+.home-section .view-card .card-simple .card-text,
+.home-section .view-card .card-simple .article-metadata,
+.home-section .view-card .card-simple .article-title,
+.home-section .view-card .card-simple .article-title a,
+.home-section .view-card .card-simple .summary-link,
+.home-section .view-card .card-simple .article-style,
+.home-section .view-card .card-simple p,
+.home-section .view-card .card-simple h3,
+.home-section .view-card .card-simple h2,
+.home-section .media.stream-item,
+.home-section .media.stream-item .media-body,
+.home-section .media.stream-item .article-style,
+.home-section .media.stream-item .stream-meta,
+.home-section .media.stream-item .summary-link,
+.home-section .media.stream-item .section-subheading,
+.home-section .media.stream-item p,
+.home-section .media.stream-item h3,
+.home-section .media.stream-item h2 {
+  text-align: left !important;
+}
+
+/* Evita centrado editorial del resumen */
+.home-section .view-card .card-simple .article-style,
+.home-section .media.stream-item .article-style {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  max-width: none !important;
+}
+
+// =========================================
+// FORCE LEFT ALIGN - SINGLE NEWS POST
+// =========================================
+
+.article-container .article-style,
+.article-container .article-style *:not(img):not(svg):not(video):not(iframe),
+.article-container .universal-wrapper,
+.article-container .universal-wrapper *:not(img):not(svg):not(video):not(iframe) {
+  text-align: left !important;
+}
+
+/* Mantén centrado solo el título principal del post */
+.article-container h1.article-title,
+.article-container header h1,
+.article-container .article-title {
+  text-align: center !important;
+}
+
+/* Cuerpo del post con ancho legible */
+.article-container .article-style {
+  max-width: 820px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Bio del autor al final */
+.article-container .media.author-card,
+.article-container .media.author-card *,
+.article-container .article-author-bottom,
+.article-container .article-author-bottom * {
+  text-align: left !important;
 }

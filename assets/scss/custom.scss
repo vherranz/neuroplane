@@ -666,3 +666,49 @@ footer.site-footer {
   margin-top: 0 !important;
   padding-top: 20px !important;
 }
+
+/* =============================
+   GLOBAL HERO FOR ALL PAGES
+   ============================= */
+
+/* Ajusta la altura del hero global */
+:root {
+  --global-hero-height: 260px;
+  --global-hero-height-mobile: 170px;
+}
+
+/* Hero superior en todas las páginas normales */
+.page-wrapper > main {
+  position: relative;
+}
+
+.page-wrapper > main::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: var(--global-hero-height);
+  background-image: url('/media/hero-global.jpg');
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+/* Reducir el espacio superior del primer bloque tras el hero */
+.page-wrapper > main > section:first-of-type,
+.page-wrapper > main > div:first-of-type {
+  margin-top: 0 !important;
+  padding-top: 2.5rem !important;
+}
+
+/* Ajuste móvil */
+@media (max-width: 768px) {
+  .page-wrapper > main::before {
+    height: var(--global-hero-height-mobile);
+    background-position: center center;
+  }
+
+  .page-wrapper > main > section:first-of-type,
+  .page-wrapper > main > div:first-of-type {
+    padding-top: 1.75rem !important;
+  }
+}

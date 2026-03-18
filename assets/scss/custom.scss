@@ -668,21 +668,20 @@ footer.site-footer {
 }
 
 /* =============================
-   GLOBAL HERO FOR ALL PAGES
+   GLOBAL HERO EN TODAS LAS PÁGINAS
    ============================= */
 
-/* Ajusta la altura del hero global */
 :root {
   --global-hero-height: 260px;
   --global-hero-height-mobile: 170px;
 }
 
-/* Hero superior en todas las páginas normales */
-.page-wrapper > main {
+/* Insertar hero antes del contenido real */
+.page-body {
   position: relative;
 }
 
-.page-wrapper > main::before {
+.page-body::before {
   content: "";
   display: block;
   width: 100%;
@@ -693,22 +692,25 @@ footer.site-footer {
   background-repeat: no-repeat;
 }
 
-/* Reducir el espacio superior del primer bloque tras el hero */
-.page-wrapper > main > section:first-of-type,
-.page-wrapper > main > div:first-of-type {
+/* Compactar el primer bloque tras el hero */
+.page-body > section:first-of-type,
+.page-body > .universal-wrapper:first-of-type,
+.page-body > main:first-of-type,
+.page-body > div:first-of-type {
   margin-top: 0 !important;
   padding-top: 2.5rem !important;
 }
 
-/* Ajuste móvil */
 @media (max-width: 768px) {
-  .page-wrapper > main::before {
+  .page-body::before {
     height: var(--global-hero-height-mobile);
     background-position: center center;
   }
 
-  .page-wrapper > main > section:first-of-type,
-  .page-wrapper > main > div:first-of-type {
-    padding-top: 1.75rem !important;
+  .page-body > section:first-of-type,
+  .page-body > .universal-wrapper:first-of-type,
+  .page-body > main:first-of-type,
+  .page-body > div:first-of-type {
+    padding-top: 1.5rem !important;
   }
 }

@@ -721,26 +721,58 @@ html.dark .navbar-brand::after,
 }
 
 /* =============================
-   DARK MODE FIX (GLOBAL)
+   DARK MODE FIX - GLOBAL PAGES
 ============================= */
 
-body.dark {
-  background-color: #0e0e0e !important;
+body.dark,
+body.dark html {
+  background-color: #0f0f10 !important;
   color: #eaeaea !important;
 }
 
-/* Secciones principales */
+/* Fondo global de páginas y wrappers */
+body.dark .page-wrapper,
+body.dark .universal-wrapper,
+body.dark .article-container,
+body.dark main,
+body.dark section,
+body.dark .docs-article-container,
+body.dark .docs-content,
+body.dark .container-xl,
+body.dark .container-fluid,
+body.dark .container {
+  background-color: #0f0f10 !important;
+}
+
+/* Home sections */
 body.dark .home-section,
 body.dark .wg-markdown,
 body.dark .wg-hero,
 body.dark .wg-collection {
-  background-color: #0e0e0e !important;
+  background-color: #0f0f10 !important;
 }
 
-/* Texto */
-body.dark p,
-body.dark li,
-body.dark span {
+/* Research / pages tipo article */
+body.dark .article-style,
+body.dark .article-style p,
+body.dark .article-style li,
+body.dark .article-style span,
+body.dark .article-style div {
+  color: #eaeaea !important;
+}
+
+/* Publications list / cards / stream items */
+body.dark .media.stream-item,
+body.dark .stream-item,
+body.dark .card,
+body.dark .card-simple,
+body.dark .pub-list-item,
+body.dark .view-list-item,
+body.dark .article-metadata,
+body.dark .section-subheading,
+body.dark .summary-link,
+body.dark .metadata {
+  background-color: #0f0f10 !important;
   color: #eaeaea !important;
 }
 
@@ -748,20 +780,47 @@ body.dark span {
 body.dark h1,
 body.dark h2,
 body.dark h3,
-body.dark h4 {
+body.dark h4,
+body.dark h5,
+body.dark h6,
+body.dark .article-title,
+body.dark .section-heading,
+body.dark .section-subheading {
   color: #ffffff !important;
+}
+
+/* Texto general */
+body.dark p,
+body.dark li,
+body.dark span,
+body.dark div {
+  color: #eaeaea;
 }
 
 /* Enlaces */
 body.dark a {
-  color: #6ca0ff;
+  color: #8ab4ff !important;
 }
 
 body.dark a:hover {
-  color: #9ec1ff;
+  color: #b7d0ff !important;
 }
 
 /* Navbar */
 body.dark .navbar {
-  background-color: #0e0e0e !important;
+  background-color: #0f0f10 !important;
+}
+
+/* Dropdowns / menús */
+body.dark .dropdown-menu,
+body.dark .nav-link,
+body.dark .navbar-nav .nav-link {
+  background-color: transparent !important;
+}
+
+/* Bordes suaves para cards */
+body.dark .card,
+body.dark .card-simple,
+body.dark .media.stream-item {
+  border-color: rgba(255,255,255,0.08) !important;
 }

@@ -199,8 +199,7 @@ section,
 // =============================
 
 .universal-wrapper h1,
-.article-container h1,
-.container h1 {
+.article-container h1 {
   text-align: center;
   margin-bottom: 2.5rem;
 }
@@ -537,6 +536,42 @@ section,
 .home-section .media.stream-item .stream-item,
 .home-section .media.stream-item {
   overflow: hidden;
+}
+
+// =============================
+// LATEST NEWS - LEFT ALIGN FIX
+// =============================
+
+.home-section .media.stream-item,
+.home-section .media.stream-item .media-body,
+.home-section .media.stream-item .article-style,
+.home-section .media.stream-item .stream-meta,
+.home-section .media.stream-item .summary-link,
+.home-section .media.stream-item .section-subheading,
+.home-section .media.stream-item p,
+.home-section .media.stream-item h3,
+.home-section .media.stream-item h2 {
+  text-align: left !important;
+}
+
+.article-container .article-style,
+.article-container .article-style p,
+.article-container .article-style div,
+.article-container .article-style li,
+.article-container .article-style ul,
+.article-container .article-style ol {
+  text-align: left !important;
+}
+
+.article-container h1 {
+  text-align: center;
+}
+
+.article-container .media.author-card,
+.article-container .media.author-card .media-body,
+.article-container .media.author-card p,
+.article-container .media.author-card div {
+  text-align: left !important;
 }
 
 // =============================

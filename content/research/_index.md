@@ -4,8 +4,6 @@ date: 2024-01-01
 type: page
 ---
 
-## Research
-
 At NeuroPlaNe Lab, we are interested in how the brain is built and refined over time — from early development to later stages of maturation. A central question that motivates our work is why many findings obtained in rodent models do not fully translate to the human brain. Differences in size, structure, and developmental timing are likely to play a major role, and understanding these differences is essential if we want to move towards more realistic models of brain function and disease.
 
 To address this, we combine the study of human brain development with comparative approaches and high-resolution structural analysis. Our goal is to understand how neural progenitors generate cellular diversity, how neurons migrate and mature, and how some populations remain immature for extended periods before integrating into functional circuits.
@@ -53,16 +51,10 @@ Our approach combines molecular characterization, ultrastructural analysis, and 
 
 ## Funding
 
-<p>
 This research is supported by the Generalitat Valenciana through the Prometeo Program (CIPROM2023-053).
-</p>
 
-<p>
-<a href="https://www.uv.es/neurocomp/ciprom2023-53" target="_blank">
-  Learn more about the project
-</a>
-</p>
+[Learn more about the project](https://www.uv.es/neurocomp/ciprom2023-53)
 
-<div style="text-align:center; margin-top:20px;">
-  <img src="/media/GVA.png" alt="Generalitat Valenciana" style="max-width:180px;">
+<div style="text-align:center; margin-top:30px;">
+  <img src="/media/GVA.png" alt="Generalitat Valenciana" style="max-width:450px;">
 </div>

@@ -9,17 +9,20 @@ sections:
     content:
       title: |
         Neurogenesis & Neural Plasticity Lab
-      text: ""
+      text: |
+        Understanding how the brain is built, maintained, and reshaped across the lifespan.
 
   - block: markdown
     content:
       title: ""
       text: |
-        The NeuroPlaNe Lab is located in the Department of Cell Biology, Functional Biology and Physical Anthropology at the Universitat de València. We study how the brain builds and reshapes itself from early development through postnatal and adult life, with a particular focus on neurogenesis, prolonged neuronal maturation, and neural plasticity.
+        The NeuroPlaNe Lab is based in the [Department of Cell Biology, Functional Biology and Physical Anthropology](https://www.uv.es/departamento-biologia-celular-funcional-antropologia-fisic/es/departamento-biologia-celular-biologia-funcional-antropologia-fisica.html) at the [Universitat de València](https://www.uv.es). Our research focuses on how the brain is built, maintained, and remodeled from embryonic development through postnatal and adult life.
 
-        We study how neural stem and progenitor cells generate neurons across developmental stages, how specific neuronal populations remain in an immature state for extended periods, and how these processes contribute to the progressive refinement and remodeling of brain circuits. Our work integrates developmental and postnatal neuroscience with comparative approaches across species in order to identify fundamental principles governing brain maturation and structural plasticity.
+        We investigate the cellular and developmental mechanisms underlying neurogenesis, prolonged neuronal maturation, and structural plasticity. In particular, we study how neural stem and progenitor cells generate neurons across developmental stages, how specific neuronal populations retain immature features over extended periods, and how these processes contribute to the progressive refinement of neural circuits.
 
-        By bridging basic and translational perspectives, we aim to understand how the timing and regulation of neuronal development influence brain function across the lifespan, and how alterations in these processes may contribute to neurodevelopmental disorders. Through this framework, the lab seeks to advance a deeper cellular understanding of brain plasticity in health and disease.
+        Our work combines developmental and postnatal neuroscience with comparative approaches across species to uncover fundamental principles governing brain maturation. By integrating cellular, structural, and functional perspectives, we aim to better understand how the timing and regulation of neuronal development shape brain function across the lifespan.
+
+        Ultimately, our research seeks to elucidate how alterations in these processes contribute to neurodevelopmental and neurological disorders, bridging basic and translational neuroscience to advance our understanding of brain plasticity in health and disease.
 
     design:
       columns: "1"

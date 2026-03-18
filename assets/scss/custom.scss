@@ -704,3 +704,18 @@ html.dark .navbar-brand::after,
     height: 180px;
   }
 }
+
+/* =============================
+   HERO CENTERED TEXT
+============================= */
+
+.home-section.wg-hero .container {
+  text-align: center;
+}
+
+.home-section.wg-hero .hero-title,
+.home-section.wg-hero .hero-lead {
+  text-align: center !important;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -15,7 +15,7 @@ params:
 bio: >-
   Associate Professor at the Universitat de València and Principal Investigator of the NeuroPlaNe Lab.
   He studies neural stem cells, immature neurons with protracted maturation, comparative neurobiology,
-  and the cellular basis of human brain development and neurological disease.
+  and the cellular basis of human brain development and neurological diseases.
 
 user_groups:
   - "Lab Members"

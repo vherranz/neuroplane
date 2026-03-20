@@ -757,3 +757,193 @@ footer.site-footer {
 .page-body p:last-of-type {
   margin-bottom: 10px;
 }
+
+/* =========================================
+   FORCE LIGHT MODE / DISABLE DARK OVERRIDES
+   ========================================= */
+
+html,
+body {
+  color-scheme: light !important;
+}
+
+/* Si el tema o el navegador marca modo oscuro, mantener igualmente estilo claro */
+html.dark,
+body.dark,
+[data-theme="dark"],
+.dark,
+html[data-theme="dark"],
+body[data-theme="dark"] {
+  color-scheme: light !important;
+  background: #ffffff !important;
+  color: #222222 !important;
+}
+
+/* Fondos principales */
+html.dark body,
+body.dark,
+[data-theme="dark"] body,
+.dark body,
+html[data-theme="dark"] body,
+body[data-theme="dark"] {
+  background: #ffffff !important;
+  color: #222222 !important;
+}
+
+html.dark .page-wrapper,
+html.dark .page-body,
+html.dark .home-section,
+html.dark .section,
+html.dark main,
+html.dark section,
+html.dark .universal-wrapper,
+html.dark .article-container,
+html.dark .container,
+html.dark .container-fluid,
+body.dark .page-wrapper,
+body.dark .page-body,
+body.dark .home-section,
+body.dark .section,
+body.dark main,
+body.dark section,
+body.dark .universal-wrapper,
+body.dark .article-container,
+body.dark .container,
+body.dark .container-fluid,
+[data-theme="dark"] .page-wrapper,
+[data-theme="dark"] .page-body,
+[data-theme="dark"] .home-section,
+[data-theme="dark"] .section,
+[data-theme="dark"] main,
+[data-theme="dark"] section,
+[data-theme="dark"] .universal-wrapper,
+[data-theme="dark"] .article-container,
+[data-theme="dark"] .container,
+[data-theme="dark"] .container-fluid {
+  background: #ffffff !important;
+  color: #222222 !important;
+}
+
+/* Texto general */
+html.dark p,
+html.dark li,
+html.dark ul,
+html.dark ol,
+html.dark div,
+html.dark span,
+html.dark small,
+html.dark strong,
+html.dark em,
+html.dark .article-style,
+html.dark .markdown,
+html.dark .hero-lead,
+html.dark .section-subheading,
+body.dark p,
+body.dark li,
+body.dark ul,
+body.dark ol,
+body.dark div,
+body.dark span,
+body.dark small,
+body.dark strong,
+body.dark em,
+body.dark .article-style,
+body.dark .markdown,
+body.dark .hero-lead,
+body.dark .section-subheading,
+[data-theme="dark"] p,
+[data-theme="dark"] li,
+[data-theme="dark"] ul,
+[data-theme="dark"] ol,
+[data-theme="dark"] div,
+[data-theme="dark"] span,
+[data-theme="dark"] small,
+[data-theme="dark"] strong,
+[data-theme="dark"] em,
+[data-theme="dark"] .article-style,
+[data-theme="dark"] .markdown,
+[data-theme="dark"] .hero-lead,
+[data-theme="dark"] .section-subheading {
+  color: #222222 !important;
+}
+
+/* Títulos */
+html.dark h1,
+html.dark h2,
+html.dark h3,
+html.dark h4,
+html.dark h5,
+html.dark h6,
+body.dark h1,
+body.dark h2,
+body.dark h3,
+body.dark h4,
+body.dark h5,
+body.dark h6,
+[data-theme="dark"] h1,
+[data-theme="dark"] h2,
+[data-theme="dark"] h3,
+[data-theme="dark"] h4,
+[data-theme="dark"] h5,
+[data-theme="dark"] h6 {
+  color: #111111 !important;
+}
+
+/* Navbar y menús */
+html.dark .navbar,
+html.dark .dropdown-menu,
+html.dark .navbar-collapse,
+body.dark .navbar,
+body.dark .dropdown-menu,
+body.dark .navbar-collapse,
+[data-theme="dark"] .navbar,
+[data-theme="dark"] .dropdown-menu,
+[data-theme="dark"] .navbar-collapse {
+  background: #ffffff !important;
+  color: #222222 !important;
+}
+
+html.dark .navbar .nav-link,
+html.dark .navbar-brand,
+html.dark .dropdown-menu .dropdown-item,
+body.dark .navbar .nav-link,
+body.dark .navbar-brand,
+body.dark .dropdown-menu .dropdown-item,
+[data-theme="dark"] .navbar .nav-link,
+[data-theme="dark"] .navbar-brand,
+[data-theme="dark"] .dropdown-menu .dropdown-item {
+  color: #444444 !important;
+}
+
+html.dark .navbar .nav-link.active,
+body.dark .navbar .nav-link.active,
+[data-theme="dark"] .navbar .nav-link.active {
+  color: #111111 !important;
+}
+
+/* Cards, publicaciones, bloques */
+html.dark .card,
+html.dark .card-simple,
+html.dark .stream-item,
+html.dark .media.stream-item,
+html.dark .pub-list-item,
+body.dark .card,
+body.dark .card-simple,
+body.dark .stream-item,
+body.dark .media.stream-item,
+body.dark .pub-list-item,
+[data-theme="dark"] .card,
+[data-theme="dark"] .card-simple,
+[data-theme="dark"] .stream-item,
+[data-theme="dark"] .media.stream-item,
+[data-theme="dark"] .pub-list-item {
+  background: #ffffff !important;
+  color: #222222 !important;
+}
+
+/* Enlaces */
+html.dark a,
+body.dark a,
+[data-theme="dark"] a {
+  color: inherit;
+}

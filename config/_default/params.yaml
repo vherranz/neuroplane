@@ -6,7 +6,6 @@
 
 appearance:
   theme_day: ocean
-  theme_night: default
   font: raleway
   font_size: L
 

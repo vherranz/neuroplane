@@ -782,24 +782,21 @@ html.dark .article-style,
   color: #222222 !important;
 }
 
-/* =========================================
-   PEOPLE PAGE - ROLE REFINEMENT
-   ========================================= */
-/* PEOPLE PAGE: make role two lines and much larger */
-.people-person .portrait-title h3,
-.people-person .person-role,
-.people-widget .portrait-title h3 {
-  font-size: 2.2rem !important;
-  line-height: 1.15 !important;
+/* =============================
+   PEOPLE PAGE - ROLE FIX FINAL
+   ============================= */
+
+.people-widget .portrait-title h3,
+.people-person .portrait-title h3 {
+  font-size: 1.15rem !important;
+  line-height: 1.35 !important;
   font-weight: 400 !important;
   color: #666 !important;
   margin-top: 0.35rem !important;
   margin-bottom: 0 !important;
 }
 
-/* Keep the name slightly stronger */
-.people-person .portrait-title h2,
-.people-person .person-name,
-.people-widget .portrait-title h2 {
-  margin-bottom: 0.2rem !important;
+.people-widget .portrait-title h2,
+.people-person .portrait-title h2 {
+  margin-bottom: 0.25rem !important;
 }

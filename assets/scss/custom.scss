@@ -782,22 +782,24 @@ html.dark .article-style,
   color: #222222 !important;
 }
 
-/* =============================
-   PEOPLE - NAME & ROLE STYLE
-   ============================= */
-
-/* Nombre */
-.people-person .person-name {
-  font-size: 2rem;
-  font-weight: 500;
+/* =========================================
+   PEOPLE PAGE - ROLE REFINEMENT
+   ========================================= */
+/* PEOPLE PAGE: make role two lines and much larger */
+.people-person .portrait-title h3,
+.people-person .person-role,
+.people-widget .portrait-title h3 {
+  font-size: 2.2rem !important;
+  line-height: 1.15 !important;
+  font-weight: 400 !important;
+  color: #666 !important;
+  margin-top: 0.35rem !important;
+  margin-bottom: 0 !important;
 }
 
-/* Role (dos líneas) */
-.people-person .person-role {
-  font-size: 2rem;              /* mismo tamaño que el nombre */
-  font-weight: 400;
-  line-height: 1.2;
-  white-space: pre-line;        /* respeta el \n */
-  margin-top: 0.3rem;
-  color: #444;
+/* Keep the name slightly stronger */
+.people-person .portrait-title h2,
+.people-person .person-name,
+.people-widget .portrait-title h2 {
+  margin-bottom: 0.2rem !important;
 }

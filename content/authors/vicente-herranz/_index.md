@@ -1,5 +1,5 @@
 ---
-title: "Vicente Herranz Pérez, PhD"
+title: "Vicente Herranz Pérez"
 
 role: "Associate Professor · Principal Investigator"
 superuser: true

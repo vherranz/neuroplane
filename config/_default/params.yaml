@@ -33,6 +33,14 @@ marketing:
     google: ''
     baidu: ''
 
+# Social links
+
+social:
+  - icon: link
+    icon_pack: fas
+    link: https://bsky.app/profile/neuroplanelab.bsky.social
+    label: Bluesky
+
 # Site header
 
 header:

@@ -51,16 +51,16 @@ Our approach combines molecular characterization, ultrastructural analysis, and 
 
 ## Funding
 
-This research is supported by the Generalitat Valenciana through the Prometeo Program (CIPROM2023-053), and by the Universitat de València.
+This research is supported by the Generalitat Valenciana through the Prometeo Program (CIPROM2023-053) and by the Universitat de València.
 
 [Learn more about the project](https://www.uv.es/neurocomp/ciprom2023-53)
 
 <div class="funding-logos">
-  <a href="https://www.uv.es" target="_blank" rel="noopener">
-    <img class="funding-logo funding-logo-uv" src="/media/Logo UV.png" alt="Universitat de València">
-  </a>
-
   <a href="https://www.gva.es" target="_blank" rel="noopener">
     <img class="funding-logo funding-logo-gva" src="/media/GVA.png" alt="Generalitat Valenciana">
+  </a>
+  
+  <a href="https://www.uv.es" target="_blank" rel="noopener">
+    <img class="funding-logo funding-logo-uv" src="/media/Logo UV.png" alt="Universitat de València">
   </a>
 </div>

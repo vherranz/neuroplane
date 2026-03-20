@@ -720,7 +720,7 @@ footer.site-footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 26px;
+  gap: 10px;
   flex-wrap: wrap;
 }
 
@@ -732,24 +732,24 @@ footer.site-footer {
 }
 
 .funding-logo-uv {
-  max-height: 110px;
+  max-height: 200px;
 }
 
 .funding-logo-gva {
-  max-height: 150px;
+  max-height: 280px;
 }
 
 @media (max-width: 768px) {
   .funding-logos {
     flex-direction: column;
-    gap: 18px;
+    gap: 10px;
   }
 
   .funding-logo-uv {
-    max-height: 88px;
+    max-height: 100px;
   }
 
   .funding-logo-gva {
-    max-height: 120px;
+    max-height: 150px;
   }
 }

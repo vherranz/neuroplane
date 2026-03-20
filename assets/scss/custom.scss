@@ -710,3 +710,28 @@ footer.site-footer {
 .home-section.wg-hero + section.home-section p {
   margin-bottom: 1.25rem !important;
 }
+
+.funding-logos {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px; // <-- más juntos
+}
+
+.funding-logos img {
+  max-height: 100px;
+  width: auto;
+}
+
+// 📱 MOBILE
+@media (max-width: 768px) {
+  .funding-logos {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .funding-logos img {
+    max-height: 80px;
+  }
+}

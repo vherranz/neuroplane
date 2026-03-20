@@ -800,3 +800,11 @@ html.dark .article-style,
 .people-person .portrait-title h2 {
   margin-bottom: 0.25rem !important;
 }
+
+/* SHOW AUTHOR BIO */
+.author-page .article-style,
+body[class*="authors"] .article-style {
+  display: block !important;
+  max-width: 700px;
+  margin-top: 1.5rem;
+}

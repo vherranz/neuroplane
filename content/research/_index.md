@@ -56,6 +56,6 @@ This research is supported by the Generalitat Valenciana through the Prometeo Pr
 [Learn more about the project](https://www.uv.es/neurocomp/ciprom2023-53)
 
 <div class="funding-logos">
-  <img src="/media/Logo UV.png" alt="Universitat de València">
-  <img src="/media/GVA.png" alt="Generalitat Valenciana">
+  <img class="funding-logo funding-logo-uv" src="/media/Logo UV.png" alt="Universitat de València">
+  <img class="funding-logo funding-logo-gva" src="/media/GVA.png" alt="Generalitat Valenciana">
 </div>

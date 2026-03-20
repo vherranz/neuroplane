@@ -800,3 +800,56 @@ html.dark .article-style,
 .people-person .portrait-title h2 {
   margin-bottom: 0.25rem !important;
 }
+
+/* =============================
+   AUTHOR PAGE - PROFILE HEADER
+   ============================= */
+
+/* Hide the big centered author title on the individual author page */
+body[class*="authors"] h1.article-title {
+  display: none !important;
+}
+
+/* Hide the auto-generated Latest section on the individual author page */
+body[class*="authors"] .article-widget,
+body[class*="authors"] .content-widget-hr {
+  display: none !important;
+}
+
+/* Make the author profile header visible and aligned to the left */
+body[class*="authors"] .universal-wrapper {
+  max-width: 1200px !important;
+}
+
+body[class*="authors"] .portrait-title {
+  text-align: left !important;
+}
+
+body[class*="authors"] .portrait-title h2 {
+  font-size: 2.2rem !important;
+  font-weight: 500 !important;
+  margin-bottom: 0.35rem !important;
+}
+
+body[class*="authors"] .portrait-title h3 {
+  font-size: 0.95rem !important;
+  line-height: 1.35 !important;
+  font-weight: 400 !important;
+  color: #666 !important;
+  margin-top: 0.2rem !important;
+  margin-bottom: 0 !important;
+}
+
+body[class*="authors"] .portrait-title .people-interests,
+body[class*="authors"] .portrait-title .network-icon {
+  text-align: left !important;
+}
+
+body[class*="authors"] .network-icon {
+  justify-content: flex-start !important;
+  margin-top: 0.8rem !important;
+}
+
+body[class*="authors"] .portrait-title a {
+  text-decoration: none;
+}

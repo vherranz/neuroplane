@@ -1,5 +1,5 @@
 ---
-title: "Vicente Herranz Pérez"
+title: "Vicente Herranz Pérez, PhD"
 
 role: "Associate Professor<br>Principal Investigator"
 superuser: true
@@ -14,8 +14,8 @@ params:
 
 bio: >-
   Associate Professor at the Universitat de València and Principal Investigator of the NeuroPlaNe Lab.
-  Research focuses on neural stem cells, immature neuronal populations with protracted maturation,
-  comparative neurobiology, and neurodevelopmental disorders.
+  He studies neural stem cells, immature neurons with protracted maturation, comparative neurobiology,
+  and the cellular basis of human brain development and neurological disease.
 
 user_groups:
   - "Lab Members"

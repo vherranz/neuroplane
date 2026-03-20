@@ -29,17 +29,4 @@ social:
   - icon: google-scholar
     icon_pack: ai
     link: "https://scholar.google.com/citations?user=p7j6btsAAAAJ&hl=es"
-
-  - icon: researcherid
-    icon_pack: ai
-    link: "http://www.researcherid.com/rid/A-4605-2012"
-
-  - icon: scopus
-    icon_pack: ai
-    link: "http://www.scopus.com/inward/authorDetails.url?authorID=12781120900&partnerID=MN8TOARS"
-
-  - icon: link
-    icon_pack: fas
-    link: "https://bsky.app/profile/neuroplanelab.bsky.social"
-    label: "Bluesky"
 ---

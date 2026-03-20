@@ -783,17 +783,21 @@ html.dark .article-style,
 }
 
 /* =============================
-   PEOPLE PAGE - ROLE IMPROVEMENT
+   PEOPLE - NAME & ROLE STYLE
    ============================= */
 
-.people-person .person-role {
-  font-size: 1rem;        /* antes era muy pequeño */
-  font-weight: 400;
-  color: #555;
-  margin-top: 0.3rem;
+/* Nombre */
+.people-person .person-name {
+  font-size: 2rem;
+  font-weight: 500;
 }
 
-/* Mejor alineación con el nombre */
-.people-person .person-name {
-  margin-bottom: 0.2rem;
+/* Role (dos líneas) */
+.people-person .person-role {
+  font-size: 2rem;              /* mismo tamaño que el nombre */
+  font-weight: 400;
+  line-height: 1.2;
+  white-space: pre-line;        /* respeta el \n */
+  margin-top: 0.3rem;
+  color: #444;
 }

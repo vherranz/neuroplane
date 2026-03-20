@@ -8,7 +8,6 @@ organizations:
   - name: "Universitat de València"
     url: "https://www.uv.es"
 
-# Needed because People page sorts by Params.last_name
 params:
   first_name: "Vicente"
   last_name: "Herranz Pérez"

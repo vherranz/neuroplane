@@ -1,7 +1,7 @@
 ---
 title: "Vicente Herranz Pérez"
 
-role: "Principal Investigator"
+role: "Associate Professor"
 superuser: true
 
 organizations:
@@ -14,25 +14,32 @@ params:
   last_name: "Herranz Pérez"
 
 bio: >-
-  Principal Investigator of the NeuroPlaNe Lab (Neurogénesis y Plasticidad Neural).
+  Associate Professor at the Universitat de València and Principal Investigator of the NeuroPlaNe Lab.
   Research focuses on neural stem cells, immature neuronal populations with protracted maturation,
   comparative neurobiology, and neurodevelopmental disorders.
 
-interests:
-  - "Neural stem cells"
-  - "Immature neurons"
-  - "Comparative neurobiology"
-  - "Human brain development"
-  - "Neurodevelopmental disorders"
-
 user_groups:
-  - "Principal Investigators"
+  - "Lab Members"
 
 social:
-  - icon: envelope
+  - icon: orcid
+    icon_pack: ai
+    link: "https://orcid.org/0000-0002-1969-1214"
+
+  - icon: google-scholar
+    icon_pack: ai
+    link: "https://scholar.google.com/citations?user=p7j6btsAAAAJ&hl=es"
+
+  - icon: researcherid
+    icon_pack: ai
+    link: "http://www.researcherid.com/rid/A-4605-2012"
+
+  - icon: scopus
+    icon_pack: ai
+    link: "http://www.scopus.com/inward/authorDetails.url?authorID=12781120900&partnerID=MN8TOARS"
+
+  - icon: link
     icon_pack: fas
-    link: "mailto:vicente.herranz@uv.es"
-  - icon: github
-    icon_pack: fab
-    link: "https://github.com/vherranz"
+    link: "https://bsky.app/profile/neuroplanelab.bsky.social"
+    label: "Bluesky"
 ---

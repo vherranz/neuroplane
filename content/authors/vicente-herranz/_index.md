@@ -1,7 +1,7 @@
 ---
 title: "Vicente Herranz Pérez"
 
-role: "Associate Professor"
+role: "Associate Professor · Principal Investigator"
 superuser: true
 
 organizations:

@@ -781,3 +781,19 @@ html.dark .article-style,
 [data-theme="dark"] .article-style {
   color: #222222 !important;
 }
+
+/* =============================
+   PEOPLE PAGE - ROLE IMPROVEMENT
+   ============================= */
+
+.people-person .person-role {
+  font-size: 1rem;        /* antes era muy pequeño */
+  font-weight: 400;
+  color: #555;
+  margin-top: 0.3rem;
+}
+
+/* Mejor alineación con el nombre */
+.people-person .person-name {
+  margin-bottom: 0.2rem;
+}

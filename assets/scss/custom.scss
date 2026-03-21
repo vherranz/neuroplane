@@ -805,3 +805,36 @@ html.dark .article-style,
     font-size: 2.2rem !important;
   }
 }
+
+/* =========================================
+   HOME - tighten gap before Latest news
+   ========================================= */
+
+.home-section.wg-markdown {
+  padding-bottom: 0.5rem !important;
+  margin-bottom: 0 !important;
+}
+
+.home-section.wg-markdown .markdown > *:last-child,
+.home-section.wg-markdown .article-style > *:last-child,
+.home-section.wg-markdown p:last-child {
+  margin-bottom: 0 !important;
+}
+
+.home-section.wg-pages {
+  padding-top: 0.5rem !important;
+  margin-top: 0 !important;
+}
+
+.home-section.wg-pages .section-heading,
+.home-section.wg-pages .home-section-title {
+  margin-top: 0 !important;
+  margin-bottom: 0.9rem !important;
+}
+
+/* Si el tema mete un wrapper interno con espacio extra */
+.home-section.wg-pages .universal-wrapper,
+.home-section.wg-pages .container {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}

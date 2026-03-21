@@ -17,8 +17,12 @@ params:
 
 bio: >-
   Associate Professor at the Universitat de València and Principal Investigator of the NeuroPlaNe Lab.
-  He studies neural stem cells, immature neurons with protracted maturation, comparative neurobiology,
-  and the cellular basis of human brain development and neurological diseases.
+  He obtained his PhD in Molecular Genetics at the Spanish Research Council (CSIC), where he studied genes
+  involved in epilepsy and their expression in the brain. His research later shifted towards neurogenesis
+  and the organization of the ventricular-subventricular zone, examining how genetic and pathological factors
+  influence brain development. His current work focuses on immature neurons and protracted neuronal maturation
+  in the mouse and human brain. He has extensive experience in advanced imaging techniques, including confocal
+  and electron microscopy.
 
 user_groups:
   - "Lab Members"
@@ -34,5 +38,3 @@ social:
 ---
 
 Vicente Herranz Pérez is Associate Professor at the Universitat de València and Principal Investigator of the NeuroPlaNe Lab.
-
-His research focuses on neural stem cells, immature neurons with prolonged maturation, comparative neurobiology, and the developmental and cellular basis of human brain organization in health and disease.

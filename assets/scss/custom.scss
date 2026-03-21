@@ -1,48 +1,59 @@
+// =====================================
+// NEUROPLANE LAB - CUSTOM SCSS (POLISHED)
+// =====================================
+
 // =============================
-// TYPOGRAPHY REFINEMENT (Raleway)
+// 1) BASE TYPOGRAPHY / GLOBAL
 // =============================
+
+html,
+body {
+  background: #ffffff !important;
+  color: #222 !important;
+}
 
 body {
   font-weight: 300;
   line-height: 1.7;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #ffffff;
-  color: #222;
 }
 
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5,
+h6 {
   font-weight: 500;
   letter-spacing: -0.01em;
+  color: #222;
 }
 
-p {
+p,
+li {
   font-weight: 300;
+  color: #222;
 }
 
-// =============================
-// GLOBAL LIGHT BACKGROUND FIX
-// =============================
-
-html,
-body,
+// Fondo claro consistente sin invadir demasiado
 .page-wrapper,
 .page-body,
 .home-section,
 .section,
 main,
-section,
-.universal-wrapper,
-.article-container,
-.container,
-.container-fluid {
+section {
   background: #ffffff !important;
 }
 
+// Imágenes seguras
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 // =============================
-// NAVBAR - LIGHT MODE
+// 2) NAVBAR
 // =============================
 
 .navbar {
@@ -55,20 +66,15 @@ section,
   padding-bottom: 0.35rem !important;
 }
 
-// =============================
-// LAB NAME IN NAVBAR
-// =============================
-
+// Marca
 .navbar-brand {
-  font-weight: 400 !important;
-  letter-spacing: 0.26em !important;
-  text-transform: uppercase !important;
   font-size: 0 !important;
   color: #222 !important;
 }
 
 .navbar-brand::after {
   content: "NEUROPLANE LAB";
+  display: inline-block;
   font-size: 0.95rem !important;
   font-weight: 400 !important;
   letter-spacing: 0.26em !important;
@@ -77,10 +83,7 @@ section,
   line-height: 1;
 }
 
-// =============================
-// NAV LINKS
-// =============================
-
+// Links
 .navbar .nav-link,
 .navbar-nav .nav-link {
   color: #666 !important;
@@ -94,34 +97,19 @@ section,
 .navbar .nav-link:hover,
 .navbar .nav-link:focus {
   color: #111 !important;
-  opacity: 0.85;
+  opacity: 0.9;
 }
 
-.navbar .dropdown-item {
-  text-transform: uppercase !important;
-  letter-spacing: 0.05em !important;
-  font-weight: 400 !important;
-  font-size: 0.82rem !important;
+.navbar .nav-link i {
+  font-size: 0.9em;
+  margin-right: 0.35rem;
+  opacity: 0.7;
 }
 
-// =============================
-// ACTIVE MENU ITEM
-// =============================
-
+// Estado activo
 .navbar .nav-link.active,
 .navbar .navbar-nav .nav-link.active,
-.navbar .nav-item .nav-link.active,
-.navbar-nav .nav-link.active,
-.navbar-nav .nav-item .nav-link.active,
-.navbar .nav-link.active:hover,
-.navbar .nav-link.active:focus,
-.navbar .navbar-nav .nav-link.active:hover,
-.navbar .navbar-nav .nav-link.active:focus,
-.navbar-nav .nav-link.active:hover,
-.navbar-nav .nav-link.active:focus,
-.navbar a[aria-current="page"],
 .navbar .nav-link[aria-current="page"],
-.navbar-nav a[aria-current="page"],
 .navbar-nav .nav-link[aria-current="page"] {
   color: #111 !important;
   font-weight: 600 !important;
@@ -129,21 +117,14 @@ section,
 }
 
 .navbar .nav-link.active i,
-.navbar .navbar-nav .nav-link.active i,
-.navbar .nav-item .nav-link.active i,
-.navbar-nav .nav-link.active i,
-.navbar a[aria-current="page"] i,
 .navbar .nav-link[aria-current="page"] i,
-.navbar-nav a[aria-current="page"] i,
+.navbar-nav .nav-link.active i,
 .navbar-nav .nav-link[aria-current="page"] i {
   color: #111 !important;
   opacity: 1 !important;
 }
 
-// =============================
-// NAVBAR TOGGLER
-// =============================
-
+// Toggler
 .navbar .navbar-toggler,
 .navbar-light .navbar-toggler {
   border-color: rgba(0, 0, 0, 0.15) !important;
@@ -157,7 +138,6 @@ section,
   width: 1.25rem;
   height: 1.25rem;
   position: relative;
-  filter: none !important;
 }
 
 .navbar .navbar-toggler-icon::before,
@@ -173,20 +153,7 @@ section,
   left: 0;
 }
 
-// =============================
-// NAVBAR ICONS
-// =============================
-
-.navbar .nav-link i {
-  font-size: 0.9em;
-  margin-right: 0.35rem;
-  opacity: 0.7;
-}
-
-// =============================
-// HIDE THEME TOGGLE
-// =============================
-
+// Ocultar selector de tema
 .theme-dropdown,
 .js-theme-selector,
 [data-theme-toggle],
@@ -195,26 +162,7 @@ section,
 }
 
 // =============================
-// PAGE HEADER
-// =============================
-
-.universal-wrapper h1,
-.article-container h1 {
-  text-align: center;
-  margin-bottom: 2.5rem;
-}
-
-// =============================
-// HERO COMPACT ADJUSTMENT
-// =============================
-
-.hero {
-  padding-top: 3rem !important;
-  padding-bottom: 1.5rem !important;
-}
-
-// =============================
-// GLOBAL PAGE WIDTH
+// 3) LAYOUT / WIDTHS
 // =============================
 
 .universal-wrapper,
@@ -231,23 +179,70 @@ section,
   margin-right: auto !important;
 }
 
-// =============================
-// HERO CENTERED TEXT
-// =============================
-
-.home-section.wg-hero .container {
-  text-align: center;
+@media (min-width: 1600px) {
+  .universal-wrapper,
+  .article-container,
+  .container,
+  .container-fluid,
+  .page-wrapper .universal-wrapper,
+  .page-wrapper .article-container,
+  .page-wrapper .container,
+  .page-wrapper .container-fluid {
+    max-width: 1800px !important;
+    width: 94% !important;
+  }
 }
 
+// =============================
+// 4) PAGE TITLES / HERO
+// =============================
+
+.universal-wrapper h1,
+.article-container h1 {
+  text-align: center;
+  margin-bottom: 2.2rem;
+}
+
+.hero,
+.home-section.wg-hero {
+  padding-top: 3rem !important;
+}
+
+.home-section.wg-hero {
+  padding-bottom: 0.75rem !important;
+}
+
+.home-section.wg-hero .container,
 .home-section.wg-hero .hero-title,
 .home-section.wg-hero .hero-lead {
   text-align: center !important;
-  margin-left: auto;
-  margin-right: auto;
+}
+
+.home-section.wg-hero .hero-title {
+  margin-bottom: 2rem !important;
+}
+
+.home-section.wg-hero .hero-lead {
+  margin-bottom: 1.25rem !important;
+}
+
+// Compactar transición Hero -> siguiente bloque
+.home-section.wg-hero + .home-section,
+.home-section.wg-hero + section.home-section {
+  padding-top: 0.5rem !important;
+  margin-top: 0 !important;
+}
+
+.home-section.wg-hero + .home-section .universal-wrapper,
+.home-section.wg-hero + section.home-section .universal-wrapper,
+.home-section.wg-hero + .home-section .container,
+.home-section.wg-hero + section.home-section .container {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
 }
 
 // =============================
-// MARKDOWN READABILITY
+// 5) MARKDOWN / ARTICLE READABILITY
 // =============================
 
 .wg-markdown .markdown,
@@ -257,47 +252,62 @@ section,
   margin-right: auto;
 }
 
-// =============================
-// ARTICLE / RESEARCH SPACING
-// =============================
+.article-style p {
+  margin-bottom: 1.05rem;
+}
 
 .article-style h3 {
-  margin-top: 2.3rem;
+  margin-top: 2.1rem;
   margin-bottom: 0.55rem;
   color: #1f4e8c;
 }
 
 .article-style h3 + p em {
   display: block;
-  font-size: 1.05rem;
+  font-size: 1.03rem;
   color: #5f6b7a;
-  margin-bottom: 0.95rem;
-}
-
-.article-style p {
-  margin-bottom: 1.05rem;
+  margin-bottom: 0.9rem;
 }
 
 .article-style hr {
-  margin: 2.2rem 0 2rem 0;
+  margin: 2rem 0;
   border-top: 1px solid rgba(0, 0, 0, 0.12);
 }
 
-// =============================
-// FUNDING LOGO
-// =============================
+// Alineación izquierda del cuerpo en posts/páginas de artículo
+.article-container .article-style,
+.article-container .article-style *:not(img):not(svg):not(video):not(iframe) {
+  text-align: left !important;
+}
 
-.article-style img[alt="Generalitat Valenciana"] {
-  display: block !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-  max-width: 540px !important;
+// Mantener centrado solo el título principal
+.article-container h1.article-title,
+.article-container header h1,
+.article-container .article-title {
+  text-align: center !important;
+}
+
+// Featured image segura
+.article-container .article-featured-image img {
+  max-height: 420px;
+  object-fit: cover;
   width: 100%;
-  height: auto;
+}
+
+.article-container {
+  overflow: hidden;
+}
+
+// Autor al final del post
+.article-container .media.author-card,
+.article-container .media.author-card *,
+.article-container .article-author-bottom,
+.article-container .article-author-bottom * {
+  text-align: left !important;
 }
 
 // =============================
-// PUBLICATION LIST SPACING + VISUAL REFINEMENT
+// 6) PUBLICATIONS
 // =============================
 
 .pub-list-item,
@@ -307,15 +317,12 @@ section,
   font-size: 0.97rem;
 }
 
-// AUTHORS
-
+// Autores / metadata
 .pub-list-item .article-metadata,
 .pub-list-item .pub-authors,
 .pub-list-item .authors,
-.pub-list-item .article-style,
 .media.stream-item .article-metadata,
-.media.stream-item .authors,
-.media.stream-item .article-style {
+.media.stream-item .authors {
   font-size: 0.90rem !important;
   line-height: 1.42 !important;
   font-weight: 300 !important;
@@ -323,18 +330,15 @@ section,
   margin-bottom: 0.10rem !important;
 }
 
-// TITLE
-
+// Título
 .pub-list-item .title,
 .pub-list-item .article-title,
 .pub-list-item h3,
 .pub-list-item h2,
-.pub-list-item h1,
 .media.stream-item .article-title,
 .media.stream-item h3.article-title,
 .media.stream-item h3,
-.media.stream-item h2,
-.media.stream-item h1 {
+.media.stream-item h2 {
   font-size: 0.99rem !important;
   line-height: 1.24 !important;
   font-weight: 500 !important;
@@ -343,14 +347,12 @@ section,
   letter-spacing: -0.003em !important;
 }
 
-// TITLE LINKS
-
+// Enlaces de título
 .pub-list-item .title a,
 .pub-list-item .article-title a,
 .media.stream-item .article-title a,
 .media.stream-item h3 a,
-.media.stream-item h2 a,
-.media.stream-item h1 a {
+.media.stream-item h2 a {
   color: #1b3f8b !important;
   text-decoration: none !important;
   transition: color 0.15s ease;
@@ -361,14 +363,12 @@ section,
 .pub-list-item .article-title a:hover,
 .media.stream-item .article-title a:hover,
 .media.stream-item h3 a:hover,
-.media.stream-item h2 a:hover,
-.media.stream-item h1 a:hover {
-  text-decoration: underline !important;
+.media.stream-item h2 a:hover {
   color: #142e66 !important;
+  text-decoration: underline !important;
 }
 
-// JOURNAL / PUBLICATION LINE
-
+// Revista / publicación
 .pub-list-item .publication,
 .pub-list-item .pub-publication,
 .media.stream-item .publication,
@@ -381,8 +381,7 @@ section,
   font-style: italic !important;
 }
 
-// DOI / BUTTON LINKS
-
+// Botones
 .pub-list-item .btn-links,
 .media.stream-item .btn-links {
   display: flex !important;
@@ -399,159 +398,17 @@ section,
 }
 
 // =============================
-// DROPDOWN MENUS - LIGHT MODE
-// =============================
-
-.dropdown-menu,
-.theme-dropdown .dropdown-menu,
-#navbar-main .dropdown-menu,
-.nav-item.dropdown .dropdown-menu {
-  background: #ffffff !important;
-  border: 1px solid rgba(0, 0, 0, 0.08) !important;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08) !important;
-  border-radius: 0.5rem !important;
-  overflow: hidden !important;
-}
-
-.dropdown-menu .dropdown-item,
-.dropdown-menu a,
-.dropdown-menu button,
-.theme-dropdown .dropdown-item,
-.theme-dropdown .dropdown-menu a,
-.theme-dropdown .dropdown-menu button,
-.nav-item.dropdown .dropdown-menu a,
-.nav-item.dropdown .dropdown-menu button {
-  background: #ffffff !important;
-  color: #444 !important;
-}
-
-.theme-dropdown .dropdown-item.active,
-.theme-dropdown .dropdown-item:active,
-.theme-dropdown .dropdown-item[aria-current="true"],
-.theme-dropdown .dropdown-menu a.active,
-.theme-dropdown .dropdown-menu a:active,
-.theme-dropdown .dropdown-menu button.active,
-.theme-dropdown .dropdown-menu button:active,
-.nav-item.dropdown .dropdown-menu a.active,
-.nav-item.dropdown .dropdown-menu a:active,
-.nav-item.dropdown .dropdown-menu button.active,
-.nav-item.dropdown .dropdown-menu button:active {
-  background: #ffffff !important;
-  color: #111 !important;
-}
-
-.dropdown-menu .dropdown-item:hover,
-.dropdown-menu .dropdown-item:focus,
-.dropdown-menu a:hover,
-.dropdown-menu a:focus,
-.dropdown-menu button:hover,
-.dropdown-menu button:focus,
-.theme-dropdown .dropdown-item:hover,
-.theme-dropdown .dropdown-item:focus,
-.theme-dropdown .dropdown-menu a:hover,
-.theme-dropdown .dropdown-menu a:focus,
-.theme-dropdown .dropdown-menu button:hover,
-.theme-dropdown .dropdown-menu button:focus,
-.nav-item.dropdown .dropdown-menu a:hover,
-.nav-item.dropdown .dropdown-menu a:focus,
-.nav-item.dropdown .dropdown-menu button:hover,
-.nav-item.dropdown .dropdown-menu button:focus {
-  background: rgba(0, 0, 0, 0.04) !important;
-  color: #111 !important;
-}
-
-// =============================
-// MOBILE MENU - LIGHT MODE
-// =============================
-
-@media (max-width: 991px) {
-  .navbar-collapse {
-    background: #ffffff !important;
-    border-top: 1px solid rgba(0, 0, 0, 0.06);
-    padding-top: 0.8rem;
-  }
-
-  .navbar-nav .nav-link {
-    color: #444 !important;
-  }
-}
-
-// =============================
-// LARGE SCREEN OPTIMIZATION
-// =============================
-
-@media (min-width: 1600px) {
-  .universal-wrapper,
-  .article-container,
-  .container,
-  .container-fluid,
-  .page-wrapper .universal-wrapper,
-  .page-wrapper .article-container,
-  .page-wrapper .container,
-  .page-wrapper .container-fluid {
-    max-width: 1800px !important;
-    width: 94% !important;
-  }
-}
-
-// =============================
-// MOBILE SAFETY
-// =============================
-
-@media (max-width: 768px) {
-  .pub-list-item,
-  .media.stream-item {
-    margin-bottom: 0.85rem !important;
-  }
-
-  .wg-markdown .markdown,
-  .article-style {
-    max-width: 100% !important;
-  }
-
-  .article-style h3 {
-    margin-top: 1.9rem;
-  }
-
-  .article-style img[alt="Generalitat Valenciana"] {
-    max-width: 100% !important;
-  }
-}
-
-// =============================
-// FIX BLOG IMAGE SIZE
-// =============================
-
-.article-container img {
-  max-width: 100%;
-  height: auto;
-}
-
-.article-container .article-featured-image img {
-  max-height: 420px;
-  object-fit: cover;
-  width: 100%;
-}
-
-.article-container {
-  overflow: hidden;
-}
-
-// =============================
-// LATEST NEWS - EDITORIAL WIDTH
+// 7) HOME - NEWS / STREAM
 // =============================
 
 .home-section .media.stream-item {
   max-width: 820px;
   margin-left: auto !important;
   margin-right: auto !important;
-  margin-bottom: 2.5rem !important;
+  margin-bottom: 2.2rem !important;
 }
 
-// =============================
-// NEWS IMAGE CROP
-// =============================
-
+// Imágenes noticias
 .home-section .media.stream-item .article-banner img,
 .home-section .media.stream-item .media-object img,
 .home-section .media.stream-item img {
@@ -561,33 +418,13 @@ section,
   display: block;
 }
 
+.home-section .media.stream-item,
 .home-section .media.stream-item .card-simple,
-.home-section .media.stream-item .stream-item,
-.home-section .media.stream-item {
+.home-section .media.stream-item .stream-item {
   overflow: hidden;
 }
 
-// =============================
-// MOBILE TWEAK FOR NEWS
-// =============================
-
-@media (max-width: 768px) {
-  .home-section .media.stream-item {
-    max-width: 100%;
-    margin-bottom: 1.75rem !important;
-  }
-
-  .home-section .media.stream-item .article-banner img,
-  .home-section .media.stream-item .media-object img,
-  .home-section .media.stream-item img {
-    height: 180px;
-  }
-}
-
-// =========================================
-// FORCE LEFT ALIGN - LATEST NEWS (HOME)
-// =========================================
-
+// Forzar alineación izquierda en tarjetas/news
 .home-section .view-card .card-simple,
 .home-section .view-card .card-simple .card-text,
 .home-section .view-card .card-simple .article-metadata,
@@ -603,14 +440,12 @@ section,
 .home-section .media.stream-item .article-style,
 .home-section .media.stream-item .stream-meta,
 .home-section .media.stream-item .summary-link,
-.home-section .media.stream-item .section-subheading,
 .home-section .media.stream-item p,
 .home-section .media.stream-item h3,
 .home-section .media.stream-item h2 {
   text-align: left !important;
 }
 
-/* Evita centrado editorial del resumen */
 .home-section .view-card .card-simple .article-style,
 .home-section .media.stream-item .article-style {
   margin-left: 0 !important;
@@ -618,104 +453,20 @@ section,
   max-width: none !important;
 }
 
-// =========================================
-// FORCE LEFT ALIGN - SINGLE NEWS POST
-// =========================================
+// =============================
+// 8) RESEARCH / FUNDING LOGOS
+// =============================
 
-.article-container .article-style,
-.article-container .article-style *:not(img):not(svg):not(video):not(iframe),
-.article-container .universal-wrapper,
-.article-container .universal-wrapper *:not(img):not(svg):not(video):not(iframe) {
-  text-align: left !important;
-}
-
-/* Mantén centrado solo el título principal del post */
-.article-container h1.article-title,
-.article-container header h1,
-.article-container .article-title {
-  text-align: center !important;
-}
-
-/* Cuerpo del post con ancho legible */
-.article-container .article-style {
-  max-width: 1200px !important;
+.article-style img[alt="Generalitat Valenciana"] {
+  display: block !important;
   margin-left: auto !important;
   margin-right: auto !important;
+  max-width: 540px !important;
+  width: 100%;
+  height: auto;
 }
 
-/* Bio del autor al final */
-.article-container .media.author-card,
-.article-container .media.author-card *,
-.article-container .article-author-bottom,
-.article-container .article-author-bottom * {
-  text-align: left !important;
-}
-
-/* =============================
-   REDUCIR ESPACIO ANTES DEL FOOTER
-   ============================= */
-
-.page-body .section:last-of-type {
-  padding-bottom: 30px !important;
-  margin-bottom: 0 !important;
-}
-
-footer.site-footer {
-  margin-top: 0 !important;
-  padding-top: 20px !important;
-}
-
-/* =============================
-   HOME: AJUSTE FINO HERO -> ABOUT
-   ============================= */
-
-.home-section.wg-hero {
-  padding-top: 3rem !important;
-  padding-bottom: 0.75rem !important;
-}
-
-.home-section.wg-hero .hero-title {
-  margin-bottom: 2rem !important;
-}
-
-.home-section.wg-hero .hero-lead {
-  margin-bottom: 1.25rem !important;
-}
-
-.home-section.wg-hero + .home-section,
-.home-section.wg-hero + section.home-section {
-  padding-top: 0.5rem !important;
-  margin-top: 0 !important;
-}
-
-.home-section.wg-hero + .home-section .universal-wrapper,
-.home-section.wg-hero + section.home-section .universal-wrapper,
-.home-section.wg-hero + .home-section .container,
-.home-section.wg-hero + section.home-section .container {
-  padding-top: 0 !important;
-  margin-top: 0 !important;
-}
-
-.home-section.wg-hero + .home-section p:first-of-type,
-.home-section.wg-hero + section.home-section p:first-of-type,
-.home-section.wg-hero + .home-section .article-style > *:first-child,
-.home-section.wg-hero + section.home-section .article-style > *:first-child,
-.home-section.wg-hero + .home-section .markdown > *:first-child,
-.home-section.wg-hero + section.home-section .markdown > *:first-child {
-  margin-top: 0 !important;
-  padding-top: 0 !important;
-}
-
-.home-section.wg-hero + .home-section p,
-.home-section.wg-hero + section.home-section p {
-  margin-bottom: 1.25rem !important;
-}
-
-/* =============================
-   RESEARCH: LOGOS
-   ============================= */
-
-   .funding-logos {
+.funding-logos {
   margin-top: 10px;
   display: flex;
   justify-content: center;
@@ -739,28 +490,201 @@ footer.site-footer {
   max-height: 220px;
 }
 
-@media (max-width: 768px) {
-  .funding-logos {
-    flex-direction: column;
-    gap: 5px;
-  }
+// =============================
+// 9) DROPDOWNS / MOBILE MENU
+// =============================
 
-  .funding-logo-uv {
-    max-height: 100px;
-  }
+.dropdown-menu,
+#navbar-main .dropdown-menu,
+.nav-item.dropdown .dropdown-menu {
+  background: #ffffff !important;
+  border: 1px solid rgba(0, 0, 0, 0.08) !important;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08) !important;
+  border-radius: 0.5rem !important;
+  overflow: hidden !important;
+}
 
-  .funding-logo-gva {
-    max-height: 150px;
-  }
+.dropdown-menu .dropdown-item,
+.dropdown-menu a,
+.dropdown-menu button,
+.nav-item.dropdown .dropdown-menu a,
+.nav-item.dropdown .dropdown-menu button {
+  background: #ffffff !important;
+  color: #444 !important;
+}
+
+.dropdown-menu .dropdown-item:hover,
+.dropdown-menu .dropdown-item:focus,
+.dropdown-menu a:hover,
+.dropdown-menu a:focus,
+.dropdown-menu button:hover,
+.dropdown-menu button:focus,
+.nav-item.dropdown .dropdown-menu a:hover,
+.nav-item.dropdown .dropdown-menu a:focus,
+.nav-item.dropdown .dropdown-menu button:hover,
+.nav-item.dropdown .dropdown-menu button:focus {
+  background: rgba(0, 0, 0, 0.04) !important;
+  color: #111 !important;
+}
+
+// =============================
+// 10) PEOPLE PAGE
+// =============================
+
+// Listado general de personas
+.people-widget .portrait-title,
+.people-person .portrait-title {
+  text-align: center;
+}
+
+.people-widget .portrait-title h2,
+.people-person .portrait-title h2 {
+  margin-bottom: 0.25rem !important;
+  font-size: 1.05rem !important;
+  line-height: 1.25 !important;
+  font-weight: 500 !important;
+}
+
+.people-widget .portrait-title h3,
+.people-person .portrait-title h3 {
+  font-size: 0.95rem !important;
+  line-height: 1.35 !important;
+  font-weight: 400 !important;
+  color: #666 !important;
+  margin-top: 0.35rem !important;
+  margin-bottom: 0 !important;
+}
+
+// Bio corta en People, si existe
+.people-widget .portrait-title p,
+.people-person .portrait-title p {
+  color: #666 !important;
+}
+
+// =============================
+// 11) SINGLE AUTHOR / PROFILE PAGE
+// =============================
+
+// MUY IMPORTANTE:
+// aquí evitamos ocultar widgets completos, porque eso puede "romper"
+// la ficha. Solo refinamos si el bloque de perfil está presente.
+
+// Título principal de la página del autor: menos enorme y con menos aire
+body[class*="author"] h1.article-title,
+body[class*="authors"] h1.article-title {
+  font-size: 3rem !important;
+  line-height: 1.08 !important;
+  font-weight: 500 !important;
+  margin-bottom: 1.5rem !important;
+}
+
+// El contenido del autor no debe verse excesivamente ancho
+body[class*="author"] .article-container,
+body[class*="authors"] .article-container,
+body[class*="author"] .universal-wrapper,
+body[class*="authors"] .universal-wrapper {
+  max-width: 1200px !important;
+}
+
+// Si el tema renderiza un bloque de perfil, lo alineamos a la izquierda
+body[class*="author"] .portrait-title,
+body[class*="authors"] .portrait-title,
+body[class*="author"] .author-card .media-body,
+body[class*="authors"] .author-card .media-body {
+  text-align: left !important;
+}
+
+body[class*="author"] .portrait-title h2,
+body[class*="authors"] .portrait-title h2 {
+  font-size: 2rem !important;
+  font-weight: 500 !important;
+  margin-bottom: 0.35rem !important;
+  color: #222 !important;
+}
+
+body[class*="author"] .portrait-title h3,
+body[class*="authors"] .portrait-title h3 {
+  font-size: 1rem !important;
+  line-height: 1.4 !important;
+  font-weight: 400 !important;
+  color: #666 !important;
+  margin-top: 0.15rem !important;
+  margin-bottom: 0 !important;
+}
+
+// Bio / texto principal del autor
+body[class*="author"] .article-style,
+body[class*="authors"] .article-style {
+  max-width: 1050px !important;
+}
+
+body[class*="author"] .article-style p,
+body[class*="authors"] .article-style p {
+  color: #333 !important;
+}
+
+// Iconos sociales / académicos si existen en el markup
+body[class*="author"] .network-icon,
+body[class*="authors"] .network-icon,
+body[class*="author"] .author-card .network-icon,
+body[class*="authors"] .author-card .network-icon {
+  justify-content: flex-start !important;
+  text-align: left !important;
+  margin-top: 0.8rem !important;
+  gap: 0.3rem;
+}
+
+body[class*="author"] .network-icon a,
+body[class*="authors"] .network-icon a {
+  color: #666 !important;
+  transition: color 0.15s ease;
+}
+
+body[class*="author"] .network-icon a:hover,
+body[class*="authors"] .network-icon a:hover {
+  color: #1b3f8b !important;
+}
+
+// Latest en ficha individual: más sobrio
+body[class*="author"] .article-widget,
+body[class*="authors"] .article-widget {
+  margin-top: 2rem !important;
+}
+
+body[class*="author"] .article-widget h3,
+body[class*="authors"] .article-widget h3 {
+  color: #222 !important;
+  margin-top: 0 !important;
+}
+
+// Separador antes de Latest más limpio
+body[class*="author"] .content-widget-hr,
+body[class*="authors"] .content-widget-hr {
+  margin: 2rem 0 1.5rem 0 !important;
+  border-top: 1px solid rgba(0, 0, 0, 0.08) !important;
+}
+
+// =============================
+// 12) FOOTER / END SPACING
+// =============================
+
+.page-body .section:last-of-type {
+  padding-bottom: 30px !important;
+  margin-bottom: 0 !important;
+}
+
+footer.site-footer {
+  margin-top: 0 !important;
+  padding-top: 20px !important;
 }
 
 .page-body p:last-of-type {
   margin-bottom: 10px;
 }
 
-/* =========================================
-   MINIMAL SAFETY: prevent dark text issues
-   ========================================= */
+// =============================
+// 13) FORCE LIGHT SAFETY
+// =============================
 
 html.dark,
 body.dark,
@@ -782,74 +706,63 @@ html.dark .article-style,
   color: #222222 !important;
 }
 
-/* =============================
-   PEOPLE PAGE - ROLE FIX FINAL
-   ============================= */
+// =============================
+// 14) MOBILE
+// =============================
 
-.people-widget .portrait-title h3,
-.people-person .portrait-title h3 {
-  font-size: 0.95rem !important;
-  line-height: 1.35 !important;
-  font-weight: 400 !important;
-  color: #666 !important;
-  margin-top: 0.35rem !important;
-  margin-bottom: 0 !important;
+@media (max-width: 991px) {
+  .navbar-collapse {
+    background: #ffffff !important;
+    border-top: 1px solid rgba(0, 0, 0, 0.06);
+    padding-top: 0.8rem;
+  }
+
+  .navbar-nav .nav-link {
+    color: #444 !important;
+  }
 }
 
-.people-widget .portrait-title h2,
-.people-person .portrait-title h2 {
-  margin-bottom: 0.25rem !important;
-}
+@media (max-width: 768px) {
+  .wg-markdown .markdown,
+  .article-style {
+    max-width: 100% !important;
+  }
 
-/* =============================
-   AUTHOR PAGE - PROFILE HEADER
-   ============================= */
+  .article-style h3 {
+    margin-top: 1.8rem;
+  }
 
-/* Hide the big centered author title on the individual author page */
-body[class*="authors"] h1.article-title {
-  display: none !important;
-}
+  .pub-list-item,
+  .media.stream-item {
+    margin-bottom: 0.85rem !important;
+  }
 
-/* Hide the auto-generated Latest section on the individual author page */
-body[class*="authors"] .article-widget,
-body[class*="authors"] .content-widget-hr {
-  display: none !important;
-}
+  .home-section .media.stream-item {
+    max-width: 100%;
+    margin-bottom: 1.75rem !important;
+  }
 
-/* Make the author profile header visible and aligned to the left */
-body[class*="authors"] .universal-wrapper {
-  max-width: 1200px !important;
-}
+  .home-section .media.stream-item .article-banner img,
+  .home-section .media.stream-item .media-object img,
+  .home-section .media.stream-item img {
+    height: 180px;
+  }
 
-body[class*="authors"] .portrait-title {
-  text-align: left !important;
-}
+  .funding-logos {
+    flex-direction: column;
+    gap: 5px;
+  }
 
-body[class*="authors"] .portrait-title h2 {
-  font-size: 2.2rem !important;
-  font-weight: 500 !important;
-  margin-bottom: 0.35rem !important;
-}
+  .funding-logo-uv {
+    max-height: 100px;
+  }
 
-body[class*="authors"] .portrait-title h3 {
-  font-size: 0.95rem !important;
-  line-height: 1.35 !important;
-  font-weight: 400 !important;
-  color: #666 !important;
-  margin-top: 0.2rem !important;
-  margin-bottom: 0 !important;
-}
+  .funding-logo-gva {
+    max-height: 150px;
+  }
 
-body[class*="authors"] .portrait-title .people-interests,
-body[class*="authors"] .portrait-title .network-icon {
-  text-align: left !important;
-}
-
-body[class*="authors"] .network-icon {
-  justify-content: flex-start !important;
-  margin-top: 0.8rem !important;
-}
-
-body[class*="authors"] .portrait-title a {
-  text-decoration: none;
+  body[class*="author"] h1.article-title,
+  body[class*="authors"] h1.article-title {
+    font-size: 2.2rem !important;
+  }
 }

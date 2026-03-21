@@ -2,7 +2,7 @@
 title: 'Editorial: Mesenchymal stromal cell therapy for regenerative medicine'
 authors:
 - Vivian Capilla-González
-- Vicente Herranz-Pérez
+- vicente-herranz-perez
 - Rachel Sarabia-Estrada
 - Nadir Kadri
 - Guido Moll

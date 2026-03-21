@@ -5,7 +5,7 @@ authors:
 - María José Ulloa-Navas
 - Patricia García-Tárraga
 - José Manuel García-Verdugo
-- Vicente Herranz-Pérez
+- vicente-herranz-perez
 date: '2019-12-01'
 publishDate: '2026-03-07T21:56:46.296579Z'
 publication_types:

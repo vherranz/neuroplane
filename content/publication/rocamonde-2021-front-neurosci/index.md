@@ -2,7 +2,7 @@
 title: ID4 is required for normal ependymal cell development
 authors:
 - Brenda Rocamonde
-- Vicente Herranz-Pérez
+- vicente-herranz-perez
 - Jose Manuel Garcia-Verdugo
 - Emmanuelle Huillard
 date: '2021-04-01'

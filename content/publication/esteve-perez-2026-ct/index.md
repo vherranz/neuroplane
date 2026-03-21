@@ -5,7 +5,7 @@ authors:
 - Rafael Esteve-Pérez
 - Paloma Sevilla-Ferrer
 - Enrique Lanuza
-- Vicente Herranz-Pérez
+- vicente-herranz-perez
 - Jose V Torres-Pérez
 - Carmen Agustín-Pavón
 date: '2026-01-01'

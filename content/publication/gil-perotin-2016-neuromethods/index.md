@@ -3,7 +3,7 @@ title: Localization of GFP-tagged proteins at the electron microscope
 authors:
 - Sara Gil-Perotin
 - A Cebrián-Silla
-- V Herranz-Pérez
+- vicente-herranz-perez
 - P García-Belda
 - S Gil-García
 - M Fil

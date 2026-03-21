@@ -3,7 +3,7 @@ title: LRRK2 is expressed in areas affected by Parkinson's disease in the adult 
   brain
 authors:
 - Javier Simón-Sánchez
-- Vicente Herranz-Pérez
+- vicente-herranz-perez
 - Francisco Olucha-Bordonau
 - Jordi Pérez-Tur
 date: '2006-02-01'

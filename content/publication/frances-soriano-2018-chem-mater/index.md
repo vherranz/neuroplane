@@ -6,7 +6,7 @@ authors:
 - Marina A Zakharko
 - María González-Béjar
 - Pavel A Panchenko
-- Vicente Herranz-Pérez
+- vicente-herranz-perez
 - Dmitriy A Pritmov
 - Mikhail A Grin
 - Andrey F Mironov

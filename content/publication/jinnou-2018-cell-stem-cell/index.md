@@ -6,7 +6,7 @@ authors:
 - Masato Sawada
 - Koya Kawase
 - Naoko Kaneko
-- Vicente Herranz-Pérez
+- vicente-herranz-perez
 - Takuya Miyamoto
 - Takumi Kawaue
 - Takaki Miyata

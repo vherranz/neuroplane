@@ -5,7 +5,7 @@ authors:
 - Dhivya Kumar
 - Suzanna L Prosser
 - Patricia L Yeyati
-- Vicente Herranz-Pérez
+- vicente-herranz-perez
 - Jose Manuel García-Verdugo
 - Lorraine Rose
 - Lisa McKie

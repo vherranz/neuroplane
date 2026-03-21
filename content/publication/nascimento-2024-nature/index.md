@@ -3,7 +3,7 @@ title: Protracted neuronal recruitment in the temporal lobes of young children
 authors:
 - Marcos Assis Nascimento
 - Sean Biagiotti
-- Vicente Herranz-Pérez
+- vicente-herranz-perez
 - Samara Santiago
 - Raymund Bueno
 - Chun J Ye

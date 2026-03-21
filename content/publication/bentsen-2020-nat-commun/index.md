@@ -8,7 +8,7 @@ authors:
 - Kenjiro Muta
 - Jarrad M Scarlett
 - Jenny M Brown
-- Vicente Herranz-Pérez
+- vicente-herranz-perez
 - Arian F Baquero
 - Jonatan Thompson
 - Kimberly M Alonge

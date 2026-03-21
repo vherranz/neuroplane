@@ -3,7 +3,7 @@ title: 'The aged brain: genesis and fate of residual progenitor cells in the sub
   zone'
 authors:
 - Vivian Capilla-Gonzalez
-- Vicente Herranz-Pérez
+- vicente-herranz-perez
 - Jose Manuel García-Verdugo
 date: '2015-09-01'
 publishDate: '2026-03-07T21:56:46.453366Z'

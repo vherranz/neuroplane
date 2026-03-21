@@ -8,7 +8,7 @@ authors:
 - Ana Saurí-Tamarit
 - Patricia García-Tárraga
 - Antonio J Gutiérrez-Martín
-- Vicente Herranz-Pérez
+- vicente-herranz-perez
 - Josée M García-Verdugo
 date: '2021-06-01'
 publishDate: '2026-03-07T21:56:46.249610Z'

@@ -14,7 +14,7 @@ authors:
 - Chay T Kuo
 - Stefano Vicini
 - Jose M García-Verdugo
-- Vicente Herranz-Pérez
+- vicente-herranz-perez
 - Joshua G Corbin
 - Shawn F Sorrells
 date: '2024-02-01'

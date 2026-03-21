@@ -5,7 +5,7 @@ authors:
 - Estefanía Torres-Vega
 - Nuria Mancheño
 - Arantxa Cebrián-Silla
-- Vicente Herranz-Pérez
+- vicente-herranz-perez
 - María J Chumillas
 - Germán Moris
 - Bastien Joubert

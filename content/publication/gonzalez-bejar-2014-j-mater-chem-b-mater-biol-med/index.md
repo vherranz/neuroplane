@@ -6,7 +6,7 @@ authors:
 - Marta Liras
 - Laura Francés-Soriano
 - Valerio Voliani
-- Vicente Herranz-Pérez
+- vicente-herranz-perez
 - Maria Duran-Moreno
 - Jose M Garcia-Verdugo
 - Emilio I Alarcon

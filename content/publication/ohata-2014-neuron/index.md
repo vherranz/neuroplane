@@ -4,7 +4,7 @@ title: Loss of Dishevelleds disrupts planar polarity in ependymal motile cilia a
 authors:
 - Shinya Ohata
 - Jin Nakatani
-- Vicente Herranz-Pérez
+- vicente-herranz-perez
 - Jrgang Cheng
 - Haim Belinson
 - Toshiro Inubushi

@@ -3,7 +3,7 @@ title: Orthogonal functionalisation of upconverting NaYF4 nanocrystals
 authors:
 - Valerio Voliani
 - María González-Béjar
-- Vicente Herranz-Pérez
+- vicente-herranz-perez
 - Maria Duran-Moreno
 - Giovanni Signore
 - Jose M Garcia-Verdugo

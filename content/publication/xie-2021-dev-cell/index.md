@@ -4,7 +4,7 @@ title: Endoderm development requires centrioles to restrain p53-mediated apoptos
 authors:
 - Chang Xie
 - Shaun R Abrams
-- Vicente Herranz-Pérez
+- vicente-herranz-perez
 - Jose Manuel García-Verdugo
 - Jeremy F Reiter
 date: '2021-12-01'

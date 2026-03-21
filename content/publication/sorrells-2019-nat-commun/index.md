@@ -4,7 +4,7 @@ authors:
 - Shawn F Sorrells
 - Mercedes F Paredes
 - Dmitry Velmeshev
-- Vicente Herranz-Pérez
+- vicente-herranz-perez
 - Kadellyn Sandoval
 - Simone Mayer
 - Edward F Chang

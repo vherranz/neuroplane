@@ -6,7 +6,7 @@ authors:
 - Masato Sawada
 - Hiroshi Takase
 - Chiemi Nakai
-- Vicente Herranz-Pérez
+- vicente-herranz-perez
 - Arantxa Cebrián-Silla
 - Naoko Kaneko
 - José Manuel García-Verdugo

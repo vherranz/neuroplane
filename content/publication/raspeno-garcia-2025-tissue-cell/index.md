@@ -4,7 +4,7 @@ title: 'Anatomy, histology and ultrastructure of the adult human olfactory pedun
 authors:
 - J F Raspeño-García
 - S González-Granero
-- V Herranz-Pérez
+- vicente-herranz-perez
 - A Cózar-Cuesta
 - E Artacho-Pérula
 - R Insausti

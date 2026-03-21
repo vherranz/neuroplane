@@ -10,7 +10,7 @@ authors:
 - Aika Tahara
 - Masato Sawada
 - Yoshiaki Kubota
-- Vicente Herranz-Pérez
+- vicente-herranz-perez
 - José Manuel García-Verdugo
 - Nobuyuki Ishibashi
 - Vittorio Gallo

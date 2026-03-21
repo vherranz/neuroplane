@@ -4,7 +4,7 @@ authors:
 - Susana González-Granero
 - Enrique Font
 - Ester Desfilis
-- Vicente Herranz-Pérez
+- vicente-herranz-perez
 - José Manuel García-Verdugo
 date: '2023-02-01'
 publishDate: '2026-03-07T21:56:46.176785Z'

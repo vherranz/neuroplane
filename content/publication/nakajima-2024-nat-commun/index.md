@@ -22,7 +22,7 @@ authors:
 - Masaru Nakada
 - Yuji Otsuka
 - Yasuyuki Ito
-- Vicente Herranz-Pérez
+- vicente-herranz-perez
 - José Manuel García-Verdugo
 - Nobuhiko Ohno
 - Hans-Dieter Arndt

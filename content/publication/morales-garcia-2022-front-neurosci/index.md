@@ -4,7 +4,7 @@ title: 'Editorial: New insights into adult neurogenesis and neurodegeneration: C
 authors:
 - Jose A Morales-García
 - Naoko Kaneko
-- Vicente Herranz-Pérez
+- vicente-herranz-perez
 date: '2022-03-01'
 publishDate: '2026-03-07T21:56:46.223354Z'
 publication_types:

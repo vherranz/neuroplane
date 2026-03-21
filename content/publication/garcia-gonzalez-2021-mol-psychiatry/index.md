@@ -6,7 +6,7 @@ authors:
 - Ionut Dumitru
 - Annalisa Zuccotti
 - Ting-Yun Yen
-- Vicente Herranz-Pérez
+- vicente-herranz-perez
 - Linette Liqi Tan
 - Angela Neitz
 - José Manuel García-Verdugo

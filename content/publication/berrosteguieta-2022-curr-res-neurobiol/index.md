@@ -7,7 +7,7 @@ authors:
 - María Laura Herrera
 - Silvia Olivera-Bravo
 - Gabriela Casanova
-- Vicente Herranz-Pérez
+- vicente-herranz-perez
 - José Manuel García-Verdugo
 - Anabel Sonia Fernández
 date: '2022-06-01'

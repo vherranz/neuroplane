@@ -5,7 +5,7 @@ authors:
 - Peter Kirwan
 - Richard G Kay
 - Bas Brouwers
-- Vicente Herranz-Pérez
+- vicente-herranz-perez
 - Magdalena Jura
 - Pierre Larraufie
 - Julie Jerber

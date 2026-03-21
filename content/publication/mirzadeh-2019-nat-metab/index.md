@@ -5,7 +5,7 @@ authors:
 - Zaman Mirzadeh
 - Kimberly M Alonge
 - Elaine Cabrales
-- Vicente Herranz-Pérez
+- vicente-herranz-perez
 - Jarrad M Scarlett
 - Jenny M Brown
 - Rim Hassouna

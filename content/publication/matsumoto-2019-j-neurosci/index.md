@@ -5,7 +5,7 @@ authors:
 - Mami Matsumoto
 - Masato Sawada
 - Diego García-González
-- Vicente Herranz-Pérez
+- vicente-herranz-perez
 - Takashi Ogino
 - Huy Bang Nguyen
 - Truc Quynh Thai

@@ -3,7 +3,7 @@ title: A ciliopathy complex builds distal appendages to initiate ciliogenesis
 authors:
 - Dhivya Kumar
 - Addison Rains
-- Vicente Herranz-Pérez
+- vicente-herranz-perez
 - Quanlong Lu
 - Xiaoyu Shi
 - Danielle L Swaney

@@ -3,7 +3,7 @@ title: Clearing amyloid-β through PPARγ/ApoE activation by genistein is a trea
   of experimental Alzheimer's disease
 authors:
 - Vicent Bonet-Costa
-- Vicente Herranz-Pérez
+- vicente-herranz-perez
 - Maricarmen Blanco-Gandía
 - Cristina Mas-Bargues
 - Marta Inglés

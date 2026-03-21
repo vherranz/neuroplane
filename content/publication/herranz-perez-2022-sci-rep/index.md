@@ -2,7 +2,7 @@
 title: Ependymoma associated protein Zfta is expressed in immature ependymal cells
   but is not essential for ependymal development in mice
 authors:
-- Vicente Herranz-Pérez
+- vicente-herranz-perez
 - Jin Nakatani
 - Masaki Ishii
 - Toshiaki Katada

@@ -5,7 +5,7 @@ authors:
 - Alba Ortega-Gascó
 - Antoni Parcerisas
 - Keiko Hino
-- Vicente Herranz-Pérez
+- vicente-herranz-perez
 - Fausto Ulloa
 - Alba Elias-Tersa
 - Miquel Bosch

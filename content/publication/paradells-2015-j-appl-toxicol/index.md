@@ -5,7 +5,7 @@ authors:
 - Sara Paradells
 - Brenda Rocamonde
 - Cristina Llinares
-- Vicente Herranz-Pérez
+- vicente-herranz-perez
 - Misericordia Jimenez
 - Jose Manuel Garcia-Verdugo
 - Ivan Zipancic

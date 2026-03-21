@@ -17,7 +17,7 @@ authors:
 - Mikel Muñoz-Oreja
 - Ana Aiastui
 - José Manuel García-Verdugo
-- Vicente Herranz-Pérez
+- vicente-herranz-perez
 - Miren Zulaica
 - Juan José Poza
 - Rebeca Ruiz-Onandi

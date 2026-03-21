@@ -5,7 +5,7 @@ authors:
 - Christel Thauvin-Robinet
 - Jaclyn S Lee
 - Estelle Lopez
-- Vicente Herranz-Pérez
+- vicente-herranz-perez
 - Toshinobu Shida
 - Brunella Franco
 - Laurence Jego

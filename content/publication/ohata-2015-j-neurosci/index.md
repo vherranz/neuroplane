@@ -3,7 +3,7 @@ title: Mechanosensory genes Pkd1 and Pkd2 contribute to the planar polarization 
   brain ventricular epithelium
 authors:
 - Shinya Ohata
-- Vicente Herranz-Pérez
+- vicente-herranz-perez
 - Jin Nakatani
 - Alessandra Boletta
 - José Manuel García-Verdugo

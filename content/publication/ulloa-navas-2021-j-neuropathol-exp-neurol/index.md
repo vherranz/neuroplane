@@ -7,7 +7,7 @@ authors:
 - Anna Teruel-Sanchis
 - Jorge Peña-Peña
 - José Manuel García-Verdugo
-- Vicente Herranz-Pérez
+- vicente-herranz-perez
 - Jaime Ferrer-Lozano
 date: '2021-03-01'
 publishDate: '2026-03-07T21:56:46.269242Z'

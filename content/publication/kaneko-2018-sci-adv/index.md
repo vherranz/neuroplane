@@ -3,7 +3,7 @@ title: New neurons use Slit-Robo signaling to migrate through the glial meshwork
   approach a lesion for functional regeneration
 authors:
 - N Kaneko
-- V Herranz-Pérez
+- vicente-herranz-perez
 - T Otsuka
 - H Sano
 - N Ohno

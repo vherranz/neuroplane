@@ -5,7 +5,7 @@ authors:
 - Maria Salomé Sirerol-Piquer
 - Ana Ayerdi-Izquierdo
 - José Manuel Morante-Redolat
-- Vicente Herranz-Pérez
+- vicente-herranz-perez
 - Kristy Favell
 - Philip A Barker
 - Jordi Pérez-Tur

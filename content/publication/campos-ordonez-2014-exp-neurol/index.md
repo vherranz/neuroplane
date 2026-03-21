@@ -3,7 +3,7 @@ title: Long-term hydrocephalus alters the cytoarchitecture of the adult subventr
   zone
 authors:
 - Tania Campos-Ordoñez
-- Vicente Herranz-Pérez
+- vicente-herranz-perez
 - Kaisorn L Chaichana
 - Jordina Rincon-Torroella
 - Daniele Rigamonti

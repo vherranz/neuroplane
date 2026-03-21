@@ -4,7 +4,7 @@ title: Unique organization of the nuclear envelope in the post-natal quiescent n
 authors:
 - Arantxa Cebrián-Silla
 - Clara Alfaro-Cervelló
-- Vicente Herranz-Pérez
+- vicente-herranz-perez
 - Naoko Kaneko
 - Dae Hwi Park
 - Kazunobu Sawamoto

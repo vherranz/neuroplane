@@ -10,7 +10,7 @@ authors:
 - Haruko Ota
 - Huy Bang Nguyen
 - Truc Quynh Thai
-- Vicente Herranz-Pérez
+- vicente-herranz-perez
 - Masato Sawada
 - Koichi Fujimoto
 - José Manuel García-Verdugo

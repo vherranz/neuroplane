@@ -12,7 +12,7 @@ authors:
 - Misaki Matsuo
 - Ahmed Lotfy
 - Sayuri Nakamura
-- Vicente Herranz-Pérez
+- vicente-herranz-perez
 - José Manuel García-Verdugo
 - Noriyuki Matsukawa
 - Naoko Kaneko

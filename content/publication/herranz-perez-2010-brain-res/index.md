@@ -2,7 +2,7 @@
 title: Regional distribution of the leucine-rich glioma inactivated (LGI) gene family
   transcripts in the adult mouse brain
 authors:
-- Vicente Herranz-Pérez
+- vicente-herranz-perez
 - Francisco Eliseo Olucha-Bordonau
 - José Manuel Morante-Redolat
 - Jordi Pérez-Tur

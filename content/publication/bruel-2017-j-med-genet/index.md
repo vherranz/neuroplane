@@ -39,7 +39,7 @@ authors:
 - Valérie Cormier-Daire
 - Thibaut Eguether
 - Gregory J Pazour
-- Vicente Herranz-Pérez
+- vicente-herranz-perez
 - Jaclyn S Goldstein
 - Laurent Pasquier
 - Philippe Loget

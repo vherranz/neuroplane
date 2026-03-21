@@ -7,7 +7,7 @@ authors:
 - Takao Hikita
 - Yayoi Seto
 - Naoko Kaneko
-- Vicente Herranz-Pérez
+- vicente-herranz-perez
 - Natsuki Dohi
 - Natsumi Homma
 - Satoshi Osaga

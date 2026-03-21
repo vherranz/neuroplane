@@ -7,7 +7,7 @@ authors:
 - Susana González-Granero
 - Marielena Eudave-Patiño
 - Jonathan Buriticá
-- Vicente Herranz-Pérez
+- vicente-herranz-perez
 - José M García-Verdugo
 - Oscar Gonzalez-Perez
 date: '2023-07-01'

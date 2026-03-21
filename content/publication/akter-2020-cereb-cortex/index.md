@@ -4,7 +4,7 @@ title: Dynamic changes in the neurogenic potential in the ventricular-subventric
 authors:
 - Mariyam Akter
 - Naoko Kaneko
-- Vicente Herranz-Pérez
+- vicente-herranz-perez
 - Sayuri Nakamura
 - Hisashi Oishi
 - Jose Manuel García-Verdugo

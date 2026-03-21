@@ -4,7 +4,7 @@ title: An actin network dispatches ciliary GPCRs into extracellular vesicles to 
 authors:
 - Andrew R Nager
 - Jaclyn S Goldstein
-- Vicente Herranz-Pérez
+- vicente-herranz-perez
 - Didier Portran
 - Fan Ye
 - Jose Manuel Garcia-Verdugo

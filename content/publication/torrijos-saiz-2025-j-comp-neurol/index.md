@@ -8,7 +8,7 @@ authors:
 - Loreta Medina
 - Kazunobu Sawamoto
 - José Manuel García-Verdugo
-- Vicente Herranz-Pérez
+- vicente-herranz-perez
 date: '2025-07-01'
 publishDate: '2026-03-07T21:56:46.114403Z'
 publication_types:

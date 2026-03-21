@@ -3,7 +3,7 @@ title: Targeting Alzheimer's disease with multimodal polypeptide-based nanoconju
 authors:
 - A Duro-Castano
 - C Borrás
-- V Herranz-Pérez
+- vicente-herranz-perez
 - M C Blanco-Gandía
 - I Conejos-Sánchez
 - A Armiñán

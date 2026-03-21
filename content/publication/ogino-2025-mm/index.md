@@ -11,7 +11,7 @@ authors:
 - Honomi Kawase
 - Takamasa Sato
 - Hiroyuki Inada
-- Vicente Herranz-Pérez
+- vicente-herranz-perez
 - Yoh-Suke Mukouyama
 - Masatsugu Ema
 - José Manuel García-Verdugo

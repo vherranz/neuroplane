@@ -20,7 +20,7 @@ authors:
 - Helena Florindo
 - Carles Felip-León
 - Vicent J Nebot
-- Vicente Herranz-Pérez
+- vicente-herranz-perez
 - José Manuel García-Verdugo
 - María J Vicent
 date: '2026-05-01'

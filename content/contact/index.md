@@ -29,10 +29,10 @@ sections:
         </p>
 
         <div class="mt-4">
-          <a href="https://bsky.app/profile/neuroplanelab"
+          <a href="https://bsky.app/profile/neuroplanelab.bsky.social"
              target="_blank"
              rel="noopener"
-             style="display:inline-flex; align-items:center; gap:10px; text-decoration:none; color:inherit; transition:opacity 0.2s ease;"
+             style="display:inline-flex; align-items:center; gap:10px; text-decoration:none; color:#0d6efd; transition:opacity 0.2s ease;"
              onmouseover="this.style.opacity='0.72'"
              onmouseout="this.style.opacity='1'">
             <img src="/media/icons/bluesky.png"

@@ -848,3 +848,47 @@ html.dark .article-style,
   padding-top: 0 !important;
   margin-top: 0 !important;
 }
+
+/* Tooltips para iconos sociales del perfil */
+.network-icon a {
+  position: relative;
+}
+
+.network-icon a[href*="orcid.org"]::after,
+.network-icon a[href*="scholar.google.com"]::after,
+.network-icon a[href*="linkedin.com"]::after {
+  position: absolute;
+  left: 50%;
+  bottom: -2.2rem;
+  transform: translateX(-50%);
+  padding: 0.25rem 0.45rem;
+  border-radius: 6px;
+  font-size: 0.72rem;
+  line-height: 1.1;
+  white-space: nowrap;
+  background: rgba(34, 34, 34, 0.92);
+  color: #fff;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.18s ease, transform 0.18s ease;
+  z-index: 20;
+}
+
+.network-icon a[href*="orcid.org"]::after {
+  content: "ORCID";
+}
+
+.network-icon a[href*="scholar.google.com"]::after {
+  content: "Google Scholar";
+}
+
+.network-icon a[href*="linkedin.com"]::after {
+  content: "LinkedIn";
+}
+
+.network-icon a[href*="orcid.org"]:hover::after,
+.network-icon a[href*="scholar.google.com"]:hover::after,
+.network-icon a[href*="linkedin.com"]:hover::after {
+  opacity: 1;
+  transform: translateX(-50%) translateY(2px);
+}

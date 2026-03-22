@@ -38,7 +38,7 @@ social:
     icon_pack: fab
     link: "https://www.linkedin.com/in/vicente-herranz-pérez-319a4314"
 
-  - icon: fa-bluesky
+  - icon: feather
     icon_pack: fab
     link: "https://bsky.app/profile/neuroplanelab.bsky.social"
 

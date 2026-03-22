@@ -12,7 +12,7 @@ sections:
         <div class="col-12 col-lg-5">
 
         <h3 class="mt-0" style="display:flex; align-items:center; gap:8px;">
-          <i class="fas fa-location-dot" style="font-size:0.85rem; opacity:0.6;"></i>
+          <i class="fas fa-location-dot" style="font-size:0.85rem; color:inherit; opacity:0.6;"></i>
           <span>NeuroPlaNe Lab @ UV</span>
         </h3>
 

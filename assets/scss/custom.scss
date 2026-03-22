@@ -892,32 +892,12 @@ html.dark .article-style,
   transform: translateX(-50%) translateY(0);
 }
 
-/* PERFIL: alinear arriba la columna izquierda (nombre) y derecha (bio) */
-
-.people-person .row,
-.author-card .row,
-.article-container .row,
-.universal-wrapper .row {
+/* Alineación superior robusta en la cabecera del perfil */
+.row.align-items-center {
   align-items: flex-start !important;
 }
 
-/* Quitar espacio extra arriba en la bio */
-.people-person .article-style,
-.author-card .article-style,
-.universal-wrapper .article-style {
-  margin-top: 0 !important;
-  padding-top: 0 !important;
-}
-
-/* Quitar margen superior del primer párrafo de la bio */
-.people-person .article-style > p:first-child,
-.author-card .article-style > p:first-child,
-.universal-wrapper .article-style > p:first-child {
-  margin-top: 0 !important;
-}
-
-/* Por si el bloque izquierdo tiene centrado vertical heredado */
-.people-person .portrait-title,
-.author-card .portrait-title {
+/* La bio no debe arrancar con margen extra */
+.article-style > p:first-child {
   margin-top: 0 !important;
 }

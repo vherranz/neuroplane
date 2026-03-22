@@ -35,7 +35,7 @@ sections:
              style="display:inline-flex; align-items:center; gap:10px; text-decoration:none; color:#0d6efd; transition:opacity 0.2s ease;"
              onmouseover="this.style.opacity='0.72'"
              onmouseout="this.style.opacity='1'">
-            <img src="/media/icons/bluesky.png"
+            <img src="/media/icons/bluesky.svg"
                  alt="Bluesky"
                  style="width:20px; height:20px; min-width:20px; min-height:20px; object-fit:contain; display:inline-block; vertical-align:middle; opacity:0.9;">
             <span style="font-weight:500; line-height:1.2;">

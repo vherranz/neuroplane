@@ -12,8 +12,8 @@ sections:
         <div class="col-12 col-lg-5">
 
         <h3 class="mt-0" style="display:flex; align-items:center; gap:8px;">
-          <i class="fas fa-location-dot" style="font-size:0.9rem; color:#888;"></i>
-          NeuroPlaNe Lab @ UV
+          <i class="fas fa-location-dot" style="font-size:0.85rem; opacity:0.6;"></i>
+          <span>NeuroPlaNe Lab @ UV</span>
         </h3>
 
         <p class="mb-3">

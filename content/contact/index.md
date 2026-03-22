@@ -28,10 +28,17 @@ sections:
         <strong>Tel:</strong> (+34) 9635 44637
         </p>
 
-        <div class="mt-3">
-          <a href="https://bsky.app/profile/neuroplanelab" target="_blank" rel="noopener" style="display:flex; align-items:center; text-decoration:none;">
-            <img src="/media/icons/bluesky.png" alt="Bluesky" style="height:20px; margin-right:10px;">
-            <span style="font-weight:500; color:inherit;">
+        <div class="mt-4">
+          <a href="https://bsky.app/profile/neuroplanelab"
+             target="_blank"
+             rel="noopener"
+             style="display:inline-flex; align-items:center; gap:10px; text-decoration:none; color:inherit; transition:opacity 0.2s ease;"
+             onmouseover="this.style.opacity='0.72'"
+             onmouseout="this.style.opacity='1'">
+            <img src="/media/icons/bluesky.png"
+                 alt="Bluesky"
+                 style="height:19px; width:auto; display:block; opacity:0.9;">
+            <span style="font-weight:500; line-height:1;">
               Follow us on Bluesky
             </span>
           </a>

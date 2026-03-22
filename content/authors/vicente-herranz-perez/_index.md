@@ -41,7 +41,7 @@ social:
 profiles:
   - icon: bluesky
     icon_pack: custom
-    link: https://bsky.app/profile/neuroplanelab
+    url: https://bsky.app/profile/neuroplanelab.bsky.social
 
 ---
 

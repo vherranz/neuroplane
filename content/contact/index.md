@@ -11,7 +11,7 @@ sections:
         <div class="row g-4 align-items-start mt-3 mt-lg-5">
         <div class="col-12 col-lg-5">
 
-        <h3 class="mt-0">NeuroPlaNe Lab @ UV</h3>
+        <h3 class="mt-0 contact-lab-title">NeuroPlaNe Lab @ UV</h3>
 
         <p class="mb-3">
         <strong>Jeroni Muñoz Research Building — Lab 1.63</strong><br>

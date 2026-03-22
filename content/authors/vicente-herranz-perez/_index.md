@@ -40,7 +40,7 @@ social:
 
   - icon: bluesky
     icon_pack: custom
-    url: https://bsky.app/profile/neuroplanelab.bsky.social
+    link: "https://bsky.app/profile/neuroplanelab.bsky.social"
 
 ---
 

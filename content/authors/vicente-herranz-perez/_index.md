@@ -40,8 +40,7 @@ social:
     icon_pack: fab
     link: "https://www.linkedin.com/in/vicente-herranz-pérez-319a4314"
     label: "LinkedIn"
-    
----
 
+---
 
 Vicente Herranz Pérez is Associate Professor at the Universitat de València and Principal Investigator of the NeuroPlaNe Lab. He obtained his PhD in Neuroscience from the Universitat de València while working at a Spanish Research Council (CSIC) laboratory, and his research focuses on adult neurogenesis, immature neurons with protracted maturation, and advanced imaging approaches including electron microscopy.

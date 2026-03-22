@@ -8,12 +8,11 @@ sections:
     content:
       title: Contact
       text: |
-        <div class="row g-4 align-items-start mt-3 mt-lg-5">
+               <div class="row g-4 align-items-start mt-3 mt-lg-5">
         <div class="col-12 col-lg-5">
 
-        <h3 class="mt-0" style="display:flex; align-items:center; gap:8px;">
-          <i class="fas fa-location-dot" style="font-size:0.85rem; color:inherit; opacity:0.6;"></i>
-          <span>NeuroPlaNe Lab @ UV</span>
+        <h3 class="mt-0 contact-lab-title">
+          <i class="bi bi-geo-alt-fill me-2" aria-hidden="true"></i>NeuroPlaNe Lab @ UV
         </h3>
 
         <p class="mb-3">

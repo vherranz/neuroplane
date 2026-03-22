@@ -891,3 +891,9 @@ html.dark .article-style,
   opacity: 1;
   transform: translateX(-50%) translateY(0);
 }
+
+/* Alinear verticalmente nombre y bio en perfil */
+
+.author-profile .row {
+  align-items: flex-start !important;
+}

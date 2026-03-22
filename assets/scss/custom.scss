@@ -892,12 +892,17 @@ html.dark .article-style,
   transform: translateX(-50%) translateY(0);
 }
 
-/* Alineación superior robusta en la cabecera del perfil */
-.row.align-items-center {
-  align-items: flex-start !important;
+/* Perfil: quitar espacio superior en la columna de texto */
+.page-body .article-style,
+.page-body .article-style p:first-child,
+.page-body .article-container .article-style,
+.page-body .article-container .article-style p:first-child {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
 }
 
-/* La bio no debe arrancar con margen extra */
-.article-style > p:first-child {
+/* Por si la columna derecha tiene padding propio */
+.page-body [class*="col-"] .article-style {
   margin-top: 0 !important;
+  padding-top: 0 !important;
 }

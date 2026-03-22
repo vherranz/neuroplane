@@ -28,14 +28,13 @@ sections:
         <strong>Tel:</strong> (+34) 9635 44637
         </p>
 
-        <div class="mt-3 d-flex align-items-center">
-          <img src="/media/icons/bluesky.png" alt="Bluesky" style="height:20px; margin-right:10px;">
-          <span>
-            <strong>Follow NeuroPlaNe Lab on Bluesky</strong><br>
-            <a href="https://bsky.app/profile/neuroplanelab" target="_blank" rel="noopener">
-              @neuroplanelab
-            </a>
-          </span>
+        <div class="mt-3">
+          <a href="https://bsky.app/profile/neuroplanelab" target="_blank" rel="noopener" style="display:flex; align-items:center; text-decoration:none;">
+            <img src="/media/icons/bluesky.png" alt="Bluesky" style="height:20px; margin-right:10px;">
+            <span style="font-weight:500; color:inherit;">
+              Follow us on Bluesky
+            </span>
+          </a>
         </div>
 
         </div>

@@ -32,9 +32,9 @@ sections:
           <a href="https://bsky.app/profile/neuroplanelab.bsky.social"
              target="_blank"
              rel="noopener"
-             style="display:inline-flex; align-items:center; gap:10px; text-decoration:none; color:#1185FE; transition:opacity 0.2s ease;"
-             onmouseover="this.style.opacity='0.72'"
-             onmouseout="this.style.opacity='1'">
+             style="display:inline-flex; align-items:center; gap:10px; text-decoration:none; color:#1185FE; transition:all 0.2s ease;"
+             onmouseover="this.style.opacity='0.75'; this.style.textDecoration='underline'"
+             onmouseout="this.style.opacity='1'; this.style.textDecoration='none'">
             <img src="/media/icons/bluesky.svg"
                  alt="Bluesky"
                  style="width:20px; height:20px; min-width:20px; min-height:20px; object-fit:contain; display:inline-block; vertical-align:middle;">

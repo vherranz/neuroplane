@@ -12,7 +12,7 @@ sections:
         <div class="col-12 col-lg-5">
 
         <h3 class="mt-0 contact-lab-title">
-          <i class="bi bi-geo-alt-fill me-2" aria-hidden="true"></i>NeuroPlaNe Lab @ UV
+          <i class="fas fa-map-marker-alt me-2" aria-hidden="true"></i>NeuroPlaNe Lab @ UV
         </h3>
 
         <p class="mb-3">

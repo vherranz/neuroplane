@@ -37,8 +37,8 @@ sections:
              onmouseout="this.style.opacity='1'">
             <img src="/media/icons/bluesky.png"
                  alt="Bluesky"
-                 style="height:19px; width:auto; display:block; opacity:0.9;">
-            <span style="font-weight:500; line-height:1;">
+                 style="width:20px; height:20px; min-width:20px; min-height:20px; object-fit:contain; display:inline-block; vertical-align:middle; opacity:0.9;">
+            <span style="font-weight:500; line-height:1.2;">
               Follow us on Bluesky
             </span>
           </a>

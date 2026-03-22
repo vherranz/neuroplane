@@ -891,18 +891,3 @@ html.dark .article-style,
   opacity: 1;
   transform: translateX(-50%) translateY(0);
 }
-
-/* Perfil: quitar espacio superior en la columna de texto */
-.page-body .article-style,
-.page-body .article-style p:first-child,
-.page-body .article-container .article-style,
-.page-body .article-container .article-style p:first-child {
-  margin-top: 0 !important;
-  padding-top: 0 !important;
-}
-
-/* Por si la columna derecha tiene padding propio */
-.page-body [class*="col-"] .article-style {
-  margin-top: 0 !important;
-  padding-top: 0 !important;
-}

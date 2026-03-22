@@ -1,10 +1,28 @@
 <footer class="site-footer" style="padding: 1.5rem 0 2rem 0;">
   <div class="container text-center">
+    
     <p style="margin: 0; font-size: 0.85rem; opacity: 0.6;">
       © {{ now.Year }} NeuroPlaNe Lab ·
       <a href="https://www.uv.es" target="_blank" rel="noopener" style="color: inherit; text-decoration: none;">
         Universitat de València
       </a>
     </p>
+
+    <div style="margin-top: 0.5rem;">
+      <a href="https://bsky.app/profile/neuroplanelab.bsky.social"
+         target="_blank"
+         rel="noopener"
+         style="display:inline-flex; align-items:center; gap:8px; text-decoration:none; color:#1185FE; font-size:0.85rem; transition:all 0.2s ease;"
+         onmouseover="this.style.opacity='0.75'; this.style.textDecoration='underline'"
+         onmouseout="this.style.opacity='1'; this.style.textDecoration='none'">
+        
+        <img src="/media/icons/bluesky.svg"
+             alt="Bluesky"
+             style="width:16px; height:16px; object-fit:contain; display:inline-block;">
+        
+        <span>Follow us on Bluesky</span>
+      </a>
+    </div>
+
   </div>
 </footer>

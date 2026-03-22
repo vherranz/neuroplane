@@ -8,7 +8,7 @@ sections:
     content:
       title: Contact
       text: |
-               <div class="row g-4 align-items-start mt-3 mt-lg-5">
+        <div class="row g-4 align-items-start mt-3 mt-lg-5">
         <div class="col-12 col-lg-5">
 
         <h3 class="mt-0 contact-lab-title">
@@ -39,7 +39,7 @@ sections:
              onmouseout="this.style.opacity='1'; this.style.textDecoration='none'">
             <img src="/media/icons/bluesky.svg"
                  alt="Bluesky"
-                 style="width:20px; height:20px; min-width:20px; min-height:20px; object-fit:contain; display:inline-block;">
+                 style="width:20px; height:20px; min-width:20px; min-height:20px; object-fit:contain; display:inline-block; vertical-align:middle;">
             <span style="font-weight:500; line-height:1.2;">
               Follow us on Bluesky
             </span>

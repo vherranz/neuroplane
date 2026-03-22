@@ -29,15 +29,18 @@ social:
   - icon: orcid
     icon_pack: ai
     link: "https://orcid.org/0000-0002-1969-1214"
+    label: "ORCID"
 
   - icon: google-scholar
     icon_pack: ai
     link: "https://scholar.google.com/citations?user=p7j6btsAAAAJ&hl=es"
+    label: "Google Scholar"
 
   - icon: linkedin
     icon_pack: fab
     link: "https://www.linkedin.com/in/vicente-herranz-pérez-319a4314"
-
+    label: "LinkedIn"
+    
 ---
 
 

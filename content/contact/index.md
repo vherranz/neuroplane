@@ -11,7 +11,10 @@ sections:
         <div class="row g-4 align-items-start mt-3 mt-lg-5">
         <div class="col-12 col-lg-5">
 
-        <h3 class="mt-0 contact-lab-title">NeuroPlaNe Lab @ UV</h3>
+        <h3 class="mt-0" style="display:flex; align-items:center; gap:8px;">
+          <i class="fas fa-location-dot" style="font-size:0.9rem; color:#888;"></i>
+          NeuroPlaNe Lab @ UV
+        </h3>
 
         <p class="mb-3">
         <strong>Jeroni Muñoz Research Building — Lab 1.63</strong><br>
@@ -37,7 +40,7 @@ sections:
              onmouseout="this.style.opacity='1'; this.style.textDecoration='none'">
             <img src="/media/icons/bluesky.svg"
                  alt="Bluesky"
-                 style="width:20px; height:20px; min-width:20px; min-height:20px; object-fit:contain; display:inline-block; vertical-align:middle;">
+                 style="width:20px; height:20px; min-width:20px; min-height:20px; object-fit:contain; display:inline-block;">
             <span style="font-weight:500; line-height:1.2;">
               Follow us on Bluesky
             </span>

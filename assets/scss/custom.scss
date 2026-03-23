@@ -645,8 +645,8 @@ img {
 }
 
 #section-markdown {
-  padding-top: 0 !important;
-  margin-top: -1.25rem !important;
+  padding-top: 0.35rem !important;
+  margin-top: -0.35rem !important;
 }
 
 #section-markdown .section-heading {
@@ -654,7 +654,7 @@ img {
 }
 
 #section-markdown .section-heading h1.mb-0 {
-  font-size: 1.05rem !important;
+  font-size: 1.25rem !important;
   line-height: 1.25 !important;
   font-weight: 500 !important;
   letter-spacing: -0.01em !important;
@@ -913,7 +913,12 @@ html.dark .article-style,
   }
 
   #section-markdown {
-    margin-top: -0.9rem !important;
+    margin-top: -0.1rem !important;
+    padding-top: 0.25rem !important;
+  }
+
+  #section-markdown .section-heading h1.mb-0 {
+    font-size: 1.15rem !important;
   }
 }
 

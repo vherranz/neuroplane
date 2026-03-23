@@ -695,6 +695,75 @@ img {
   text-underline-offset: 2px;
 }
 
+/* =========================================
+   PEOPLE PAGE - force Collaborators heading
+   ========================================= */
+
+.page-people .wg-markdown h1,
+.page-people .wg-markdown h2,
+.page-people .wg-markdown .home-section-title,
+.page-people .wg-markdown .section-heading {
+  font-size: 1.05rem !important;
+  line-height: 1.25 !important;
+  font-weight: 500 !important;
+  letter-spacing: -0.01em !important;
+  color: #222 !important;
+  text-align: center !important;
+  margin-top: 0 !important;
+  margin-bottom: 0.95rem !important;
+}
+
+/* Collaborators names and text */
+.page-people .wg-markdown .collaborators-list li {
+  font-size: 0.95rem !important;
+  line-height: 1.35 !important;
+  font-weight: 400 !important;
+  color: #666 !important;
+  margin-bottom: 0.45rem !important;
+}
+
+.page-people .wg-markdown .collaborators-list a {
+  font-size: 1.05rem !important;
+  line-height: 1.25 !important;
+  font-weight: 500 !important;
+  letter-spacing: -0.01em !important;
+  color: #1b3f8b !important;
+  text-decoration: none !important;
+}
+
+.page-people .wg-markdown .collaborators-list a:hover,
+.page-people .wg-markdown .collaborators-list a:focus {
+  color: #142e66 !important;
+  text-decoration: underline !important;
+  text-underline-offset: 2px;
+}
+
+/* =========================================
+   PEOPLE PAGE - reduce gap below Lab Members
+   ========================================= */
+
+.page-people .wg-people {
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.page-people .wg-people .row {
+  margin-bottom: 0 !important;
+}
+
+.page-people .wg-people .col-12,
+.page-people .wg-people .col-lg-3,
+.page-people .wg-people .col-lg-4,
+.page-people .wg-people .col-md-6 {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.page-people .wg-markdown {
+  padding-top: 0 !important;
+  margin-top: -1.5rem !important;
+}
+
 // =============================
 // 12) SINGLE AUTHOR / PROFILE PAGE
 // =============================

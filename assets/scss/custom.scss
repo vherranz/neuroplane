@@ -589,19 +589,20 @@ img {
   text-align: center;
 }
 
-/* Main page title: keep "People" clearly larger than section headings */
-.page-people .universal-wrapper > h1,
-.page-people .article-container > h1,
-.page-people h1 {
-  font-size: clamp(2.5rem, 4vw, 3.25rem) !important;
+/* Main page title: "People" only */
+.page-people .universal-wrapper > h1:first-child,
+.page-people .article-container > h1:first-child,
+.page-people main .universal-wrapper > h1:first-child {
+  font-size: 2.9rem !important;
   line-height: 1.08 !important;
   font-weight: 500 !important;
   letter-spacing: -0.018em !important;
   color: #222 !important;
   margin-bottom: 2.35rem !important;
+  text-align: center !important;
 }
 
-/* Names in Lab Members */
+/* Names in Lab Members - leave as they were */
 .people-widget .portrait-title h2,
 .people-person .portrait-title h2 {
   margin-bottom: 0.25rem !important;
@@ -609,11 +610,10 @@ img {
   line-height: 1.25 !important;
   font-weight: 500 !important;
   letter-spacing: -0.01em !important;
-  color: #4d63d3 !important;
-  font-family: inherit !important;
+  color: #1b3f8b !important;
 }
 
-/* Roles in Lab Members */
+/* Roles in Lab Members - leave as they were */
 .people-widget .portrait-title h3,
 .people-person .portrait-title h3 {
   font-size: 0.95rem !important;
@@ -623,7 +623,6 @@ img {
   color: #666 !important;
   margin-top: 0.35rem !important;
   margin-bottom: 0 !important;
-  font-family: inherit !important;
 }
 
 .people-widget .portrait-title p,
@@ -647,7 +646,7 @@ img {
 
 /* Space below Lab Members */
 #section-people {
-  padding-bottom: 1.75rem !important;
+  padding-bottom: 1.7rem !important;
   margin-bottom: 0 !important;
 }
 
@@ -660,11 +659,11 @@ img {
 
 /* Space before Collaborators */
 #section-markdown {
-  padding-top: 1rem !important;
+  padding-top: 0.95rem !important;
   margin-top: 0 !important;
 }
 
-/* Lab Members and Collaborators headings: identical and smaller than People */
+/* Lab Members and Collaborators headings: identical */
 #section-people .section-heading,
 #section-markdown .section-heading {
   margin-bottom: 1.15rem !important;
@@ -676,35 +675,34 @@ img {
 #section-markdown .section-heading h1,
 #section-markdown .section-heading h2,
 #section-markdown .section-heading h1.mb-0 {
-  font-size: 1.6rem !important;
-  line-height: 1.22 !important;
+  font-size: 1.7rem !important;
+  line-height: 1.2 !important;
   font-weight: 500 !important;
   letter-spacing: -0.012em !important;
   color: #222 !important;
   text-align: center !important;
   margin: 0 !important;
-  font-family: inherit !important;
 }
 
-/* Markdown wrapper: not fully centered, but not too far left either */
+/* Collaborators wrapper: centered block but with left-aligned list inside */
 #section-markdown .markdown,
 #section-markdown .article-style {
-  max-width: 1100px !important;
+  max-width: 980px !important;
   margin-left: auto !important;
   margin-right: auto !important;
 }
 
-/* Collaborators list: moderately left, not extreme */
+/* Collaborators list: less left than before */
 #section-markdown .collaborators-list {
   list-style: disc !important;
   margin: 0 auto !important;
-  max-width: 900px !important;
+  max-width: 760px !important;
   width: 100% !important;
-  padding-left: 1.7rem !important;
+  padding-left: 1.5rem !important;
   text-align: left !important;
 }
 
-/* Collaborator institution text styled like Lab Members role text */
+/* Collaborator institution text: match Lab Members role style */
 #section-markdown .collaborators-list li {
   margin-bottom: 0.55rem !important;
   font-size: 0.95rem !important;
@@ -712,26 +710,23 @@ img {
   font-weight: 400 !important;
   letter-spacing: -0.005em !important;
   color: #666 !important;
-  font-family: inherit !important;
 }
 
-/* Collaborator names: same feel and same blue as Lab Members */
+/* Collaborator names: match Lab Members name style */
 #section-markdown .collaborators-list li a,
 #section-markdown .collaborators-list li a:visited {
-  color: #4d63d3 !important;
+  color: #1b3f8b !important;
   text-decoration: none !important;
   font-size: 1.05rem !important;
   line-height: 1.25 !important;
   font-weight: 500 !important;
   letter-spacing: -0.01em !important;
   font-family: inherit !important;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 #section-markdown .collaborators-list li a:hover,
 #section-markdown .collaborators-list li a:focus {
-  color: #3f54bf !important;
+  color: #142e66 !important;
   text-decoration: underline !important;
   text-underline-offset: 2px;
 }

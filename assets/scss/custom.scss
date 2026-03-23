@@ -620,11 +620,11 @@ img {
 /* Compact overall spacing on People page */
 .page-people .home-section,
 .page-people section.home-section {
-  padding-top: 1.55rem !important;
-  padding-bottom: 1.55rem !important;
+  padding-top: 1.7rem !important;
+  padding-bottom: 1.7rem !important;
 }
 
-/* Reduce space below the People cards block */
+/* Reduce space below the People cards block, but keep some breathing room before Collaborators */
 .page-people .wg-people,
 .page-people .people-widget {
   margin-bottom: 0 !important;
@@ -633,7 +633,7 @@ img {
 
 /* Definitive People page fix using real section IDs */
 #section-people {
-  padding-bottom: 0.75rem !important;
+  padding-bottom: 1.45rem !important;
   margin-bottom: 0 !important;
 }
 
@@ -644,15 +644,20 @@ img {
   padding-bottom: 0 !important;
 }
 
+/* Slightly more vertical separation before Collaborators */
 #section-markdown {
-  padding-top: 0.35rem !important;
-  margin-top: -0.35rem !important;
+  padding-top: 1rem !important;
+  margin-top: 0 !important;
 }
 
-#section-markdown .section-heading {
-  margin-bottom: 0.95rem !important;
+/* Make Lab Members and Collaborators headings feel equivalent */
+#section-people .section-heading {
+  margin-bottom: 1.15rem !important;
 }
 
+#section-people .section-heading h1,
+#section-people .section-heading h2,
+#section-people .section-heading h1.mb-0,
 #section-markdown .section-heading h1.mb-0 {
   font-size: 1.25rem !important;
   line-height: 1.25 !important;
@@ -663,6 +668,10 @@ img {
   margin: 0 !important;
 }
 
+#section-markdown .section-heading {
+  margin-bottom: 1.1rem !important;
+}
+
 #section-markdown .collaborators-list {
   list-style: disc !important;
   margin: 0 auto !important;
@@ -671,8 +680,9 @@ img {
   text-align: left !important;
 }
 
+/* Make collaborator line typography closer to Lab Members role style */
 #section-markdown .collaborators-list li {
-  margin-bottom: 0.45rem !important;
+  margin-bottom: 0.55rem !important;
   font-size: 0.95rem !important;
   line-height: 1.35 !important;
   font-weight: 400 !important;
@@ -680,6 +690,7 @@ img {
   color: #666 !important;
 }
 
+/* Make collaborator names match Lab Members names more closely */
 #section-markdown .collaborators-list li a {
   color: #1b3f8b !important;
   text-decoration: none !important;
@@ -907,16 +918,23 @@ html.dark .article-style,
   }
 
   #section-markdown .collaborators-list li {
-    font-size: 0.94rem !important;
-    line-height: 1.45 !important;
-    margin-bottom: 0.5rem !important;
+    font-size: 0.95rem !important;
+    line-height: 1.4 !important;
+    margin-bottom: 0.55rem !important;
   }
 
   #section-markdown {
-    margin-top: -0.1rem !important;
-    padding-top: 0.25rem !important;
+    margin-top: 0 !important;
+    padding-top: 0.8rem !important;
   }
 
+  #section-people {
+    padding-bottom: 1.1rem !important;
+  }
+
+  #section-people .section-heading h1,
+  #section-people .section-heading h2,
+  #section-people .section-heading h1.mb-0,
   #section-markdown .section-heading h1.mb-0 {
     font-size: 1.15rem !important;
   }

@@ -589,20 +589,24 @@ img {
   text-align: center;
 }
 
+/* Names in Lab Members */
 .people-widget .portrait-title h2,
 .people-person .portrait-title h2 {
   margin-bottom: 0.25rem !important;
   font-size: 1.05rem !important;
   line-height: 1.25 !important;
   font-weight: 500 !important;
+  letter-spacing: -0.01em !important;
   color: #1b3f8b !important;
 }
 
+/* Roles in Lab Members */
 .people-widget .portrait-title h3,
 .people-person .portrait-title h3 {
   font-size: 0.95rem !important;
   line-height: 1.35 !important;
   font-weight: 400 !important;
+  letter-spacing: -0.005em !important;
   color: #666 !important;
   margin-top: 0.35rem !important;
   margin-bottom: 0 !important;
@@ -633,11 +637,15 @@ img {
   padding-top: 0 !important;
 }
 
-/* Make "Collaborators" visually equivalent to "Lab Members" */
+/* Make "Collaborators" match "Lab Members" */
 .page-people .collaborators-section .section-heading,
 .page-people .collaborators-section .home-section-title,
 .page-people .collaborators-section h1,
-.page-people .collaborators-section h2 {
+.page-people .collaborators-section h2,
+.page-people .collaborators-section .article-style h1,
+.page-people .collaborators-section .article-style h2,
+.page-people .collaborators-section .markdown h1,
+.page-people .collaborators-section .markdown h2 {
   margin-top: 0 !important;
   margin-bottom: 0.95rem !important;
   font-size: 1.05rem !important;
@@ -648,7 +656,7 @@ img {
   text-align: center !important;
 }
 
-/* Collaborators list: left aligned, same typographic feel */
+/* Collaborators list */
 .collaborators-section .collaborators-list {
   list-style: none !important;
   padding-left: 0 !important;
@@ -657,6 +665,7 @@ img {
   text-align: left !important;
 }
 
+/* Entire collaborator line */
 .collaborators-section .collaborators-list li {
   list-style: none !important;
   margin-left: 0 !important;
@@ -664,14 +673,18 @@ img {
   font-size: 0.95rem !important;
   line-height: 1.35 !important;
   font-weight: 400 !important;
+  letter-spacing: -0.005em !important;
   color: #666 !important;
 }
 
-/* Name matches Lab Members name style */
+/* Collaborator names = same visual style as Lab Members names */
 .collaborators-section .collaborators-list a {
   color: #1b3f8b !important;
   text-decoration: none !important;
+  font-size: 1.05rem !important;
+  line-height: 1.25 !important;
   font-weight: 500 !important;
+  letter-spacing: -0.01em !important;
   transition: color 0.15s ease;
 }
 
@@ -680,12 +693,6 @@ img {
   color: #142e66 !important;
   text-decoration: underline !important;
   text-underline-offset: 2px;
-}
-
-/* Institution / affiliation softer, role-like */
-.collaborators-section .collaborators-list span {
-  color: #666 !important;
-  font-weight: 400 !important;
 }
 
 // =============================

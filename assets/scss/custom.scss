@@ -595,6 +595,7 @@ img {
   font-size: 1.05rem !important;
   line-height: 1.25 !important;
   font-weight: 500 !important;
+  color: #1b3f8b !important;
 }
 
 .people-widget .portrait-title h3,
@@ -612,67 +613,79 @@ img {
   color: #666 !important;
 }
 
-/* Tighten spacing below People block */
+/* Compact overall spacing on People page */
 .page-people .home-section,
 .page-people section.home-section {
-  padding-top: 2.1rem !important;
-  padding-bottom: 2.1rem !important;
+  padding-top: 1.55rem !important;
+  padding-bottom: 1.55rem !important;
 }
 
+/* Reduce space below the People cards block */
 .page-people .wg-people,
 .page-people .people-widget {
-  margin-bottom: 0.35rem !important;
-  padding-bottom: 0.35rem !important;
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
 }
 
-/* Collaborators block closer to Lab Members */
+/* Pull Collaborators upwards */
 .page-people .collaborators-section {
-  margin-top: -0.35rem !important;
+  margin-top: -2.2rem !important;
   padding-top: 0 !important;
 }
 
+/* Make "Collaborators" visually equivalent to "Lab Members" */
 .page-people .collaborators-section .section-heading,
 .page-people .collaborators-section .home-section-title,
 .page-people .collaborators-section h1,
 .page-people .collaborators-section h2 {
   margin-top: 0 !important;
-  margin-bottom: 0.9rem !important;
-  font-size: 1.55rem !important;
+  margin-bottom: 0.95rem !important;
+  font-size: 1.05rem !important;
+  line-height: 1.25 !important;
   font-weight: 500 !important;
   letter-spacing: -0.01em !important;
   color: #222 !important;
   text-align: center !important;
 }
 
-/* Collaborators list styled to match People */
-.collaborators-list {
-  list-style: none;
-  padding-left: 0;
-  margin: 0 auto;
-  max-width: 760px;
-  text-align: center;
+/* Collaborators list: left aligned, same typographic feel */
+.collaborators-section .collaborators-list {
+  list-style: none !important;
+  padding-left: 0 !important;
+  margin: 0 auto !important;
+  max-width: 760px !important;
+  text-align: left !important;
 }
 
-.collaborators-list li {
-  font-size: 0.95rem;
-  line-height: 1.55;
-  font-weight: 300;
+.collaborators-section .collaborators-list li {
+  list-style: none !important;
+  margin-left: 0 !important;
+  margin-bottom: 0.45rem !important;
+  font-size: 0.95rem !important;
+  line-height: 1.35 !important;
+  font-weight: 400 !important;
   color: #666 !important;
-  margin-bottom: 0.45rem;
 }
 
-.collaborators-list a {
+/* Name matches Lab Members name style */
+.collaborators-section .collaborators-list a {
   color: #1b3f8b !important;
   text-decoration: none !important;
-  font-weight: 400 !important;
+  font-weight: 500 !important;
   transition: color 0.15s ease;
 }
 
-.collaborators-list a:hover,
-.collaborators-list a:focus {
+.collaborators-section .collaborators-list a:hover,
+.collaborators-section .collaborators-list a:focus {
   color: #142e66 !important;
   text-decoration: underline !important;
   text-underline-offset: 2px;
+}
+
+/* Institution / affiliation softer, role-like */
+.collaborators-section .collaborators-list span {
+  color: #666 !important;
+  font-weight: 400 !important;
 }
 
 // =============================
@@ -878,16 +891,21 @@ html.dark .article-style,
     font-size: 2.2rem !important;
   }
 
-  .collaborators-list {
+  .collaborators-section .collaborators-list {
     max-width: 100% !important;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+    text-align: left !important;
   }
 
-  .collaborators-list li {
+  .collaborators-section .collaborators-list li {
     font-size: 0.94rem !important;
-    line-height: 1.5 !important;
+    line-height: 1.45 !important;
     margin-bottom: 0.5rem !important;
+  }
+
+  .page-people .collaborators-section {
+    margin-top: -1.4rem !important;
   }
 }
 

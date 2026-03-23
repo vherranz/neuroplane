@@ -589,16 +589,16 @@ img {
   text-align: center;
 }
 
-/* Keep main page title "People" large like other pages */
+/* Main page title: keep "People" clearly larger than section headings */
 .page-people .universal-wrapper > h1,
 .page-people .article-container > h1,
 .page-people h1 {
-  font-size: clamp(2.1rem, 3vw, 2.8rem) !important;
-  line-height: 1.1 !important;
+  font-size: clamp(2.5rem, 4vw, 3.25rem) !important;
+  line-height: 1.08 !important;
   font-weight: 500 !important;
-  letter-spacing: -0.015em !important;
+  letter-spacing: -0.018em !important;
   color: #222 !important;
-  margin-bottom: 2.1rem !important;
+  margin-bottom: 2.35rem !important;
 }
 
 /* Names in Lab Members */
@@ -609,7 +609,8 @@ img {
   line-height: 1.25 !important;
   font-weight: 500 !important;
   letter-spacing: -0.01em !important;
-  color: #1b3f8b !important;
+  color: #4d63d3 !important;
+  font-family: inherit !important;
 }
 
 /* Roles in Lab Members */
@@ -622,6 +623,7 @@ img {
   color: #666 !important;
   margin-top: 0.35rem !important;
   margin-bottom: 0 !important;
+  font-family: inherit !important;
 }
 
 .people-widget .portrait-title p,
@@ -632,8 +634,8 @@ img {
 /* Overall spacing on People page */
 .page-people .home-section,
 .page-people section.home-section {
-  padding-top: 1.7rem !important;
-  padding-bottom: 1.7rem !important;
+  padding-top: 1.75rem !important;
+  padding-bottom: 1.75rem !important;
 }
 
 /* People cards block */
@@ -643,9 +645,9 @@ img {
   padding-bottom: 0 !important;
 }
 
-/* More breathing room below Lab Members */
+/* Space below Lab Members */
 #section-people {
-  padding-bottom: 1.85rem !important;
+  padding-bottom: 1.75rem !important;
   margin-bottom: 0 !important;
 }
 
@@ -656,13 +658,13 @@ img {
   padding-bottom: 0 !important;
 }
 
-/* More space before Collaborators */
+/* Space before Collaborators */
 #section-markdown {
-  padding-top: 1.2rem !important;
+  padding-top: 1rem !important;
   margin-top: 0 !important;
 }
 
-/* Lab Members and Collaborators headings: same size, a bit smaller than People */
+/* Lab Members and Collaborators headings: identical and smaller than People */
 #section-people .section-heading,
 #section-markdown .section-heading {
   margin-bottom: 1.15rem !important;
@@ -674,29 +676,31 @@ img {
 #section-markdown .section-heading h1,
 #section-markdown .section-heading h2,
 #section-markdown .section-heading h1.mb-0 {
-  font-size: 1.45rem !important;
+  font-size: 1.6rem !important;
   line-height: 1.22 !important;
   font-weight: 500 !important;
   letter-spacing: -0.012em !important;
   color: #222 !important;
   text-align: center !important;
   margin: 0 !important;
+  font-family: inherit !important;
 }
 
-/* Collaborators list moved left instead of visually centered */
+/* Markdown wrapper: not fully centered, but not too far left either */
 #section-markdown .markdown,
 #section-markdown .article-style {
-  max-width: 1200px !important;
-  margin-left: 0 !important;
+  max-width: 1100px !important;
+  margin-left: auto !important;
   margin-right: auto !important;
 }
 
+/* Collaborators list: moderately left, not extreme */
 #section-markdown .collaborators-list {
   list-style: disc !important;
-  margin: 0 !important;
-  max-width: 980px !important;
+  margin: 0 auto !important;
+  max-width: 900px !important;
   width: 100% !important;
-  padding-left: 2.1rem !important;
+  padding-left: 1.7rem !important;
   text-align: left !important;
 }
 
@@ -708,21 +712,26 @@ img {
   font-weight: 400 !important;
   letter-spacing: -0.005em !important;
   color: #666 !important;
+  font-family: inherit !important;
 }
 
-/* Collaborator names: same blue and same typographic feel as Lab Members */
-#section-markdown .collaborators-list li a {
-  color: #1b3f8b !important;
+/* Collaborator names: same feel and same blue as Lab Members */
+#section-markdown .collaborators-list li a,
+#section-markdown .collaborators-list li a:visited {
+  color: #4d63d3 !important;
   text-decoration: none !important;
   font-size: 1.05rem !important;
   line-height: 1.25 !important;
   font-weight: 500 !important;
   letter-spacing: -0.01em !important;
+  font-family: inherit !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 #section-markdown .collaborators-list li a:hover,
 #section-markdown .collaborators-list li a:focus {
-  color: #142e66 !important;
+  color: #3f54bf !important;
   text-decoration: underline !important;
   text-underline-offset: 2px;
 }

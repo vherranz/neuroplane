@@ -612,6 +612,69 @@ img {
   color: #666 !important;
 }
 
+/* Tighten spacing below People block */
+.page-people .home-section,
+.page-people section.home-section {
+  padding-top: 2.1rem !important;
+  padding-bottom: 2.1rem !important;
+}
+
+.page-people .wg-people,
+.page-people .people-widget {
+  margin-bottom: 0.35rem !important;
+  padding-bottom: 0.35rem !important;
+}
+
+/* Collaborators block closer to Lab Members */
+.page-people .collaborators-section {
+  margin-top: -0.35rem !important;
+  padding-top: 0 !important;
+}
+
+.page-people .collaborators-section .section-heading,
+.page-people .collaborators-section .home-section-title,
+.page-people .collaborators-section h1,
+.page-people .collaborators-section h2 {
+  margin-top: 0 !important;
+  margin-bottom: 0.9rem !important;
+  font-size: 1.55rem !important;
+  font-weight: 500 !important;
+  letter-spacing: -0.01em !important;
+  color: #222 !important;
+  text-align: center !important;
+}
+
+/* Collaborators list styled to match People */
+.collaborators-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0 auto;
+  max-width: 760px;
+  text-align: center;
+}
+
+.collaborators-list li {
+  font-size: 0.95rem;
+  line-height: 1.55;
+  font-weight: 300;
+  color: #666 !important;
+  margin-bottom: 0.45rem;
+}
+
+.collaborators-list a {
+  color: #1b3f8b !important;
+  text-decoration: none !important;
+  font-weight: 400 !important;
+  transition: color 0.15s ease;
+}
+
+.collaborators-list a:hover,
+.collaborators-list a:focus {
+  color: #142e66 !important;
+  text-decoration: underline !important;
+  text-underline-offset: 2px;
+}
+
 // =============================
 // 12) SINGLE AUTHOR / PROFILE PAGE
 // =============================
@@ -813,6 +876,18 @@ html.dark .article-style,
   body[class*="author"] h1.article-title,
   body[class*="authors"] h1.article-title {
     font-size: 2.2rem !important;
+  }
+
+  .collaborators-list {
+    max-width: 100% !important;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .collaborators-list li {
+    font-size: 0.94rem !important;
+    line-height: 1.5 !important;
+    margin-bottom: 0.5rem !important;
   }
 }
 

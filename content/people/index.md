@@ -31,15 +31,17 @@ sections:
       title: Collaborators
       text: |
         <ul class="collaborators-list">
-          <li><a href="https://www.ucsf.edu/" target="_blank" rel="noopener noreferrer">Arturo Álvarez-Buylla</a> (University of California San Francisco)</li>
-          <li><a href="https://www.doshisha.ac.jp/en/" target="_blank" rel="noopener noreferrer">Naoko Kaneko</a> (Doshisha University)</li>
-          <li><a href="https://www.ucsf.edu/" target="_blank" rel="noopener noreferrer">Mercedes Paredes</a> (University of California San Francisco)</li>
-          <li><a href="https://english.nagoya-cu.ac.jp/" target="_blank" rel="noopener noreferrer">Kazunobu Sawamoto</a> (Nagoya City University)</li>
-          <li><a href="https://www.sorrellslab.com/" target="_blank" rel="noopener noreferrer">Shawn Sorrells</a> (University of Pittsburgh)</li>
+          <li><a href="https://ablab.ucsf.edu" target="_blank" rel="noopener noreferrer">Arturo Álvarez-Buylla</a> (UCSF)</li>
+          <li><a href="https://paredeslab.ucsf.edu" target="_blank" rel="noopener noreferrer">Mercedes Paredes</a> (UCSF)</li>
+          <li><a href="https://sites.google.com/view/sorrells-lab/home" target="_blank" rel="noopener noreferrer">Shawn Sorrells</a> (University of Pittsburgh)</li>
+          <li><a href="https://k-sawamoto.com/#" target="_blank" rel="noopener noreferrer">Kazunobu Sawamoto</a> (Nagoya City University)</li>
+          <li><a href="https://brainscience.doshisha.ac.jp/br/en/introduction/pat/nr.html" target="_blank" rel="noopener noreferrer">Naoko Kaneko</a> (Doshisha University)</li>
+          <li><a href="https://www.cipf.es" target="_blank" rel="noopener noreferrer">Mª Jesús Vicent</a> (CIPF)</li>
         </ul>
 
     design:
       columns: "1"
+
     advanced:
       css_class: "collaborators-section"
 ---

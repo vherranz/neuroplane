@@ -1,6 +1,6 @@
 ---
 title: Raquel Morales Gallel
-role: PhD Student
+role: AECC PhD Student
 
 superuser: false
 

@@ -33,10 +33,11 @@ sections:
         <ul class="collaborators-list">
           <li><a href="https://ablab.ucsf.edu" target="_blank" rel="noopener noreferrer">Arturo Álvarez-Buylla</a> (UCSF)</li>
           <li><a href="https://paredeslab.ucsf.edu" target="_blank" rel="noopener noreferrer">Mercedes Paredes</a> (UCSF)</li>
+          <li><a href="https://reitergroup.ucsf.edu/" target="_blank" rel="noopener noreferrer">Jeremy Reiter</a> (UCSF)</li>
           <li><a href="https://sites.google.com/view/sorrells-lab/home" target="_blank" rel="noopener noreferrer">Shawn Sorrells</a> (University of Pittsburgh)</li>
           <li><a href="https://k-sawamoto.com/#" target="_blank" rel="noopener noreferrer">Kazunobu Sawamoto</a> (Nagoya City University)</li>
           <li><a href="https://brainscience.doshisha.ac.jp/br/en/introduction/pat/nr.html" target="_blank" rel="noopener noreferrer">Naoko Kaneko</a> (Doshisha University)</li>
-          <li><a href="https://www.cipf.es" target="_blank" rel="noopener noreferrer">Mª Jesús Vicent</a> (CIPF)</li>
+          <li><a href="http://vicentresearchlab.com/" target="_blank" rel="noopener noreferrer">María Jesús Vicent</a> (Centro de Investigación Príncipe Felipe)</li>
         </ul>
 
     design:

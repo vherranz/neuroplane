@@ -15,7 +15,7 @@ sections:
         - Lab Members
         - Alumni
 
-      sort_by: Params.last_name
+      sort_by: Params.weight
       sort_ascending: true
 
     design:
@@ -31,13 +31,15 @@ sections:
       title: Collaborators
       text: |
         <ul class="collaborators-list">
-          <li><a href="https://www.ucsf.edu/" target="_blank">Arturo Álvarez-Buylla</a> (University of California San Francisco)</li>
-          <li><a href="https://www.doshisha.ac.jp/en/" target="_blank">Naoko Kaneko</a> (Doshisha University)</li>
-          <li><a href="https://www.ucsf.edu/" target="_blank">Mercedes Paredes</a> (University of California San Francisco)</li>
-          <li><a href="https://english.nagoya-cu.ac.jp/" target="_blank">Kazunobu Sawamoto</a> (Nagoya City University)</li>
-          <li><a href="https://www.sorrellslab.com/" target="_blank">Shawn Sorrells</a> (University of Pittsburgh)</li>
+          <li><a href="https://www.ucsf.edu/" target="_blank" rel="noopener noreferrer">Arturo Álvarez-Buylla</a> (University of California San Francisco)</li>
+          <li><a href="https://www.doshisha.ac.jp/en/" target="_blank" rel="noopener noreferrer">Naoko Kaneko</a> (Doshisha University)</li>
+          <li><a href="https://www.ucsf.edu/" target="_blank" rel="noopener noreferrer">Mercedes Paredes</a> (University of California San Francisco)</li>
+          <li><a href="https://english.nagoya-cu.ac.jp/" target="_blank" rel="noopener noreferrer">Kazunobu Sawamoto</a> (Nagoya City University)</li>
+          <li><a href="https://www.sorrellslab.com/" target="_blank" rel="noopener noreferrer">Shawn Sorrells</a> (University of Pittsburgh)</li>
         </ul>
 
     design:
       columns: "1"
+    advanced:
+      css_class: "collaborators-section"
 ---

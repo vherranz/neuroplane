@@ -5,16 +5,13 @@ type: landing
 
 sections:
   # =============================
-  # LAB MEMBERS / ALUMNI (CARDS)
+  # LAB MEMBERS
   # =============================
   - block: people
     content:
-      title: People
-
+      title: Lab Members
       user_groups:
         - Lab Members
-        - Alumni
-
       sort_by: Params.weight
       sort_ascending: true
 
@@ -24,7 +21,23 @@ sections:
       show_social: false
 
   # =============================
-  # COLLABORATORS (LIST)
+  # ALUMNI
+  # =============================
+  - block: people
+    content:
+      title: Alumni
+      user_groups:
+        - Alumni
+      sort_by: Params.weight
+      sort_ascending: true
+
+    design:
+      show_interests: false
+      show_role: true
+      show_social: false
+
+  # =============================
+  # COLLABORATORS
   # =============================
   - block: markdown
     content:

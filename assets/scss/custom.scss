@@ -584,27 +584,27 @@ img {
 // 11) PEOPLE PAGE
 // =============================
 
-.people-widget .portrait-title,
-.people-person .portrait-title {
-  text-align: center;
+/* General spacing only inside People page */
+.page-people .home-section,
+.page-people section.home-section {
+  padding-top: 1.6rem !important;
+  padding-bottom: 1.6rem !important;
 }
 
-/* Main page title: "People" only */
-.page-people .universal-wrapper > h1:first-child,
-.page-people .article-container > h1:first-child,
-.page-people main .universal-wrapper > h1:first-child {
-  font-size: 2.9rem !important;
-  line-height: 1.08 !important;
-  font-weight: 500 !important;
-  letter-spacing: -0.018em !important;
-  color: #222 !important;
-  margin-bottom: 2.35rem !important;
+/* Let HugoBlox keep the main page title style */
+.page-people .universal-wrapper h1,
+.page-people .article-container h1 {
   text-align: center !important;
 }
 
-/* Names in Lab Members - leave as they were */
-.people-widget .portrait-title h2,
-.people-person .portrait-title h2 {
+/* People cards */
+.page-people .people-widget .portrait-title,
+.page-people .people-person .portrait-title {
+  text-align: center !important;
+}
+
+.page-people .people-widget .portrait-title h2,
+.page-people .people-person .portrait-title h2 {
   margin-bottom: 0.25rem !important;
   font-size: 1.05rem !important;
   line-height: 1.25 !important;
@@ -613,9 +613,8 @@ img {
   color: #1b3f8b !important;
 }
 
-/* Roles in Lab Members - leave as they were */
-.people-widget .portrait-title h3,
-.people-person .portrait-title h3 {
+.page-people .people-widget .portrait-title h3,
+.page-people .people-person .portrait-title h3 {
   font-size: 0.95rem !important;
   line-height: 1.35 !important;
   font-weight: 400 !important;
@@ -625,75 +624,43 @@ img {
   margin-bottom: 0 !important;
 }
 
-.people-widget .portrait-title p,
-.people-person .portrait-title p {
+.page-people .people-widget .portrait-title p,
+.page-people .people-person .portrait-title p {
   color: #666 !important;
 }
 
-/* Overall spacing on People page */
-.page-people .home-section,
-.page-people section.home-section {
-  padding-top: 1.75rem !important;
-  padding-bottom: 1.75rem !important;
-}
-
-/* People cards block */
-.page-people .wg-people,
-.page-people .people-widget {
-  margin-bottom: 0 !important;
-  padding-bottom: 0 !important;
-}
-
-/* Space below Lab Members */
-#section-people {
-  padding-bottom: 1.7rem !important;
-  margin-bottom: 0 !important;
-}
-
-#section-people .container,
-#section-people .row,
-#section-people .col-12 {
-  margin-bottom: 0 !important;
-  padding-bottom: 0 !important;
-}
-
-/* Space before Collaborators */
-#section-markdown {
-  padding-top: 0.95rem !important;
-  margin-top: 0 !important;
-}
-
-/* Lab Members and Collaborators headings: identical */
-#section-people .section-heading,
-#section-markdown .section-heading {
+/* Section headings inside People: Lab Members / Alumni / Collaborators */
+.page-people .section-heading {
   margin-bottom: 1.15rem !important;
 }
 
-#section-people .section-heading h1,
-#section-people .section-heading h2,
-#section-people .section-heading h1.mb-0,
-#section-markdown .section-heading h1,
-#section-markdown .section-heading h2,
-#section-markdown .section-heading h1.mb-0 {
-  font-size: 1.7rem !important;
-  line-height: 1.2 !important;
-  font-weight: 500 !important;
-  letter-spacing: -0.012em !important;
-  color: #222 !important;
+.page-people .section-heading h1,
+.page-people .section-heading h2,
+.page-people .section-heading h1.mb-0 {
   text-align: center !important;
-  margin: 0 !important;
 }
 
-/* Collaborators wrapper: centered block but with left-aligned list inside */
-#section-markdown .markdown,
-#section-markdown .article-style {
+/* Slightly tighten spacing between blocks */
+.page-people .wg-people,
+.page-people .wg-markdown {
+  margin-bottom: 0 !important;
+}
+
+.page-people .wg-people + .wg-people,
+.page-people .wg-people + .wg-markdown {
+  padding-top: 0.8rem !important;
+}
+
+/* Collaborators block */
+.page-people .collaborators-section .markdown,
+.page-people .collaborators-section .article-style {
   max-width: 980px !important;
   margin-left: auto !important;
   margin-right: auto !important;
 }
 
-/* Collaborators list: less left than before */
-#section-markdown .collaborators-list {
+/* Collaborators list */
+.page-people .collaborators-section .collaborators-list {
   list-style: disc !important;
   margin: 0 auto !important;
   max-width: 760px !important;
@@ -702,8 +669,7 @@ img {
   text-align: left !important;
 }
 
-/* Collaborator institution text: match Lab Members role style */
-#section-markdown .collaborators-list li {
+.page-people .collaborators-section .collaborators-list li {
   margin-bottom: 0.55rem !important;
   font-size: 0.95rem !important;
   line-height: 1.35 !important;
@@ -712,9 +678,8 @@ img {
   color: #666 !important;
 }
 
-/* Collaborator names: match Lab Members name style */
-#section-markdown .collaborators-list li a,
-#section-markdown .collaborators-list li a:visited {
+.page-people .collaborators-section .collaborators-list li a,
+.page-people .collaborators-section .collaborators-list li a:visited {
   color: #1b3f8b !important;
   text-decoration: none !important;
   font-size: 1.05rem !important;
@@ -724,11 +689,26 @@ img {
   font-family: inherit !important;
 }
 
-#section-markdown .collaborators-list li a:hover,
-#section-markdown .collaborators-list li a:focus {
+.page-people .collaborators-section .collaborators-list li a:hover,
+.page-people .collaborators-section .collaborators-list li a:focus {
   color: #142e66 !important;
   text-decoration: underline !important;
   text-underline-offset: 2px;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .page-people .collaborators-section .collaborators-list {
+    max-width: 100% !important;
+    padding-left: 1.35rem !important;
+    padding-right: 0.5rem !important;
+  }
+
+  .page-people .collaborators-section .collaborators-list li {
+    font-size: 0.95rem !important;
+    line-height: 1.42 !important;
+    margin-bottom: 0.55rem !important;
+  }
 }
 
 // =============================

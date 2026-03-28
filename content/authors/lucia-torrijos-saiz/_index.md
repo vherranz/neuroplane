@@ -1,11 +1,11 @@
 ---
 title: "Lucía Torrijos-Saiz"
 
-role: "Former PhD Student<br>PhD 2025"
+role: "Former PhD Student 2020–2025<br>PhD obtained in 2025"
 
 user_groups:
   - Alumni
 
-sort_by: 1
+weight: 2
 
 ---

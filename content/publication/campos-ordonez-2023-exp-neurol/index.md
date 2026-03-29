@@ -11,7 +11,7 @@ authors:
 - José Manuel García-Verdugo
 - Oscar Gonzalez-Perez
 date: '2023-07-01'
-publishDate: '2026-03-29T15:25:58.431984Z'
+publishDate: '2026-03-29T15:37:46.693823Z'
 publication_types:
 - article-journal
 publication: '*Experimental Neurology*'

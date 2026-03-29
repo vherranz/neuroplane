@@ -22,9 +22,9 @@ authors:
 - Vicent J Nebot
 - Vicente Herranz-Pérez
 - José Manuel García-Verdugo
-- María J Vicent
+- María Jesús Vicent
 date: '2026-05-01'
-publishDate: '2026-03-29T15:25:58.347867Z'
+publishDate: '2026-03-29T15:37:46.614033Z'
 publication_types:
 - article-journal
 publication: '*Biomaterials*'

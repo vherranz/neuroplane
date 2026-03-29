@@ -1,5 +1,5 @@
 ---
-title: "Lucía Torrijos-Saiz"
+title: "Lucía Torrijos Saiz"
 
 role: "PhD Student"
 

@@ -2,7 +2,7 @@
 title: Doublecortin-expressing cells are selectively altered in the piriform cortex
   but not in neurogenic areas of symptomatic Mecp2-heterozygous mice
 authors:
-- Rafael Esteve-Pérez
+- rafael-esteve-perez
 - Paloma Sevilla-Ferrer
 - Enrique Lanuza
 - vicente-herranz-perez

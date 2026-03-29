@@ -7,10 +7,6 @@ superuser: false
 # Orden en People (control manual)
 weight: 20
 
-organizations:
-  - name: NeuroPlaNe Lab
-    url: ''
-
 bio: ''
 interests: []
 education: []

@@ -1,7 +1,7 @@
 ---
 title: "María José Ulloa Navas"
 
-role: "Former PhD Student"
+role: "PhD Student"
 
 user_groups:
   - Alumni

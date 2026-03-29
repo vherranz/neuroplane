@@ -6,7 +6,7 @@ authors:
 - Vicente Herranz-Pérez
 - José Manuel García-Verdugo
 date: '2015-09-01'
-publishDate: '2026-03-29T15:25:58.733568Z'
+publishDate: '2026-03-29T15:37:46.977236Z'
 publication_types:
 - article-journal
 publication: '*Frontiers in Cellular Neuroscience*'

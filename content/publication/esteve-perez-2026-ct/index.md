@@ -6,10 +6,10 @@ authors:
 - Paloma Sevilla-Ferrer
 - Enrique Lanuza
 - Vicente Herranz-Pérez
-- José V Torres-Pérez
+- José Vicente Torres-Pérez
 - Carmen Agustín-Pavón
 date: '2026-01-01'
-publishDate: '2026-03-29T15:25:58.366280Z'
+publishDate: '2026-03-29T15:37:46.631176Z'
 publication_types:
 - article-journal
 publication: '*Neuroscience*'

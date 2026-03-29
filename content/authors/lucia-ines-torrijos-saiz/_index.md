@@ -1,11 +1,12 @@
 ---
-title: "Lucía Torrijos Saiz"
+title: "Lucía Torrijos-Saiz"
 
-role: "PhD Student<br>PhD obtained in 2025"
+role: "Former PhD Student"
 
 user_groups:
   - Alumni
 
 weight: 2
-
 ---
+
+Lucía Torrijos-Saiz completed her PhD in 2025.

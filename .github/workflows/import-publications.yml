@@ -43,28 +43,13 @@ jobs:
         run: |
           find content/publication -type f -name "cite.bib" -delete
 
-      - name: Remove URL buttons and keep DOI only
+      - name: Keep DOI only in publication links
         run: |
           python <<'PY'
           from pathlib import Path
           import yaml
 
           root = Path("content/publication")
-
-          url_fields_to_remove = [
-              "url",
-              "url_pdf",
-              "url_code",
-              "url_dataset",
-              "url_poster",
-              "url_project",
-              "url_slides",
-              "url_source",
-              "url_video",
-              "url_preprint",
-              "url_appendix",
-              "external_link"
-          ]
 
           for md in root.glob("*/index.md"):
               text = md.read_text(encoding="utf-8")
@@ -79,7 +64,6 @@ jobs:
               _, fm_text, body = parts
               data = yaml.safe_load(fm_text) or {}
 
-              # 1) Clean links array, keeping DOI only
               links = data.get("links")
               if isinstance(links, list):
                   kept = []
@@ -97,14 +81,6 @@ jobs:
                       data["links"] = kept
                   else:
                       data.pop("links", None)
-
-              # 2) Remove generic URL fields that can generate buttons
-              for field in url_fields_to_remove:
-                  data.pop(field, None)
-
-              # 3) Remove empty DOI field if present
-              if "doi" in data and not str(data["doi"]).strip():
-                  data.pop("doi", None)
 
               new_fm = yaml.safe_dump(
                   data,

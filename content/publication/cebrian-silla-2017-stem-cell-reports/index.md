@@ -12,7 +12,7 @@ authors:
 - Daniel A Lim
 - José Manuel García-Verdugo
 date: '2017-07-01'
-publishDate: '2026-03-29T15:37:46.998328Z'
+publishDate: '2026-03-30T20:22:55.657080Z'
 publication_types:
 - article-journal
 publication: '*Stem Cell Reports*'

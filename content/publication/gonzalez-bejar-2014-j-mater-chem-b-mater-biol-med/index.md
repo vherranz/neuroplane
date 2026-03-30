@@ -13,7 +13,7 @@ authors:
 - Juan C Scaiano
 - Julia Pérez-Prieto
 date: '2014-07-01'
-publishDate: '2026-03-29T15:37:46.896652Z'
+publishDate: '2026-03-30T20:22:55.555613Z'
 publication_types:
 - article-journal
 publication: '*Journal of Materials Chemistry B*'

@@ -37,6 +37,4 @@ publication_types:
 publication: '*Nature Communications*'
 doi: 10.1038/s41467-024-45825-8
 links:
-- name: URL
-  url: https://doi.org/10.1038/s41467-024-45825-8
 ---

@@ -20,6 +20,4 @@ publication_types:
 publication: '*Chemistry of Materials*'
 doi: 10.1021/acs.chemmater.8b00276
 links:
-- name: URL
-  url: https://doi.org/10.1021/acs.chemmater.8b00276
 ---

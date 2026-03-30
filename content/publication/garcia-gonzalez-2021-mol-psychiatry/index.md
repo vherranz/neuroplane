@@ -20,6 +20,4 @@ publication_types:
 publication: '*Molecular Psychiatry*'
 doi: 10.1038/s41380-020-0823-4
 links:
-- name: URL
-  url: https://doi.org/10.1038/s41380-020-0823-4
 ---

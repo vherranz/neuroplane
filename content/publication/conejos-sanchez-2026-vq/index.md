@@ -30,6 +30,4 @@ publication_types:
 publication: '*Biomaterials*'
 doi: 10.1016/j.biomaterials.2025.123867
 links:
-- name: URL
-  url: https://doi.org/10.1016/j.biomaterials.2025.123867
 ---

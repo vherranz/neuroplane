@@ -24,6 +24,4 @@ publication_types:
 publication: '*Molecular Metabolism*'
 doi: 10.1016/j.molmet.2018.08.006
 links:
-- name: URL
-  url: https://doi.org/10.1016/j.molmet.2018.08.006
 ---

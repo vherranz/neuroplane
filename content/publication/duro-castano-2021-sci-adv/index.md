@@ -21,6 +21,4 @@ publication_types:
 publication: '*Science Advances*'
 doi: 10.1126/sciadv.abf9180
 links:
-- name: URL
-  url: https://doi.org/10.1126/sciadv.abf9180
 ---

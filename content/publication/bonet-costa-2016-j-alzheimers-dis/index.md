@@ -20,6 +20,4 @@ publication_types:
 publication: '*Journal of Alzheimer''s Disease*'
 doi: 10.3233/JAD-151020
 links:
-- name: URL
-  url: https://doi.org/10.3233/JAD-151020
 ---

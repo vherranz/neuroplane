@@ -17,6 +17,4 @@ publication_types:
 publication: '*Current Research in Neurobiology*'
 doi: 10.1016/j.crneur.2022.100042
 links:
-- name: URL
-  url: https://doi.org/10.1016/j.crneur.2022.100042
 ---

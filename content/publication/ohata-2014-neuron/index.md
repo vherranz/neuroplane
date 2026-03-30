@@ -19,6 +19,4 @@ publication_types:
 publication: '*Neuron*'
 doi: 10.1016/j.neuron.2014.06.022
 links:
-- name: URL
-  url: https://doi.org/10.1016/j.neuron.2014.06.022
 ---

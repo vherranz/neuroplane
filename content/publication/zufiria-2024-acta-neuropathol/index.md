@@ -44,6 +44,4 @@ publication_types:
 publication: '*Acta Neuropathologica*'
 doi: 10.1007/s00401-024-02794-y
 links:
-- name: URL
-  url: https://doi.org/10.1007/s00401-024-02794-y
 ---

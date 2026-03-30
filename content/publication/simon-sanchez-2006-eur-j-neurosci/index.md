@@ -13,6 +13,4 @@ publication_types:
 publication: '*European Journal of Neuroscience*'
 doi: 10.1111/j.1460-9568.2006.04616.x
 links:
-- name: URL
-  url: https://doi.org/10.1111/j.1460-9568.2006.04616.x
 ---

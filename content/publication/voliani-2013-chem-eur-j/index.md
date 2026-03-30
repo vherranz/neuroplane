@@ -15,6 +15,4 @@ publication_types:
 publication: '*Chemistry - A European Journal*'
 doi: 10.1002/chem.201301353
 links:
-- name: URL
-  url: https://doi.org/10.1002/chem.201301353
 ---

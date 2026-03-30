@@ -18,6 +18,4 @@ publication_types:
 publication: '*Stem Cell Reports*'
 doi: 10.1016/j.stemcr.2017.05.024
 links:
-- name: URL
-  url: https://doi.org/10.1016/j.stemcr.2017.05.024
 ---

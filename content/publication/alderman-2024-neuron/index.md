@@ -24,6 +24,4 @@ publication_types:
 publication: '*Neuron*'
 doi: 10.1016/j.neuron.2023.11.010
 links:
-- name: URL
-  url: https://doi.org/10.1016/j.neuron.2023.11.010
 ---

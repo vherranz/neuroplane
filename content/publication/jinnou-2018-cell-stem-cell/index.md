@@ -23,6 +23,4 @@ publication_types:
 publication: '*Cell Stem Cell*'
 doi: 10.1016/j.stem.2017.11.005
 links:
-- name: URL
-  url: https://doi.org/10.1016/j.stem.2017.11.005
 ---

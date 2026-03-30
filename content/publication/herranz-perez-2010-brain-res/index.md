@@ -13,6 +13,4 @@ publication_types:
 publication: '*Brain Research*'
 doi: 10.1016/j.brainres.2009.10.013
 links:
-- name: URL
-  url: https://doi.org/10.1016/j.brainres.2009.10.013
 ---

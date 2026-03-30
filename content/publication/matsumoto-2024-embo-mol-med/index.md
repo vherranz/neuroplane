@@ -26,6 +26,4 @@ publication_types:
 publication: '*EMBO Molecular Medicine*'
 doi: 10.1038/s44321-024-00073-7
 links:
-- name: URL
-  url: https://doi.org/10.1038/s44321-024-00073-7
 ---

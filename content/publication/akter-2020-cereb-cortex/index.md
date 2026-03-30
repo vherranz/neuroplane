@@ -16,6 +16,4 @@ publication_types:
 publication: '*Cerebral Cortex*'
 doi: 10.1093/cercor/bhaa031
 links:
-- name: URL
-  url: https://doi.org/10.1093/cercor/bhaa031
 ---

@@ -27,6 +27,4 @@ publication_types:
 publication: '*eLife*'
 doi: 10.7554/eLife.79299
 links:
-- name: URL
-  url: https://doi.org/10.7554/eLife.79299
 ---

@@ -17,6 +17,4 @@ publication_types:
 publication: '*Neuromethods*'
 doi: 10.1007/978-1-4939-3064-7_14
 links:
-- name: URL
-  url: https://doi.org/10.1007/978-1-4939-3064-7_14
 ---

@@ -23,6 +23,4 @@ publication_types:
 publication: '*Neurology*'
 doi: 10.1212/WNL.0000000000003778
 links:
-- name: URL
-  url: https://doi.org/10.1212/WNL.0000000000003778
 ---

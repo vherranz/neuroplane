@@ -18,7 +18,7 @@ authors:
 - Stephen O'Rahilly
 - Florian T Merkle
 date: '2018-11-01'
-publishDate: '2026-03-29T15:37:46.854746Z'
+publishDate: '2026-03-30T20:22:55.515644Z'
 publication_types:
 - article-journal
 publication: '*Molecular Metabolism*'

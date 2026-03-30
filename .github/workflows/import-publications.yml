@@ -22,19 +22,100 @@ jobs:
     steps:
       - name: Checkout the repo
         uses: actions/checkout@v4
+
       - name: Set up Python 3.12
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install academic==0.10.0
+          pip install academic==0.10.0 pyyaml
+
       - name: Run Academic (Bibtex To Markdown Converter)
         # Check `.bib` file exists for case when action runs on `.bib` deletion
         # Note GH only provides hashFiles func in `steps.if` context, not `jobs.if` context
         if: ${{ hashFiles('publications.bib') != '' }}
-        run: academic import publications.bib content/publication/ --compact
+        run: academic import publications.bib content/publication/ --compact --overwrite
+
+      - name: Remove cite.bib files
+        run: |
+          find content/publication -type f -name "cite.bib" -delete
+
+      - name: Remove URL buttons and keep DOI only
+        run: |
+          python <<'PY'
+          from pathlib import Path
+          import yaml
+
+          root = Path("content/publication")
+
+          url_fields_to_remove = [
+              "url",
+              "url_pdf",
+              "url_code",
+              "url_dataset",
+              "url_poster",
+              "url_project",
+              "url_slides",
+              "url_source",
+              "url_video",
+              "url_preprint",
+              "url_appendix",
+              "external_link"
+          ]
+
+          for md in root.glob("*/index.md"):
+              text = md.read_text(encoding="utf-8")
+
+              if not text.startswith("---"):
+                  continue
+
+              parts = text.split("---", 2)
+              if len(parts) < 3:
+                  continue
+
+              _, fm_text, body = parts
+              data = yaml.safe_load(fm_text) or {}
+
+              # 1) Clean links array, keeping DOI only
+              links = data.get("links")
+              if isinstance(links, list):
+                  kept = []
+                  for item in links:
+                      if not isinstance(item, dict):
+                          continue
+
+                      name = str(item.get("name", "")).strip().lower()
+                      url = str(item.get("url", "")).strip().lower()
+
+                      if name == "doi" or "doi.org/" in url:
+                          kept.append(item)
+
+                  if kept:
+                      data["links"] = kept
+                  else:
+                      data.pop("links", None)
+
+              # 2) Remove generic URL fields that can generate buttons
+              for field in url_fields_to_remove:
+                  data.pop(field, None)
+
+              # 3) Remove empty DOI field if present
+              if "doi" in data and not str(data["doi"]).strip():
+                  data.pop("doi", None)
+
+              new_fm = yaml.safe_dump(
+                  data,
+                  sort_keys=False,
+                  allow_unicode=True,
+                  default_flow_style=False
+              ).strip()
+
+              md.write_text(f"---\n{new_fm}\n---{body}", encoding="utf-8")
+          PY
+
       - name: Create Pull Request
         # Set ID for `Check outputs` stage
         id: cpr
@@ -50,6 +131,7 @@ jobs:
           labels: automated-pr, content
           branch: hugoblox-import-publications
           delete-branch: true
+
       - name: Check outputs
         if: ${{ steps.cpr.outputs.pull-request-number }}
         run: |

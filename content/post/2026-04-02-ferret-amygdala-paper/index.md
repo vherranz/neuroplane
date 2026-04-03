@@ -9,7 +9,7 @@ In this study, we identify immature excitatory neurons in the postnatal ferret a
 
 This work was carried out in close collaboration with the laboratories of Shawn Sorrells at the University of Pittsburgh and Arturo Alvarez-Buylla at UCSF."
 
-authors: null
+authors: "null"
 tags: []
 categories: []
 

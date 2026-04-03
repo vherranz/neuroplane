@@ -1037,15 +1037,16 @@ html.dark .article-style,
 }
 
 /* ===================================== */
-/* LATEST NEWS - show full featured image */
+/* LATEST NEWS - full image, compact     */
 /* ===================================== */
 
-/* Card/banner container on homepage news blocks */
+/* Banner container (remove forced crop) */
 .home-section .card-simple .article-banner,
 .home-section .media.stream-item .article-banner,
 .home-section .stream-item .article-banner,
 .section-posts .article-banner,
-.article-widget .article-banner {
+.article-widget .article-banner,
+.card-simple .article-banner {
   height: auto !important;
   max-height: none !important;
   padding-top: 0 !important;
@@ -1053,25 +1054,24 @@ html.dark .article-style,
   background: #fff !important;
 }
 
-/* If theme uses an <img> inside the banner */
-.home-section .card-simple .article-banner img,
-.home-section .media.stream-item .article-banner img,
-.home-section .stream-item .article-banner img,
+/* Image inside cards (KEY PART) */
+.home-section .article-banner img,
 .section-posts .article-banner img,
-.article-widget .article-banner img {
+.article-widget .article-banner img,
+.card-simple .article-banner img,
+.media.stream-item img,
+.view-list-item img {
   width: 100% !important;
+  max-height: 180px !important;   /* ← controla tamaño visual */
   height: auto !important;
-  max-height: none !important;
   object-fit: contain !important;
   object-position: center center !important;
   display: block !important;
   background: #fff !important;
 }
 
-/* If theme uses a linked wrapper around the image */
-.home-section .card-simple .article-banner a,
-.home-section .media.stream-item .article-banner a,
-.home-section .stream-item .article-banner a,
+/* Link wrapper fix */
+.home-section .article-banner a,
 .section-posts .article-banner a,
 .article-widget .article-banner a {
   display: block !important;
@@ -1079,23 +1079,16 @@ html.dark .article-style,
   overflow: visible !important;
 }
 
-/* Safety: remove forced crop on generic post cards */
+/* If theme uses background-image */
 .card-simple .article-banner {
-  height: auto !important;
-  padding-top: 0 !important;
-  overflow: visible !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
 }
 
-.card-simple .article-banner img {
-  width: 100% !important;
-  height: auto !important;
-  object-fit: contain !important;
-  object-position: center center !important;
-  display: block !important;
-}
 
 /* ===================================== */
-/* SINGLE POST / NEWS - show full image  */
+/* SINGLE POST - full image (no crop)    */
 /* ===================================== */
 
 .article-container .article-banner,
@@ -1122,7 +1115,7 @@ article .article-banner img,
   background: #fff !important;
 }
 
-/* If the single post banner uses a background-image */
+/* Background-image fallback */
 .article-container .article-banner,
 article .article-banner,
 .universal-wrapper .article-banner,

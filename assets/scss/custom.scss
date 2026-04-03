@@ -1037,10 +1037,9 @@ html.dark .article-style,
 }
 
 /* ===================================== */
-/* LATEST NEWS - full image, compact     */
+/* LATEST NEWS - full image, smaller     */
 /* ===================================== */
 
-/* Banner container (remove forced crop) */
 .home-section .card-simple .article-banner,
 .home-section .media.stream-item .article-banner,
 .home-section .stream-item .article-banner,
@@ -1052,35 +1051,43 @@ html.dark .article-style,
   padding-top: 0 !important;
   overflow: visible !important;
   background: #fff !important;
+  text-align: center !important;
 }
 
-/* Image inside cards (KEY PART) */
+/* Make preview image smaller and centered */
 .home-section .article-banner img,
 .section-posts .article-banner img,
 .article-widget .article-banner img,
 .card-simple .article-banner img,
 .media.stream-item img,
 .view-list-item img {
-  width: 100% !important;
-  max-height: 180px !important;   /* ← controla tamaño visual */
+  width: auto !important;
+  max-width: 72% !important;
+  max-height: 150px !important;
   height: auto !important;
   object-fit: contain !important;
   object-position: center center !important;
   display: block !important;
+  margin: 0 auto !important;
   background: #fff !important;
 }
 
-/* Link wrapper fix */
+/* Link wrapper */
 .home-section .article-banner a,
 .section-posts .article-banner a,
-.article-widget .article-banner a {
+.article-widget .article-banner a,
+.card-simple .article-banner a {
   display: block !important;
   height: auto !important;
   overflow: visible !important;
+  text-align: center !important;
 }
 
-/* If theme uses background-image */
-.card-simple .article-banner {
+/* Background-image fallback */
+.card-simple .article-banner,
+.home-section .article-banner,
+.section-posts .article-banner,
+.article-widget .article-banner {
   background-size: contain !important;
   background-repeat: no-repeat !important;
   background-position: center center !important;
@@ -1115,7 +1122,6 @@ article .article-banner img,
   background: #fff !important;
 }
 
-/* Background-image fallback */
 .article-container .article-banner,
 article .article-banner,
 .universal-wrapper .article-banner,

@@ -3,13 +3,16 @@ title: "New paper on immature excitatory neurons in the postnatal ferret amygdal
 date: 2026-04-02
 draft: false
 
-summary: "We are pleased to share our new article published in Journal of Comparative Neurology.
+summary: "We are pleased to share our new article published in *Journal of Comparative Neurology*.
 
 In this study, we identify immature excitatory neurons in the postnatal ferret amygdala and compare their organization across mammalian species. We show that immature neurons extend into the amygdala not only in ferret, but also in marmoset and swine, supporting the idea that protracted maturation of paralaminar neurons is a conserved mammalian feature rather than a primate-specific specialization.
 
 This work was carried out in close collaboration with the laboratories of Shawn Sorrells at the University of Pittsburgh and Arturo Alvarez-Buylla at UCSF."
 
-authors: null
+authors: []
+show_author: false
+profile: false
+
 tags: []
 categories: []
 

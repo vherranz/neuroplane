@@ -1035,3 +1035,40 @@ html.dark .article-style,
   vertical-align: -0.06em;
   opacity: 0.65;
 }
+
+/* ===================================== */
+/* Featured images in Latest News / Post */
+/* Show full image without cropping      */
+/* ===================================== */
+
+/* Latest News cards / post previews */
+.media.stream-item-view .article-style img,
+.media.stream-item img,
+.article-widget li.media .media-object,
+.article-widget .media img {
+  width: 100%;
+  height: 260px;
+  object-fit: contain !important;
+  object-position: center center !important;
+  background: #fff;
+}
+
+/* Single post header / featured image */
+.article-container img,
+.article-banner img,
+.hero-media img,
+.featured-image img {
+  width: 100%;
+  height: auto !important;
+  object-fit: contain !important;
+  object-position: center center !important;
+  background: #fff;
+}
+
+/* In case the theme wraps the image in a fixed-height container */
+.article-banner,
+.hero-media,
+.featured-image,
+.media.stream-item .media-object {
+  background: #fff;
+}

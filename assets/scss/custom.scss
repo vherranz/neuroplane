@@ -1093,3 +1093,41 @@ html.dark .article-style,
   object-position: center center !important;
   display: block !important;
 }
+
+/* ===================================== */
+/* SINGLE POST / NEWS - show full image  */
+/* ===================================== */
+
+.article-container .article-banner,
+article .article-banner,
+.universal-wrapper .article-banner,
+.single .article-banner {
+  height: auto !important;
+  max-height: none !important;
+  padding-top: 0 !important;
+  overflow: visible !important;
+  background: #fff !important;
+}
+
+.article-container .article-banner img,
+article .article-banner img,
+.universal-wrapper .article-banner img,
+.single .article-banner img {
+  width: 100% !important;
+  height: auto !important;
+  max-height: none !important;
+  object-fit: contain !important;
+  object-position: center center !important;
+  display: block !important;
+  background: #fff !important;
+}
+
+/* If the single post banner uses a background-image */
+.article-container .article-banner,
+article .article-banner,
+.universal-wrapper .article-banner,
+.single .article-banner {
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+}

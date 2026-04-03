@@ -14,7 +14,7 @@ tags: []
 categories: []
 
 image:
-  caption: ""
+  caption: "Left: Schematic of a coronal section of the adult ferret brain, showing the location of a collection of Dcx+ cells (green) ventrally to the amygdala (grey) in a region homologous to the PL in other species. These cells are spatially distributed either as individual cells in a dispersed field or in clusters (1). Cells in the ferret PL display molecular (Dcx, Sox11, and PSA-NCAM positive) and ultrastructural features of immature neurons (2). In both juveniles and adults, a subset of PL neurons shows morphological and ultrastructural features of migratory neurons, being surrounded by intercellular gaps (yellow) and astrocyte expansions (blue) that partially isolated clustered cells (3). Right: Phylogenetic tree comparing the PL (green) location across a range of species (marmoset, human, mouse, ferret, swine) with varying brain size and gyrification index (GI). Brains and schematic drawings of the amygdala are not in scale. D: dorsal, Dcx: doublecortin, L: lateral, PL: paralaminar nuclei. Brains of mouse, marmoset, ferret, swine, and human were reproduced from the Comparative Mammalian Brain Collections (https://brainmuseum.org/)."
   focal_point: "Center"
   preview_only: false
 ---

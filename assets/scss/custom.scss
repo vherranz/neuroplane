@@ -1037,20 +1037,59 @@ html.dark .article-style,
 }
 
 /* ===================================== */
-/* Latest News cards - NO CROP images    */
+/* LATEST NEWS - show full featured image */
 /* ===================================== */
 
-.view-list-item .article-style img,
-.view-list-item img,
-.media.stream-item img {
-  width: 100%;
-  height: 800px !important;   /* controla altura de la tarjeta */
-  object-fit: contain !important;
-  object-position: center center !important;
-  background: #fff;
+/* Card/banner container on homepage news blocks */
+.home-section .card-simple .article-banner,
+.home-section .media.stream-item .article-banner,
+.home-section .stream-item .article-banner,
+.section-posts .article-banner,
+.article-widget .article-banner {
+  height: auto !important;
+  max-height: none !important;
+  padding-top: 0 !important;
+  overflow: visible !important;
+  background: #fff !important;
 }
 
-/* Quitar recorte del contenedor */
-.view-list-item .media {
-  align-items: center;
+/* If theme uses an <img> inside the banner */
+.home-section .card-simple .article-banner img,
+.home-section .media.stream-item .article-banner img,
+.home-section .stream-item .article-banner img,
+.section-posts .article-banner img,
+.article-widget .article-banner img {
+  width: 100% !important;
+  height: auto !important;
+  max-height: none !important;
+  object-fit: contain !important;
+  object-position: center center !important;
+  display: block !important;
+  background: #fff !important;
+}
+
+/* If theme uses a linked wrapper around the image */
+.home-section .card-simple .article-banner a,
+.home-section .media.stream-item .article-banner a,
+.home-section .stream-item .article-banner a,
+.section-posts .article-banner a,
+.article-widget .article-banner a {
+  display: block !important;
+  height: auto !important;
+  overflow: visible !important;
+}
+
+/* Safety: remove forced crop on generic post cards */
+.card-simple .article-banner {
+  height: auto !important;
+  padding-top: 0 !important;
+  overflow: visible !important;
+}
+
+.card-simple .article-banner img {
+  width: 100% !important;
+  height: auto !important;
+  object-fit: contain !important;
+  object-position: center center !important;
+  display: block !important;
 }

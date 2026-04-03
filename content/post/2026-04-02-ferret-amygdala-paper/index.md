@@ -9,7 +9,7 @@ This work was carried out in close collaboration with the laboratories of Shawn 
 
 We are especially proud that the first author of the paper is Lucía Inés Torrijos-Saiz. Her PhD thesis, defended in July 2025, brought together a substantial part of the results presented in this article."
 
-authors: []
+authors: [null]
 tags: []
 categories: []
 

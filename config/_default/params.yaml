@@ -102,8 +102,3 @@ extensions:
 publications:
   citation_style: apa
   date_format: "2006"
-
-# Image quality and resampling
-  imaging:
-  quality: 95
-  resampleFilter: Lanczos

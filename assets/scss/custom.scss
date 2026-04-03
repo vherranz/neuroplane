@@ -1037,7 +1037,7 @@ html.dark .article-style,
 }
 
 /* ===================================== */
-/* LATEST NEWS - full image, smaller     */
+/* LATEST NEWS - smaller full image      */
 /* ===================================== */
 
 .home-section .card-simple .article-banner,
@@ -1054,33 +1054,38 @@ html.dark .article-style,
   text-align: center !important;
 }
 
-/* Make preview image smaller and centered */
-.home-section .article-banner img,
-.section-posts .article-banner img,
-.article-widget .article-banner img,
-.card-simple .article-banner img,
-.media.stream-item img,
-.view-list-item img {
+/* Limit the width of the preview block itself */
+.home-section .card-simple .article-banner a,
+.home-section .media.stream-item .article-banner a,
+.home-section .stream-item .article-banner a,
+.section-posts .article-banner a,
+.article-widget .article-banner a,
+.card-simple .article-banner a {
+  display: inline-block !important;
   width: auto !important;
   max-width: 60% !important;
+  margin: 0 auto !important;
+  overflow: visible !important;
+  text-align: center !important;
+  vertical-align: top !important;
+}
+
+/* Image inside preview */
+.home-section .card-simple .article-banner img,
+.home-section .media.stream-item .article-banner img,
+.home-section .stream-item .article-banner img,
+.section-posts .article-banner img,
+.article-widget .article-banner img,
+.card-simple .article-banner img {
+  display: block !important;
+  width: auto !important;
+  max-width: 100% !important;
   max-height: 150px !important;
   height: auto !important;
   object-fit: contain !important;
   object-position: center center !important;
-  display: block !important;
   margin: 0 auto !important;
   background: #fff !important;
-}
-
-/* Link wrapper */
-.home-section .article-banner a,
-.section-posts .article-banner a,
-.article-widget .article-banner a,
-.card-simple .article-banner a {
-  display: block !important;
-  height: auto !important;
-  overflow: visible !important;
-  text-align: center !important;
 }
 
 /* Background-image fallback */

@@ -92,11 +92,27 @@
    B) Single publication page
    ========================= */
 
+/* =========================
+   B) Single publication page
+   ========================= */
+
 .article-container .article-metadata > div:first-of-type,
 .article-container .article-metadata > div:first-of-type span,
-.article-container .article-metadata > div:first-of-type a {
-  font-size: 0.98rem !important;
-  line-height: 1.6 !important;
+.article-container .article-metadata > div:first-of-type a,
+.article-container .article-metadata .article-date,
+.article-container .article-metadata .middot-divider {
+  font-size: 0.92rem !important;
+  line-height: 1.55 !important;
   font-weight: 300 !important;
   color: $color-meta-soft !important;
+}
+
+.article-container .article-metadata > div:first-of-type a {
+  text-decoration: none !important;
+  transition: color 0.15s ease;
+}
+
+.article-container .article-metadata > div:first-of-type a:hover {
+  color: $color-accent !important;
+  text-decoration: none !important;
 }

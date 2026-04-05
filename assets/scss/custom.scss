@@ -2,6 +2,8 @@
 // NEUROPLANE LAB - CUSTOM SCSS
 // Modular entry point
 // =====================================
+// Evita duplicaciones si algún partial se importa dos veces
+@use "sass:meta";
 
 @import "variables";
 @import "base";

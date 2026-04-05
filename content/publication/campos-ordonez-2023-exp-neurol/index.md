@@ -11,10 +11,12 @@ authors:
 - José Manuel García-Verdugo
 - Oscar Gonzalez-Perez
 date: '2023-07-01'
-publishDate: '2026-03-30T20:22:55.345915Z'
+publishDate: '2026-04-05T19:10:18.932451Z'
 publication_types:
 - article-journal
 publication: '*Experimental Neurology*'
 doi: 10.1016/j.expneurol.2023.114412
 links:
+- name: URL
+  url: https://doi.org/10.1016/j.expneurol.2023.114412
 ---

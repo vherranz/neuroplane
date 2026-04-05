@@ -18,10 +18,12 @@ authors:
 - Junichi Nabekura
 - Kazunobu Sawamoto
 date: '2025-10-01'
-publishDate: '2026-03-30T20:22:55.276175Z'
+publishDate: '2026-04-05T19:10:18.870614Z'
 publication_types:
 - article-journal
 publication: '*eLife*'
 doi: 10.7554/eLife.99502
 links:
+- name: URL
+  url: https://doi.org/10.7554/eLife.99502
 ---

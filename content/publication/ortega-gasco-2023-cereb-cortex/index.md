@@ -14,10 +14,12 @@ authors:
 - Lluís Pujadas
 - Eduardo Soriano
 date: '2023-10-01'
-publishDate: '2026-03-30T20:22:55.376735Z'
+publishDate: '2026-04-05T19:10:18.950320Z'
 publication_types:
 - article-journal
 publication: '*Cerebral Cortex*'
 doi: 10.1093/cercor/bhad340
 links:
+- name: URL
+  url: https://doi.org/10.1093/cercor/bhad340
 ---

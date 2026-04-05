@@ -10,10 +10,12 @@ authors:
 - José Manuel García-Verdugo
 - Kazunobu Sawamoto
 date: '2020-06-01'
-publishDate: '2026-03-30T20:22:55.475679Z'
+publishDate: '2026-04-05T19:10:19.038938Z'
 publication_types:
 - article-journal
 publication: '*Cerebral Cortex*'
 doi: 10.1093/cercor/bhaa031
 links:
+- name: URL
+  url: https://doi.org/10.1093/cercor/bhaa031
 ---

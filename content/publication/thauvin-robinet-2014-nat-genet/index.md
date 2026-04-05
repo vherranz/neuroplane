@@ -32,10 +32,12 @@ authors:
 - André Mégarbané
 - Maxence V Nachury
 date: '2014-08-01'
-publishDate: '2026-03-30T20:22:55.568942Z'
+publishDate: '2026-04-05T19:10:19.121894Z'
 publication_types:
 - article-journal
 publication: '*Nature Genetics*'
 doi: 10.1038/ng.3031
 links:
+- name: URL
+  url: https://doi.org/10.1038/ng.3031
 ---

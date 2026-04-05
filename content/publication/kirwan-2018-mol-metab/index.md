@@ -18,10 +18,12 @@ authors:
 - Stephen O'Rahilly
 - Florian T Merkle
 date: '2018-11-01'
-publishDate: '2026-03-30T20:22:55.515644Z'
+publishDate: '2026-04-05T19:10:19.074322Z'
 publication_types:
 - article-journal
 publication: '*Molecular Metabolism*'
 doi: 10.1016/j.molmet.2018.08.006
 links:
+- name: URL
+  url: https://doi.org/10.1016/j.molmet.2018.08.006
 ---

@@ -14,4 +14,5 @@ publication_types:
 - article-journal
 publication: '*Neuroscience*'
 doi: 10.1016/j.neuroscience.2025.12.010
+url_pdf: /files/papers/Esteve-Perez-2026.pdf
 ---

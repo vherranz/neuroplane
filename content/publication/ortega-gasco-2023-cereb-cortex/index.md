@@ -19,4 +19,5 @@ publication_types:
 - article-journal
 publication: '*Cerebral Cortex*'
 doi: 10.1093/cercor/bhad340
+url_pdf: /files/papers/Ortega-Gasco-2023.pdf
 ---

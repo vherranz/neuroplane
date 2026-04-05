@@ -1154,17 +1154,3 @@ article .article-banner,
 .home-section .stream-item .stream-meta {
   font-size: 0.9rem !important;
 }
-
-/* Hover feedback */
-.home-section .stream-item:hover .article-title a {
-  color: #1f4e8c !important;
-}
-
-.home-section .stream-item:hover img {
-  transform: translateY(-1px);
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
-}
-
-.home-section .stream-item:hover .article-style {
-  color: rgba(0, 0, 0, 0.9) !important;
-}

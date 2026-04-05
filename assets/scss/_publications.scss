@@ -92,12 +92,14 @@
    B) Single publication page
    ========================= */
 
-.article-container .article-metadata .authors,
-.article-container .pub-authors,
-.publication .article-metadata .authors,
-.publication .pub-authors {
-  font-size: 1.02rem !important;
-  line-height: 1.6 !important;
-  font-weight: 300 !important;
-  color: $color-meta !important;
+.page-publication .article-metadata,
+.page-publication .article-metadata .authors,
+.page-publication .article-metadata span,
+.page-publication .article-metadata a,
+.article-page .article-metadata,
+.article-page .article-metadata .authors,
+.article-page .article-metadata span,
+.article-page .article-metadata a {
+  font-size: 1.05rem !important;
+  line-height: 1.65 !important;
 }

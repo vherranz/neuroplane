@@ -1,0 +1,16 @@
+name = "NeuroPlaNe"
+
+[light]
+  primary = "#1f4e8c"
+  background = "#ffffff"
+
+  home_section_odd = "#ffffff"
+  home_section_even = "#f7f9fc"
+
+  menu_primary = "#ffffff"
+  menu_text = "#222222"
+  menu_text_active = "#111111"
+  menu_title = "#111111"
+
+  link = "#1f4e8c"
+  link_hover = "#163a68"

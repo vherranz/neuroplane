@@ -1,8 +1,38 @@
 // =====================================
 // NEUROPLANE LAB - CUSTOM SCSS
-// Conservative cleanup: same behavior, reduced duplication,
-// clearer grouping, and conflict order preserved where needed.
+// Conservative cleanup with variables
 // =====================================
+
+// =============================
+// VARIABLES
+// =============================
+
+$color-bg: #ffffff;
+$color-text: #222;
+$color-text-soft: #666;
+$color-text-muted: #444;
+$color-text-dark: #111;
+
+$color-accent: #1b3f8b;
+$color-accent-dark: #142e66;
+$color-accent-alt: #1f4e8c;
+$color-meta: rgba(0, 0, 0, 0.8);
+$color-meta-soft: rgba(0, 0, 0, 0.7);
+
+$border-soft: rgba(0, 0, 0, 0.06);
+$border-medium: rgba(0, 0, 0, 0.08);
+$border-strong: rgba(0, 0, 0, 0.12);
+$bg-hover-soft: rgba(0, 0, 0, 0.04);
+
+$shadow-navbar: 0 2px 10px rgba(0, 0, 0, 0.04);
+$shadow-dropdown: 0 6px 18px rgba(0, 0, 0, 0.08);
+
+$max-width-main: 1400px;
+$max-width-large: 1800px;
+$max-width-content: 1200px;
+$max-width-collaborators: 980px;
+$max-width-collaborators-list: 760px;
+$max-width-stream: 980px;
 
 // =============================
 // 1) BASE TYPOGRAPHY / GLOBAL
@@ -10,8 +40,8 @@
 
 html,
 body {
-  background: #ffffff !important;
-  color: #222 !important;
+  background: $color-bg !important;
+  color: $color-text !important;
 }
 
 body {
@@ -29,13 +59,13 @@ h5,
 h6 {
   font-weight: 500;
   letter-spacing: -0.01em;
-  color: #222;
+  color: $color-text;
 }
 
 p,
 li {
   font-weight: 300;
-  color: #222;
+  color: $color-text;
 }
 
 .page-wrapper,
@@ -44,7 +74,7 @@ li {
 .section,
 main,
 section {
-  background: #ffffff !important;
+  background: $color-bg !important;
 }
 
 img {
@@ -60,15 +90,15 @@ img {
   background: rgba(255, 255, 255, 0.82) !important;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+  border-bottom: 1px solid $border-soft;
+  box-shadow: $shadow-navbar;
   padding-top: 0.35rem !important;
   padding-bottom: 0.35rem !important;
 }
 
 .navbar-brand {
   font-size: 0 !important;
-  color: #222 !important;
+  color: $color-text !important;
 }
 
 .navbar-brand::after {
@@ -78,13 +108,13 @@ img {
   font-weight: 400 !important;
   letter-spacing: 0.26em !important;
   text-transform: uppercase !important;
-  color: #222 !important;
+  color: $color-text !important;
   line-height: 1;
 }
 
 .navbar .nav-link,
 .navbar-nav .nav-link {
-  color: #666 !important;
+  color: $color-text-soft !important;
   text-transform: uppercase !important;
   letter-spacing: 0.06em !important;
   font-weight: 400 !important;
@@ -94,7 +124,7 @@ img {
 
 .navbar .nav-link:hover,
 .navbar .nav-link:focus {
-  color: #111 !important;
+  color: $color-text-dark !important;
   opacity: 0.9;
 }
 
@@ -108,7 +138,7 @@ img {
 .navbar .navbar-nav .nav-link.active,
 .navbar .nav-link[aria-current="page"],
 .navbar-nav .nav-link[aria-current="page"] {
-  color: #111 !important;
+  color: $color-text-dark !important;
   font-weight: 600 !important;
   opacity: 1 !important;
 }
@@ -117,14 +147,14 @@ img {
 .navbar .nav-link[aria-current="page"] i,
 .navbar-nav .nav-link.active i,
 .navbar-nav .nav-link[aria-current="page"] i {
-  color: #111 !important;
+  color: $color-text-dark !important;
   opacity: 1 !important;
 }
 
 .navbar .navbar-toggler,
 .navbar-light .navbar-toggler {
   border-color: rgba(0, 0, 0, 0.15) !important;
-  color: #666 !important;
+  color: $color-text-soft !important;
   box-shadow: none !important;
 }
 
@@ -141,7 +171,7 @@ img {
   content: "\f0c9";
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
-  color: #666 !important;
+  color: $color-text-soft !important;
   font-size: 1.15rem;
   line-height: 1;
   position: absolute;
@@ -168,7 +198,7 @@ img {
 .page-wrapper .article-container,
 .page-wrapper .container,
 .page-wrapper .container-fluid {
-  max-width: 1400px !important;
+  max-width: $max-width-main !important;
   width: 94% !important;
   margin-left: auto !important;
   margin-right: auto !important;
@@ -183,7 +213,7 @@ img {
   .page-wrapper .article-container,
   .page-wrapper .container,
   .page-wrapper .container-fluid {
-    max-width: 1800px !important;
+    max-width: $max-width-large !important;
     width: 94% !important;
   }
 }
@@ -245,7 +275,7 @@ img {
 .article-style,
 .home-section.wg-markdown .markdown,
 .home-section.wg-markdown .article-style {
-  max-width: 1200px !important;
+  max-width: $max-width-content !important;
   margin-left: auto !important;
   margin-right: auto !important;
 }
@@ -262,7 +292,7 @@ img {
 .article-style h3 {
   margin-top: 2.1rem;
   margin-bottom: 0.55rem;
-  color: #1f4e8c;
+  color: $color-accent-alt;
 }
 
 .article-style h3 + p em {
@@ -274,7 +304,7 @@ img {
 
 .article-style hr {
   margin: 2rem 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  border-top: 1px solid $border-strong;
 }
 
 .article-container {
@@ -310,7 +340,7 @@ img {
 // =============================
 
 .contact-lab-title {
-  color: #1f4e8c !important;
+  color: $color-accent-alt !important;
   font-weight: 500 !important;
   letter-spacing: -0.01em !important;
 }
@@ -341,7 +371,7 @@ img {
   font-size: 0.9rem !important;
   line-height: 1.42 !important;
   font-weight: 300 !important;
-  color: rgba(0, 0, 0, 0.8) !important;
+  color: $color-meta !important;
   margin-bottom: 0.1rem !important;
 }
 
@@ -366,7 +396,7 @@ img {
 .media.stream-item .article-title a,
 .media.stream-item h3 a,
 .media.stream-item h2 a {
-  color: #1b3f8b !important;
+  color: $color-accent !important;
   text-decoration: none !important;
   transition: color 0.15s ease;
   text-underline-offset: 3px;
@@ -377,7 +407,7 @@ img {
 .media.stream-item .article-title a:hover,
 .media.stream-item h3 a:hover,
 .media.stream-item h2 a:hover {
-  color: #142e66 !important;
+  color: $color-accent-dark !important;
   text-decoration: underline !important;
 }
 
@@ -389,7 +419,7 @@ img {
   line-height: 1.4 !important;
   margin-top: 0.02rem !important;
   margin-bottom: 0.12rem !important;
-  color: rgba(0, 0, 0, 0.7) !important;
+  color: $color-meta-soft !important;
   font-style: italic !important;
 }
 
@@ -459,7 +489,7 @@ img {
 .home-section.wg-pages .card-simple,
 .home-section.wg-pages .media.stream-item,
 .home-section.wg-pages .stream-item {
-  max-width: 980px !important;
+  max-width: $max-width-stream !important;
   margin-left: auto !important;
   margin-right: auto !important;
 }
@@ -566,9 +596,9 @@ img {
 .dropdown-menu,
 #navbar-main .dropdown-menu,
 .nav-item.dropdown .dropdown-menu {
-  background: #ffffff !important;
-  border: 1px solid rgba(0, 0, 0, 0.08) !important;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08) !important;
+  background: $color-bg !important;
+  border: 1px solid $border-medium !important;
+  box-shadow: $shadow-dropdown !important;
   border-radius: 0.5rem !important;
   overflow: hidden !important;
 }
@@ -578,8 +608,8 @@ img {
 .dropdown-menu button,
 .nav-item.dropdown .dropdown-menu a,
 .nav-item.dropdown .dropdown-menu button {
-  background: #ffffff !important;
-  color: #444 !important;
+  background: $color-bg !important;
+  color: $color-text-muted !important;
 }
 
 .dropdown-menu .dropdown-item:hover,
@@ -592,8 +622,8 @@ img {
 .nav-item.dropdown .dropdown-menu a:focus,
 .nav-item.dropdown .dropdown-menu button:hover,
 .nav-item.dropdown .dropdown-menu button:focus {
-  background: rgba(0, 0, 0, 0.04) !important;
-  color: #111 !important;
+  background: $bg-hover-soft !important;
+  color: $color-text-dark !important;
 }
 
 // =============================
@@ -623,7 +653,7 @@ img {
   line-height: 1.25 !important;
   font-weight: 500 !important;
   letter-spacing: -0.01em !important;
-  color: #1b3f8b !important;
+  color: $color-accent !important;
 }
 
 .page-people .people-widget .portrait-title h3,
@@ -632,14 +662,14 @@ img {
   line-height: 1.35 !important;
   font-weight: 400 !important;
   letter-spacing: -0.005em !important;
-  color: #666 !important;
+  color: $color-text-soft !important;
   margin-top: 0.35rem !important;
   margin-bottom: 0 !important;
 }
 
 .page-people .people-widget .portrait-title p,
 .page-people .people-person .portrait-title p {
-  color: #666 !important;
+  color: $color-text-soft !important;
 }
 
 .page-people .section-heading {
@@ -664,7 +694,7 @@ img {
 
 .page-people .collaborators-section .markdown,
 .page-people .collaborators-section .article-style {
-  max-width: 980px !important;
+  max-width: $max-width-collaborators !important;
   margin-left: auto !important;
   margin-right: auto !important;
 }
@@ -672,7 +702,7 @@ img {
 .page-people .collaborators-section .collaborators-list {
   list-style: disc !important;
   margin: 0 auto !important;
-  max-width: 760px !important;
+  max-width: $max-width-collaborators-list !important;
   width: 100% !important;
   padding-left: 1.5rem !important;
   text-align: left !important;
@@ -684,12 +714,12 @@ img {
   line-height: 1.35 !important;
   font-weight: 400 !important;
   letter-spacing: -0.005em !important;
-  color: #666 !important;
+  color: $color-text-soft !important;
 }
 
 .page-people .collaborators-section .collaborators-list li a,
 .page-people .collaborators-section .collaborators-list li a:visited {
-  color: #1b3f8b !important;
+  color: $color-accent !important;
   text-decoration: none !important;
   font-size: 1.05rem !important;
   line-height: 1.25 !important;
@@ -700,7 +730,7 @@ img {
 
 .page-people .collaborators-section .collaborators-list li a:hover,
 .page-people .collaborators-section .collaborators-list li a:focus {
-  color: #142e66 !important;
+  color: $color-accent-dark !important;
   text-decoration: underline !important;
   text-underline-offset: 2px;
 }
@@ -736,7 +766,7 @@ body[class*="authors"] .portrait-title h2 {
   font-size: 2rem !important;
   font-weight: 500 !important;
   margin-bottom: 0.35rem !important;
-  color: #222 !important;
+  color: $color-text !important;
 }
 
 body[class*="author"] .portrait-title h3,
@@ -744,7 +774,7 @@ body[class*="authors"] .portrait-title h3 {
   font-size: 1rem !important;
   line-height: 1.4 !important;
   font-weight: 400 !important;
-  color: #666 !important;
+  color: $color-text-soft !important;
   margin-top: 0.15rem !important;
   margin-bottom: 0 !important;
 }
@@ -771,13 +801,13 @@ body[class*="authors"] .author-card .network-icon {
 
 body[class*="author"] .network-icon a,
 body[class*="authors"] .network-icon a {
-  color: #666 !important;
+  color: $color-text-soft !important;
   transition: color 0.15s ease;
 }
 
 body[class*="author"] .network-icon a:hover,
 body[class*="authors"] .network-icon a:hover {
-  color: #1b3f8b !important;
+  color: $color-accent !important;
 }
 
 body[class*="author"] .article-widget,
@@ -787,14 +817,14 @@ body[class*="authors"] .article-widget {
 
 body[class*="author"] .article-widget h3,
 body[class*="authors"] .article-widget h3 {
-  color: #222 !important;
+  color: $color-text !important;
   margin-top: 0 !important;
 }
 
 body[class*="author"] .content-widget-hr,
 body[class*="authors"] .content-widget-hr {
   margin: 2rem 0 1.5rem 0 !important;
-  border-top: 1px solid rgba(0, 0, 0, 0.08) !important;
+  border-top: 1px solid $border-medium !important;
 }
 
 // Tooltips for social icons
@@ -862,8 +892,8 @@ footer.site-footer {
 html.dark,
 body.dark,
 [data-theme="dark"] {
-  background: #ffffff !important;
-  color: #222222 !important;
+  background: $color-bg !important;
+  color: $color-text !important;
 }
 
 html.dark p,
@@ -876,7 +906,7 @@ html.dark .article-style,
 [data-theme="dark"] span,
 [data-theme="dark"] div,
 [data-theme="dark"] .article-style {
-  color: #222222 !important;
+  color: $color-text !important;
 }
 
 // =============================
@@ -894,7 +924,7 @@ html.dark .article-style,
   max-height: none !important;
   padding-top: 0 !important;
   overflow: visible !important;
-  background: #fff !important;
+  background: $color-bg !important;
   text-align: center !important;
 }
 
@@ -927,7 +957,7 @@ html.dark .article-style,
   object-fit: contain !important;
   object-position: center center !important;
   margin: 0 auto !important;
-  background: #fff !important;
+  background: $color-bg !important;
 }
 
 .card-simple .article-banner,
@@ -948,7 +978,7 @@ article .article-banner,
   max-height: none !important;
   padding-top: 0 !important;
   overflow: visible !important;
-  background: #fff !important;
+  background: $color-bg !important;
   background-size: contain !important;
   background-repeat: no-repeat !important;
   background-position: center center !important;
@@ -964,7 +994,7 @@ article .article-banner img,
   object-fit: contain !important;
   object-position: center center !important;
   display: block !important;
-  background: #fff !important;
+  background: $color-bg !important;
 }
 
 // Latest News font sizing
@@ -1014,13 +1044,13 @@ article .article-banner img,
 
 @media (max-width: 991px) {
   .navbar-collapse {
-    background: #ffffff !important;
-    border-top: 1px solid rgba(0, 0, 0, 0.06);
+    background: $color-bg !important;
+    border-top: 1px solid $border-soft;
     padding-top: 0.8rem;
   }
 
   .navbar-nav .nav-link {
-    color: #444 !important;
+    color: $color-text-muted !important;
   }
 }
 

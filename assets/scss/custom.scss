@@ -1154,3 +1154,16 @@ article .article-banner,
 .home-section .stream-item .stream-meta {
   font-size: 0.9rem !important;
 }
+
+/* ===================================== */
+/* LATEST NEWS (compact) - bigger image  */
+/* ===================================== */
+
+.home-section .stream-item .media-object {
+  max-width: 140px !important;  /* prueba 140–180 */
+}
+
+.home-section .stream-item img {
+  width: 100% !important;
+  height: auto !important;
+}

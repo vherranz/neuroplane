@@ -29,4 +29,5 @@ publication_types:
 - article-journal
 publication: '*Biomaterials*'
 doi: 10.1016/j.biomaterials.2025.123867
+url_pdf: /files/papers/Conejos-Sanchez-2026.pdf
 ---

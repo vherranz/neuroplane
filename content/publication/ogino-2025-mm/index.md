@@ -23,4 +23,5 @@ publication_types:
 - article-journal
 publication: '*eLife*'
 doi: 10.7554/eLife.99502
+url_pdf: /files/papers/Ogino-2025.pdf
 ---

@@ -1,0 +1,140 @@
+// =====================================
+// 2) NAVBAR
+// =====================================
+
+.navbar {
+  background: rgba(255, 255, 255, 0.82) !important;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid $border-soft;
+  box-shadow: $shadow-navbar;
+  padding-top: 0.35rem !important;
+  padding-bottom: 0.35rem !important;
+}
+
+.navbar-brand {
+  font-size: 0 !important;
+  color: $color-text !important;
+}
+
+.navbar-brand::after {
+  content: "NEUROPLANE LAB";
+  display: inline-block;
+  font-size: 0.95rem !important;
+  font-weight: 400 !important;
+  letter-spacing: 0.26em !important;
+  text-transform: uppercase !important;
+  color: $color-text !important;
+  line-height: 1;
+}
+
+.navbar .nav-link,
+.navbar-nav .nav-link {
+  color: $color-text-soft !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.06em !important;
+  font-weight: 400 !important;
+  font-size: 0.82rem !important;
+  line-height: 1.2 !important;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+  color: $color-text-dark !important;
+  opacity: 0.9;
+}
+
+.navbar .nav-link i {
+  font-size: 0.9em;
+  margin-right: 0.35rem;
+  opacity: 0.7;
+}
+
+.navbar .nav-link.active,
+.navbar .navbar-nav .nav-link.active,
+.navbar .nav-link[aria-current="page"],
+.navbar-nav .nav-link[aria-current="page"] {
+  color: $color-text-dark !important;
+  font-weight: 600 !important;
+  opacity: 1 !important;
+}
+
+.navbar .nav-link.active i,
+.navbar .nav-link[aria-current="page"] i,
+.navbar-nav .nav-link.active i,
+.navbar-nav .nav-link[aria-current="page"] i {
+  color: $color-text-dark !important;
+  opacity: 1 !important;
+}
+
+.navbar .navbar-toggler,
+.navbar-light .navbar-toggler {
+  border-color: rgba(0, 0, 0, 0.15) !important;
+  color: $color-text-soft !important;
+  box-shadow: none !important;
+}
+
+.navbar .navbar-toggler-icon,
+.navbar-light .navbar-toggler-icon {
+  background-image: none !important;
+  width: 1.25rem;
+  height: 1.25rem;
+  position: relative;
+}
+
+.navbar .navbar-toggler-icon::before,
+.navbar-light .navbar-toggler-icon::before {
+  content: "\f0c9";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: $color-text-soft !important;
+  font-size: 1.15rem;
+  line-height: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.theme-dropdown,
+.js-theme-selector,
+[data-theme-toggle],
+.nav-item.dropdown.theme-dropdown {
+  display: none !important;
+}
+
+// =====================================
+// 9) DROPDOWNS / MOBILE MENU
+// =====================================
+
+.dropdown-menu,
+#navbar-main .dropdown-menu,
+.nav-item.dropdown .dropdown-menu {
+  background: $color-bg !important;
+  border: 1px solid $border-medium !important;
+  box-shadow: $shadow-dropdown !important;
+  border-radius: 0.5rem !important;
+  overflow: hidden !important;
+}
+
+.dropdown-menu .dropdown-item,
+.dropdown-menu a,
+.dropdown-menu button,
+.nav-item.dropdown .dropdown-menu a,
+.nav-item.dropdown .dropdown-menu button {
+  background: $color-bg !important;
+  color: $color-text-muted !important;
+}
+
+.dropdown-menu .dropdown-item:hover,
+.dropdown-menu .dropdown-item:focus,
+.dropdown-menu a:hover,
+.dropdown-menu a:focus,
+.dropdown-menu button:hover,
+.dropdown-menu button:focus,
+.nav-item.dropdown .dropdown-menu a:hover,
+.nav-item.dropdown .dropdown-menu a:focus,
+.nav-item.dropdown .dropdown-menu button:hover,
+.nav-item.dropdown .dropdown-menu button:focus {
+  background: $bg-hover-soft !important;
+  color: $color-text-dark !important;
+}

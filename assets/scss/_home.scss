@@ -1,0 +1,154 @@
+// =====================================
+// 7) HOME - MARKDOWN / NEWS SPACING
+// =====================================
+
+.home-section.wg-markdown {
+  padding-bottom: 0.5rem !important;
+  margin-bottom: 0 !important;
+}
+
+.home-section.wg-markdown .markdown > *:last-child,
+.home-section.wg-markdown .article-style > *:last-child,
+.home-section.wg-markdown p:last-child {
+  margin-bottom: 0 !important;
+}
+
+.home-section.wg-markdown + .home-section.wg-pages,
+.home-section.wg-markdown + section.home-section.wg-pages,
+.home-section.wg-hero + .home-section.wg-pages,
+.home-section.wg-hero + section.home-section.wg-pages {
+  padding-top: 1.25rem !important;
+  margin-top: 0 !important;
+}
+
+.home-section.wg-pages {
+  padding-top: 0.5rem !important;
+  padding-bottom: 2.5rem !important;
+  margin-top: 0 !important;
+}
+
+.home-section.wg-pages .section-heading,
+.home-section.wg-pages .home-section-title {
+  margin-top: 0 !important;
+  margin-bottom: 0.9rem !important;
+  text-align: center !important;
+}
+
+.home-section.wg-pages .section-subheading {
+  text-align: center !important;
+}
+
+.home-section.wg-pages .universal-wrapper,
+.home-section.wg-pages .container {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+.home-section.wg-pages .view-list-item,
+.home-section.wg-pages .view-card,
+.home-section.wg-pages .card-simple,
+.home-section.wg-pages .media.stream-item,
+.home-section.wg-pages .stream-item {
+  max-width: $max-width-stream !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.home-section.wg-pages .card-simple,
+.home-section.wg-pages .stream-item {
+  width: 100% !important;
+}
+
+.home-section.wg-pages .card-simple img,
+.home-section.wg-pages .stream-item img,
+.home-section.wg-pages .article-banner img,
+.home-section.wg-pages .media-object img {
+  width: 100% !important;
+  height: 260px !important;
+  object-fit: cover !important;
+  display: block;
+}
+
+.home-section.wg-pages .card-simple .article-title,
+.home-section.wg-pages .stream-item .article-title,
+.home-section.wg-pages .card-simple h3,
+.home-section.wg-pages .stream-item h3 {
+  font-size: 1rem !important;
+  line-height: 1.25 !important;
+  margin-bottom: 0.45rem !important;
+}
+
+.home-section.wg-pages .card-simple p,
+.home-section.wg-pages .stream-item p {
+  margin-bottom: 0.7rem !important;
+}
+
+// Latest News left-aligned without affecting hero subtitle
+.home-section.wg-pages .view-card .card-simple,
+.home-section.wg-pages .view-card .card-simple .card-text,
+.home-section.wg-pages .view-card .card-simple .article-metadata,
+.home-section.wg-pages .view-card .card-simple .article-title,
+.home-section.wg-pages .view-card .card-simple .article-title a,
+.home-section.wg-pages .view-card .card-simple .summary-link,
+.home-section.wg-pages .view-card .card-simple .article-style,
+.home-section.wg-pages .view-card .card-simple p,
+.home-section.wg-pages .view-card .card-simple h3,
+.home-section.wg-pages .view-card .card-simple h2,
+.home-section.wg-pages .media.stream-item,
+.home-section.wg-pages .media.stream-item .media-body,
+.home-section.wg-pages .media.stream-item .article-style,
+.home-section.wg-pages .media.stream-item .stream-meta,
+.home-section.wg-pages .media.stream-item .summary-link,
+.home-section.wg-pages .media.stream-item p,
+.home-section.wg-pages .media.stream-item h3,
+.home-section.wg-pages .media.stream-item h2 {
+  text-align: left !important;
+}
+
+.home-section.wg-pages .view-card .card-simple .article-style,
+.home-section.wg-pages .media.stream-item .article-style {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  max-width: none !important;
+}
+
+// Latest News font sizing
+.home-section .stream-item .article-title {
+  font-size: 1.25rem !important;
+  line-height: 1.4 !important;
+}
+
+.home-section .stream-item .article-style {
+  font-size: 1rem !important;
+  line-height: 1.6 !important;
+}
+
+.home-section .stream-item .stream-meta {
+  font-size: 0.9rem !important;
+}
+
+// Latest News compact layout: bigger image column
+.home-section .media.stream-item {
+  align-items: flex-start !important;
+}
+
+.home-section .media.stream-item .media-right,
+.home-section .media.stream-item .ml-3 {
+  width: 180px !important;
+  min-width: 180px !important;
+  max-width: 180px !important;
+}
+
+.home-section .media.stream-item .media-right a,
+.home-section .media.stream-item .ml-3 a {
+  display: block !important;
+  width: 200px !important;
+}
+
+.home-section .media.stream-item .media-right img,
+.home-section .media.stream-item .ml-3 img {
+  display: block !important;
+  width: 100% !important;
+  max-width: 180px !important;
+  height: auto !important;
+}

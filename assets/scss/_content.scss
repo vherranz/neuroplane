@@ -1,0 +1,219 @@
+// =====================================
+// 5) MARKDOWN / ARTICLE READABILITY
+// =====================================
+
+.wg-markdown .markdown,
+.article-style,
+.home-section.wg-markdown .markdown,
+.home-section.wg-markdown .article-style {
+  max-width: $max-width-content !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.home-section.wg-markdown p,
+.home-section.wg-markdown li {
+  text-align: left !important;
+}
+
+.article-style p {
+  margin-bottom: 1.05rem;
+}
+
+.article-style h3 {
+  margin-top: 2.1rem;
+  margin-bottom: 0.55rem;
+  color: $color-accent-alt;
+}
+
+.article-style h3 + p em {
+  display: block;
+  font-size: 1.03rem;
+  color: #5f6b7a;
+  margin-bottom: 0.9rem;
+}
+
+.article-style hr {
+  margin: 2rem 0;
+  border-top: 1px solid $border-strong;
+}
+
+.article-container {
+  overflow: hidden;
+}
+
+.article-container .article-style {
+  text-align: left !important;
+}
+
+.article-container .article-style p,
+.article-container .article-style li,
+.article-container .article-style ul,
+.article-container .article-style ol,
+.article-container .article-style blockquote,
+.article-container .article-style h2,
+.article-container .article-style h3,
+.article-container .article-style h4 {
+  text-align: left !important;
+}
+
+.article-container h1.article-title,
+.article-container header h1,
+.article-container .article-title {
+  text-align: center !important;
+}
+
+.article-container .article-featured-image img {
+  max-height: 420px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.article-container .media.author-card,
+.article-container .media.author-card *,
+.article-container .article-author-bottom,
+.article-container .article-author-bottom * {
+  text-align: left !important;
+}
+
+// =====================================
+// 5B) CONTACT PAGE - TITLE ACCENT
+// =====================================
+
+.contact-lab-title {
+  color: $color-accent-alt !important;
+  font-weight: 500 !important;
+  letter-spacing: -0.01em !important;
+}
+
+.contact-lab-title i {
+  margin-right: 0.45rem;
+  font-size: 0.95em;
+  vertical-align: -0.06em;
+  opacity: 0.65;
+}
+
+// =====================================
+// 8) RESEARCH / FUNDING LOGOS
+// =====================================
+
+.article-style img[alt="Generalitat Valenciana"] {
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  max-width: 540px !important;
+  width: 100%;
+  height: auto;
+}
+
+.funding-logos {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.funding-logo {
+  display: block;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+.funding-logo-uv {
+  max-height: 150px;
+}
+
+.funding-logo-gva {
+  max-height: 220px;
+}
+
+// =====================================
+// 14) IMAGES - NEWS / POSTS
+// =====================================
+
+// Latest News: smaller full preview image
+.home-section .card-simple .article-banner,
+.home-section .media.stream-item .article-banner,
+.home-section .stream-item .article-banner,
+.section-posts .article-banner,
+.article-widget .article-banner,
+.card-simple .article-banner {
+  height: auto !important;
+  max-height: none !important;
+  padding-top: 0 !important;
+  overflow: visible !important;
+  background: $color-bg !important;
+  text-align: center !important;
+}
+
+.home-section .card-simple .article-banner a,
+.home-section .media.stream-item .article-banner a,
+.home-section .stream-item .article-banner a,
+.section-posts .article-banner a,
+.article-widget .article-banner a,
+.card-simple .article-banner a {
+  display: inline-block !important;
+  width: auto !important;
+  max-width: 60% !important;
+  margin: 0 auto !important;
+  overflow: visible !important;
+  text-align: center !important;
+  vertical-align: top !important;
+}
+
+.home-section .card-simple .article-banner img,
+.home-section .media.stream-item .article-banner img,
+.home-section .stream-item .article-banner img,
+.section-posts .article-banner img,
+.article-widget .article-banner img,
+.card-simple .article-banner img {
+  display: block !important;
+  width: auto !important;
+  max-width: 100% !important;
+  max-height: 150px !important;
+  height: auto !important;
+  object-fit: contain !important;
+  object-position: center center !important;
+  margin: 0 auto !important;
+  background: $color-bg !important;
+}
+
+.card-simple .article-banner,
+.home-section .article-banner,
+.section-posts .article-banner,
+.article-widget .article-banner {
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+}
+
+// Single post: full image without crop
+.article-container .article-banner,
+article .article-banner,
+.universal-wrapper .article-banner,
+.single .article-banner {
+  height: auto !important;
+  max-height: none !important;
+  padding-top: 0 !important;
+  overflow: visible !important;
+  background: $color-bg !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+}
+
+.article-container .article-banner img,
+article .article-banner img,
+.universal-wrapper .article-banner img,
+.single .article-banner img {
+  width: 100% !important;
+  height: auto !important;
+  max-height: none !important;
+  object-fit: contain !important;
+  object-position: center center !important;
+  display: block !important;
+  background: $color-bg !important;
+}

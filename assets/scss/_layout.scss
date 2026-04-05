@@ -1,0 +1,93 @@
+// =====================================
+// 3) GLOBAL WIDTHS
+// =====================================
+
+.universal-wrapper,
+.article-container,
+.page-wrapper .universal-wrapper,
+.page-wrapper .article-container {
+  max-width: $max-width-main !important;
+  width: 94% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+@media (min-width: 1600px) {
+  .universal-wrapper,
+  .article-container,
+  .page-wrapper .universal-wrapper,
+  .page-wrapper .article-container {
+    max-width: $max-width-large !important;
+    width: 94% !important;
+  }
+}
+
+/* Home: keep a coherent width with internal pages without touching every Bootstrap container */
+.home-section .container,
+.home-section .container-fluid,
+.page-home .container,
+.page-home .container-fluid {
+  max-width: $max-width-main !important;
+  width: 94% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+@media (min-width: 1600px) {
+  .home-section .container,
+  .home-section .container-fluid,
+  .page-home .container,
+  .page-home .container-fluid {
+    max-width: $max-width-large !important;
+    width: 94% !important;
+  }
+}
+
+// =====================================
+// 4) PAGE TITLES / HERO
+// =====================================
+
+.universal-wrapper h1,
+.article-container h1 {
+  text-align: center;
+  margin-bottom: 2.2rem;
+}
+
+.hero,
+.home-section.wg-hero {
+  padding-top: 3rem !important;
+}
+
+.home-section.wg-hero {
+  padding-bottom: 0.75rem !important;
+}
+
+.home-section.wg-hero .container,
+.home-section.wg-hero .hero-title,
+.home-section.wg-hero .hero-lead {
+  text-align: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.home-section.wg-hero .hero-title {
+  margin-bottom: 2rem !important;
+}
+
+.home-section.wg-hero .hero-lead {
+  margin-bottom: 1.25rem !important;
+}
+
+.home-section.wg-hero + .home-section,
+.home-section.wg-hero + section.home-section {
+  padding-top: 0.5rem !important;
+  margin-top: 0 !important;
+}
+
+.home-section.wg-hero + .home-section .universal-wrapper,
+.home-section.wg-hero + section.home-section .universal-wrapper,
+.home-section.wg-hero + .home-section .container,
+.home-section.wg-hero + section.home-section .container {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}

@@ -1,0 +1,240 @@
+// =====================================
+// 10) PEOPLE PAGE
+// =====================================
+
+.page-people .home-section,
+.page-people section.home-section {
+  padding-top: 1.6rem !important;
+  padding-bottom: 1.6rem !important;
+}
+
+.page-people .universal-wrapper h1,
+.page-people .article-container h1 {
+  text-align: center !important;
+}
+
+.page-people .people-widget .portrait-title,
+.page-people .people-person .portrait-title {
+  text-align: center !important;
+}
+
+.page-people .people-widget .portrait-title h2,
+.page-people .people-person .portrait-title h2 {
+  margin-bottom: 0.25rem !important;
+  font-size: 1.05rem !important;
+  line-height: 1.25 !important;
+  font-weight: 500 !important;
+  letter-spacing: -0.01em !important;
+  color: $color-accent !important;
+}
+
+.page-people .people-widget .portrait-title h3,
+.page-people .people-person .portrait-title h3 {
+  font-size: 0.95rem !important;
+  line-height: 1.35 !important;
+  font-weight: 400 !important;
+  letter-spacing: -0.005em !important;
+  color: $color-text-soft !important;
+  margin-top: 0.35rem !important;
+  margin-bottom: 0 !important;
+}
+
+.page-people .people-widget .portrait-title p,
+.page-people .people-person .portrait-title p {
+  color: $color-text-soft !important;
+}
+
+.page-people .section-heading {
+  margin-bottom: 1.15rem !important;
+}
+
+.page-people .section-heading h1,
+.page-people .section-heading h2,
+.page-people .section-heading h1.mb-0 {
+  text-align: center !important;
+}
+
+.page-people .wg-people,
+.page-people .wg-markdown {
+  margin-bottom: 0 !important;
+}
+
+.page-people .wg-people + .wg-people,
+.page-people .wg-people + .wg-markdown {
+  padding-top: 0.8rem !important;
+}
+
+.page-people .collaborators-section .markdown,
+.page-people .collaborators-section .article-style {
+  max-width: $max-width-collaborators !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.page-people .collaborators-section .collaborators-list {
+  list-style: disc !important;
+  margin: 0 auto !important;
+  max-width: $max-width-collaborators-list !important;
+  width: 100% !important;
+  padding-left: 1.5rem !important;
+  text-align: left !important;
+}
+
+.page-people .collaborators-section .collaborators-list li {
+  margin-bottom: 0.55rem !important;
+  font-size: 0.95rem !important;
+  line-height: 1.35 !important;
+  font-weight: 400 !important;
+  letter-spacing: -0.005em !important;
+  color: $color-text-soft !important;
+}
+
+.page-people .collaborators-section .collaborators-list li a,
+.page-people .collaborators-section .collaborators-list li a:visited {
+  color: $color-accent !important;
+  text-decoration: none !important;
+  font-size: 1.05rem !important;
+  line-height: 1.25 !important;
+  font-weight: 500 !important;
+  letter-spacing: -0.01em !important;
+  font-family: inherit !important;
+}
+
+.page-people .collaborators-section .collaborators-list li a:hover,
+.page-people .collaborators-section .collaborators-list li a:focus {
+  color: $color-accent-dark !important;
+  text-decoration: underline !important;
+  text-underline-offset: 2px;
+}
+
+// =====================================
+// 11) SINGLE AUTHOR / PROFILE PAGE
+// =====================================
+
+body[class*="author"] h1.article-title,
+body[class*="authors"] h1.article-title {
+  font-size: 3rem !important;
+  line-height: 1.08 !important;
+  font-weight: 500 !important;
+  margin-bottom: 1.5rem !important;
+}
+
+body[class*="author"] .article-container,
+body[class*="authors"] .article-container,
+body[class*="author"] .universal-wrapper,
+body[class*="authors"] .universal-wrapper {
+  max-width: 1200px !important;
+}
+
+body[class*="author"] .portrait-title,
+body[class*="authors"] .portrait-title,
+body[class*="author"] .author-card .media-body,
+body[class*="authors"] .author-card .media-body {
+  text-align: left !important;
+}
+
+body[class*="author"] .portrait-title h2,
+body[class*="authors"] .portrait-title h2 {
+  font-size: 2rem !important;
+  font-weight: 500 !important;
+  margin-bottom: 0.35rem !important;
+  color: $color-text !important;
+}
+
+body[class*="author"] .portrait-title h3,
+body[class*="authors"] .portrait-title h3 {
+  font-size: 1rem !important;
+  line-height: 1.4 !important;
+  font-weight: 400 !important;
+  color: $color-text-soft !important;
+  margin-top: 0.15rem !important;
+  margin-bottom: 0 !important;
+}
+
+body[class*="author"] .article-style,
+body[class*="authors"] .article-style {
+  max-width: 1050px !important;
+}
+
+body[class*="author"] .article-style p,
+body[class*="authors"] .article-style p {
+  color: #333 !important;
+}
+
+body[class*="author"] .network-icon,
+body[class*="authors"] .network-icon,
+body[class*="author"] .author-card .network-icon,
+body[class*="authors"] .author-card .network-icon {
+  justify-content: flex-start !important;
+  text-align: left !important;
+  margin-top: 0.8rem !important;
+  gap: 0.3rem;
+}
+
+body[class*="author"] .network-icon a,
+body[class*="authors"] .network-icon a {
+  color: $color-text-soft !important;
+  transition: color 0.15s ease;
+}
+
+body[class*="author"] .network-icon a:hover,
+body[class*="authors"] .network-icon a:hover {
+  color: $color-accent !important;
+}
+
+body[class*="author"] .article-widget,
+body[class*="authors"] .article-widget {
+  margin-top: 2rem !important;
+}
+
+body[class*="author"] .article-widget h3,
+body[class*="authors"] .article-widget h3 {
+  color: $color-text !important;
+  margin-top: 0 !important;
+}
+
+body[class*="author"] .content-widget-hr,
+body[class*="authors"] .content-widget-hr {
+  margin: 2rem 0 1.5rem 0 !important;
+  border-top: 1px solid $border-medium !important;
+}
+
+// Tooltips for social icons
+.network-icon a {
+  position: relative;
+}
+
+.network-icon a::after {
+  position: absolute;
+  left: 50%;
+  bottom: -1.8rem;
+  transform: translateX(-50%) translateY(2px);
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.68rem;
+  line-height: 1;
+  white-space: nowrap;
+  background: rgba(40, 40, 40, 0.85);
+  color: #f5f5f5;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.18s ease, transform 0.18s ease;
+  z-index: 20;
+}
+
+.network-icon a[href*="orcid.org"]::after {
+  content: "ORCID";
+}
+
+.network-icon a[href*="scholar.google.com"]::after {
+  content: "Google Scholar";
+}
+
+.network-icon a[href*="linkedin.com"]::after {
+  content: "LinkedIn";
+}
+
+.network-icon a:hover::after {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}

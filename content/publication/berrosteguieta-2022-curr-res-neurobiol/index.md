@@ -11,7 +11,7 @@ authors:
 - José Manuel García-Verdugo
 - Anabel Sonia Fernández
 date: '2022-06-01'
-publishDate: '2026-04-05T19:10:18.973852Z'
+publishDate: '2026-04-05T19:43:52.232784Z'
 publication_types:
 - article-journal
 publication: '*Current Research in Neurobiology*'

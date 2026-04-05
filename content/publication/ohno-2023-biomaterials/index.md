@@ -18,7 +18,7 @@ authors:
 - Naoko Kaneko
 - Kazunobu Sawamoto
 date: '2023-03-01'
-publishDate: '2026-04-05T19:10:18.961936Z'
+publishDate: '2026-04-05T19:43:52.219396Z'
 publication_types:
 - article-journal
 publication: '*Biomaterials*'

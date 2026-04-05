@@ -8,7 +8,7 @@ authors:
 - José Manuel García-Verdugo
 - Jeremy F Reiter
 date: '2021-12-01'
-publishDate: '2026-04-05T19:10:18.991251Z'
+publishDate: '2026-04-05T19:43:52.252610Z'
 publication_types:
 - article-journal
 publication: '*Developmental Cell*'

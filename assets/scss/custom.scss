@@ -1155,65 +1155,6 @@ article .article-banner,
   font-size: 0.9rem !important;
 }
 
-/* ===================================== */
-/* LATEST NEWS - align with Publications */
-/* ===================================== */
-
-/* More editorial spacing around the block */
-.home-section .stream-item {
-  padding-top: 0.4rem !important;
-  padding-bottom: 0.9rem !important;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
-}
-
-/* Title: same clean editorial feel */
-.home-section .stream-item .article-title {
-  font-size: 1.35rem !important;
-  line-height: 1.35 !important;
-  font-weight: 500 !important;
-  letter-spacing: 0 !important;
-  margin-bottom: 0.35rem !important;
-}
-
-.home-section .stream-item .article-title a {
-  color: inherit !important;
-  text-decoration: none !important;
-  transition: color 0.18s ease, opacity 0.18s ease;
-}
-
-/* Summary/body */
-.home-section .stream-item .article-style {
-  font-size: 1rem !important;
-  line-height: 1.65 !important;
-  color: rgba(0, 0, 0, 0.82) !important;
-  margin-bottom: 0.55rem !important;
-}
-
-/* Metadata */
-.home-section .stream-item .stream-meta {
-  font-size: 0.9rem !important;
-  line-height: 1.4 !important;
-  color: rgba(0, 0, 0, 0.58) !important;
-  margin-top: 0.1rem !important;
-}
-
-/* Featured-post feel: a little breathing room */
-.home-section .stream-item:first-child {
-  padding-top: 0.8rem !important;
-  padding-bottom: 1.2rem !important;
-}
-
-/* Image spacing and subtle card-like polish */
-.home-section .stream-item .article-banner,
-.home-section .stream-item .media-object {
-  margin-left: 1rem !important;
-}
-
-.home-section .stream-item img {
-  border-radius: 6px !important;
-  transition: transform 0.2s ease, opacity 0.2s ease, box-shadow 0.2s ease;
-}
-
 /* Hover feedback */
 .home-section .stream-item:hover .article-title a {
   color: #1f4e8c !important;

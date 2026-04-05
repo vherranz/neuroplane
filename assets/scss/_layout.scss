@@ -51,6 +51,21 @@
 .article-container h1 {
   text-align: center;
   margin-bottom: 2.2rem;
+  font-size: 3.1rem;
+  line-height: 1.1;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  color: $color-text;
+}
+
+.home-section .section-heading h1,
+.home-section .section-heading h2,
+.home-section .home-section-title {
+  text-align: center !important;
+  font-weight: 500 !important;
+  letter-spacing: -0.02em !important;
+  line-height: 1.15 !important;
+  color: $color-text !important;
 }
 
 .hero,

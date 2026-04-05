@@ -93,13 +93,7 @@
    ========================= */
 
 .page-publication .article-metadata,
-.page-publication .article-metadata .authors,
-.page-publication .article-metadata span,
-.page-publication .article-metadata a,
-.article-page .article-metadata,
-.article-page .article-metadata .authors,
-.article-page .article-metadata span,
-.article-page .article-metadata a {
+.page-publication .article-metadata * {
   font-size: 1.05rem !important;
   line-height: 1.65 !important;
 }

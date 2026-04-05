@@ -11,7 +11,4 @@ publication_types:
 - article-journal
 publication: '*Frontiers in Cellular Neuroscience*'
 doi: 10.3389/fncel.2015.00365
-links:
-- name: URL
-  url: https://doi.org/10.3389/fncel.2015.00365
 ---

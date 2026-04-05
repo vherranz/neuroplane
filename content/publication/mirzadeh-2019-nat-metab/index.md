@@ -20,7 +20,4 @@ publication_types:
 - article-journal
 publication: '*Nature Metabolism*'
 doi: 10.1038/s42255-018-0029-0
-links:
-- name: URL
-  url: https://doi.org/10.1038/s42255-018-0029-0
 ---

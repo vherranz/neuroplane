@@ -13,7 +13,4 @@ publication_types:
 - chapter
 publication: '*Neuromethods*'
 doi: 10.1007/978-1-0716-1522-5_16
-links:
-- name: URL
-  url: https://doi.org/10.1007/978-1-0716-1522-5_16
 ---

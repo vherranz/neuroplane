@@ -16,7 +16,4 @@ publication_types:
 - article-journal
 publication: '*Experimental Neurology*'
 doi: 10.1016/j.expneurol.2023.114412
-links:
-- name: URL
-  url: https://doi.org/10.1016/j.expneurol.2023.114412
 ---

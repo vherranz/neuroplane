@@ -60,7 +60,4 @@ publication_types:
 - article-journal
 publication: '*Journal of Medical Genetics*'
 doi: 10.1136/jmedgenet-2016-104436
-links:
-- name: URL
-  url: https://doi.org/10.1136/jmedgenet-2016-104436
 ---

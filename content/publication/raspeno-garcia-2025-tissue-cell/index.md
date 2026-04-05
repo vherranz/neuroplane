@@ -16,7 +16,4 @@ publication_types:
 - article-journal
 publication: '*Tissue & Cell*'
 doi: 10.1016/j.tice.2025.102737
-links:
-- name: URL
-  url: https://doi.org/10.1016/j.tice.2025.102737
 ---

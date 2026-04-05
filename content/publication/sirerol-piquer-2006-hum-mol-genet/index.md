@@ -15,7 +15,4 @@ publication_types:
 - article-journal
 publication: '*Human Molecular Genetics*'
 doi: 10.1093/hmg/ddl421
-links:
-- name: URL
-  url: https://doi.org/10.1093/hmg/ddl421
 ---

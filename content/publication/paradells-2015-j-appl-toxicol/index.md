@@ -17,7 +17,4 @@ publication_types:
 - article-journal
 publication: '*Journal of Applied Toxicology*'
 doi: 10.1002/jat.3061
-links:
-- name: URL
-  url: https://doi.org/10.1002/jat.3061
 ---

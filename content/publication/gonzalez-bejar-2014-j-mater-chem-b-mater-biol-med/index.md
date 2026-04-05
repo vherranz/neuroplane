@@ -18,7 +18,4 @@ publication_types:
 - article-journal
 publication: '*Journal of Materials Chemistry B*'
 doi: 10.1039/c4tb00340c
-links:
-- name: URL
-  url: https://doi.org/10.1039/c4tb00340c
 ---

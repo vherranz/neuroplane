@@ -17,7 +17,4 @@ publication_types:
 - article-journal
 publication: '*Journal of Comparative Neurology*'
 doi: 10.1002/cne.24001
-links:
-- name: URL
-  url: https://doi.org/10.1002/cne.24001
 ---

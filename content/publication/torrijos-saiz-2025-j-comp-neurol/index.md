@@ -15,4 +15,5 @@ publication_types:
 - article-journal
 publication: '*Journal of Comparative Neurology*'
 doi: 10.1002/cne.70070
+url_pdf: /files/papers/Torrijos-Saiz-2025.pdf
 ---

@@ -1,0 +1,165 @@
+// =====================================
+// RESPONSIVE
+// =====================================
+
+@media (max-width: 991px) {
+  .navbar-collapse {
+    background: $color-bg !important;
+    border-top: 1px solid $border-soft;
+    padding-top: 0.8rem;
+  }
+
+  .navbar-nav .nav-link {
+    color: $color-text-muted !important;
+  }
+
+  .home-section .media.stream-item .media-right,
+  .home-section .media.stream-item .ml-3 {
+    width: 160px !important;
+    min-width: 160px !important;
+    max-width: 160px !important;
+  }
+
+  .home-section .media.stream-item .media-right a,
+  .home-section .media.stream-item .ml-3 a {
+    width: 160px !important;
+  }
+
+  .home-section .media.stream-item .media-right img,
+  .home-section .media.stream-item .ml-3 img {
+    max-width: 160px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .wg-markdown .markdown,
+  .article-style {
+    max-width: 100% !important;
+  }
+
+  .article-style h3 {
+    margin-top: 1.8rem;
+  }
+
+  .pub-list-item,
+  .media.stream-item {
+    margin-bottom: 0.85rem !important;
+  }
+
+  .home-section.wg-pages {
+    padding-top: 1rem !important;
+    padding-bottom: 2rem !important;
+  }
+
+  .home-section.wg-pages .view-list-item,
+  .home-section.wg-pages .view-card,
+  .home-section.wg-pages .card-simple,
+  .home-section.wg-pages .media.stream-item,
+  .home-section.wg-pages .stream-item {
+    max-width: 100% !important;
+  }
+
+  .home-section.wg-pages .card-simple img,
+  .home-section.wg-pages .stream-item img,
+  .home-section.wg-pages .article-banner img,
+  .home-section.wg-pages .media-object img {
+    height: 180px !important;
+  }
+
+  .funding-logos {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .funding-logo-uv {
+    max-height: 100px;
+  }
+
+  .funding-logo-gva {
+    max-height: 150px;
+  }
+
+  body[class*="author"] h1.article-title,
+  body[class*="authors"] h1.article-title {
+    font-size: 2.2rem !important;
+  }
+
+  .page-people .universal-wrapper > h1,
+  .page-people .article-container > h1,
+  .page-people h1 {
+    font-size: 2rem !important;
+    margin-bottom: 1.6rem !important;
+  }
+
+  .page-people .collaborators-section .collaborators-list,
+  #section-markdown .collaborators-list {
+    max-width: 100% !important;
+    padding-left: 1.35rem !important;
+    padding-right: 0.5rem !important;
+    text-align: left !important;
+  }
+
+  .page-people .collaborators-section .collaborators-list li,
+  #section-markdown .collaborators-list li {
+    font-size: 0.95rem !important;
+    line-height: 1.42 !important;
+    margin-bottom: 0.55rem !important;
+  }
+
+  #section-markdown {
+    margin-top: 0 !important;
+    padding-top: 0.95rem !important;
+  }
+
+  #section-people {
+    padding-bottom: 1.35rem !important;
+  }
+
+  #section-people .section-heading h1,
+  #section-people .section-heading h2,
+  #section-people .section-heading h1.mb-0,
+  #section-markdown .section-heading h1,
+  #section-markdown .section-heading h2,
+  #section-markdown .section-heading h1.mb-0 {
+    font-size: 1.25rem !important;
+  }
+
+  .home-section .media.stream-item {
+    display: block !important;
+  }
+
+  .home-section .media.stream-item .media-body,
+  .home-section .media.stream-item .media-right,
+  .home-section .media.stream-item .ml-3 {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+  }
+
+  .home-section .media.stream-item .media-right,
+  .home-section .media.stream-item .ml-3 {
+    margin-left: 0 !important;
+    margin-top: 0.75rem !important;
+  }
+
+  .home-section .media.stream-item .media-right a,
+  .home-section .media.stream-item .ml-3 a {
+    width: 100% !important;
+  }
+
+  .home-section .media.stream-item .media-right img,
+  .home-section .media.stream-item .ml-3 img {
+    max-width: 100% !important;
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .home-section .card-simple .article-banner a,
+  .home-section .media.stream-item .article-banner a,
+  .home-section .stream-item .article-banner a,
+  .section-posts .article-banner a,
+  .article-widget .article-banner a,
+  .card-simple .article-banner a {
+    max-width: 100% !important;
+  }
+}

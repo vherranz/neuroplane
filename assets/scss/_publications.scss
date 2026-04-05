@@ -93,7 +93,10 @@
    ========================= */
 
 .page-publication .article-metadata,
-.page-publication .article-metadata * {
-  font-size: 1.05rem !important;
-  line-height: 1.65 !important;
+.page-publication .article-metadata *,
+.publication .article-metadata,
+.publication .article-metadata * {
+  color: red !important;
+  font-size: 30px !important;
+  line-height: 1.8 !important;
 }

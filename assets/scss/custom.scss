@@ -192,12 +192,8 @@ img {
 
 .universal-wrapper,
 .article-container,
-.container,
-.container-fluid,
 .page-wrapper .universal-wrapper,
-.page-wrapper .article-container,
-.page-wrapper .container,
-.page-wrapper .container-fluid {
+.page-wrapper .article-container {
   max-width: $max-width-main !important;
   width: 94% !important;
   margin-left: auto !important;
@@ -207,12 +203,29 @@ img {
 @media (min-width: 1600px) {
   .universal-wrapper,
   .article-container,
-  .container,
-  .container-fluid,
   .page-wrapper .universal-wrapper,
-  .page-wrapper .article-container,
-  .page-wrapper .container,
-  .page-wrapper .container-fluid {
+  .page-wrapper .article-container {
+    max-width: $max-width-large !important;
+    width: 94% !important;
+  }
+}
+
+/* Home: keep a coherent width with internal pages without touching every Bootstrap container */
+.home-section .container,
+.home-section .container-fluid,
+.page-home .container,
+.page-home .container-fluid {
+  max-width: $max-width-main !important;
+  width: 94% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+@media (min-width: 1600px) {
+  .home-section .container,
+  .home-section .container-fluid,
+  .page-home .container,
+  .page-home .container-fluid {
     max-width: $max-width-large !important;
     width: 94% !important;
   }
@@ -311,8 +324,18 @@ img {
   overflow: hidden;
 }
 
-.article-container .article-style,
-.article-container .article-style *:not(img):not(svg):not(video):not(iframe) {
+.article-container .article-style {
+  text-align: left !important;
+}
+
+.article-container .article-style p,
+.article-container .article-style li,
+.article-container .article-style ul,
+.article-container .article-style ol,
+.article-container .article-style blockquote,
+.article-container .article-style h2,
+.article-container .article-style h3,
+.article-container .article-style h4 {
   text-align: left !important;
 }
 
@@ -881,10 +904,6 @@ footer.site-footer {
   padding-top: 20px !important;
 }
 
-.page-body p:last-of-type {
-  margin-bottom: 10px;
-}
-
 // =============================
 // 13) FORCE LIGHT SAFETY
 // =============================
@@ -896,16 +915,20 @@ body.dark,
   color: $color-text !important;
 }
 
-html.dark p,
-html.dark li,
-html.dark span,
-html.dark div,
 html.dark .article-style,
-[data-theme="dark"] p,
-[data-theme="dark"] li,
-[data-theme="dark"] span,
-[data-theme="dark"] div,
-[data-theme="dark"] .article-style {
+html.dark .article-style p,
+html.dark .article-style li,
+html.dark .article-style h1,
+html.dark .article-style h2,
+html.dark .article-style h3,
+html.dark .article-style h4,
+[data-theme="dark"] .article-style,
+[data-theme="dark"] .article-style p,
+[data-theme="dark"] .article-style li,
+[data-theme="dark"] .article-style h1,
+[data-theme="dark"] .article-style h2,
+[data-theme="dark"] .article-style h3,
+[data-theme="dark"] .article-style h4 {
   color: $color-text !important;
 }
 
@@ -1146,28 +1169,4 @@ article .article-banner img,
   #section-markdown .section-heading h1.mb-0 {
     font-size: 1.25rem !important;
   }
-}
-
-.np-page-header {
-  padding-top: 3rem;
-  padding-bottom: 2rem;
-}
-
-.np-container {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 0 1.5rem;
-}
-
-.np-page-title {
-  font-size: 2.4rem;
-  font-weight: 600;
-  letter-spacing: -0.01em;
-  margin-bottom: 0.5rem;
-}
-
-.np-page-subtitle {
-  color: #5b6470;
-  font-size: 1.1rem;
-  max-width: 700px;
 }

@@ -1,0 +1,75 @@
+// =====================================
+// 1) BASE TYPOGRAPHY / GLOBAL
+// =====================================
+
+html,
+body {
+  background: $color-bg !important;
+  color: $color-text !important;
+}
+
+body {
+  font-weight: 300;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  color: $color-text;
+}
+
+p,
+li {
+  font-weight: 300;
+  color: $color-text;
+}
+
+.page-wrapper,
+.page-body,
+.home-section,
+.section,
+main,
+section {
+  background: $color-bg !important;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+// =====================================
+// 13) FORCE LIGHT SAFETY
+// =====================================
+
+html.dark,
+body.dark,
+[data-theme="dark"] {
+  background: $color-bg !important;
+  color: $color-text !important;
+}
+
+html.dark .article-style,
+html.dark .article-style p,
+html.dark .article-style li,
+html.dark .article-style h1,
+html.dark .article-style h2,
+html.dark .article-style h3,
+html.dark .article-style h4,
+[data-theme="dark"] .article-style,
+[data-theme="dark"] .article-style p,
+[data-theme="dark"] .article-style li,
+[data-theme="dark"] .article-style h1,
+[data-theme="dark"] .article-style h2,
+[data-theme="dark"] .article-style h3,
+[data-theme="dark"] .article-style h4 {
+  color: $color-text !important;
+}

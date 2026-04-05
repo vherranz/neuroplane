@@ -36,4 +36,5 @@ publication_types:
 - article-journal
 publication: '*Nature Communications*'
 doi: 10.1038/s41467-024-45825-8
+url_pdf: /files/papers/Nakajima-2024.pdf
 ---

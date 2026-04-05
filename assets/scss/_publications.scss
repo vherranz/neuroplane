@@ -2,6 +2,10 @@
 // 6) PUBLICATIONS
 // =====================================
 
+/* =========================
+   A) Publications listing
+   ========================= */
+
 .pub-list-item,
 .media.stream-item {
   margin-bottom: 0.95rem !important;
@@ -82,4 +86,18 @@
   font-size: 0.75rem !important;
   font-weight: 500 !important;
   letter-spacing: 0.02em !important;
+}
+
+/* =========================
+   B) Single publication page
+   ========================= */
+
+.article-container .article-metadata .authors,
+.article-container .pub-authors,
+.publication .article-metadata .authors,
+.publication .pub-authors {
+  font-size: 1.02rem !important;
+  line-height: 1.6 !important;
+  font-weight: 300 !important;
+  color: $color-meta !important;
 }

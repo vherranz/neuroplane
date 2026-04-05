@@ -37,6 +37,6 @@ sections:
       order: desc
 
     design:
-      view: compact
-      columns: "1"
+      view: card
+      columns: "2"
 ---

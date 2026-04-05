@@ -5,8 +5,8 @@
 # Appearance
 
 appearance:
-  theme_day: ocean
-  font: raleway
+  theme_day: neuroplane
+  font: neuroplane
   font_size: L
 
 # Google Fonts (Typography)

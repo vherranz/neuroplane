@@ -23,4 +23,5 @@ publication_types:
 - article-journal
 publication: '*Cell Reports*'
 doi: 10.1016/j.celrep.2025.116029
+url_pdf: /files/papers/Takemura-2025.pdf
 ---

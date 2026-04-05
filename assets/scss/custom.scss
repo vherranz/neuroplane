@@ -1135,3 +1135,22 @@ article .article-banner,
   background-repeat: no-repeat !important;
   background-position: center center !important;
 }
+
+/* ===================================== */
+/* LATEST NEWS - font size fix (compact) */
+/* ===================================== */
+
+.home-section .stream-item .article-title {
+  font-size: 1.25rem !important;
+  line-height: 1.4 !important;
+}
+
+.home-section .stream-item .article-style {
+  font-size: 1rem !important;
+  line-height: 1.6 !important;
+}
+
+/* metadata (date, read time) */
+.home-section .stream-item .stream-meta {
+  font-size: 0.9rem !important;
+}

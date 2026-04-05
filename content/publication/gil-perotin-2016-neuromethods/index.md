@@ -11,10 +11,12 @@ authors:
 - M V Nachury
 - José Manuel García-Verdugo
 date: '2016-01-01'
-publishDate: '2026-03-30T20:22:55.641904Z'
+publishDate: '2026-04-05T19:10:19.186716Z'
 publication_types:
 - chapter
 publication: '*Neuromethods*'
 doi: 10.1007/978-1-4939-3064-7_14
 links:
+- name: URL
+  url: https://doi.org/10.1007/978-1-4939-3064-7_14
 ---

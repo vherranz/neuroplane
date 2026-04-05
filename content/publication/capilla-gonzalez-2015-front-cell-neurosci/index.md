@@ -6,10 +6,12 @@ authors:
 - Vicente Herranz-Pérez
 - José Manuel García-Verdugo
 date: '2015-09-01'
-publishDate: '2026-03-30T20:22:55.635559Z'
+publishDate: '2026-04-05T19:10:19.181063Z'
 publication_types:
 - article-journal
 publication: '*Frontiers in Cellular Neuroscience*'
 doi: 10.3389/fncel.2015.00365
 links:
+- name: URL
+  url: https://doi.org/10.3389/fncel.2015.00365
 ---

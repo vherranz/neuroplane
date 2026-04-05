@@ -10,10 +10,12 @@ authors:
 - José Manuel García-Verdugo
 - Maxence V Nachury
 date: '2017-01-01'
-publishDate: '2026-03-30T20:22:55.629019Z'
+publishDate: '2026-04-05T19:10:19.175270Z'
 publication_types:
 - article-journal
 publication: '*Cell*'
 doi: 10.1016/j.cell.2016.11.036
 links:
+- name: URL
+  url: https://doi.org/10.1016/j.cell.2016.11.036
 ---

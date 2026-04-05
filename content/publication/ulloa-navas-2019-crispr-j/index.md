@@ -7,10 +7,12 @@ authors:
 - José Manuel García-Verdugo
 - Vicente Herranz-Pérez
 date: '2019-12-01'
-publishDate: '2026-03-30T20:22:55.482192Z'
+publishDate: '2026-04-05T19:10:19.044741Z'
 publication_types:
 - article-journal
 publication: '*The CRISPR Journal*'
 doi: 10.1089/crispr.2019.0032
 links:
+- name: URL
+  url: https://doi.org/10.1089/crispr.2019.0032
 ---

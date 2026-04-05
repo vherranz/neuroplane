@@ -9,10 +9,12 @@ authors:
 - José Manuel García-Verdugo
 - Arturo Álvarez-Buylla
 date: '2015-08-01'
-publishDate: '2026-03-30T20:22:55.549132Z'
+publishDate: '2026-04-05T19:10:19.104183Z'
 publication_types:
 - article-journal
 publication: '*Journal of Neuroscience*'
 doi: 10.1523/JNEUROSCI.0686-15.2015
 links:
+- name: URL
+  url: https://doi.org/10.1523/JNEUROSCI.0686-15.2015
 ---

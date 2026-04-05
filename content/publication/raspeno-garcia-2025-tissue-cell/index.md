@@ -11,10 +11,12 @@ authors:
 - José Manuel García-Verdugo
 - C de la Rosa-Prieto
 date: '2025-04-01'
-publishDate: '2026-03-30T20:22:55.303356Z'
+publishDate: '2026-04-05T19:10:18.894546Z'
 publication_types:
 - article-journal
 publication: '*Tissue & Cell*'
 doi: 10.1016/j.tice.2025.102737
 links:
+- name: URL
+  url: https://doi.org/10.1016/j.tice.2025.102737
 ---

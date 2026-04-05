@@ -17,10 +17,12 @@ authors:
 - José Manuel García-Verdugo
 - Luis Bataller
 date: '2017-03-01'
-publishDate: '2026-03-30T20:22:55.595847Z'
+publishDate: '2026-04-05T19:10:19.146014Z'
 publication_types:
 - article-journal
 publication: '*Neurology*'
 doi: 10.1212/WNL.0000000000003778
 links:
+- name: URL
+  url: https://doi.org/10.1212/WNL.0000000000003778
 ---

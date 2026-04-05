@@ -31,10 +31,12 @@ authors:
 - Michihiro Igarashi
 - Kazunobu Sawamoto
 date: '2024-03-01'
-publishDate: '2026-03-30T20:22:55.317723Z'
+publishDate: '2026-04-05T19:10:18.907171Z'
 publication_types:
 - article-journal
 publication: '*Nature Communications*'
 doi: 10.1038/s41467-024-45825-8
 links:
+- name: URL
+  url: https://doi.org/10.1038/s41467-024-45825-8
 ---

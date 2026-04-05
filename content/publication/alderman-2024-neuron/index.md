@@ -18,10 +18,12 @@ authors:
 - Joshua G Corbin
 - Shawn F Sorrells
 date: '2024-02-01'
-publishDate: '2026-03-30T20:22:55.338996Z'
+publishDate: '2026-04-05T19:10:18.926398Z'
 publication_types:
 - article-journal
 publication: '*Neuron*'
 doi: 10.1016/j.neuron.2023.11.010
 links:
+- name: URL
+  url: https://doi.org/10.1016/j.neuron.2023.11.010
 ---

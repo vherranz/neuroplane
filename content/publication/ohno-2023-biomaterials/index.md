@@ -18,10 +18,12 @@ authors:
 - Naoko Kaneko
 - Kazunobu Sawamoto
 date: '2023-03-01'
-publishDate: '2026-03-30T20:22:55.389918Z'
+publishDate: '2026-04-05T19:10:18.961936Z'
 publication_types:
 - article-journal
 publication: '*Biomaterials*'
 doi: 10.1016/j.biomaterials.2023.122003
 links:
+- name: URL
+  url: https://doi.org/10.1016/j.biomaterials.2023.122003
 ---

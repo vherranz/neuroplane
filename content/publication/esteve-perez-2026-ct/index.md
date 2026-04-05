@@ -9,10 +9,12 @@ authors:
 - José Vicente Torres-Pérez
 - Carmen Agustín-Pavón
 date: '2026-01-01'
-publishDate: '2026-03-30T20:22:55.283197Z'
+publishDate: '2026-04-05T19:10:18.876726Z'
 publication_types:
 - article-journal
 publication: '*Neuroscience*'
 doi: 10.1016/j.neuroscience.2025.12.010
 links:
+- name: URL
+  url: https://doi.org/10.1016/j.neuroscience.2025.12.010
 ---

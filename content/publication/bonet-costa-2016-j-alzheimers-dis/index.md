@@ -14,10 +14,12 @@ authors:
 - José Manuel García-Verdugo
 - Jose Viña
 date: '2016-01-01'
-publishDate: '2026-03-30T20:22:55.576227Z'
+publishDate: '2026-04-05T19:10:19.128523Z'
 publication_types:
 - article-journal
 publication: '*Journal of Alzheimer''s Disease*'
 doi: 10.3233/JAD-151020
 links:
+- name: URL
+  url: https://doi.org/10.3233/JAD-151020
 ---

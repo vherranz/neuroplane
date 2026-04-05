@@ -1,0 +1,15 @@
+name = "NeuroPlaNe"
+
+[google]
+  families = ["Raleway:wght@300;400;500;600;700"]
+
+[heading]
+  font = "Raleway"
+  font_weight = 600
+
+[body]
+  font = "Raleway"
+  font_weight = 400
+
+[mono]
+  font = "monospace"

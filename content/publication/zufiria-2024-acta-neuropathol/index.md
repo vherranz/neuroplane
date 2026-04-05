@@ -43,4 +43,5 @@ publication_types:
 - article-journal
 publication: '*Acta Neuropathologica*'
 doi: 10.1007/s00401-024-02794-y
+url_pdf: /files/papers/Zufiria-2024.pdf
 ---

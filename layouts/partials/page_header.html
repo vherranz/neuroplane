@@ -1,0 +1,13 @@
+<div class="np-page-header">
+  <div class="np-container">
+
+    {{ with .Title }}
+      <h1 class="np-page-title">{{ . }}</h1>
+    {{ end }}
+
+    {{ with .Params.subtitle }}
+      <p class="np-page-subtitle">{{ . }}</p>
+    {{ end }}
+
+  </div>
+</div>

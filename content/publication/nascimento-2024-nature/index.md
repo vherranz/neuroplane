@@ -17,10 +17,10 @@ authors:
 - Arturo Alvarez-Buylla
 - Shawn F Sorrells
 date: '2024-02-01'
-publishDate: '2026-04-05T19:43:52.172228Z'
+publishDate: '2026-04-06T07:32:18.514415Z'
 publication_types:
 - article-journal
 publication: '*Nature*'
 doi: 10.1038/s41586-023-06981-x
-url_pdf: /files/papers/Nascimento-2024.pdf
+url_pdf: /files/papers/nascimento-2024-nature.pdf
 ---

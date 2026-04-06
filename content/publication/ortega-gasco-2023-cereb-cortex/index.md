@@ -14,10 +14,10 @@ authors:
 - Lluís Pujadas
 - Eduardo Soriano
 date: '2023-10-01'
-publishDate: '2026-04-05T19:43:52.206065Z'
+publishDate: '2026-04-06T07:32:18.547944Z'
 publication_types:
 - article-journal
 publication: '*Cerebral Cortex*'
 doi: 10.1093/cercor/bhad340
-url_pdf: /files/papers/Ortega-Gasco-2023.pdf
+url_pdf: /files/papers/ortega-gasco-2023-cereb-cortex.pdf
 ---

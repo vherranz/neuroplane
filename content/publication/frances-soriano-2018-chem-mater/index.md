@@ -14,7 +14,7 @@ authors:
 - Olga A Fedorova
 - Julia Pérez-Prieto
 date: '2018-06-01'
-publishDate: '2026-04-05T19:43:52.354736Z'
+publishDate: '2026-04-06T07:32:18.693914Z'
 publication_types:
 - article-journal
 publication: '*Chemistry of Materials*'

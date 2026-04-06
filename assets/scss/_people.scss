@@ -50,12 +50,12 @@
 }
 
 .page-wrapper .home-section.wg-people:last-of-type {
-  padding-bottom: 0.85rem !important;
+  padding-bottom: 0.2rem !important;
 }
 
 .page-wrapper .home-section.wg-markdown.collaborators-section,
 .page-wrapper .home-section.wg-markdown .collaborators-section {
-  padding-top: 0.85rem !important;
+  padding-top: 0.2rem !important;
 }
 
 // -------------------------------------
@@ -79,7 +79,7 @@
 .page-wrapper .home-section.wg-markdown .collaborators-section .section-heading h2.mb-0,
 .page-wrapper .home-section.wg-people .people-group-title h2 {
   text-align: center !important;
-  font-family: "Raleway", sans-serif !important;
+  font-family: inherit !important;
   font-weight: 500 !important;
   letter-spacing: -0.01em !important;
   color: $color-text !important;
@@ -104,7 +104,7 @@
   font-weight: 500 !important;
   letter-spacing: -0.01em !important;
   color: $color-accent !important;
-  font-family: "Raleway", sans-serif !important;
+  font-family: inherit !important;
   text-decoration: none !important;
 }
 
@@ -126,7 +126,7 @@
   font-weight: 400 !important;
   letter-spacing: -0.005em !important;
   color: $color-text-soft !important;
-  font-family: "Raleway", sans-serif !important;
+  font-family: inherit !important;
   margin-top: 0.35rem !important;
   margin-bottom: 0 !important;
 }
@@ -158,6 +158,7 @@
 .page-wrapper .home-section.wg-markdown.collaborators-section .markdown li,
 .page-wrapper .home-section.wg-markdown.collaborators-section ul.collaborators-list li {
   list-style: none !important;
+  font-family: inherit !important;
 }
 
 .page-wrapper .home-section.wg-markdown.collaborators-section .article-style li::marker,
@@ -186,7 +187,7 @@
   font-weight: 400 !important;
   letter-spacing: -0.005em !important;
   color: $color-text-soft !important;
-  font-family: "Raleway", sans-serif !important;
+  font-family: inherit !important;
 }
 
 .page-wrapper .home-section.wg-markdown.collaborators-section .collaborators-list li a,
@@ -197,7 +198,7 @@
   line-height: 1.25 !important;
   font-weight: 500 !important;
   letter-spacing: -0.01em !important;
-  font-family: "Raleway", sans-serif !important;
+  font-family: inherit !important;
 }
 
 .page-wrapper .home-section.wg-markdown.collaborators-section .collaborators-list li a:hover,

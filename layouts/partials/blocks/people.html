@@ -10,7 +10,7 @@
 {{ $show_organizations := $block.design.show_organizations | default false }}
 {{ $show_role := $block.design.show_role | default true }}
 
-<div class="row justify-content-center people-widget people-widget-custom people-template-test">
+<div class="row justify-content-center people-widget people-widget-custom">
   {{ with $block.content.title }}
     <div class="section-heading col-12 text-center people-widget-heading">
       <h1 class="mb-0">{{ . | markdownify | emojify }}</h1>
@@ -47,7 +47,7 @@
       {{ with site.GetPage (printf "/authors/%s" (path.Base .File.Dir)) }}
         {{ $link = .RelPermalink }}
       {{ end }}
-      <div class="col-12 col-sm-6 col-lg-4 people-person">
+      <div class="col-12 col-sm-6 col-lg-3 people-person">
         {{ $src := "" }}
         {{ if site.Params.features.avatar.gravatar }}
           {{ $src = printf "https://s.gravatar.com/avatar/%s?s=150" (md5 .Params.email) }}

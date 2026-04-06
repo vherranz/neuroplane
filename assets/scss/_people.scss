@@ -2,43 +2,84 @@
 // 10) PEOPLE PAGE
 // =====================================
 
-// Widget page used for People landing.
-// In this site, the body only exposes `.page-wrapper`, not `.page-people`.
-// Therefore we scope the landing styles to the actual block classes used by Hugo Blox:
+// In this Hugo Blox setup, widget pages do not expose a page-specific body class
+// such as `.page-people`, so styles are scoped to the blocks actually used on
+// the landing page:
 // - `.home-section.wg-people` for Lab Members / Alumni
 // - `.home-section.wg-markdown.collaborators-section` for Collaborators
+
+// -------------------------------------
+// SECTION SPACING
+// -------------------------------------
 
 .page-wrapper .home-section.wg-people,
 .page-wrapper .home-section.wg-markdown.collaborators-section {
   padding-top: 1.35rem !important;
   padding-bottom: 1.35rem !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
 }
 
-// Equalize spacing between consecutive People blocks and between
-// the last People block and Collaborators.
+// Equalize spacing between Lab Members, Alumni and Collaborators.
+// The key fix is reducing the bottom space inside the People widget itself.
 .page-wrapper .home-section.wg-people + .home-section.wg-people,
-.page-wrapper .home-section.wg-people + .home-section.wg-markdown.collaborators-section,
-.page-wrapper .home-section.wg-markdown.collaborators-section + .home-section.wg-people,
-.page-wrapper .home-section.wg-markdown.collaborators-section + .home-section.wg-markdown.collaborators-section {
-  margin-top: -0.15rem !important;
+.page-wrapper .home-section.wg-people + .home-section.wg-markdown.collaborators-section {
+  margin-top: 0 !important;
 }
 
-.page-wrapper .home-section.wg-people .universal-wrapper h1,
-.page-wrapper .home-section.wg-people .article-container h1,
-.page-wrapper .home-section.wg-markdown.collaborators-section .universal-wrapper h1,
-.page-wrapper .home-section.wg-markdown.collaborators-section .article-container h1 {
+// Reduce excess internal space below the People cards/grid.
+.page-wrapper .home-section.wg-people .row,
+.page-wrapper .home-section.wg-people .people-widget,
+.page-wrapper .home-section.wg-people .people-widget .row,
+.page-wrapper .home-section.wg-people .people-person,
+.page-wrapper .home-section.wg-people .col-12,
+.page-wrapper .home-section.wg-people .col-sm-6,
+.page-wrapper .home-section.wg-people .col-md-4,
+.page-wrapper .home-section.wg-people .col-lg-3 {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+// Add a modest, controlled gap below each People section heading.
+.page-wrapper .home-section.wg-people .section-heading,
+.page-wrapper .home-section.wg-markdown.collaborators-section .section-heading {
+  margin-bottom: 0.9rem !important;
+}
+
+// -------------------------------------
+// SECTION TITLES
+// -------------------------------------
+
+.page-wrapper .home-section.wg-people .section-heading,
+.page-wrapper .home-section.wg-markdown.collaborators-section .section-heading,
+.page-wrapper .home-section.wg-people .section-heading h1,
+.page-wrapper .home-section.wg-people .section-heading h2,
+.page-wrapper .home-section.wg-people .section-heading h1.mb-0,
+.page-wrapper .home-section.wg-people .section-heading h2.mb-0,
+.page-wrapper .home-section.wg-markdown.collaborators-section .section-heading h1,
+.page-wrapper .home-section.wg-markdown.collaborators-section .section-heading h2,
+.page-wrapper .home-section.wg-markdown.collaborators-section .section-heading h1.mb-0,
+.page-wrapper .home-section.wg-markdown.collaborators-section .section-heading h2.mb-0 {
   text-align: center !important;
+  font-family: inherit !important;
+  font-weight: 500 !important;
+  letter-spacing: -0.01em !important;
+  color: $color-text !important;
 }
 
-.page-wrapper .home-section.wg-people .people-widget .portrait-title,
+// -------------------------------------
+// PEOPLE CARDS: NAMES AND ROLES
+// -------------------------------------
+
+.page-wrapper .home-section.wg-people .portrait-title,
 .page-wrapper .home-section.wg-people .people-person .portrait-title {
   text-align: center !important;
 }
 
-// Make names in Lab Members / Alumni match Collaborators.
-.page-wrapper .home-section.wg-people .people-widget .portrait-title h2,
+// Make names in Lab Members / Alumni match Collaborators links.
+.page-wrapper .home-section.wg-people .portrait-title h2,
+.page-wrapper .home-section.wg-people .portrait-title h2 a,
 .page-wrapper .home-section.wg-people .people-person .portrait-title h2,
-.page-wrapper .home-section.wg-people .people-widget .portrait-title h2 a,
 .page-wrapper .home-section.wg-people .people-person .portrait-title h2 a {
   margin-bottom: 0.25rem !important;
   font-size: 1.05rem !important;
@@ -50,80 +91,49 @@
   text-decoration: none !important;
 }
 
-.page-wrapper .home-section.wg-people .people-widget .portrait-title h2 a:hover,
+.page-wrapper .home-section.wg-people .portrait-title h2 a:hover,
+.page-wrapper .home-section.wg-people .portrait-title h2 a:focus,
 .page-wrapper .home-section.wg-people .people-person .portrait-title h2 a:hover,
-.page-wrapper .home-section.wg-people .people-widget .portrait-title h2 a:focus,
 .page-wrapper .home-section.wg-people .people-person .portrait-title h2 a:focus {
   color: $color-accent-dark !important;
   text-decoration: underline !important;
   text-underline-offset: 2px;
 }
 
-.page-wrapper .home-section.wg-people .people-widget .portrait-title h3,
-.page-wrapper .home-section.wg-people .people-person .portrait-title h3 {
+.page-wrapper .home-section.wg-people .portrait-title h3,
+.page-wrapper .home-section.wg-people .people-person .portrait-title h3,
+.page-wrapper .home-section.wg-people .portrait-title p,
+.page-wrapper .home-section.wg-people .people-person .portrait-title p {
   font-size: 0.95rem !important;
   line-height: 1.35 !important;
   font-weight: 400 !important;
   letter-spacing: -0.005em !important;
   color: $color-text-soft !important;
+  font-family: inherit !important;
   margin-top: 0.35rem !important;
   margin-bottom: 0 !important;
 }
 
-.page-wrapper .home-section.wg-people .people-widget .portrait-title p,
-.page-wrapper .home-section.wg-people .people-person .portrait-title p {
-  color: $color-text-soft !important;
-}
-
-.page-wrapper .home-section.wg-people .section-heading,
-.page-wrapper .home-section.wg-markdown.collaborators-section .section-heading {
-  margin-bottom: 0.9rem !important;
-}
-
-.page-wrapper .home-section.wg-people .section-heading h1,
-.page-wrapper .home-section.wg-people .section-heading h2,
-.page-wrapper .home-section.wg-people .section-heading h1.mb-0,
-.page-wrapper .home-section.wg-markdown.collaborators-section .section-heading h1,
-.page-wrapper .home-section.wg-markdown.collaborators-section .section-heading h2,
-.page-wrapper .home-section.wg-markdown.collaborators-section .section-heading h1.mb-0 {
-  text-align: center !important;
-}
-
-.page-wrapper .home-section.wg-people,
-.page-wrapper .home-section.wg-markdown.collaborators-section {
-  margin-bottom: 0 !important;
-}
-
-.page-wrapper .home-section.wg-people .people-widget,
-.page-wrapper .home-section.wg-markdown.collaborators-section .article-style,
-.page-wrapper .home-section.wg-markdown.collaborators-section .markdown {
-  margin-bottom: 0 !important;
-}
-
-.page-wrapper .home-section.wg-people .row.people-widget {
-  margin-bottom: 0 !important;
-}
-
-.page-wrapper .home-section.wg-people .people-person {
-  margin-bottom: 0 !important;
-}
+// -------------------------------------
+// COLLABORATORS BLOCK
+// -------------------------------------
 
 .page-wrapper .home-section.wg-markdown.collaborators-section .markdown,
 .page-wrapper .home-section.wg-markdown.collaborators-section .article-style {
   max-width: $max-width-collaborators !important;
   margin-left: auto !important;
   margin-right: auto !important;
+  margin-bottom: 0 !important;
 }
 
-// ===== FIX: REMOVE BULLETS COMPLETELY =====
-// Target both the custom class and the default Markdown/article-style lists from Hugo Blox.
+// Remove bullets completely.
 .page-wrapper .home-section.wg-markdown.collaborators-section .article-style ul,
 .page-wrapper .home-section.wg-markdown.collaborators-section .markdown ul,
 .page-wrapper .home-section.wg-markdown.collaborators-section ul.collaborators-list {
   list-style: none !important;
   list-style-type: none !important;
   padding-left: 0 !important;
-  margin-left: 0 !important;
+  margin: 0 auto !important;
 }
 
 .page-wrapper .home-section.wg-markdown.collaborators-section .article-style li,
@@ -144,10 +154,8 @@
   content: none !important;
   display: none !important;
 }
-// ==========================================
 
 .page-wrapper .home-section.wg-markdown.collaborators-section .collaborators-list {
-  margin: 0 auto !important;
   max-width: $max-width-collaborators-list !important;
   width: 100% !important;
   text-align: left !important;
@@ -160,6 +168,7 @@
   font-weight: 400 !important;
   letter-spacing: -0.005em !important;
   color: $color-text-soft !important;
+  font-family: inherit !important;
 }
 
 .page-wrapper .home-section.wg-markdown.collaborators-section .collaborators-list li a,
@@ -178,136 +187,4 @@
   color: $color-accent-dark !important;
   text-decoration: underline !important;
   text-underline-offset: 2px;
-}
-
-// =====================================
-// 11) SINGLE AUTHOR / PROFILE PAGE
-// =====================================
-
-body[class*="author"] h1.article-title,
-body[class*="authors"] h1.article-title {
-  font-size: 3rem !important;
-  line-height: 1.08 !important;
-  font-weight: 500 !important;
-  margin-bottom: 1.5rem !important;
-}
-
-body[class*="author"] .article-container,
-body[class*="authors"] .article-container,
-body[class*="author"] .universal-wrapper,
-body[class*="authors"] .universal-wrapper {
-  max-width: 1200px !important;
-}
-
-body[class*="author"] .portrait-title,
-body[class*="authors"] .portrait-title,
-body[class*="author"] .author-card .media-body,
-body[class*="authors"] .author-card .media-body {
-  text-align: left !important;
-}
-
-body[class*="author"] .portrait-title h2,
-body[class*="authors"] .portrait-title h2 {
-  font-size: 2rem !important;
-  font-weight: 500 !important;
-  margin-bottom: 0.35rem !important;
-  color: $color-text !important;
-}
-
-body[class*="author"] .portrait-title h3,
-body[class*="authors"] .portrait-title h3 {
-  font-size: 1rem !important;
-  line-height: 1.4 !important;
-  font-weight: 400 !important;
-  color: $color-text-soft !important;
-  margin-top: 0.15rem !important;
-  margin-bottom: 0 !important;
-}
-
-body[class*="author"] .article-style,
-body[class*="authors"] .article-style {
-  max-width: 1050px !important;
-}
-
-body[class*="author"] .article-style p,
-body[class*="authors"] .article-style p {
-  color: #333 !important;
-}
-
-body[class*="author"] .network-icon,
-body[class*="authors"] .network-icon,
-body[class*="author"] .author-card .network-icon,
-body[class*="authors"] .author-card .network-icon {
-  justify-content: flex-start !important;
-  text-align: left !important;
-  margin-top: 0.8rem !important;
-  gap: 0.3rem;
-}
-
-body[class*="author"] .network-icon a,
-body[class*="authors"] .network-icon a {
-  color: $color-text-soft !important;
-  transition: color 0.15s ease;
-}
-
-body[class*="author"] .network-icon a:hover,
-body[class*="authors"] .network-icon a:hover {
-  color: $color-accent !important;
-}
-
-body[class*="author"] .article-widget,
-body[class*="authors"] .article-widget {
-  margin-top: 2rem !important;
-}
-
-body[class*="author"] .article-widget h3,
-body[class*="authors"] .article-widget h3 {
-  color: $color-text !important;
-  margin-top: 0 !important;
-}
-
-body[class*="author"] .content-widget-hr,
-body[class*="authors"] .content-widget-hr {
-  margin: 2rem 0 1.5rem 0 !important;
-  border-top: 1px solid $border-medium !important;
-}
-
-// Tooltips for social icons
-.network-icon a {
-  position: relative;
-}
-
-.network-icon a::after {
-  position: absolute;
-  left: 50%;
-  bottom: -1.8rem;
-  transform: translateX(-50%) translateY(2px);
-  padding: 0.2rem 0.4rem;
-  border-radius: 4px;
-  font-size: 0.68rem;
-  line-height: 1;
-  white-space: nowrap;
-  background: rgba(40, 40, 40, 0.85);
-  color: #f5f5f5;
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.18s ease, transform 0.18s ease;
-  z-index: 20;
-}
-
-.network-icon a[href*="orcid.org"]::after {
-  content: "ORCID";
-}
-
-.network-icon a[href*="scholar.google.com"]::after {
-  content: "Google Scholar";
-}
-
-.network-icon a[href*="linkedin.com"]::after {
-  content: "LinkedIn";
-}
-
-.network-icon a:hover::after {
-  opacity: 1;
-  transform: translateX(-50%) translateY(0);
 }

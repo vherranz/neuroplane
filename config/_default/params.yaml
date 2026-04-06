@@ -103,6 +103,37 @@ publications:
   citation_style: apa
   date_format: "2006"
 
+
+/* Force People and Collaborators to use the site body font family */
+.page-wrapper .home-section.wg-people .portrait-title,
+.page-wrapper .home-section.wg-people .people-person .portrait-title,
+.page-wrapper .home-section.wg-people .portrait-title *,
+.page-wrapper .home-section.wg-people .people-person .portrait-title * {
+  font-family: var(--bs-body-font-family), inherit !important;
+}
+
+.page-wrapper .home-section.wg-people .portrait-title .people-name,
+.page-wrapper .home-section.wg-people .portrait-title .people-name a,
+.page-wrapper .home-section.wg-people .people-person .portrait-title .people-name,
+.page-wrapper .home-section.wg-people .people-person .portrait-title .people-name a {
+  font-family: var(--bs-body-font-family), inherit !important;
+  font-weight: 500 !important;
+}
+
+.page-wrapper .home-section.wg-people .portrait-title .people-role,
+.page-wrapper .home-section.wg-people .people-person .portrait-title .people-role,
+.page-wrapper .home-section.wg-people .portrait-title .people-interests,
+.page-wrapper .home-section.wg-people .people-person .portrait-title .people-interests {
+  font-family: var(--bs-body-font-family), inherit !important;
+  font-weight: 400 !important;
+}
+
+.page-wrapper .home-section.wg-markdown.collaborators-section .collaborators-list li,
+.page-wrapper .home-section.wg-markdown.collaborators-section .collaborators-list li a,
+.page-wrapper .home-section.wg-markdown.collaborators-section .collaborators-list li a:visited {
+  font-family: var(--bs-body-font-family), inherit !important;
+}
+
 .page-wrapper .home-section.wg-people .portrait-title,
 .page-wrapper .home-section.wg-people .people-person .portrait-title,
 .page-wrapper .home-section.wg-people .portrait-title *,

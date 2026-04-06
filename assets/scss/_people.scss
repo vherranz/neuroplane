@@ -29,6 +29,7 @@
 
 .page-wrapper .home-section.wg-people .people-widget-custom {
   row-gap: 0 !important;
+  column-gap: 0 !important;
   margin-bottom: 0 !important;
 }
 
@@ -46,6 +47,8 @@
 
 .page-wrapper .home-section.wg-people .people-person {
   margin-bottom: 1.2rem !important;
+  padding-left: 0.9rem !important;
+  padding-right: 0.9rem !important;
   padding-bottom: 0 !important;
 }
 
@@ -90,45 +93,59 @@
 // -------------------------------------
 
 .page-wrapper .home-section.wg-people .portrait-title,
-.page-wrapper .home-section.wg-people .people-person .portrait-title {
+.page-wrapper .home-section.wg-people .people-person .portrait-title,
+.page-wrapper .home-section.wg-people .portrait-title *,
+.page-wrapper .home-section.wg-people .people-person .portrait-title * {
   text-align: center !important;
+  font-family: var(--bs-body-font-family), inherit !important;
 }
 
-.page-wrapper .home-section.wg-people .portrait-title h2,
-.page-wrapper .home-section.wg-people .portrait-title h2 a,
-.page-wrapper .home-section.wg-people .people-person .portrait-title h2,
-.page-wrapper .home-section.wg-people .people-person .portrait-title h2 a {
-  margin-bottom: 0.25rem !important;
+.page-wrapper .home-section.wg-people .portrait-title .people-name,
+.page-wrapper .home-section.wg-people .portrait-title .people-name a,
+.page-wrapper .home-section.wg-people .people-person .portrait-title .people-name,
+.page-wrapper .home-section.wg-people .people-person .portrait-title .people-name a {
+  margin: 0 0 0.25rem 0 !important;
   font-size: 1.05rem !important;
   line-height: 1.25 !important;
   font-weight: 500 !important;
   letter-spacing: -0.01em !important;
   color: $color-accent !important;
-  font-family: inherit !important;
+  font-family: var(--bs-body-font-family), inherit !important;
   text-decoration: none !important;
 }
 
-.page-wrapper .home-section.wg-people .portrait-title h2 a:hover,
-.page-wrapper .home-section.wg-people .portrait-title h2 a:focus,
-.page-wrapper .home-section.wg-people .people-person .portrait-title h2 a:hover,
-.page-wrapper .home-section.wg-people .people-person .portrait-title h2 a:focus {
+.page-wrapper .home-section.wg-people .portrait-title .people-name a:hover,
+.page-wrapper .home-section.wg-people .portrait-title .people-name a:focus,
+.page-wrapper .home-section.wg-people .people-person .portrait-title .people-name a:hover,
+.page-wrapper .home-section.wg-people .people-person .portrait-title .people-name a:focus {
   color: $color-accent-dark !important;
   text-decoration: underline !important;
   text-underline-offset: 2px;
 }
 
-.page-wrapper .home-section.wg-people .portrait-title h3,
-.page-wrapper .home-section.wg-people .people-person .portrait-title h3,
-.page-wrapper .home-section.wg-people .portrait-title p,
-.page-wrapper .home-section.wg-people .people-person .portrait-title p {
+.page-wrapper .home-section.wg-people .portrait-title .people-role,
+.page-wrapper .home-section.wg-people .people-person .portrait-title .people-role,
+.page-wrapper .home-section.wg-people .portrait-title .people-interests,
+.page-wrapper .home-section.wg-people .people-person .portrait-title .people-interests {
   font-size: 0.95rem !important;
   line-height: 1.35 !important;
   font-weight: 400 !important;
   letter-spacing: -0.005em !important;
   color: $color-text-soft !important;
-  font-family: inherit !important;
+  font-family: var(--bs-body-font-family), inherit !important;
   margin-top: 0.35rem !important;
   margin-bottom: 0 !important;
+}
+
+.page-wrapper .home-section.wg-people .portrait-title .people-name,
+.page-wrapper .home-section.wg-people .portrait-title .people-role,
+.page-wrapper .home-section.wg-people .portrait-title .people-interests {
+  text-transform: none !important;
+}
+
+.page-wrapper .home-section.wg-people .portrait-title .people-name a,
+.page-wrapper .home-section.wg-people .portrait-title .people-name a:visited {
+  color: $color-accent !important;
 }
 
 // -------------------------------------
@@ -187,7 +204,7 @@
   font-weight: 400 !important;
   letter-spacing: -0.005em !important;
   color: $color-text-soft !important;
-  font-family: inherit !important;
+  font-family: var(--bs-body-font-family), inherit !important;
 }
 
 .page-wrapper .home-section.wg-markdown.collaborators-section .collaborators-list li a,
@@ -198,7 +215,7 @@
   line-height: 1.25 !important;
   font-weight: 500 !important;
   letter-spacing: -0.01em !important;
-  font-family: inherit !important;
+  font-family: var(--bs-body-font-family), inherit !important;
 }
 
 .page-wrapper .home-section.wg-markdown.collaborators-section .collaborators-list li a:hover,

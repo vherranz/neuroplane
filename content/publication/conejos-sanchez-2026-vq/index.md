@@ -24,10 +24,10 @@ authors:
 - José Manuel García-Verdugo
 - María Jesús Vicent
 date: '2026-05-01'
-publishDate: '2026-04-05T19:43:52.108904Z'
+publishDate: '2026-04-06T07:32:18.452413Z'
 publication_types:
 - article-journal
 publication: '*Biomaterials*'
 doi: 10.1016/j.biomaterials.2025.123867
-url_pdf: /files/papers/Conejos-Sanchez-2026.pdf
+url_pdf: /files/papers/conejos-sanchez-2026-vq.pdf
 ---

@@ -18,10 +18,10 @@ authors:
 - Konstantin Khodosevich
 - Kazunobu Sawamoto
 date: '2025-08-01'
-publishDate: '2026-04-05T19:43:52.129691Z'
+publishDate: '2026-04-06T07:32:18.472875Z'
 publication_types:
 - article-journal
 publication: '*Cell Reports*'
 doi: 10.1016/j.celrep.2025.116029
-url_pdf: /files/papers/Takemura-2025.pdf
+url_pdf: /files/papers/takemura-2025-cell-reports.pdf
 ---

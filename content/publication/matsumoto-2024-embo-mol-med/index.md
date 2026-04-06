@@ -20,7 +20,7 @@ authors:
 - Nobuhiko Ohno
 - Kazunobu Sawamoto
 date: '2024-06-01'
-publishDate: '2026-04-06T07:32:18.507525Z'
+publishDate: '2026-04-06T08:51:46.390004Z'
 publication_types:
 - article-journal
 publication: '*EMBO Molecular Medicine*'

@@ -7,7 +7,7 @@ authors:
 - José Manuel Morante-Redolat
 - Jordi Pérez-Tur
 date: '2010-01-01'
-publishDate: '2026-04-06T07:32:18.714091Z'
+publishDate: '2026-04-06T08:51:46.608378Z'
 publication_types:
 - article-journal
 publication: '*Brain Research*'

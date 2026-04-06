@@ -14,9 +14,10 @@ authors:
 - Julieta Alfonso
 - Hannah Monyer
 date: '2021-09-01'
-publishDate: '2026-04-06T07:32:18.640312Z'
+publishDate: '2026-04-06T08:51:46.531678Z'
 publication_types:
 - article-journal
 publication: '*Molecular Psychiatry*'
 doi: 10.1038/s41380-020-0823-4
+url_pdf: /files/papers/garcia-gonzalez-2021-mol-psychiatry.pdf
 ---

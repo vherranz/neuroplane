@@ -11,9 +11,10 @@ authors:
 - José Manuel García-Verdugo
 - Anabel Sonia Fernández
 date: '2022-06-01'
-publishDate: '2026-04-06T07:32:18.574061Z'
+publishDate: '2026-04-06T08:51:46.461170Z'
 publication_types:
 - article-journal
 publication: '*Current Research in Neurobiology*'
 doi: 10.1016/j.crneur.2022.100042
+url_pdf: /files/papers/berrosteguieta-2022-curr-res-neurobiol.pdf
 ---

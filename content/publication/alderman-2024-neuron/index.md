@@ -18,10 +18,9 @@ authors:
 - Joshua G Corbin
 - Shawn F Sorrells
 date: '2024-02-01'
-publishDate: '2026-04-06T07:32:18.521390Z'
+publishDate: '2026-04-06T08:51:46.404471Z'
 publication_types:
 - article-journal
 publication: '*Neuron*'
 doi: 10.1016/j.neuron.2023.11.010
-url_pdf: /files/papers/alderman-2024-neuron.pdf
 ---

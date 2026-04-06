@@ -18,9 +18,10 @@ authors:
 - Stephen O'Rahilly
 - Florian T Merkle
 date: '2018-11-01'
-publishDate: '2026-04-06T07:32:18.686976Z'
+publishDate: '2026-04-06T08:51:46.580426Z'
 publication_types:
 - article-journal
 publication: '*Molecular Metabolism*'
 doi: 10.1016/j.molmet.2018.08.006
+url_pdf: /files/papers/kirwan-2018-mol-metab.pdf
 ---

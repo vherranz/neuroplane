@@ -11,9 +11,10 @@ authors:
 - Vicente Herranz-Pérez
 - José Manuel García-Verdugo
 date: '2021-06-01'
-publishDate: '2026-04-06T07:32:18.606697Z'
+publishDate: '2026-04-06T08:51:46.496874Z'
 publication_types:
 - article-journal
 publication: '*Frontiers in Neuroanatomy*'
 doi: 10.3389/fnana.2021.696376
+url_pdf: /files/papers/ulloa-navas-2021-front-neuroanat.pdf
 ---

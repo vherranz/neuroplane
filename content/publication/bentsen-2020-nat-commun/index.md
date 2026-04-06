@@ -32,9 +32,10 @@ authors:
 - Michael W Schwartz
 - Tune H Pers
 date: '2020-09-01'
-publishDate: '2026-04-06T07:32:18.632801Z'
+publishDate: '2026-04-06T08:51:46.524173Z'
 publication_types:
 - article-journal
 publication: '*Nature Communications*'
 doi: 10.1038/s41467-020-17720-5
+url_pdf: /files/papers/bentsen-2020-nat-commun.pdf
 ---

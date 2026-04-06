@@ -13,7 +13,8 @@
 // -------------------------------------
 
 .page-wrapper .home-section.wg-people,
-.page-wrapper .home-section.wg-markdown.collaborators-section {
+.page-wrapper .home-section.wg-markdown.collaborators-section,
+.page-wrapper .home-section.wg-markdown .collaborators-section {
   padding-top: 1.35rem !important;
   padding-bottom: 1.35rem !important;
   margin-top: 0 !important;
@@ -23,26 +24,45 @@
 // Equalize spacing between Lab Members, Alumni and Collaborators.
 // The key fix is reducing the bottom space inside the People widget itself.
 .page-wrapper .home-section.wg-people + .home-section.wg-people,
-.page-wrapper .home-section.wg-people + .home-section.wg-markdown.collaborators-section {
+.page-wrapper .home-section.wg-people + .home-section.wg-markdown.collaborators-section,
+.page-wrapper .home-section.wg-people + .home-section.wg-markdown {
   margin-top: 0 !important;
 }
 
 // Reduce excess internal space below the People cards/grid.
+.page-wrapper .home-section.wg-people .container,
+.page-wrapper .home-section.wg-people .container-fluid,
+.page-wrapper .home-section.wg-people .universal-wrapper,
 .page-wrapper .home-section.wg-people .row,
 .page-wrapper .home-section.wg-people .people-widget,
 .page-wrapper .home-section.wg-people .people-widget .row,
 .page-wrapper .home-section.wg-people .people-person,
-.page-wrapper .home-section.wg-people .col-12,
-.page-wrapper .home-section.wg-people .col-sm-6,
-.page-wrapper .home-section.wg-people .col-md-4,
-.page-wrapper .home-section.wg-people .col-lg-3 {
+.page-wrapper .home-section.wg-people .people-person .portrait,
+.page-wrapper .home-section.wg-people .people-person .portrait-title,
+.page-wrapper .home-section.wg-people [class*="col-"] {
   margin-bottom: 0 !important;
   padding-bottom: 0 !important;
 }
 
+.page-wrapper .home-section.wg-people .people-person {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.page-wrapper .home-section.wg-people .people-person + .people-person {
+  margin-top: 0 !important;
+}
+
+.page-wrapper .home-section.wg-people .section-heading + .people-widget,
+.page-wrapper .home-section.wg-people .section-heading + .row,
+.page-wrapper .home-section.wg-people .section-heading + div {
+  margin-top: 0 !important;
+}
+
 // Add a modest, controlled gap below each People section heading.
 .page-wrapper .home-section.wg-people .section-heading,
-.page-wrapper .home-section.wg-markdown.collaborators-section .section-heading {
+.page-wrapper .home-section.wg-markdown.collaborators-section .section-heading,
+.page-wrapper .home-section.wg-markdown .collaborators-section .section-heading {
   margin-bottom: 0.9rem !important;
 }
 
@@ -52,6 +72,7 @@
 
 .page-wrapper .home-section.wg-people .section-heading,
 .page-wrapper .home-section.wg-markdown.collaborators-section .section-heading,
+.page-wrapper .home-section.wg-markdown .collaborators-section .section-heading,
 .page-wrapper .home-section.wg-people .section-heading h1,
 .page-wrapper .home-section.wg-people .section-heading h2,
 .page-wrapper .home-section.wg-people .section-heading h1.mb-0,
@@ -59,9 +80,13 @@
 .page-wrapper .home-section.wg-markdown.collaborators-section .section-heading h1,
 .page-wrapper .home-section.wg-markdown.collaborators-section .section-heading h2,
 .page-wrapper .home-section.wg-markdown.collaborators-section .section-heading h1.mb-0,
-.page-wrapper .home-section.wg-markdown.collaborators-section .section-heading h2.mb-0 {
+.page-wrapper .home-section.wg-markdown.collaborators-section .section-heading h2.mb-0,
+.page-wrapper .home-section.wg-markdown .collaborators-section .section-heading h1,
+.page-wrapper .home-section.wg-markdown .collaborators-section .section-heading h2,
+.page-wrapper .home-section.wg-markdown .collaborators-section .section-heading h1.mb-0,
+.page-wrapper .home-section.wg-markdown .collaborators-section .section-heading h2.mb-0 {
   text-align: center !important;
-  font-family: inherit !important;
+  font-family: "Raleway", sans-serif !important;
   font-weight: 500 !important;
   letter-spacing: -0.01em !important;
   color: $color-text !important;
@@ -87,7 +112,7 @@
   font-weight: 500 !important;
   letter-spacing: -0.01em !important;
   color: $color-accent !important;
-  font-family: inherit !important;
+  font-family: "Raleway", sans-serif !important;
   text-decoration: none !important;
 }
 
@@ -109,7 +134,7 @@
   font-weight: 400 !important;
   letter-spacing: -0.005em !important;
   color: $color-text-soft !important;
-  font-family: inherit !important;
+  font-family: "Raleway", sans-serif !important;
   margin-top: 0.35rem !important;
   margin-bottom: 0 !important;
 }
@@ -119,7 +144,9 @@
 // -------------------------------------
 
 .page-wrapper .home-section.wg-markdown.collaborators-section .markdown,
-.page-wrapper .home-section.wg-markdown.collaborators-section .article-style {
+.page-wrapper .home-section.wg-markdown.collaborators-section .article-style,
+.page-wrapper .home-section.wg-markdown .collaborators-section .markdown,
+.page-wrapper .home-section.wg-markdown .collaborators-section .article-style {
   max-width: $max-width-collaborators !important;
   margin-left: auto !important;
   margin-right: auto !important;
@@ -188,3 +215,17 @@
   text-decoration: underline !important;
   text-underline-offset: 2px;
 }
+
+// Final hard overrides for Hugo Blox People widgets.
+.page-wrapper .home-section.wg-people:last-of-type {
+  padding-bottom: 0.85rem !important;
+}
+
+.page-wrapper .home-section.wg-markdown.collaborators-section,
+.page-wrapper .home-section.wg-markdown .collaborators-section {
+  padding-top: 0.85rem !important;
+}
+
+// =====================================
+// 11) SINGLE AUTHOR / PROFILE PAGE
+// =====================================

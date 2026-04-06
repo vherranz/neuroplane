@@ -1,104 +1,56 @@
-# SITE SETUP
-# NeuroPlaNe Lab - Research Group Website
-# Universitat de València
+.page-wrapper .home-section.wg-people .portrait-title,
+.page-wrapper .home-section.wg-people .people-person .portrait-title,
+.page-wrapper .home-section.wg-people .portrait-title *,
+.page-wrapper .home-section.wg-people .people-person .portrait-title * {
+  text-align: center !important;
+  font-family: var(--bs-body-font-family), inherit !important;
+}
 
-# Appearance
+.page-wrapper .home-section.wg-people .portrait-title .people-name,
+.page-wrapper .home-section.wg-people .portrait-title .people-name a,
+.page-wrapper .home-section.wg-people .people-person .portrait-title .people-name,
+.page-wrapper .home-section.wg-people .people-person .portrait-title .people-name a {
+  margin: 0 0 0.25rem 0 !important;
+  font-size: 1.05rem !important;
+  line-height: 1.25 !important;
+  font-weight: 500 !important;
+  letter-spacing: -0.01em !important;
+  color: $color-accent !important;
+  font-family: var(--bs-body-font-family), inherit !important;
+  text-decoration: none !important;
+}
 
-appearance:
-  theme_day: neuroplane
-  font: neuroplane
-  font_size: L
+.page-wrapper .home-section.wg-people .portrait-title .people-role,
+.page-wrapper .home-section.wg-people .people-person .portrait-title .people-role,
+.page-wrapper .home-section.wg-people .portrait-title .people-interests,
+.page-wrapper .home-section.wg-people .people-person .portrait-title .people-interests {
+  font-size: 0.95rem !important;
+  line-height: 1.35 !important;
+  font-weight: 400 !important;
+  letter-spacing: -0.005em !important;
+  color: $color-text-soft !important;
+  font-family: var(--bs-body-font-family), inherit !important;
+  margin-top: 0.35rem !important;
+  margin-bottom: 0 !important;
+}
 
-# Google Fonts (Typography)
+.page-wrapper .home-section.wg-markdown.collaborators-section .collaborators-list li {
+  margin-bottom: 0.55rem !important;
+  font-size: 0.95rem !important;
+  line-height: 1.35 !important;
+  font-weight: 400 !important;
+  letter-spacing: -0.005em !important;
+  color: $color-text-soft !important;
+  font-family: var(--bs-body-font-family), inherit !important;
+}
 
-google_fonts:
-  - family: Raleway
-    weights: [300,400,500,600]
-
-# SEO
-
-marketing:
-  seo:
-    site_type: Organization
-    local_business_type: ''
-    org_name: 'NeuroPlaNe Lab'
-    description: 'NeuroPlaNe Lab investigates neural stem cells, immature neurons, and comparative neurobiology, with a focus on human brain development and neurological disorders.'
-    twitter: ''
-  analytics:
-    google_analytics: ''
-    baidu_tongji: ''
-    google_tag_manager: ''
-    microsoft_clarity: ''
-  verification:
-    google: ''
-    baidu: ''
-
-# Site header
-
-header:
-  navbar:
-    enable: true
-    align: r
-    show_logo: true
-    show_language: false
-    show_day_night: false
-    show_search: false
-    highlight_active_link: true
-    show_social: true
-
-# Site footer
-
-footer:
-  copyright:
-    license:
-      enable: false
-
-# Localization
-
-locale:
-  date_format: 'Jan 2, 2006'
-  time_format: '3:04 PM'
-  address_format: en-us
-
-# Site features
-
-features:
-  syntax_highlighter:
-    enable: false
-    extra_languages:
-      - r
-      - latex
-  math:
-    enable: false
-  privacy_pack:
-    enable: false
-  repository:
-    url: 'https://github.com/vherranz/neuroplane'
-    content_dir: content
-    branch: main
-  avatar:
-    gravatar: false
-    shape: circle
-  comment:
-    provider: ''
-  search:
-    provider: wowchemy
-  map:
-    provider: 'mapnik'
-    api_key: ''
-    zoom: 15
-
-# Extensions
-
-extensions:
-  decap_cms:
-    branch: main
-    local_backend: false
-  academicons:
-    enable: true
-
-# Citation style
-
-publications:
-  citation_style: apa
-  date_format: "2006"
+.page-wrapper .home-section.wg-markdown.collaborators-section .collaborators-list li a,
+.page-wrapper .home-section.wg-markdown.collaborators-section .collaborators-list li a:visited {
+  color: $color-accent !important;
+  text-decoration: none !important;
+  font-size: 1.05rem !important;
+  line-height: 1.25 !important;
+  font-weight: 500 !important;
+  letter-spacing: -0.01em !important;
+  font-family: var(--bs-body-font-family), inherit !important;
+}

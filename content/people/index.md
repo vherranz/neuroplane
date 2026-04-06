@@ -53,6 +53,7 @@ sections:
           <li><a href="https://paredeslab.ucsf.edu" target="_blank" rel="noopener noreferrer">Mercedes Paredes</a> <span>(UCSF)</span></li>
           <li><a href="https://brainscience.doshisha.ac.jp/br/en/introduction/pat/nr.html" target="_blank" rel="noopener noreferrer">Naoko Kaneko</a> <span>(Doshisha University)</span></li>
           <li><a href="https://sites.google.com/view/sorrells-lab/home" target="_blank" rel="noopener noreferrer">Shawn Sorrells</a> <span>(University of Pittsburgh)</span></li>
+          <li><a href="https://www.cabimer.es/en/vivian-capilla-gonzalez/" target="_blank" rel="noopener noreferrer">Vivian Capilla González</a> <span>(CABIMER)</span></li>
         </ul>
 
     design:

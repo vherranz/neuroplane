@@ -116,6 +116,9 @@
 }
 
 // ===== FIX: REMOVE BULLETS COMPLETELY =====
+// Target both the custom class and the default Markdown/article-style lists from Hugo Blox.
+.page-wrapper .home-section.wg-markdown.collaborators-section .article-style ul,
+.page-wrapper .home-section.wg-markdown.collaborators-section .markdown ul,
 .page-wrapper .home-section.wg-markdown.collaborators-section ul.collaborators-list {
   list-style: none !important;
   list-style-type: none !important;
@@ -123,15 +126,24 @@
   margin-left: 0 !important;
 }
 
+.page-wrapper .home-section.wg-markdown.collaborators-section .article-style li,
+.page-wrapper .home-section.wg-markdown.collaborators-section .markdown li,
 .page-wrapper .home-section.wg-markdown.collaborators-section ul.collaborators-list li {
   list-style: none !important;
 }
 
+.page-wrapper .home-section.wg-markdown.collaborators-section .article-style li::marker,
+.page-wrapper .home-section.wg-markdown.collaborators-section .markdown li::marker,
 .page-wrapper .home-section.wg-markdown.collaborators-section ul.collaborators-list li::marker {
   content: "" !important;
-  display: none !important;
 }
 
+.page-wrapper .home-section.wg-markdown.collaborators-section .article-style ul li::before,
+.page-wrapper .home-section.wg-markdown.collaborators-section .markdown ul li::before,
+.page-wrapper .home-section.wg-markdown.collaborators-section ul.collaborators-list li::before {
+  content: none !important;
+  display: none !important;
+}
 // ==========================================
 
 .page-wrapper .home-section.wg-markdown.collaborators-section .collaborators-list {

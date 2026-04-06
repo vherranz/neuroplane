@@ -62,13 +62,44 @@
 
 .page-wrapper .home-section.wg-people:last-of-type {
   padding-bottom: 0 !important;
-  margin-bottom: -0.4rem !important;
+  margin-bottom: -0.8rem !important;
+}
+
+.page-wrapper .home-section.wg-people:last-of-type .people-widget-custom,
+.page-wrapper .home-section.wg-people:last-of-type .people-widget {
+  margin-bottom: -0.6rem !important;
 }
 
 .page-wrapper .home-section.wg-markdown.collaborators-section,
 .page-wrapper .home-section.wg-markdown .collaborators-section {
   padding-top: 0 !important;
-  margin-top: -0.4rem !important;
+  margin-top: -0.8rem !important;
+}
+
+.page-wrapper .home-section.wg-markdown.collaborators-section .section-heading,
+.page-wrapper .home-section.wg-markdown .collaborators-section .section-heading {
+  margin-top: 0 !important;
+  margin-bottom: 0.55rem !important;
+}
+
+.page-wrapper .home-section.wg-markdown.collaborators-section .section-heading h1,
+.page-wrapper .home-section.wg-markdown.collaborators-section .section-heading h2,
+.page-wrapper .home-section.wg-markdown.collaborators-section .section-heading h1.mb-0,
+.page-wrapper .home-section.wg-markdown.collaborators-section .section-heading h2.mb-0,
+.page-wrapper .home-section.wg-markdown .collaborators-section .section-heading h1,
+.page-wrapper .home-section.wg-markdown .collaborators-section .section-heading h2,
+.page-wrapper .home-section.wg-markdown .collaborators-section .section-heading h1.mb-0,
+.page-wrapper .home-section.wg-markdown .collaborators-section .section-heading h2.mb-0 {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.page-wrapper .home-section.wg-markdown.collaborators-section .article-style,
+.page-wrapper .home-section.wg-markdown.collaborators-section .markdown,
+.page-wrapper .home-section.wg-markdown .collaborators-section .article-style,
+.page-wrapper .home-section.wg-markdown .collaborators-section .markdown {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
 }
 
 // -------------------------------------

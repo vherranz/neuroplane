@@ -21,6 +21,10 @@
   margin-bottom: 0 !important;
 }
 
+.page-wrapper .home-section.wg-people:first-of-type {
+  padding-top: 2.35rem !important;
+}
+
 .page-wrapper .home-section.wg-people + .home-section.wg-people,
 .page-wrapper .home-section.wg-people + .home-section.wg-markdown.collaborators-section,
 .page-wrapper .home-section.wg-people + .home-section.wg-markdown {
@@ -97,7 +101,6 @@
 .page-wrapper .home-section.wg-people .portrait-title *,
 .page-wrapper .home-section.wg-people .people-person .portrait-title * {
   text-align: center !important;
-  font-family: var(--bs-body-font-family), inherit !important;
 }
 
 .page-wrapper .home-section.wg-people .portrait-title .people-name,
@@ -110,7 +113,7 @@
   font-weight: 500 !important;
   letter-spacing: -0.01em !important;
   color: $color-accent !important;
-  font-family: var(--bs-body-font-family), inherit !important;
+  font-family: inherit !important;
   text-decoration: none !important;
 }
 
@@ -132,7 +135,7 @@
   font-weight: 400 !important;
   letter-spacing: -0.005em !important;
   color: $color-text-soft !important;
-  font-family: var(--bs-body-font-family), inherit !important;
+  font-family: inherit !important;
   margin-top: 0.35rem !important;
   margin-bottom: 0 !important;
 }
@@ -175,7 +178,6 @@
 .page-wrapper .home-section.wg-markdown.collaborators-section .markdown li,
 .page-wrapper .home-section.wg-markdown.collaborators-section ul.collaborators-list li {
   list-style: none !important;
-  font-family: inherit !important;
 }
 
 .page-wrapper .home-section.wg-markdown.collaborators-section .article-style li::marker,
@@ -204,7 +206,7 @@
   font-weight: 400 !important;
   letter-spacing: -0.005em !important;
   color: $color-text-soft !important;
-  font-family: var(--bs-body-font-family), inherit !important;
+  font-family: inherit !important;
 }
 
 .page-wrapper .home-section.wg-markdown.collaborators-section .collaborators-list li a,
@@ -215,7 +217,7 @@
   line-height: 1.25 !important;
   font-weight: 500 !important;
   letter-spacing: -0.01em !important;
-  font-family: var(--bs-body-font-family), inherit !important;
+  font-family: inherit !important;
 }
 
 .page-wrapper .home-section.wg-markdown.collaborators-section .collaborators-list li a:hover,

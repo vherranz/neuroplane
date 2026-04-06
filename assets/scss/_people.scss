@@ -2,24 +2,37 @@
 // 10) PEOPLE PAGE
 // =====================================
 
-.page-people .home-section,
-.page-people section.home-section {
-  padding-top: 1.6rem !important;
-  padding-bottom: 1.6rem !important;
+// Widget page used for People landing.
+// In this site, the body only exposes `.page-wrapper`, not `.page-people`.
+// Therefore we scope the landing styles to the actual block classes used by Hugo Blox:
+// - `.home-section.wg-people` for Lab Members / Alumni
+// - `.home-section.wg-markdown.collaborators-section` for Collaborators
+
+.page-wrapper .home-section.wg-people,
+.page-wrapper .home-section.wg-markdown.collaborators-section {
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
 }
 
-.page-people .universal-wrapper h1,
-.page-people .article-container h1 {
+.page-wrapper .home-section.wg-people + .home-section.wg-people,
+.page-wrapper .home-section.wg-people + .home-section.wg-markdown.collaborators-section {
+  margin-top: -0.4rem !important;
+}
+
+.page-wrapper .home-section.wg-people .universal-wrapper h1,
+.page-wrapper .home-section.wg-people .article-container h1,
+.page-wrapper .home-section.wg-markdown.collaborators-section .universal-wrapper h1,
+.page-wrapper .home-section.wg-markdown.collaborators-section .article-container h1 {
   text-align: center !important;
 }
 
-.page-people .people-widget .portrait-title,
-.page-people .people-person .portrait-title {
+.page-wrapper .home-section.wg-people .people-widget .portrait-title,
+.page-wrapper .home-section.wg-people .people-person .portrait-title {
   text-align: center !important;
 }
 
-.page-people .people-widget .portrait-title h2,
-.page-people .people-person .portrait-title h2 {
+.page-wrapper .home-section.wg-people .people-widget .portrait-title h2,
+.page-wrapper .home-section.wg-people .people-person .portrait-title h2 {
   margin-bottom: 0.25rem !important;
   font-size: 1.05rem !important;
   line-height: 1.25 !important;
@@ -28,8 +41,8 @@
   color: $color-accent !important;
 }
 
-.page-people .people-widget .portrait-title h3,
-.page-people .people-person .portrait-title h3 {
+.page-wrapper .home-section.wg-people .people-widget .portrait-title h3,
+.page-wrapper .home-section.wg-people .people-person .portrait-title h3 {
   font-size: 0.95rem !important;
   line-height: 1.35 !important;
   font-weight: 400 !important;
@@ -39,39 +52,52 @@
   margin-bottom: 0 !important;
 }
 
-.page-people .people-widget .portrait-title p,
-.page-people .people-person .portrait-title p {
+.page-wrapper .home-section.wg-people .people-widget .portrait-title p,
+.page-wrapper .home-section.wg-people .people-person .portrait-title p {
   color: $color-text-soft !important;
 }
 
-.page-people .section-heading {
-  margin-bottom: 1.15rem !important;
+.page-wrapper .home-section.wg-people .section-heading,
+.page-wrapper .home-section.wg-markdown.collaborators-section .section-heading {
+  margin-bottom: 0.6rem !important;
 }
 
-.page-people .section-heading h1,
-.page-people .section-heading h2,
-.page-people .section-heading h1.mb-0 {
+.page-wrapper .home-section.wg-people .section-heading h1,
+.page-wrapper .home-section.wg-people .section-heading h2,
+.page-wrapper .home-section.wg-people .section-heading h1.mb-0,
+.page-wrapper .home-section.wg-markdown.collaborators-section .section-heading h1,
+.page-wrapper .home-section.wg-markdown.collaborators-section .section-heading h2,
+.page-wrapper .home-section.wg-markdown.collaborators-section .section-heading h1.mb-0 {
   text-align: center !important;
 }
 
-.page-people .wg-people,
-.page-people .wg-markdown {
+.page-wrapper .home-section.wg-people,
+.page-wrapper .home-section.wg-markdown.collaborators-section {
   margin-bottom: 0 !important;
 }
 
-.page-people .wg-people + .wg-people,
-.page-people .wg-people + .wg-markdown {
-  padding-top: 0.8rem !important;
+.page-wrapper .home-section.wg-people .people-widget,
+.page-wrapper .home-section.wg-markdown.collaborators-section .article-style,
+.page-wrapper .home-section.wg-markdown.collaborators-section .markdown {
+  margin-bottom: 0 !important;
 }
 
-.page-people .collaborators-section .markdown,
-.page-people .collaborators-section .article-style {
+.page-wrapper .home-section.wg-people .row.people-widget {
+  margin-bottom: 0 !important;
+}
+
+.page-wrapper .home-section.wg-people .people-person {
+  margin-bottom: 0 !important;
+}
+
+.page-wrapper .home-section.wg-markdown.collaborators-section .markdown,
+.page-wrapper .home-section.wg-markdown.collaborators-section .article-style {
   max-width: $max-width-collaborators !important;
   margin-left: auto !important;
   margin-right: auto !important;
 }
 
-.page-people .collaborators-section .collaborators-list {
+.page-wrapper .home-section.wg-markdown.collaborators-section .collaborators-list {
   list-style: disc !important;
   margin: 0 auto !important;
   max-width: $max-width-collaborators-list !important;
@@ -80,7 +106,7 @@
   text-align: left !important;
 }
 
-.page-people .collaborators-section .collaborators-list li {
+.page-wrapper .home-section.wg-markdown.collaborators-section .collaborators-list li {
   margin-bottom: 0.55rem !important;
   font-size: 0.95rem !important;
   line-height: 1.35 !important;
@@ -89,8 +115,8 @@
   color: $color-text-soft !important;
 }
 
-.page-people .collaborators-section .collaborators-list li a,
-.page-people .collaborators-section .collaborators-list li a:visited {
+.page-wrapper .home-section.wg-markdown.collaborators-section .collaborators-list li a,
+.page-wrapper .home-section.wg-markdown.collaborators-section .collaborators-list li a:visited {
   color: $color-accent !important;
   text-decoration: none !important;
   font-size: 1.05rem !important;
@@ -100,8 +126,8 @@
   font-family: inherit !important;
 }
 
-.page-people .collaborators-section .collaborators-list li a:hover,
-.page-people .collaborators-section .collaborators-list li a:focus {
+.page-wrapper .home-section.wg-markdown.collaborators-section .collaborators-list li a:hover,
+.page-wrapper .home-section.wg-markdown.collaborators-section .collaborators-list li a:focus {
   color: $color-accent-dark !important;
   text-decoration: underline !important;
   text-underline-offset: 2px;

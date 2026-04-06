@@ -21,9 +21,10 @@ authors:
 - Nobuhiko Ohno
 - Kazunobu Sawamoto
 date: '2019-12-01'
-publishDate: '2026-04-06T07:32:18.659857Z'
+publishDate: '2026-04-06T08:51:46.551912Z'
 publication_types:
 - article-journal
 publication: '*Journal of Neuroscience*'
 doi: 10.1523/JNEUROSCI.1503-19.2019
+url_pdf: /files/papers/matsumoto-2019-j-neurosci.pdf
 ---

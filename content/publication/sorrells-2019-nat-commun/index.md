@@ -15,9 +15,10 @@ authors:
 - Eric J Huang
 - Arturo Alvarez-Buylla
 date: '2019-06-01'
-publishDate: '2026-04-06T07:32:18.666747Z'
+publishDate: '2026-04-06T08:51:46.559529Z'
 publication_types:
 - article-journal
 publication: '*Nature Communications*'
 doi: 10.1038/s41467-019-10765-1
+url_pdf: /files/papers/sorrells-2019-nat-commun.pdf
 ---

@@ -8,9 +8,10 @@ authors:
 - José Manuel García-Verdugo
 - Jeremy F Reiter
 date: '2021-12-01'
-publishDate: '2026-04-06T07:32:18.593604Z'
+publishDate: '2026-04-06T08:51:46.483336Z'
 publication_types:
 - article-journal
 publication: '*Developmental Cell*'
 doi: 10.1016/j.devcel.2021.11.020
+url_pdf: /files/papers/xie-2021-dev-cell.pdf
 ---

@@ -18,9 +18,10 @@ authors:
 - Kazuya Sobue
 - Kazunobu Sawamoto
 date: '2018-05-01'
-publishDate: '2026-04-06T07:32:18.700544Z'
+publishDate: '2026-04-06T08:51:46.594329Z'
 publication_types:
 - article-journal
 publication: '*Journal of Neuroscience*'
 doi: 10.1523/JNEUROSCI.1960-17.2018
+url_pdf: /files/papers/fujikake-2018-j-neurosci.pdf
 ---

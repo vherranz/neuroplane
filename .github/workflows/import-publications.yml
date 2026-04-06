@@ -47,6 +47,57 @@ jobs:
         run: |
           find content/publication -name "index.md" -print0 | xargs -0 perl -0777 -pi -e 's/links:\n- name: URL\n\s+url:.*\n//g'
 
+      - name: Add PDF links to imported publications
+        run: |
+          python <<'PY'
+          from pathlib import Path
+          import re
+
+          pub_dir = Path("content/publication")
+          pdf_dir = Path("static/files/papers")
+
+          for md in pub_dir.glob("*/index.md"):
+              slug = md.parent.name
+              pdf = pdf_dir / f"{slug}.pdf"
+              if not pdf.exists():
+                  continue
+
+              pdf_url = f"/files/papers/{slug}.pdf"
+              text = md.read_text(encoding="utf-8")
+
+              # Split YAML front matter
+              if not text.startswith("---\n"):
+                  continue
+
+              parts = text.split("---\n", 2)
+              if len(parts) < 3:
+                  continue
+
+              _, front_matter, body = parts
+
+              if re.search(r"^url_pdf:\s*", front_matter, flags=re.M):
+                  front_matter = re.sub(
+                      r"^url_pdf:\s*.*$",
+                      f"url_pdf: {pdf_url}",
+                      front_matter,
+                      flags=re.M,
+                  )
+              else:
+                  if re.search(r"^doi:\s*.*$", front_matter, flags=re.M):
+                      front_matter = re.sub(
+                          r"^(doi:\s*.*)$",
+                          r"\1\nurl_pdf: " + pdf_url,
+                          front_matter,
+                          count=1,
+                          flags=re.M,
+                      )
+                  else:
+                      front_matter = front_matter.rstrip() + f"\nurl_pdf: {pdf_url}\n"
+
+              new_text = f"---\n{front_matter}---\n{body}"
+              md.write_text(new_text, encoding="utf-8")
+          PY
+
       - name: Create Pull Request
         # Set ID for `Check outputs` stage
         id: cpr

@@ -10,16 +10,16 @@
 {{ $show_organizations := $block.design.show_organizations | default false }}
 {{ $show_role := $block.design.show_role | default true }}
 
-<div class="row justify-content-center people-widget">
+<div class="row justify-content-center people-widget people-widget-custom people-template-test">
   {{ with $block.content.title }}
-    <div class="section-heading col-12 mb-3 text-center">
+    <div class="section-heading col-12 text-center people-widget-heading">
       <h1 class="mb-0">{{ . | markdownify | emojify }}</h1>
       {{ with $block.content.subtitle }}<p class="mt-1">{{ . | markdownify | emojify }}</p>{{ end }}
     </div>
   {{ end }}
 
   {{ with $block.content.text }}
-    <div class="col-md-12">
+    <div class="col-md-12 people-widget-text">
       {{ . | emojify | $page.RenderString }}
     </div>
   {{ end }}
@@ -35,7 +35,7 @@
     {{ $query = sort $query $sort_by $sort_order }}
 
     {{if $query | and (gt (len $block.content.user_groups) 1) }}
-      <div class="col-md-12">
+      <div class="col-md-12 people-group-title">
         <h2 class="mb-4">{{ . | markdownify }}</h2>
       </div>
     {{end}}
@@ -47,7 +47,7 @@
       {{ with site.GetPage (printf "/authors/%s" (path.Base .File.Dir)) }}
         {{ $link = .RelPermalink }}
       {{ end }}
-      <div class="col-12 col-sm-auto people-person">
+      <div class="col-12 col-sm-6 col-lg-4 people-person">
         {{ $src := "" }}
         {{ if site.Params.features.avatar.gravatar }}
           {{ $src = printf "https://s.gravatar.com/avatar/%s?s=150" (md5 .Params.email) }}

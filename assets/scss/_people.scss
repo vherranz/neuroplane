@@ -115,12 +115,29 @@
   margin-right: auto !important;
 }
 
-.page-wrapper .home-section.wg-markdown.collaborators-section .collaborators-list {
+// ===== FIX: REMOVE BULLETS COMPLETELY =====
+.page-wrapper .home-section.wg-markdown.collaborators-section ul.collaborators-list {
   list-style: none !important;
+  list-style-type: none !important;
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+
+.page-wrapper .home-section.wg-markdown.collaborators-section ul.collaborators-list li {
+  list-style: none !important;
+}
+
+.page-wrapper .home-section.wg-markdown.collaborators-section ul.collaborators-list li::marker {
+  content: "" !important;
+  display: none !important;
+}
+
+// ==========================================
+
+.page-wrapper .home-section.wg-markdown.collaborators-section .collaborators-list {
   margin: 0 auto !important;
   max-width: $max-width-collaborators-list !important;
   width: 100% !important;
-  padding-left: 0 !important;
   text-align: left !important;
 }
 

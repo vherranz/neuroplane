@@ -132,23 +132,26 @@
 // =====================================
 
 .home-section.wg-pages .view-compact {
+  display: flex !important;
   align-items: stretch !important;
+  gap: 1.25rem;
 }
 
 .home-section.wg-pages .view-compact .media-body {
+  flex: 1 1 auto;
+  min-width: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-width: 0;
 }
 
 .home-section.wg-pages .view-compact .compact-image-wrapper {
-  flex: 0 0 280px;
-  width: 280px;
-  max-width: 280px;
+  flex: 0 0 320px !important;
+  width: 320px !important;
+  max-width: 320px !important;
   display: flex;
   align-items: stretch;
-  margin-left: 1rem !important;
+  margin-left: 0 !important;
 }
 
 .home-section.wg-pages .view-compact .compact-image-link {
@@ -161,7 +164,7 @@
   display: block !important;
   width: 100% !important;
   height: 100% !important;
-  min-height: 220px;
+  min-height: 260px !important;
   max-width: none !important;
   object-fit: cover !important;
   object-position: center !important;
@@ -173,20 +176,19 @@
   }
 
   .home-section.wg-pages .view-compact .compact-image-wrapper {
-    flex: 0 0 auto;
-    width: 100%;
-    max-width: 100%;
-    margin-left: 0 !important;
-    margin-top: 1rem;
+    flex: 0 0 auto !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-top: 1rem !important;
   }
 
   .home-section.wg-pages .view-compact .compact-image-link {
-    height: auto;
+    height: auto !important;
   }
 
   .home-section.wg-pages .view-compact .compact-image {
     width: 100% !important;
     height: auto !important;
-    min-height: 0;
+    min-height: 0 !important;
   }
 }

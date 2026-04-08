@@ -37,10 +37,12 @@ outputs:
   home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
   section: [HTML, RSS]
 imaging:
-  resampleFilter: lanczos
+  resampleFilter: Lanczos
   quality: 95
-  anchor: smart
-timeout: 600000
+  anchor: Smart
+  hint: photo
+
+timeout: "10m"
 taxonomies:
   tag: tags
   category: categories

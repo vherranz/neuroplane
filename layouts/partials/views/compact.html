@@ -74,20 +74,18 @@
 
   </div>
 
-  {{ $resource := partial "blox-core/functions/get_featured_image.html" $item }}
-  {{ with $resource }}
-  <div class="compact-image-wrapper">
-    {{ $image := .Resize "900x" }}
-    {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
-    <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="compact-image-link">
-      <img
-        src="{{ $image.RelPermalink }}"
-        height="{{ $image.Height }}"
-        width="{{ $image.Width }}"
-        alt="{{ $item.Title }}"
-        loading="lazy"
-        class="compact-image">
-    </a>
+  <div class="ml-3">
+    {{ $resource := partial "blox-core/functions/get_featured_image.html" $item }}
+    {{ with $resource }}
+      {{ $image := .Resize "800x" }}
+      {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
+      <a href="{{ $link }}" {{ $target | safeHTMLAttr }}>
+        <img src="{{ $image.RelPermalink }}"
+             height="{{ $image.Height }}"
+             width="{{ $image.Width }}"
+             alt="{{ $item.Title }}"
+             loading="lazy">
+      </a>
+    {{ end }}
   </div>
-  {{ end }}
 </div>

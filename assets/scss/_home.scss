@@ -59,8 +59,8 @@
   width: 100% !important;
 }
 
+/* Keep generic page cards/images tidy, but do not affect compact Latest News images */
 .home-section.wg-pages .card-simple img,
-.home-section.wg-pages .stream-item img,
 .home-section.wg-pages .article-banner img,
 .home-section.wg-pages .media-object img {
   width: 100% !important;
@@ -127,28 +127,66 @@
   font-size: 0.9rem !important;
 }
 
-// Latest News compact layout: bigger image column
-.home-section .media.stream-item {
-  align-items: flex-start !important;
+// =====================================
+// LATEST NEWS / COMPACT VIEW IMAGE
+// =====================================
+
+.home-section.wg-pages .view-compact {
+  align-items: stretch !important;
 }
 
-.home-section .media.stream-item .media-right,
-.home-section .media.stream-item .ml-3 {
-  width: 180px !important;
-  min-width: 180px !important;
-  max-width: 180px !important;
+.home-section.wg-pages .view-compact .media-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 0;
 }
 
-.home-section .media.stream-item .media-right a,
-.home-section .media.stream-item .ml-3 a {
-  display: block !important;
-  width: 200px !important;
+.home-section.wg-pages .view-compact .compact-image-wrapper {
+  flex: 0 0 280px;
+  width: 280px;
+  max-width: 280px;
+  display: flex;
+  align-items: stretch;
+  margin-left: 1rem !important;
 }
 
-.home-section .media.stream-item .media-right img,
-.home-section .media.stream-item .ml-3 img {
+.home-section.wg-pages .view-compact .compact-image-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.home-section.wg-pages .view-compact .compact-image {
   display: block !important;
   width: 100% !important;
-  max-width: 180px !important;
-  height: auto !important;
+  height: 100% !important;
+  min-height: 220px;
+  max-width: none !important;
+  object-fit: cover !important;
+  object-position: center !important;
+}
+
+@media (max-width: 768px) {
+  .home-section.wg-pages .view-compact {
+    display: block !important;
+  }
+
+  .home-section.wg-pages .view-compact .compact-image-wrapper {
+    flex: 0 0 auto;
+    width: 100%;
+    max-width: 100%;
+    margin-left: 0 !important;
+    margin-top: 1rem;
+  }
+
+  .home-section.wg-pages .view-compact .compact-image-link {
+    height: auto;
+  }
+
+  .home-section.wg-pages .view-compact .compact-image {
+    width: 100% !important;
+    height: auto !important;
+    min-height: 0;
+  }
 }

@@ -76,8 +76,8 @@
 
   {{ $resource := partial "blox-core/functions/get_featured_image.html" $item }}
   {{ with $resource }}
-  <div class="ml-3 compact-image-wrapper">
-    {{ $image := .Resize "800x" }}
+  <div class="compact-image-wrapper">
+    {{ $image := .Resize "900x" }}
     {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
     <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="compact-image-link">
       <img

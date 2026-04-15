@@ -8,7 +8,7 @@ authors:
 - Lovisa Ljungqvist Brinson
 - Arturo Alvarez-Buylla
 - José Manuel García-Verdugo
-- Vicente Herranz-Pérez
+- vicente-herranz-perez
 - Shawn Sorrells
 date: '2026-04-01'
 publishDate: '2026-04-06T08:51:46.322819Z'

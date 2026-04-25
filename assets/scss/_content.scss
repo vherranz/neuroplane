@@ -354,10 +354,14 @@ body[class*="authors"] .content-widget-hr {
 // LATEST NEWS – SPACING BETWEEN ITEMS
 // =====================================
 
-.home-section.wg-pages .media.stream-item {
-  margin-bottom: 2.2rem;
+.home-section.wg-pages .stream-item,
+.home-section.wg-pages .article-list-item,
+.home-section.wg-pages .media {
+  margin-bottom: 3rem !important;
 }
 
-.home-section.wg-pages .media.stream-item:not(:last-child) {
-  padding-bottom: 1.2rem;
+.home-section.wg-pages .stream-item:not(:last-child),
+.home-section.wg-pages .article-list-item:not(:last-child),
+.home-section.wg-pages .media:not(:last-child) {
+  padding-bottom: 1.5rem !important;
 }

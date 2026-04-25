@@ -355,9 +355,9 @@ body[class*="authors"] .content-widget-hr {
 // =====================================
 
 .home-section.wg-pages .article-style {
-  margin-bottom: 2.5rem !important;
+  margin-bottom: 2.5rem;
 }
 
-.home-section.wg-pages .article-style:not(:last-child) {
-  padding-bottom: 1.5rem;
+.home-section.wg-pages .article-style + .article-style {
+  margin-top: 2rem;
 }

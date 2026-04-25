@@ -1,6 +1,6 @@
 ---
 title: "New paper on the cytoarchitecture of the postnatal neurogenic niche in microminipigs"
-date: 2026-04-25
+date: 2026-04-24
 draft: false
 
 summary: "We are pleased to share our new article published in *Stem Cell Reports*. In this study, we provide the first ultrastructural and 3D characterization of the postnatal V-SVZ neurogenic niche in the microminipig brain, revealing chain-like neuroblast clusters and a developmental shift in migratory scaffolds."

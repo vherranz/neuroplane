@@ -355,5 +355,9 @@ body[class*="authors"] .content-widget-hr {
 // =====================================
 
 .home-section.wg-pages .media.stream-item {
-  margin-bottom: 2rem;
+  margin-bottom: 2.2rem;
+}
+
+.home-section.wg-pages .media.stream-item:not(:last-child) {
+  padding-bottom: 1.2rem;
 }

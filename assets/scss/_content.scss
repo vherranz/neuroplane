@@ -349,3 +349,11 @@ body[class*="authors"] .content-widget-hr {
   opacity: 1;
   transform: translateX(-50%) translateY(0);
 }
+
+// =====================================
+// LATEST NEWS – SPACING BETWEEN ITEMS
+// =====================================
+
+.home-section.wg-pages .media.stream-item {
+  margin-bottom: 2rem;
+}

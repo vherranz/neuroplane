@@ -30,7 +30,7 @@ sections:
   - block: collection
     content:
       title: "[Latest news](post/)"
-      count: 1
+      count: 3
       filters:
         folders:
           - post

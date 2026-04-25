@@ -351,13 +351,13 @@ body[class*="authors"] .content-widget-hr {
 }
 
 // =====================================
-// LATEST NEWS – SPACING (REAL FIX)
+// LATEST NEWS – SPACING BETWEEN ITEMS
 // =====================================
 
-.home-section.wg-pages .article-style {
-  margin-bottom: 2.5rem;
+.home-section.wg-collection .media.stream-item.view-compact {
+  margin-bottom: 3rem !important;
 }
 
-.home-section.wg-pages .article-style + .article-style {
-  margin-top: 2rem;
+.home-section.wg-collection .media.stream-item.view-compact:not(:last-child) {
+  padding-bottom: 1.25rem !important;
 }

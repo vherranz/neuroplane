@@ -349,3 +349,15 @@ body[class*="authors"] .content-widget-hr {
   opacity: 1;
   transform: translateX(-50%) translateY(0);
 }
+
+// =====================================
+// LATEST NEWS – SPACING (REAL FIX)
+// =====================================
+
+.home-section.wg-pages .article-style {
+  margin-bottom: 2.5rem !important;
+}
+
+.home-section.wg-pages .article-style:not(:last-child) {
+  padding-bottom: 1.5rem;
+}

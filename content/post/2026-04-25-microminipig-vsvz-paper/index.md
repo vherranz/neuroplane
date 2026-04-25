@@ -21,7 +21,7 @@ image:
 <figure style="text-align: center; margin: 2rem 0;">
   <img src="featured.jpg" style="max-width: 600px; width: 100%; height: auto;">
   <figcaption style="font-size: 0.9em; color: #555; margin-top: 0.8rem; text-align: justify;">
-    Immunofluorescence analysis of the neonatal ventricular-subventricular zone (V-SVZ) in the neonatal microminipig brain.
+    Cellular organization of the neonatal ventricular-subventricular zone (V-SVZ) in the neonatal microminipig brain.
 </figure>
 
 We are pleased to share our new article published in *Stem Cell Reports*.

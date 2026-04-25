@@ -349,19 +349,3 @@ body[class*="authors"] .content-widget-hr {
   opacity: 1;
   transform: translateX(-50%) translateY(0);
 }
-
-// =====================================
-// LATEST NEWS – SPACING BETWEEN ITEMS
-// =====================================
-
-.home-section.wg-pages .stream-item,
-.home-section.wg-pages .article-list-item,
-.home-section.wg-pages .media {
-  margin-bottom: 3rem !important;
-}
-
-.home-section.wg-pages .stream-item:not(:last-child),
-.home-section.wg-pages .article-list-item:not(:last-child),
-.home-section.wg-pages .media:not(:last-child) {
-  padding-bottom: 1.5rem !important;
-}

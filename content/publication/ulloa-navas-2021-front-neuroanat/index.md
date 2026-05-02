@@ -11,7 +11,7 @@ authors:
 - Vicente Herranz-Pérez
 - José Manuel García-Verdugo
 date: '2021-06-01'
-publishDate: '2026-04-06T08:51:46.496874Z'
+publishDate: '2026-05-02T16:25:42.619061Z'
 publication_types:
 - article-journal
 publication: '*Frontiers in Neuroanatomy*'

@@ -17,7 +17,7 @@ authors:
 - Shinji Saitoh
 - Kazunobu Sawamoto
 date: '2018-01-01'
-publishDate: '2026-04-06T08:51:46.601331Z'
+publishDate: '2026-05-02T16:25:42.720136Z'
 publication_types:
 - article-journal
 publication: '*Cell Stem Cell*'

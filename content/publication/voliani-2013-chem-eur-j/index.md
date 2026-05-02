@@ -9,7 +9,7 @@ authors:
 - José Manuel García-Verdugo
 - Julia Pérez-Prieto
 date: '2013-09-01'
-publishDate: '2026-05-02T16:25:42.787469Z'
+publishDate: '2026-05-02T16:37:37.380978Z'
 publication_types:
 - article-journal
 publication: '*Chemistry - A European Journal*'

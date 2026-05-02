@@ -18,7 +18,7 @@ authors:
 - Kazuya Sobue
 - Kazunobu Sawamoto
 date: '2018-05-01'
-publishDate: '2026-05-02T16:25:42.713206Z'
+publishDate: '2026-05-02T16:37:37.311885Z'
 publication_types:
 - article-journal
 publication: '*Journal of Neuroscience*'

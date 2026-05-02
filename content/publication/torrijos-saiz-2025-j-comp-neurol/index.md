@@ -10,7 +10,7 @@ authors:
 - José Manuel García-Verdugo
 - Vicente Herranz-Pérez
 date: '2025-07-01'
-publishDate: '2026-05-02T16:25:42.490551Z'
+publishDate: '2026-05-02T16:37:37.101120Z'
 publication_types:
 - article-journal
 publication: '*Journal of Comparative Neurology*'

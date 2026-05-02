@@ -15,7 +15,7 @@ authors:
 - Lori M Zeltser
 - Michael W Schwartz
 date: '2019-02-01'
-publishDate: '2026-05-02T16:25:42.686134Z'
+publishDate: '2026-05-02T16:37:37.286823Z'
 publication_types:
 - article-journal
 publication: '*Nature Metabolism*'

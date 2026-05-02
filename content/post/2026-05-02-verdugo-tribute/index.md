@@ -57,11 +57,11 @@ Dr. Arturo Álvarez-Buylla, UCSF
 **11:10 – 11:40** | Personal Remembrance  
 Dr. Vivian Capilla-González and Dr. Vicente Herranz-Pérez
 
-**11:45 – 12:25** | Talk 2  
+**11:45 – 12:25** | Talk 1  
 Dr. Eric Huang, UCSF  
 *“Disentangling angiogenesis in prenatal human brain: a tribute to Dr. José Manuel García Verdugo”*
 
-**12:30 – 13:10** | Talk 3  
+**12:30 – 13:10** | Talk 2  
 Dr. Arantxa Cebrián-Silla, UCSF  
 *“A neural stem cell relay in the V-SVZ: from apical to non-apical progenitors, inspired by the vision of José Manuel García Verdugo”*
 
@@ -71,11 +71,11 @@ Dr. Arantxa Cebrián-Silla, UCSF
 
 ### Afternoon
 
-**15:30 – 16:05** | Talk 4  
+**15:30 – 16:05** | Talk 3  
 Dr. Mercedes Paredes, UCSF  
 *“The wonders of the developing human brain: the genius of José Manuel García Verdugo”*
 
-**16:10 – 16:45** | Talk 5  
+**16:10 – 16:45** | Talk 4  
 Dr. María José Ulloa-Navas, Mayo Clinic  
 *“From inspiration to innovation: a tribute to Prof. García-Verdugo through CAR-TIL therapy for glioblastoma”*
 

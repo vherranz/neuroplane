@@ -3,7 +3,7 @@ title: "Vicente Herranz Pérez"
 role: "Associate Professor<br>Principal Investigator"
 
 superuser: true
-highlight_name: true
+highlight_name: false
 
 # Orden en People (PI primero)
 weight: 10

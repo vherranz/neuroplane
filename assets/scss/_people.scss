@@ -53,11 +53,14 @@
   padding-right: 0.9rem;
 }
 
-// In the first and last People sections, tighten card margins so the
-// zero section padding doesn't make cards bump into the next heading
-.page-wrapper .home-section.wg-people:first-of-type .people-person,
-.page-wrapper .home-section.wg-people:last-of-type .people-person {
-  margin-bottom: 0.3rem;
+// Tighten card margins only on desktop (cards in one row).
+// On mobile and tablet, cards stack vertically and need the
+// default 1.2rem margin between them.
+@media (min-width: 992px) {
+  .page-wrapper .home-section.wg-people:first-of-type .people-person,
+  .page-wrapper .home-section.wg-people:last-of-type .people-person {
+    margin-bottom: 0.3rem;
+  }
 }
 
 // Section heading spacing

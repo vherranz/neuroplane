@@ -1,265 +1,163 @@
 // =====================================
-// 10) PEOPLE PAGE
+// PEOPLE PAGE
 // =====================================
-
-// Widget page used for People landing.
-// In this site, the body only exposes `.page-wrapper`, not `.page-people`.
-// Therefore we scope the landing styles to the actual block classes used by Hugo Blox:
-// - `.home-section.wg-people` for Lab Members / Alumni
-// - `.home-section.wg-markdown.collaborators-section` for Collaborators
+//
+// Hugo Blox renders the People landing page as three sections:
+//   - .home-section.wg-people (Lab Members)
+//   - .home-section.wg-people (Alumni)
+//   - .home-section.wg-markdown.collaborators-section (Collaborators)
 
 // -------------------------------------
 // SECTION SPACING
 // -------------------------------------
 
-.page-wrapper .home-section.wg-people,
-.page-wrapper .home-section.wg-markdown.collaborators-section,
-.page-wrapper .home-section.wg-markdown .collaborators-section {
+.page-wrapper .home-section.wg-people {
   padding-top: 1.35rem !important;
   padding-bottom: 1.35rem !important;
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
 }
 
+// First section: more breathing room below navbar; no padding below (Alumni follows)
 .page-wrapper .home-section.wg-people:first-of-type {
   padding-top: 2.35rem !important;
+  padding-bottom: 0 !important;
 }
 
-.page-wrapper .home-section.wg-people + .home-section.wg-people,
-.page-wrapper .home-section.wg-people + .home-section.wg-markdown.collaborators-section,
-.page-wrapper .home-section.wg-people + .home-section.wg-markdown {
-  margin-top: 0 !important;
+// Subsequent People section sitting after another People section
+.page-wrapper .home-section.wg-people + .home-section.wg-people {
+  padding-top: 0.5rem !important;
 }
 
+// Last People section: no padding below (Collaborators follows)
+.page-wrapper .home-section.wg-people:last-of-type {
+  padding-bottom: 0 !important;
+}
+
+// Collaborators section
+.page-wrapper .home-section.wg-markdown.collaborators-section,
+.page-wrapper .home-section.wg-markdown .collaborators-section {
+  padding-top: 0 !important;
+  padding-bottom: 1.5rem !important;
+}
+
+// Strip default Bootstrap grid gaps in People rows
+.page-wrapper .home-section.wg-people .people-widget,
 .page-wrapper .home-section.wg-people .people-widget-custom {
   row-gap: 0 !important;
   column-gap: 0 !important;
-  margin-bottom: 0 !important;
 }
 
-.page-wrapper .home-section.wg-people .people-widget-heading {
-  margin-bottom: 0.9rem !important;
-}
-
-.page-wrapper .home-section.wg-people .people-group-title {
-  margin-bottom: 0 !important;
-}
-
-.page-wrapper .home-section.wg-people .people-group-title h2 {
-  margin-bottom: 0.9rem !important;
-}
-
+// Card spacing
 .page-wrapper .home-section.wg-people .people-person {
-  margin-bottom: 1.2rem !important;
-  padding-left: 0.9rem !important;
-  padding-right: 0.9rem !important;
-  padding-bottom: 0 !important;
+  margin-bottom: 1.2rem;
+  padding-left: 0.9rem;
+  padding-right: 0.9rem;
 }
 
+// In the first and last People sections, tighten card margins so the
+// zero section padding doesn't make cards bump into the next heading
+.page-wrapper .home-section.wg-people:first-of-type .people-person,
 .page-wrapper .home-section.wg-people:last-of-type .people-person {
-  margin-bottom: 0.3rem !important;
+  margin-bottom: 0.3rem;
 }
 
-.page-wrapper .home-section.wg-people:last-of-type {
-  padding-bottom: 0 !important;
-  margin-bottom: -0.8rem !important;
-}
-
-.page-wrapper .home-section.wg-people:last-of-type .people-widget-custom,
-.page-wrapper .home-section.wg-people:last-of-type .people-widget {
-  margin-bottom: -0.6rem !important;
-}
-
-.page-wrapper .home-section.wg-markdown.collaborators-section,
-.page-wrapper .home-section.wg-markdown .collaborators-section {
-  padding-top: 0 !important;
-  margin-top: -0.8rem !important;
-}
-
-.page-wrapper .home-section.wg-markdown.collaborators-section .section-heading,
-.page-wrapper .home-section.wg-markdown .collaborators-section .section-heading {
-  margin-top: 0 !important;
-  margin-bottom: 0.55rem !important;
-}
-
-.page-wrapper .home-section.wg-markdown.collaborators-section .section-heading h1,
-.page-wrapper .home-section.wg-markdown.collaborators-section .section-heading h2,
-.page-wrapper .home-section.wg-markdown.collaborators-section .section-heading h1.mb-0,
-.page-wrapper .home-section.wg-markdown.collaborators-section .section-heading h2.mb-0,
-.page-wrapper .home-section.wg-markdown .collaborators-section .section-heading h1,
-.page-wrapper .home-section.wg-markdown .collaborators-section .section-heading h2,
-.page-wrapper .home-section.wg-markdown .collaborators-section .section-heading h1.mb-0,
-.page-wrapper .home-section.wg-markdown .collaborators-section .section-heading h2.mb-0 {
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
-}
-
-.page-wrapper .home-section.wg-markdown.collaborators-section .article-style,
-.page-wrapper .home-section.wg-markdown.collaborators-section .markdown,
-.page-wrapper .home-section.wg-markdown .collaborators-section .article-style,
-.page-wrapper .home-section.wg-markdown .collaborators-section .markdown {
-  margin-top: 0 !important;
-  padding-top: 0 !important;
+// Section heading spacing
+.page-wrapper .home-section.wg-people .section-heading,
+.page-wrapper .home-section.wg-markdown.collaborators-section .section-heading {
+  margin-bottom: 0.9rem;
 }
 
 // -------------------------------------
 // SECTION TITLES
 // -------------------------------------
 
-.page-wrapper .home-section.wg-people .section-heading,
-.page-wrapper .home-section.wg-markdown.collaborators-section .section-heading,
-.page-wrapper .home-section.wg-markdown .collaborators-section .section-heading,
 .page-wrapper .home-section.wg-people .section-heading h1,
 .page-wrapper .home-section.wg-people .section-heading h2,
-.page-wrapper .home-section.wg-people .section-heading h1.mb-0,
-.page-wrapper .home-section.wg-people .section-heading h2.mb-0,
 .page-wrapper .home-section.wg-markdown.collaborators-section .section-heading h1,
-.page-wrapper .home-section.wg-markdown.collaborators-section .section-heading h2,
-.page-wrapper .home-section.wg-markdown.collaborators-section .section-heading h1.mb-0,
-.page-wrapper .home-section.wg-markdown.collaborators-section .section-heading h2.mb-0,
-.page-wrapper .home-section.wg-markdown .collaborators-section .section-heading h1,
-.page-wrapper .home-section.wg-markdown .collaborators-section .section-heading h2,
-.page-wrapper .home-section.wg-markdown .collaborators-section .section-heading h1.mb-0,
-.page-wrapper .home-section.wg-markdown .collaborators-section .section-heading h2.mb-0,
-.page-wrapper .home-section.wg-people .people-group-title h2 {
-  text-align: center !important;
-  font-family: inherit !important;
-  font-weight: 500 !important;
-  letter-spacing: -0.01em !important;
-  color: $color-text !important;
+.page-wrapper .home-section.wg-markdown.collaborators-section .section-heading h2 {
+  margin: 0;
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  color: $color-text;
 }
 
 // -------------------------------------
-// PEOPLE CARDS: NAMES AND ROLES
+// PEOPLE CARDS — names and roles
 // -------------------------------------
 
-.page-wrapper .home-section.wg-people .portrait-title,
-.page-wrapper .home-section.wg-people .people-person .portrait-title,
-.page-wrapper .home-section.wg-people .portrait-title *,
-.page-wrapper .home-section.wg-people .people-person .portrait-title * {
-  text-align: center !important;
+.page-wrapper .home-section.wg-people .portrait-title {
+  text-align: center;
 }
 
-.page-wrapper .home-section.wg-people .portrait-title .people-name,
-.page-wrapper .home-section.wg-people .portrait-title .people-name a,
-.page-wrapper .home-section.wg-people .people-person .portrait-title .people-name,
-.page-wrapper .home-section.wg-people .people-person .portrait-title .people-name a {
-  margin: 0 0 0.2rem 0 !important;
-  font-size: 1rem !important;
-  line-height: 1.25 !important;
-  font-weight: 300 !important;
-  letter-spacing: -0.005em !important;
+.page-wrapper .home-section.wg-people .people-name,
+.page-wrapper .home-section.wg-people .people-name a {
+  margin: 0 0 0.2rem 0;
+  font-size: 1rem;
+  line-height: 1.25;
+  font-weight: 300;
+  letter-spacing: -0.005em;
   color: $color-accent !important;
-  font-family: inherit !important;
-  text-decoration: none !important;
+  text-decoration: none;
 }
 
-.page-wrapper .home-section.wg-people .portrait-title .people-name a:hover,
-.page-wrapper .home-section.wg-people .portrait-title .people-name a:focus,
-.page-wrapper .home-section.wg-people .people-person .portrait-title .people-name a:hover,
-.page-wrapper .home-section.wg-people .people-person .portrait-title .people-name a:focus {
+.page-wrapper .home-section.wg-people .people-name a:hover,
+.page-wrapper .home-section.wg-people .people-name a:focus {
   color: $color-accent-dark !important;
-  text-decoration: underline !important;
+  text-decoration: underline;
   text-underline-offset: 2px;
 }
 
-.page-wrapper .home-section.wg-people .portrait-title .people-role,
-.page-wrapper .home-section.wg-people .people-person .portrait-title .people-role,
-.page-wrapper .home-section.wg-people .portrait-title .people-interests,
-.page-wrapper .home-section.wg-people .people-person .portrait-title .people-interests {
-  font-size: 0.93rem !important;
-  line-height: 1.35 !important;
-  font-weight: 300 !important;
-  letter-spacing: -0.005em !important;
-  color: $color-text-soft !important;
-  font-family: inherit !important;
-  margin-top: 0.3rem !important;
-  margin-bottom: 0 !important;
-}
-
-.page-wrapper .home-section.wg-people .portrait-title .people-name,
-.page-wrapper .home-section.wg-people .portrait-title .people-role,
-.page-wrapper .home-section.wg-people .portrait-title .people-interests {
-  text-transform: none !important;
-}
-
-.page-wrapper .home-section.wg-people .portrait-title .people-name a,
-.page-wrapper .home-section.wg-people .portrait-title .people-name a:visited {
-  color: $color-accent !important;
+.page-wrapper .home-section.wg-people .people-role,
+.page-wrapper .home-section.wg-people .people-interests {
+  margin: 0.3rem 0 0 0;
+  font-size: 0.93rem;
+  line-height: 1.35;
+  font-weight: 300;
+  letter-spacing: -0.005em;
+  color: $color-text-soft;
 }
 
 // -------------------------------------
-// COLLABORATORS BLOCK
+// COLLABORATORS LIST
 // -------------------------------------
 
-.page-wrapper .home-section.wg-markdown.collaborators-section .markdown,
 .page-wrapper .home-section.wg-markdown.collaborators-section .article-style,
-.page-wrapper .home-section.wg-markdown .collaborators-section .markdown,
 .page-wrapper .home-section.wg-markdown .collaborators-section .article-style {
-  max-width: $max-width-collaborators !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-  margin-bottom: 0 !important;
+  max-width: $max-width-collaborators;
+  margin: 0 auto;
 }
 
-.page-wrapper .home-section.wg-markdown.collaborators-section .article-style ul,
-.page-wrapper .home-section.wg-markdown.collaborators-section .markdown ul,
-.page-wrapper .home-section.wg-markdown.collaborators-section ul.collaborators-list {
+.collaborators-list {
   list-style: none !important;
-  list-style-type: none !important;
-  padding-left: 0 !important;
-  margin: 0 auto !important;
+  padding-left: 0;
+  margin: 0 auto;
+  max-width: $max-width-collaborators-list;
+  text-align: left;
 }
 
-.page-wrapper .home-section.wg-markdown.collaborators-section .article-style li,
-.page-wrapper .home-section.wg-markdown.collaborators-section .markdown li,
-.page-wrapper .home-section.wg-markdown.collaborators-section ul.collaborators-list li {
-  list-style: none !important;
+.collaborators-list li {
+  margin-bottom: 0.55rem;
+  font-size: 0.95rem;
+  line-height: 1.35;
+  color: $color-text-soft;
 }
 
-.page-wrapper .home-section.wg-markdown.collaborators-section .article-style li::marker,
-.page-wrapper .home-section.wg-markdown.collaborators-section .markdown li::marker,
-.page-wrapper .home-section.wg-markdown.collaborators-section ul.collaborators-list li::marker {
-  content: "" !important;
-}
-
-.page-wrapper .home-section.wg-markdown.collaborators-section .article-style ul li::before,
-.page-wrapper .home-section.wg-markdown.collaborators-section .markdown ul li::before,
-.page-wrapper .home-section.wg-markdown.collaborators-section ul.collaborators-list li::before {
+.collaborators-list li::before {
   content: none !important;
-  display: none !important;
 }
 
-.page-wrapper .home-section.wg-markdown.collaborators-section .collaborators-list {
-  max-width: $max-width-collaborators-list !important;
-  width: 100% !important;
-  text-align: left !important;
-}
-
-.page-wrapper .home-section.wg-markdown.collaborators-section .collaborators-list li {
-  margin-bottom: 0.55rem !important;
-  font-size: 0.95rem !important;
-  line-height: 1.35 !important;
-  font-weight: 400 !important;
-  letter-spacing: -0.005em !important;
-  color: $color-text-soft !important;
-  font-family: inherit !important;
-}
-
-.page-wrapper .home-section.wg-markdown.collaborators-section .collaborators-list li a,
-.page-wrapper .home-section.wg-markdown.collaborators-section .collaborators-list li a:visited {
+.collaborators-list li a,
+.collaborators-list li a:visited {
   color: $color-accent !important;
-  text-decoration: none !important;
-  font-size: 1.05rem !important;
-  line-height: 1.25 !important;
-  font-weight: 500 !important;
-  letter-spacing: -0.01em !important;
-  font-family: inherit !important;
+  text-decoration: none;
+  font-size: 1.05rem;
+  font-weight: 500;
+  letter-spacing: -0.01em;
 }
 
-.page-wrapper .home-section.wg-markdown.collaborators-section .collaborators-list li a:hover,
-.page-wrapper .home-section.wg-markdown.collaborators-section .collaborators-list li a:focus {
+.collaborators-list li a:hover,
+.collaborators-list li a:focus {
   color: $color-accent-dark !important;
-  text-decoration: underline !important;
+  text-decoration: underline;
   text-underline-offset: 2px;
 }

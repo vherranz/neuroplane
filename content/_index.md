@@ -21,6 +21,8 @@ sections:
         Our work focuses on how neural stem cells generate neurons, how some neuronal populations remain immature for extended periods before integrating into circuits, and how alterations in these processes contribute to neurodevelopmental and neurological disorders, bridging basic and translational neuroscience.
     design:
       columns: "1"
+      spacing:
+        padding: ["3rem", "0", "1rem", "0"]
 
   - block: collection
     content:
@@ -30,8 +32,9 @@ sections:
         folders:
           - post
       order: desc
-
     design:
       view: compact
       columns: "1"
+      spacing:
+        padding: ["1rem", "0", "2rem", "0"]
 ---

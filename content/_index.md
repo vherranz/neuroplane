@@ -12,7 +12,7 @@ sections:
       text: |
         Understanding how the brain is built, maintained, and reshaped across the lifespan.
 
-- block: markdown
+  - block: markdown
     content:
       title: ""
       text: |

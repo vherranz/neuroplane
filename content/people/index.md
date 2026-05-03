@@ -48,7 +48,7 @@ sections:
       title: Collaborators
       text: |
         <ul class="collaborators-list">
-          <li><a href="https://ablab.ucsf.edu" target="_blank" rel="noopener noreferrer">Arturo Álvarez-Buylla</a> <span>UCSF</span></li>
+          <li><a href="https://ablab.ucsf.edu" target="_blank" rel="noopener noreferrer">Arturo Álvarez-Buylla</a> <span>University of California San Francisco</span></li>
           <li><a href="https://www.uv.es/persona/pavon" target="_blank" rel="noopener noreferrer">Carmen Agustín Pavón</a> <span>Universitat de València</span></li>
           <li><a href="https://reitergroup.ucsf.edu/" target="_blank" rel="noopener noreferrer">Jeremy Reiter</a> <span>UCSF</span></li>
           <li><a href="https://k-sawamoto.com/#" target="_blank" rel="noopener noreferrer">Kazunobu Sawamoto</a> <span>Nagoya City University</span></li>

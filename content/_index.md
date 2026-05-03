@@ -22,7 +22,7 @@ sections:
     design:
       columns: "1"
       spacing:
-        padding: ["3rem", "0", "3rem", "0"]
+        padding: ["3rem", "0", "2rem", "0"]
 
   - block: collection
     content:
@@ -36,5 +36,5 @@ sections:
       view: compact
       columns: "1"
       spacing:
-        padding: ["1rem", "0", "2rem", "0"]
+        padding: ["2rem", "0", "2rem", "0"]
 ---

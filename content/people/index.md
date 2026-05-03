@@ -40,48 +40,6 @@ sections:
       spacing:
         padding: ["1rem", "0", "1rem", "0"]
 
- ---
-title: People
-date: 2026-03-20
-type: landing
-
-sections:
-  # =============================
-  # LAB MEMBERS
-  # =============================
-  - block: people
-    content:
-      title: Lab Members
-      user_groups:
-        - Lab Members
-      sort_by: Params.weight
-      sort_ascending: true
-
-    design:
-      show_interests: false
-      show_role: true
-      show_social: false
-      spacing:
-        padding: ["3rem", "0", "1rem", "0"]
-
-  # =============================
-  # ALUMNI
-  # =============================
-  - block: people
-    content:
-      title: Alumni
-      user_groups:
-        - Alumni
-      sort_by: Params.weight
-      sort_ascending: true
-
-    design:
-      show_interests: false
-      show_role: true
-      show_social: false
-      spacing:
-        padding: ["1rem", "0", "1rem", "0"]
-
   # =============================
   # COLLABORATORS
   # =============================

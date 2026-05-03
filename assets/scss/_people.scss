@@ -27,11 +27,6 @@
   padding-top: 2rem !important;
 }
 
-// Last People section: no padding below (Collaborators follows)
-.page-wrapper .home-section.wg-people:last-of-type {
-  padding-bottom: 0 !important;
-}
-
 // Collaborators section
 .page-wrapper .home-section.wg-markdown.collaborators-section,
 .page-wrapper .home-section.wg-markdown .collaborators-section {
@@ -53,20 +48,19 @@
   padding-right: 0.9rem;
 }
 
-// Tighten card margins only on desktop (cards in one row).
-// On mobile and tablet, cards stack vertically and need the
-// default 1.2rem margin between them.
+// Tighten cards in the first People section only on desktop, where they
+// sit in a single row. On mobile/tablet they stack vertically and need
+// the default 1.2rem margin to look properly separated.
 @media (min-width: 992px) {
-  .page-wrapper .home-section.wg-people:first-of-type .people-person,
-  .page-wrapper .home-section.wg-people:last-of-type .people-person {
+  .page-wrapper .home-section.wg-people:first-of-type .people-person {
     margin-bottom: 0.3rem;
   }
 }
 
-// Section heading spacing
+// Section heading spacing — gap between the title and the content below
 .page-wrapper .home-section.wg-people .section-heading,
 .page-wrapper .home-section.wg-markdown.collaborators-section .section-heading {
-  margin-bottom: 0.9rem;
+  margin-bottom: 1.5rem;
 }
 
 // -------------------------------------

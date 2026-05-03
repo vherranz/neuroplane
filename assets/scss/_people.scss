@@ -133,14 +133,18 @@
   margin: 0 auto;
   max-width: $max-width-collaborators-list;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  column-gap: 2.5rem;
-  row-gap: 0.45rem;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  column-gap: 2rem;
+  row-gap: 1.1rem;
 }
 
 .collaborators-list li {
   margin: 0;
-  line-height: 1.4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.2rem;
 }
 
 .collaborators-list li::before {
@@ -154,6 +158,7 @@
   font-size: 1rem;
   font-weight: 300;
   letter-spacing: -0.005em;
+  line-height: 1.25;
 }
 
 .collaborators-list li a:hover,
@@ -164,9 +169,9 @@
 }
 
 .collaborators-list li > span {
-  margin-left: 0.25rem;
   font-size: 0.93rem;
   font-weight: 300;
   letter-spacing: -0.005em;
   color: $color-text-soft;
+  line-height: 1.35;
 }

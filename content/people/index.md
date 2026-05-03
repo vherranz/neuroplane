@@ -19,6 +19,8 @@ sections:
       show_interests: false
       show_role: true
       show_social: false
+      spacing:
+        padding: ["3rem", "0", "1rem", "0"]
 
   # =============================
   # ALUMNI
@@ -35,6 +37,8 @@ sections:
       show_interests: false
       show_role: true
       show_social: false
+      spacing:
+        padding: ["1rem", "0", "1rem", "0"]
 
   # =============================
   # COLLABORATORS
@@ -58,6 +62,8 @@ sections:
 
     design:
       columns: "1"
+      spacing:
+        padding: ["1rem", "0", "2rem", "0"]
 
     advanced:
       css_class: "collaborators-section"

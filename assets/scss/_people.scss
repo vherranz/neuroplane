@@ -141,6 +141,12 @@
   row-gap: 1.1rem;
 }
 
+@media (max-width: 991px) {
+  .collaborators-list {
+    row-gap: 0.7rem;
+  }
+}
+
 .collaborators-list li {
   margin: 0;
   display: flex;

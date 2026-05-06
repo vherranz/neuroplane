@@ -45,24 +45,26 @@ Attendance is open, but prior registration is required, free of charge, in order
 **9:15 – 9:30** | Registration
 
 **9:30 – 9:55** | Institutional Opening  
-Dr. Ismael Mingarro Muñoz, Dean, Faculty of Biological Sciences  
-Dr. Enrique Font Bisier, Cavanilles Institute of Biodiversity and Evolutionary Biology
+Dr. Ismael Mingarro, Dean, Faculty of Biological Sciences, Universitat de València  
+Dr. Enrique Font Bisier, Cavanilles Institute of Biodiversity and Evolutionary Biology, Universitat de València
 
 **10:00 – 10:40** | Opening Lecture  
-Dr. Arturo Álvarez-Buylla, UCSF  
+Dr. Arturo Álvarez-Buylla, University of California San Francisco, USA  
 *“Remembering a cherished friend: comrade of many scientific battles”*
 
 **10:40 – 11:10** | Coffee Break
 
-**11:10 – 11:40** | Personal Remembrance  
-Dr. Vivian Capilla-González and Dr. Vicente Herranz-Pérez
+**11:10 – 11:40** | Talk 1  
+Dr. Vivian Capilla-González, Andalusian Center for Molecular Biology and Regenerative Medicine, Spain  
+Dr. Vicente Herranz-Pérez, Universitat de València  
+*“What remains after: a personal reflection”*
 
-**11:45 – 12:25** | Talk 1  
-Dr. Eric Huang, UCSF  
+**11:45 – 12:25** | Talk 2  
+Dr. Eric Huang, University of California San Francisco, USA  
 *“Disentangling angiogenesis in prenatal human brain: a tribute to Dr. José Manuel García Verdugo”*
 
-**12:30 – 13:10** | Talk 2  
-Dr. Arantxa Cebrián-Silla, UCSF  
+**12:30 – 13:10** | Talk 3  
+Dr. Arantxa Cebrián-Silla, University of California San Francisco, USA  
 *“A neural stem cell relay in the V-SVZ: from apical to non-apical progenitors, inspired by the vision of José Manuel García Verdugo”*
 
 **13:10 – 13:15** | Morning Session Closing
@@ -71,12 +73,12 @@ Dr. Arantxa Cebrián-Silla, UCSF
 
 ### Afternoon
 
-**15:30 – 16:05** | Talk 3  
-Dr. Mercedes Paredes, UCSF  
+**15:30 – 16:05** | Talk 4  
+Dr. Mercedes Paredes, University of California San Francisco, USA  
 *“The wonders of the developing human brain: the genius of José Manuel García Verdugo”*
 
-**16:10 – 16:45** | Talk 4  
-Dr. María José Ulloa-Navas, Mayo Clinic  
+**16:10 – 16:45** | Talk 5  
+Dr. María José Ulloa-Navas, Mayo Clinic in Florida, USA  
 *“From inspiration to innovation: a tribute to Prof. García-Verdugo through CAR-TIL therapy for glioblastoma”*
 
 **16:50 – 17:00** | Closing remarks, acknowledgments, and group photo

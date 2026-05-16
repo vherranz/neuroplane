@@ -10,7 +10,7 @@ authors:
 - Philip A Barker
 - Jordi Pérez-Tur
 date: '2006-12-01'
-publishDate: '2026-05-02T16:37:37.362316Z'
+publishDate: '2026-05-16T09:19:55.687418Z'
 publication_types:
 - article-journal
 publication: '*Human Molecular Genetics*'

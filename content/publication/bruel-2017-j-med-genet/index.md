@@ -55,7 +55,7 @@ authors:
 - Laurence Faivre
 - Christel Thauvin-Robinet
 date: '2017-06-01'
-publishDate: '2026-05-02T16:37:37.423605Z'
+publishDate: '2026-05-16T09:19:55.752997Z'
 publication_types:
 - article-journal
 publication: '*Journal of Medical Genetics*'

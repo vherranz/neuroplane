@@ -38,7 +38,7 @@ authors:
 - Francisco Gil-Bea
 - Sonia Alonso-Martín
 date: '2024-09-01'
-publishDate: '2026-05-02T16:37:37.113691Z'
+publishDate: '2026-05-16T09:19:55.423241Z'
 publication_types:
 - article-journal
 publication: '*Acta Neuropathologica*'

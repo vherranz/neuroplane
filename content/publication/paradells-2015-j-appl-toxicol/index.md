@@ -12,7 +12,7 @@ authors:
 - Jose Miguel Soria
 - Ma Angeles Garcia-Esparza
 date: '2015-07-01'
-publishDate: '2026-05-02T16:37:37.387179Z'
+publishDate: '2026-05-16T09:19:55.713713Z'
 publication_types:
 - article-journal
 publication: '*Journal of Applied Toxicology*'

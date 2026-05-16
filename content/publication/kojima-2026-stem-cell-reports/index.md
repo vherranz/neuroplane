@@ -17,7 +17,7 @@ authors:
 - Naoko Kaneko
 - Kazunobu Sawamoto
 date: '2026-04-01'
-publishDate: '2026-05-02T16:37:37.058880Z'
+publishDate: '2026-05-16T09:19:55.365738Z'
 publication_types:
 - article-journal
 publication: '*Stem Cell Reports*'

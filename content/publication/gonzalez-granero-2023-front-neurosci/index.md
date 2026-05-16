@@ -7,7 +7,7 @@ authors:
 - Vicente Herranz-Pérez
 - José Manuel García-Verdugo
 date: '2023-02-01'
-publishDate: '2026-05-02T16:37:37.153390Z'
+publishDate: '2026-05-16T09:19:55.465603Z'
 publication_types:
 - article-journal
 publication: '*Frontiers in Neuroscience*'

@@ -27,7 +27,7 @@ sections:
   - block: collection
     content:
       title: "[Latest news](post/)"
-      count: 3
+      count: 5
       filters:
         folders:
           - post

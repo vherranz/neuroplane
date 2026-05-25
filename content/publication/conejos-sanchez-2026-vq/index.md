@@ -24,7 +24,7 @@ authors:
 - José Manuel García-Verdugo
 - María Jesús Vicent
 date: '2026-05-01'
-publishDate: '2026-05-16T09:19:55.382490Z'
+publishDate: '2026-05-25T10:25:27.928164Z'
 publication_types:
 - article-journal
 publication: '*Biomaterials*'

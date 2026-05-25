@@ -6,7 +6,7 @@ authors:
 - José Manuel García-Verdugo
 - Emmanuelle Huillard
 date: '2021-04-01'
-publishDate: '2026-05-16T09:19:55.544543Z'
+publishDate: '2026-05-25T10:25:28.071947Z'
 publication_types:
 - article-journal
 publication: '*Frontiers in Neuroscience*'

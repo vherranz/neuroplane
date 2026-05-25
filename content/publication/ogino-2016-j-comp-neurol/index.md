@@ -12,7 +12,7 @@ authors:
 - José Manuel García-Verdugo
 - Kazunobu Sawamoto
 date: '2016-10-01'
-publishDate: '2026-05-16T09:19:55.666672Z'
+publishDate: '2026-05-25T10:25:28.178860Z'
 publication_types:
 - article-journal
 publication: '*Journal of Comparative Neurology*'

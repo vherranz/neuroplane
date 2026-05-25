@@ -10,7 +10,7 @@ authors:
 - Vicente Herranz-Pérez
 - Jaime Ferrer-Lozano
 date: '2021-03-01'
-publishDate: '2026-05-16T09:19:55.557625Z'
+publishDate: '2026-05-25T10:25:28.083587Z'
 publication_types:
 - article-journal
 publication: '*Journal of Neuropathology & Experimental Neurology*'

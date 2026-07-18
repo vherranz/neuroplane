@@ -1,3 +1,6 @@
+Sustituye todo el contenido de `_navbar.scss` por este:
+
+```scss
 // =====================================
 // 2) NAVBAR
 // =====================================
@@ -30,7 +33,7 @@
   display: none !important;
 }
 
-// Tamaño del logo SVG/PNG en escritorio
+// Tamaño del logo SVG o PNG en escritorio
 .navbar-brand img,
 .navbar-brand svg {
   display: block !important;
@@ -51,16 +54,16 @@
   line-height: 1.2 !important;
 }
 
+// Oculta los iconos de Research, People, Publications, etc.
+.navbar .nav-link i,
+.navbar-nav .nav-link i {
+  display: none !important;
+}
+
 .navbar .nav-link:hover,
 .navbar .nav-link:focus {
   color: $color-text-dark !important;
   opacity: 0.9;
-}
-
-.navbar .nav-link i {
-  font-size: 0.9em;
-  margin-right: 0.35rem;
-  opacity: 0.7;
 }
 
 // Página activa
@@ -70,14 +73,6 @@
 .navbar-nav .nav-link[aria-current="page"] {
   color: $color-text-dark !important;
   font-weight: 600 !important;
-  opacity: 1 !important;
-}
-
-.navbar .nav-link.active i,
-.navbar .nav-link[aria-current="page"] i,
-.navbar-nav .nav-link.active i,
-.navbar-nav .nav-link[aria-current="page"] i {
-  color: $color-text-dark !important;
   opacity: 1 !important;
 }
 
@@ -183,3 +178,4 @@
   background: $bg-hover-soft !important;
   color: $color-text-dark !important;
 }
+```

@@ -12,22 +12,35 @@
   padding-bottom: 0.35rem !important;
 }
 
+// Logo principal de la cabecera
 .navbar-brand {
+  display: inline-flex !important;
+  align-items: center !important;
+  flex-shrink: 0;
+  padding: 0 !important;
+  margin-right: 1.5rem !important;
   font-size: 0 !important;
+  line-height: 1 !important;
   color: $color-text !important;
 }
 
+// Elimina el antiguo nombre generado mediante CSS
 .navbar-brand::after {
-  content: "NEUROPLANE LAB";
-  display: inline-block;
-  font-size: 0.95rem !important;
-  font-weight: 400 !important;
-  letter-spacing: 0.26em !important;
-  text-transform: uppercase !important;
-  color: $color-text !important;
-  line-height: 1;
+  content: none !important;
+  display: none !important;
 }
 
+// Tamaño del logo SVG/PNG
+.navbar-brand img,
+.navbar-brand svg {
+  display: block !important;
+  width: auto !important;
+  height: 42px !important;
+  max-width: min(290px, 58vw) !important;
+  object-fit: contain;
+}
+
+// Enlaces del menú
 .navbar .nav-link,
 .navbar-nav .nav-link {
   color: $color-text-soft !important;
@@ -50,6 +63,7 @@
   opacity: 0.7;
 }
 
+// Página activa
 .navbar .nav-link.active,
 .navbar .navbar-nav .nav-link.active,
 .navbar .nav-link[aria-current="page"],
@@ -67,6 +81,7 @@
   opacity: 1 !important;
 }
 
+// Botón del menú móvil
 .navbar .navbar-toggler,
 .navbar-light .navbar-toggler {
   border-color: rgba(0, 0, 0, 0.15) !important;
@@ -95,11 +110,41 @@
   left: 0;
 }
 
+// Oculta el selector de tema
 .theme-dropdown,
 .js-theme-selector,
 [data-theme-toggle],
 .nav-item.dropdown.theme-dropdown {
   display: none !important;
+}
+
+// Ajustes para tablet y móvil
+@media (max-width: 991.98px) {
+  .navbar {
+    padding-top: 0.3rem !important;
+    padding-bottom: 0.3rem !important;
+  }
+
+  .navbar-brand {
+    margin-right: 0.75rem !important;
+  }
+
+  .navbar-brand img,
+  .navbar-brand svg {
+    height: 35px !important;
+    max-width: 68vw !important;
+  }
+
+  .navbar-collapse {
+    padding-top: 0.75rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .navbar .nav-link,
+  .navbar-nav .nav-link {
+    padding-top: 0.6rem !important;
+    padding-bottom: 0.6rem !important;
+  }
 }
 
 // =====================================

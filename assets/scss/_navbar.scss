@@ -30,13 +30,13 @@
   display: none !important;
 }
 
-// Tamaño del logo SVG/PNG
+// Tamaño del logo SVG/PNG en escritorio
 .navbar-brand img,
 .navbar-brand svg {
   display: block !important;
   width: auto !important;
   height: 42px !important;
-  max-width: min(290px, 58vw) !important;
+  max-width: 290px !important;
   object-fit: contain;
 }
 

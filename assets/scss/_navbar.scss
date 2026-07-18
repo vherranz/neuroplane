@@ -8,42 +8,48 @@
   -webkit-backdrop-filter: blur(10px);
   border-bottom: 1px solid $border-soft;
   box-shadow: $shadow-navbar;
-  padding-top: 0.3rem !important;
-  padding-bottom: 0.3rem !important;
-  min-height: 68px;
+  padding-top: 0.35rem !important;
+  padding-bottom: 0.35rem !important;
 }
 
-// Logo principal de la cabecera
+// =====================================
+// NOMBRE DEL GRUPO
+// =====================================
+
 .navbar-brand {
   display: inline-flex !important;
   align-items: center !important;
   flex-shrink: 0;
-  max-width: none !important;
   padding: 0 !important;
-  margin-right: 1.75rem !important;
+  margin-right: 1.5rem !important;
   font-size: 0 !important;
   line-height: 1 !important;
   color: $color-text !important;
-  overflow: visible !important;
 }
 
-// Elimina el antiguo nombre generado mediante CSS
-.navbar-brand::after {
-  content: none !important;
+// Oculta el logo gráfico si sigue presente en assets/media
+.navbar-brand img,
+.navbar-brand svg {
   display: none !important;
 }
 
-// Tamaño del logo en escritorio
-.navbar-brand img {
-  display: block !important;
-  width: auto !important;
-  height: 54px !important;
-  max-width: 370px !important;
-  max-height: none !important;
-  object-fit: contain;
+// Restaura NEUROPLANE LAB como texto
+.navbar-brand::after {
+  content: "NEUROPLANE LAB";
+  display: inline-block;
+  white-space: nowrap;
+  font-size: 0.95rem !important;
+  font-weight: 400 !important;
+  letter-spacing: 0.26em !important;
+  text-transform: uppercase !important;
+  color: $color-text !important;
+  line-height: 1;
 }
 
-// Enlaces del menú
+// =====================================
+// ENLACES DEL MENÚ
+// =====================================
+
 .navbar .nav-link,
 .navbar-nav .nav-link {
   color: $color-text-soft !important;
@@ -54,7 +60,7 @@
   line-height: 1.2 !important;
 }
 
-// Oculta los iconos de Home, Research, People, Publications y Contact
+// Oculta los iconos de las secciones
 #navbar-main .navbar-nav .nav-link > i,
 #navbar-main .navbar-nav .nav-link > svg,
 .navbar .navbar-nav .nav-link > i,
@@ -62,7 +68,7 @@
   display: none !important;
 }
 
-// Elimina el espacio que pudiera quedar reservado para los iconos
+// Evita espacios residuales asociados a los iconos
 #navbar-main .navbar-nav .nav-link > i + span,
 #navbar-main .navbar-nav .nav-link > svg + span {
   margin-left: 0 !important;
@@ -84,7 +90,10 @@
   opacity: 1 !important;
 }
 
-// Botón del menú móvil
+// =====================================
+// BOTÓN DEL MENÚ MÓVIL
+// =====================================
+
 .navbar .navbar-toggler,
 .navbar-light .navbar-toggler {
   border-color: rgba(0, 0, 0, 0.15) !important;
@@ -127,19 +136,17 @@
 
 @media (max-width: 991.98px) {
   .navbar {
-    min-height: 58px;
-    padding-top: 0.25rem !important;
-    padding-bottom: 0.25rem !important;
+    padding-top: 0.3rem !important;
+    padding-bottom: 0.3rem !important;
   }
 
   .navbar-brand {
     margin-right: 0.75rem !important;
   }
 
-  .navbar-brand img {
-    height: 42px !important;
-    max-width: 72vw !important;
-    max-height: none !important;
+  .navbar-brand::after {
+    font-size: 0.84rem !important;
+    letter-spacing: 0.18em !important;
   }
 
   .navbar-collapse {
@@ -154,11 +161,10 @@
   }
 }
 
-// Para teléfonos estrechos
 @media (max-width: 480px) {
-  .navbar-brand img {
-    height: 38px !important;
-    max-width: 70vw !important;
+  .navbar-brand::after {
+    font-size: 0.76rem !important;
+    letter-spacing: 0.12em !important;
   }
 }
 

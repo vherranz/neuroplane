@@ -1,0 +1,90 @@
+{{ define "main" }}
+{{ $posts := where site.RegularPages "Section" "post" }}
+{{ $years := slice }}
+{{ range $posts }}{{ $years = $years | append (.Date.Format "2006") }}{{ end }}
+{{ $years = sort (uniq $years) "value" "desc" }}
+<section class="page" id="newsroom">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="eyebrow">Latest news</div>
+      <h2>News from the lab.</h2>
+      <div class="rule"></div>
+    </div>
+
+    <div class="news-controls">
+      <div class="searchbar">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+        <input id="nq" type="text" placeholder="Search news…">
+      </div>
+      {{ if gt (len $years) 1 }}
+      <div class="chips" id="yearChips" style="justify-content:center;margin-top:16px">
+        {{ range $years }}<button class="chip" data-kind="year" data-val="{{ . }}">{{ . }}</button>{{ end }}
+      </div>
+      {{ end }}
+    </div>
+
+    <div class="ex-meta">
+      <span id="ncount"></span>
+      <button id="nreset">Clear filters</button>
+    </div>
+
+    <div class="post-list" id="nresults">
+      {{ range $posts.ByDate.Reverse }}
+      {{ $summary := "" }}{{ with .Params.summary }}{{ $summary = . | markdownify | plainify }}{{ end }}
+      <article class="post-card"
+               data-search="{{ lower (printf "%s %s" .Title $summary) }}"
+               data-year="{{ .Date.Format "2006" }}">
+        <a class="pc-thumb" href="{{ .RelPermalink }}">
+          {{ with .Resources.GetMatch "featured.*" }}<img src="{{ (.Fill "480x300 Center q82").RelPermalink }}" alt="" loading="lazy">{{ end }}
+        </a>
+        <div class="pc-text">
+          <div class="pc-date">{{ .Date.Format "Jan 2, 2006" }}</div>
+          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+          {{ with $summary }}<p>{{ . | truncate 200 }}</p>{{ end }}
+          <a class="pc-more" href="{{ .RelPermalink }}">Read more →</a>
+        </div>
+      </article>
+      {{ end }}
+      <div class="empty" id="nempty" style="display:none">No news match your search.</div>
+    </div>
+  </div>
+</section>
+
+<script>
+(function(){
+  var items = Array.prototype.slice.call(document.querySelectorAll('#nresults .post-card'));
+  var TOTAL = items.length;
+  var state = {q:"", years:new Set()};
+  var countEl = document.getElementById('ncount');
+  var emptyEl = document.getElementById('nempty');
+  function setHas(set){ return set.size>0; }
+  function match(it){
+    if(state.q && it.dataset.search.indexOf(state.q)===-1) return false;
+    if(state.years.size && !state.years.has(it.dataset.year)) return false;
+    return true;
+  }
+  function render(){
+    var shown=0;
+    items.forEach(function(it){ var ok=match(it); it.style.display=ok?"":"none"; if(ok) shown++; });
+    countEl.textContent = shown+" of "+TOTAL+" shown";
+    emptyEl.style.display = shown?"none":"block";
+  }
+  document.querySelectorAll('.chip[data-kind="year"]').forEach(function(b){
+    b.onclick=function(){
+      var v=b.dataset.val;
+      if(state.years.has(v)){state.years.delete(v);b.classList.remove('on');}
+      else{state.years.add(v);b.classList.add('on');}
+      render();
+    };
+  });
+  var nq=document.getElementById('nq');
+  nq.addEventListener('input', function(e){ state.q=e.target.value.toLowerCase(); render(); });
+  document.getElementById('nreset').onclick=function(){
+    state.q=""; state.years.clear(); nq.value="";
+    document.querySelectorAll('#yearChips .chip').forEach(function(c){c.classList.remove('on');});
+    render();
+  };
+  render();
+})();
+</script>
+{{ end }}

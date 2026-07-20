@@ -15,4 +15,13 @@ publication_types:
 publication: '*Scientific Reports*'
 doi: 10.1038/s41598-022-05526-y
 url_pdf: /files/papers/herranz-perez-2022-sci-rep.pdf
+
+# --- clasificación NeuroPlaNe (curado v2; revisar) ---
+np_topics:
+  - Stem cells & niche
+  - Development
+  - Ultrastructure
+np_species:
+  - Mouse
+featured: false
 ---

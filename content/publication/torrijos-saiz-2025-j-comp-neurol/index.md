@@ -16,4 +16,14 @@ publication_types:
 publication: '*Journal of Comparative Neurology*'
 doi: 10.1002/cne.70070
 url_pdf: /files/papers/torrijos-saiz-2025-j-comp-neurol.pdf
+
+# --- clasificación NeuroPlaNe (curado v2; revisar) ---
+np_topics:
+  - Stem cells & niche
+  - Migration
+  - Comparative
+  - Development
+np_species:
+  - Pig
+featured: false
 ---

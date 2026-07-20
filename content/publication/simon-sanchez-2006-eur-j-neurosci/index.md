@@ -12,4 +12,11 @@ publication_types:
 - article-journal
 publication: '*European Journal of Neuroscience*'
 doi: 10.1111/j.1460-9568.2006.04616.x
+
+# --- clasificación NeuroPlaNe (curado v2; revisar) ---
+np_topics:
+  - Disease
+np_species:
+  - Mouse
+featured: false
 ---

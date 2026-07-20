@@ -38,4 +38,11 @@ publication_types:
 publication: '*Nature Communications*'
 doi: 10.1038/s41467-020-17720-5
 url_pdf: /files/papers/bentsen-2020-nat-commun.pdf
+
+# --- clasificación NeuroPlaNe (curado v2; revisar) ---
+np_topics:
+  - Disease
+np_species:
+  - Mouse
+featured: false
 ---

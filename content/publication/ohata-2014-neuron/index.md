@@ -18,4 +18,12 @@ publication_types:
 - article-journal
 publication: '*Neuron*'
 doi: 10.1016/j.neuron.2014.06.022
+
+# --- clasificación NeuroPlaNe (curado v2; revisar) ---
+np_topics:
+  - Ultrastructure
+  - Disease
+np_species:
+  - Mouse
+featured: false
 ---

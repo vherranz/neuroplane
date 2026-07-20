@@ -1,0 +1,132 @@
+{{ define "main" }}
+{{ $pubs := where site.RegularPages "Section" "publication" }}
+{{ $topics := slice "Immature neurons" "Migration" "Stem cells & niche" "Comparative" "Ultrastructure" "Development" "Disease" "Translational" }}
+{{ $species := slice "Human" "Marmoset" "Ferret" "Pig" "Mouse" "Lizard" "Zebrafish" }}
+<section class="page" id="explorer">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="eyebrow">Publications · interactive</div>
+      <h2>Explore the work by topic, species and year.</h2>
+      <div class="rule"></div>
+    </div>
+
+    <div class="ex-controls">
+      <div class="searchbar">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+        <input id="q" type="text" placeholder="Search titles, authors, journals…">
+      </div>
+      <div class="filter-group">
+        <span class="flabel">Topic</span>
+        <div class="chips" id="topicChips">
+          {{ range $topics }}<button class="chip" data-kind="topic" data-val="{{ . }}">{{ . }}</button>{{ end }}
+        </div>
+      </div>
+      <div class="filter-group">
+        <span class="flabel">Species</span>
+        <div class="chips" id="spChips">
+          {{ range $species }}<button class="chip" data-kind="sp" data-val="{{ . }}">{{ . }}</button>{{ end }}
+        </div>
+      </div>
+      <div class="filter-group" style="padding-bottom:20px">
+        <span class="flabel">Highlight</span>
+        <div class="chips"><button class="chip feat" id="featChip">★ Featured only</button></div>
+      </div>
+    </div>
+
+    <div class="ex-meta">
+      <span id="count"></span>
+      <button id="reset">Clear all filters</button>
+    </div>
+
+    <div id="results">
+      {{ range $pubs.ByDate.Reverse }}
+      {{ $au := .Params.authors }}
+      {{ $authors := "" }}
+      {{ if gt (len $au) 6 }}{{ $authors = printf "%s, … %s" (delimit (first 4 $au) ", ") (index $au (sub (len $au) 1)) }}{{ else }}{{ $authors = delimit $au ", " }}{{ end }}
+      {{ $tp := .Params.np_topics }}{{ $sp := .Params.np_species }}
+      {{ $journal := .Params.publication | markdownify }}
+      {{ $search := lower (printf "%s %s %s" .Title (delimit $au " ") ($journal | plainify)) }}
+      <article class="paper{{ if .Params.featured }} feat{{ end }}"
+               data-search="{{ $search }}"
+               data-topics="{{ delimit $tp "|" }}"
+               data-species="{{ delimit $sp "|" }}"
+               data-year="{{ .Date.Format "2006" }}"
+               data-feat="{{ if .Params.featured }}1{{ else }}0{{ end }}">
+        <div class="p-top">
+          <div class="p-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></div>
+          <div class="p-year">{{ .Date.Format "2006" }}</div>
+        </div>
+        <div class="p-journal">{{ $journal }}</div>
+        <div class="p-authors">{{ $authors }}</div>
+        <div class="p-tags">
+          {{ if .Params.featured }}<span class="ptag feat">★ Featured</span>{{ end }}
+          {{ range $sp }}<span class="ptag sp">{{ . }}</span>{{ end }}
+          {{ range $tp }}<span class="ptag">{{ . }}</span>{{ end }}
+        </div>
+        <div class="p-links">
+          {{ with .Params.doi }}<a href="https://doi.org/{{ . }}" target="_blank" rel="noopener">DOI ↗</a>{{ end }}
+          {{ with .Params.url_pdf }}<a href="{{ . | relURL }}" target="_blank" rel="noopener">PDF ↗</a>{{ end }}
+        </div>
+      </article>
+      {{ end }}
+      <div class="empty" id="empty" style="display:none">No papers match these filters. Try clearing one.</div>
+    </div>
+  </div>
+</section>
+
+<script>
+(function(){
+  var cards = Array.prototype.slice.call(document.querySelectorAll('#results .paper'));
+  var TOTAL = cards.length;
+  var state = {q:"", topics:new Set(), sp:new Set(), feat:false};
+  var countEl = document.getElementById('count');
+  var emptyEl = document.getElementById('empty');
+
+  function setSome(set, fn){ var ok=false; set.forEach(function(v){ if(fn(v)) ok=true; }); return ok; }
+  function match2(card){
+    if(state.feat && card.dataset.feat!=="1") return false;
+    if(state.q && card.dataset.search.indexOf(state.q)===-1) return false;
+    if(state.topics.size){
+      var ct = card.dataset.topics ? card.dataset.topics.split("|") : [];
+      if(!setSome(state.topics, function(t){return ct.indexOf(t)>-1;})) return false;
+    }
+    if(state.sp.size){
+      var cs = card.dataset.species ? card.dataset.species.split("|") : [];
+      if(!setSome(state.sp, function(s){return cs.indexOf(s)>-1;})) return false;
+    }
+    return true;
+  }
+  function render(){
+    var shown=0;
+    cards.forEach(function(c){ var ok=match2(c); c.style.display=ok?"":"none"; if(ok) shown++; });
+    countEl.textContent = shown+" of "+TOTAL+" shown";
+    emptyEl.style.display = shown?"none":"block";
+  }
+  function toggleChip(btn){
+    var kind=btn.dataset.kind, val=btn.dataset.val;
+    var set = kind==="topic"?state.topics:state.sp;
+    if(set.has(val)){set.delete(val);btn.classList.remove("on");}
+    else{set.add(val);btn.classList.add("on");}
+    render();
+  }
+  document.querySelectorAll('.chip[data-kind]').forEach(function(b){ b.onclick=function(){toggleChip(b);}; });
+  document.getElementById('q').addEventListener('input', function(e){ state.q=e.target.value.toLowerCase(); render(); });
+  var featChip=document.getElementById('featChip');
+  featChip.onclick=function(){ state.feat=!state.feat; featChip.classList.toggle('on'); render(); };
+  document.getElementById('reset').onclick=function(){
+    state.q=""; state.topics.clear(); state.sp.clear(); state.feat=false;
+    document.getElementById('q').value="";
+    document.querySelectorAll('.chip').forEach(function(c){c.classList.remove('on');});
+    render();
+  };
+  // preselección por ?sp=Ferret (enlaces desde la home)
+  var params = new URLSearchParams(window.location.search);
+  var pre = params.get('sp');
+  if(pre){
+    var chip = document.querySelector('.chip[data-kind="sp"][data-val="'+pre+'"]');
+    if(chip){ state.sp.add(pre); chip.classList.add('on'); }
+  }
+  render();
+})();
+</script>
+{{ end }}

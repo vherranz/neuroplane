@@ -13,4 +13,10 @@ publication_types:
 - chapter
 publication: '*Neuromethods*'
 doi: 10.1007/978-1-0716-1522-5_16
+
+# --- clasificación NeuroPlaNe (curado v2; revisar) ---
+np_topics:
+  - Ultrastructure
+np_species: []
+featured: false
 ---

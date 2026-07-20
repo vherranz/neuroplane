@@ -17,4 +17,11 @@ publication_types:
 publication: '*Current Research in Neurobiology*'
 doi: 10.1016/j.crneur.2022.100042
 url_pdf: /files/papers/berrosteguieta-2022-curr-res-neurobiol.pdf
+
+# --- clasificación NeuroPlaNe (curado v2; revisar) ---
+np_topics:
+  - Comparative
+  - Development
+np_species: []
+featured: false
 ---

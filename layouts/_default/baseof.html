@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language.Lang }}">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ block "title" . }}{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} · {{ site.Title }}{{ end }}{{ end }}</title>
+<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with site.Params.marketing.seo.description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}{{ end }}">
+<link rel="icon" href="{{ "media/icon.png" | relURL }}">
+{{ partial "np/head.html" . }}
+{{ block "head" . }}{{ end }}
+</head>
+<body>
+
+<div class="util">
+  <div class="wrap">
+    <span>Universitat de València · Dept. de Biologia Cel·lular, Biologia Funcional i Antropologia Física</span>
+  </div>
+</div>
+
+{{ partial "np/masthead.html" . }}
+
+<main>
+{{ block "main" . }}{{ end }}
+</main>
+
+{{ partial "np/footer.html" . }}
+
+</body>
+</html>

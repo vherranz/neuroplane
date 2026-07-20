@@ -1,0 +1,13 @@
+{{/* Tarjeta de persona para la parrilla de People. Recibe la página del autor como contexto. */}}
+{{ $p := . }}
+{{ $ini := "" }}
+{{ range $i, $w := (split $p.Title " ") }}{{ if lt $i 2 }}{{ $ini = printf "%s%s" $ini (upper (substr $w 0 1)) }}{{ end }}{{ end }}
+<a class="person" href="{{ $p.RelPermalink }}">
+  {{ with $p.Resources.GetMatch "avatar.*" }}
+  <img class="avatar{{ if $p.Params.superuser }} pi{{ end }}" src="{{ (.Fill "148x148 Center").RelPermalink }}" alt="{{ $p.Title }}" loading="lazy">
+  {{ else }}
+  <div class="avatar{{ if $p.Params.superuser }} pi{{ end }}">{{ $ini }}</div>
+  {{ end }}
+  <div class="pname">{{ $p.Title }}</div>
+  <div class="prole">{{ $p.Params.role | safeHTML }}</div>
+</a>

@@ -27,4 +27,13 @@ publication_types:
 publication: '*Journal of Neuroscience*'
 doi: 10.1523/JNEUROSCI.1503-19.2019
 url_pdf: /files/papers/matsumoto-2019-j-neurosci.pdf
+
+# --- clasificación NeuroPlaNe (curado v2; revisar) ---
+np_topics:
+  - Ultrastructure
+  - Migration
+  - Development
+np_species:
+  - Mouse
+featured: false
 ---

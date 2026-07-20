@@ -1,0 +1,23 @@
+{{ define "main" }}
+<section class="page">
+  <div class="wrap">
+    <div class="page-head">
+      <div class="eyebrow">{{ with .Data.Singular }}{{ . | humanize }}{{ else }}Index{{ end }}</div>
+      <h1>{{ .Title }}</h1>
+      <div class="meta">{{ len .Pages }} entr{{ if eq (len .Pages) 1 }}y{{ else }}ies{{ end }}</div>
+    </div>
+    <div class="news-list">
+      {{ range .Pages.ByDate.Reverse }}
+      <article class="news-item">
+        <div class="ndate">{{ with .Date }}{{ .Format "Jan 2, 2006" }}{{ end }}</div>
+        <div>
+          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+          {{ with .Params.publication }}<p style="font-family:var(--mono);color:var(--blue);font-style:italic;font-size:12.5px;margin-top:6px">{{ . | markdownify }}</p>
+          {{ else }}{{ with .Params.summary }}<p>{{ . | markdownify | plainify | truncate 200 }}</p>{{ end }}{{ end }}
+        </div>
+      </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

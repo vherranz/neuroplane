@@ -20,4 +20,13 @@ publication_types:
 publication: '*Molecular Psychiatry*'
 doi: 10.1038/s41380-020-0823-4
 url_pdf: /files/papers/garcia-gonzalez-2021-mol-psychiatry.pdf
+
+# --- clasificación NeuroPlaNe (curado v2; revisar) ---
+np_topics:
+  - Stem cells & niche
+  - Disease
+  - Development
+np_species:
+  - Mouse
+featured: false
 ---

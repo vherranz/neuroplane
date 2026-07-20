@@ -24,4 +24,12 @@ publication_types:
 publication: '*Journal of Neuroscience*'
 doi: 10.1523/JNEUROSCI.1960-17.2018
 url_pdf: /files/papers/fujikake-2018-j-neurosci.pdf
+
+# --- clasificación NeuroPlaNe (curado v2; revisar) ---
+np_topics:
+  - Migration
+  - Development
+np_species:
+  - Mouse
+featured: false
 ---

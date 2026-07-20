@@ -20,4 +20,12 @@ publication_types:
 publication: '*Cerebral Cortex*'
 doi: 10.1093/cercor/bhad340
 url_pdf: /files/papers/ortega-gasco-2023-cereb-cortex.pdf
+
+# --- clasificación NeuroPlaNe (curado v2; revisar) ---
+np_topics:
+  - Stem cells & niche
+  - Development
+np_species:
+  - Mouse
+featured: false
 ---

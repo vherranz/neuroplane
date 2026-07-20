@@ -26,4 +26,12 @@ publication_types:
 publication: '*EMBO Molecular Medicine*'
 doi: 10.1038/s44321-024-00073-7
 url_pdf: /files/papers/matsumoto-2024-embo-mol-med.pdf
+
+# --- clasificación NeuroPlaNe (curado v2; revisar) ---
+np_topics:
+  - Migration
+  - Disease
+np_species:
+  - Mouse
+featured: false
 ---

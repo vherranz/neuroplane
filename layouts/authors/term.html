@@ -1,0 +1,48 @@
+{{ define "main" }}
+{{ $p := . }}
+{{ $ini := "" }}
+{{ range $i, $w := (split $p.Title " ") }}{{ if lt $i 2 }}{{ $ini = printf "%s%s" $ini (upper (substr $w 0 1)) }}{{ end }}{{ end }}
+<article class="page">
+  <div class="wrap">
+    <div class="profile-head">
+      {{ with $p.Resources.GetMatch "avatar.*" }}
+      <img class="avatar-lg{{ if $p.Params.superuser }} pi{{ end }}" src="{{ (.Fill "320x320 Center").RelPermalink }}" alt="{{ $p.Title }}">
+      {{ else }}
+      <div class="avatar-lg{{ if $p.Params.superuser }} pi{{ end }}">{{ $ini }}</div>
+      {{ end }}
+      <div class="profile-meta">
+        {{ with $p.Params.user_groups }}<div class="eyebrow">{{ delimit . " · " }}</div>{{ end }}
+        <h1>{{ $p.Title }}</h1>
+        {{ with $p.Params.role }}<div class="prole-lg">{{ . | safeHTML }}</div>{{ end }}
+        {{ with $p.Params.organizations }}
+        <div class="orgs">{{ range . }}{{ if .url }}<a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a>{{ else }}<span>{{ .name }}</span>{{ end }}{{ end }}</div>
+        {{ end }}
+        {{ with $p.Params.social }}
+        <div class="social">
+          {{ range . }}<a href="{{ .link }}" target="_blank" rel="noopener">{{ with .label }}{{ . }}{{ else }}{{ .icon }}{{ end }} ↗</a>{{ end }}
+        </div>
+        {{ end }}
+      </div>
+    </div>
+
+    {{ with $p.Content }}<div class="prose" style="margin-top:34px">{{ . }}</div>{{ end }}
+
+    {{ with $p.Pages }}
+    <h3 class="group-title">Publications</h3>
+    <div class="pub-list">
+      {{ range sort . "Date" "desc" }}
+      <article class="paper">
+        <div class="p-top">
+          <div class="p-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></div>
+          <div class="p-year">{{ .Date.Format "2006" }}</div>
+        </div>
+        {{ with .Params.publication }}<div class="p-journal">{{ . | markdownify }}</div>{{ end }}
+      </article>
+      {{ end }}
+    </div>
+    {{ end }}
+
+    <div class="news-foot"><a class="btn btn-ghost" href="{{ "people/" | relLangURL }}">← Back to people</a></div>
+  </div>
+</article>
+{{ end }}

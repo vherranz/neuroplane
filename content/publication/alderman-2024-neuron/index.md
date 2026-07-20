@@ -23,4 +23,13 @@ publication_types:
 - article-journal
 publication: '*Neuron*'
 doi: 10.1016/j.neuron.2023.11.010
+
+# --- clasificación NeuroPlaNe (curado v2; revisar) ---
+np_topics:
+  - Immature neurons
+  - Migration
+  - Development
+np_species:
+  - Mouse
+featured: true
 ---

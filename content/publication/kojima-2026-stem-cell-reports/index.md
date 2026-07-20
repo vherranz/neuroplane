@@ -23,4 +23,15 @@ publication_types:
 publication: '*Stem Cell Reports*'
 doi: 10.1016/j.stemcr.2026.102893
 url_pdf: /files/papers/kojima-2026-stem-cell-reports.pdf
+
+# --- clasificación NeuroPlaNe (curado v2; revisar) ---
+np_topics:
+  - Stem cells & niche
+  - Migration
+  - Ultrastructure
+  - Development
+  - Comparative
+np_species:
+  - Pig
+featured: false
 ---

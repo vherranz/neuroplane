@@ -21,4 +21,12 @@ publication_types:
 publication: '*Science Advances*'
 doi: 10.1126/sciadv.abf9180
 url_pdf: /files/papers/duro-castano-2021-sci-adv.pdf
+
+# --- clasificación NeuroPlaNe (curado v2; revisar) ---
+np_topics:
+  - Disease
+  - Translational
+np_species:
+  - Mouse
+featured: false
 ---

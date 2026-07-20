@@ -15,4 +15,12 @@ publication_types:
 - article-journal
 publication: '*Journal of Neuropathology & Experimental Neurology*'
 doi: 10.1093/jnen/nlaa144
+
+# --- clasificación NeuroPlaNe (curado v2; revisar) ---
+np_topics:
+  - Disease
+  - Ultrastructure
+np_species:
+  - Human
+featured: false
 ---

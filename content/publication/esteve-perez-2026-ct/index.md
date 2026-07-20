@@ -15,4 +15,12 @@ publication_types:
 publication: '*Neuroscience*'
 doi: 10.1016/j.neuroscience.2025.12.010
 url_pdf: /files/papers/esteve-perez-2026-ct.pdf
+
+# --- clasificación NeuroPlaNe (curado v2; revisar) ---
+np_topics:
+  - Immature neurons
+  - Disease
+np_species:
+  - Mouse
+featured: false
 ---

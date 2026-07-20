@@ -13,4 +13,12 @@ publication_types:
 publication: '*Frontiers in Neuroscience*'
 doi: 10.3389/fnins.2023.1125999
 url_pdf: /files/papers/gonzalez-granero-2023-front-neurosci.pdf
+
+# --- clasificación NeuroPlaNe (curado v2; revisar) ---
+np_topics:
+  - Stem cells & niche
+  - Comparative
+np_species:
+  - Lizard
+featured: false
 ---

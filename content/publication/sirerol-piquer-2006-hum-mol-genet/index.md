@@ -15,4 +15,10 @@ publication_types:
 - article-journal
 publication: '*Human Molecular Genetics*'
 doi: 10.1093/hmg/ddl421
+
+# --- clasificación NeuroPlaNe (curado v2; revisar) ---
+np_topics:
+  - Disease
+np_species: []
+featured: false
 ---

@@ -1,0 +1,181 @@
+{{ define "main" }}
+
+<section class="hero" id="top" style="padding:0">
+  <div class="wrap">
+    <div>
+      <div class="eyebrow">Cellular &amp; Developmental Neuroscience</div>
+      <h1>How the brain is built, maintained, and <em>reshaped</em> across life.</h1>
+      <p class="deck">We investigate how neural stem cells generate neurons, why some remain immature for years before joining circuits, and how these processes differ from rodents to humans — bridging basic and translational neuroscience.</p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="{{ "publication/" | relLangURL }}">Explore publications</a>
+        <a class="btn btn-ghost" href="#research">Read the research</a>
+      </div>
+    </div>
+    {{/* SWAP: la figura del hero es un SVG esquemático. Para usar una imagen real
+          (figura científica / microscopía), sustituir todo el <figure> por:
+          <figure><img src="/media/hero-figure.jpg" alt="…"></figure>
+          Imagen recomendada: 920×760px (≈ratio 1.2:1) · JPG/PNG · fondo claro para encajar con la lámina. */}}
+    <div class="plate">
+      <figure>
+        <svg viewBox="0 0 460 380" xmlns="http://www.w3.org/2000/svg">
+          <path d="M60 300 C40 210 70 90 175 70 C250 56 300 96 306 175 C310 235 292 292 250 312 C200 336 120 340 60 300 Z"
+                fill="#eef3f9" stroke="#1f4e8c" stroke-width="1.6"/>
+          <path d="M78 118 C150 74 250 82 296 158" fill="none" stroke="#1f4e8c" stroke-width=".8" opacity=".35"/>
+          <path d="M70 150 C150 102 258 112 302 190" fill="none" stroke="#1f4e8c" stroke-width=".8" opacity=".25"/>
+          <path d="M150 150 C130 175 128 205 152 232 C170 250 176 214 168 190 C162 170 172 156 150 150 Z"
+                fill="#ffffff" stroke="#1f4e8c" stroke-width="1.1"/>
+          <path d="M150 150 C130 175 128 205 152 232" fill="none" stroke="#1f4e8c" stroke-width="3" stroke-linecap="round"/>
+          <g fill="#9c2a3d">
+            <circle cx="210" cy="150" r="2.1"/><circle cx="224" cy="162" r="2.1"/><circle cx="236" cy="150" r="2.1"/>
+            <circle cx="218" cy="176" r="2.1"/><circle cx="232" cy="178" r="2.1"/><circle cx="246" cy="166" r="2.1"/>
+            <circle cx="205" cy="166" r="2.1"/><circle cx="243" cy="184" r="2.1"/>
+          </g>
+          <ellipse cx="196" cy="262" rx="17" ry="11" fill="#1f4e8c" opacity=".85"/>
+          <line class="lead-line" x1="150" y1="205" x2="372" y2="128"/>
+          <text class="pnum" x="378" y="122">Fig. 1</text>
+          <text class="plabel" x="378" y="136">Ventricular zone —</text>
+          <text class="plabel" x="378" y="149">progenitor dynamics</text>
+          <line class="lead-line l2" x1="225" y1="166" x2="372" y2="210"/>
+          <text class="pnum" x="378" y="204">Fig. 2</text>
+          <text class="plabel" x="378" y="218">Immature neurons —</text>
+          <text class="plabel" x="378" y="231">prolonged maturation</text>
+          <line class="lead-line l3" x1="210" y1="262" x2="372" y2="300"/>
+          <text class="pnum" x="378" y="294">Fig. 3</text>
+          <text class="plabel" x="378" y="308">Paralaminar amygdala —</text>
+          <text class="plabel" x="378" y="321">across species</text>
+        </svg>
+      </figure>
+      <div class="figcap"><span>Coronal hemisection · schematic</span><span>NeuroPlaNe Lab</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- RESEARCH -->
+<section id="research">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="eyebrow">Research programme</div>
+      <h2>Three questions, from a single progenitor to a human circuit.</h2>
+      <div class="rule"></div>
+    </div>
+    <div class="research-list">
+      <div class="entry">
+        <div class="fig">Fig. 1</div>
+        <div>
+          <h3>Human brain development &amp; progenitor dynamics</h3>
+          <div class="sub">Ganglionic eminences · radial glia · migration</div>
+        </div>
+        <div>
+          <p>How cellular diversity emerges in the developing human forebrain, and why progenitor dynamics and migratory routes don't follow the rodent playbook.</p>
+          <a class="why" href="{{ "research/" | relLangURL }}">Early disruptions seed neurodevelopmental disorders →</a>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="fig">Fig. 2</div>
+        <div>
+          <h3>Immature neurons &amp; prolonged maturation</h3>
+          <div class="sub">DCX+ populations · plasticity · vulnerability</div>
+        </div>
+        <div>
+          <p>Populations that stay partly differentiated for extended periods — a possible reservoir recruited later into existing circuits, and a window into how plasticity turns into vulnerability.</p>
+          <a class="why" href="{{ "research/" | relLangURL }}">Linked to epilepsy &amp; autism spectrum disorder →</a>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="fig">Fig. 3</div>
+        <div>
+          <h3>The paralaminar amygdala across species</h3>
+          <div class="sub">Comparative · smooth vs folded brains</div>
+        </div>
+        <div>
+          <p>A defined system rich in late-maturing neurons. We ask whether comparable structures exist in mouse, ferret and pig, and how they vary between lissencephalic and gyrencephalic brains.</p>
+          <a class="why" href="{{ "research/" | relLangURL }}">A model for emotional-circuit refinement →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SPECIES -->
+<section id="species" class="species">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="eyebrow">Comparative approach</div>
+      <h2>One question, read across the vertebrate brain.</h2>
+      <div class="rule"></div>
+      <p class="lead">Why do rodent findings so often fail to translate to humans? We answer comparatively — pairing molecular markers with high-resolution ultrastructure across species with very different brains. Select a specimen to filter the publications.</p>
+    </div>
+    {{ $pub := "publication/" | relLangURL }}
+    <div class="phylo" id="phylo">
+      <a class="node" href="{{ $pub }}?sp=Human"><span class="bead"></span><span class="common">Human</span><span class="latin">Homo sapiens</span></a>
+      <a class="node" href="{{ $pub }}?sp=Marmoset"><span class="bead"></span><span class="common">Marmoset</span><span class="latin">Callithrix</span></a>
+      <a class="node" href="{{ $pub }}?sp=Ferret"><span class="bead"></span><span class="common">Ferret</span><span class="latin">Mustela furo</span></a>
+      <a class="node" href="{{ $pub }}?sp=Pig"><span class="bead"></span><span class="common">Pig</span><span class="latin">Sus scrofa</span></a>
+      <a class="node" href="{{ $pub }}?sp=Mouse"><span class="bead"></span><span class="common">Mouse</span><span class="latin">Mus musculus</span></a>
+      <a class="node" href="{{ $pub }}?sp=Lizard"><span class="bead"></span><span class="common">Lizard</span><span class="latin">Podarcis</span></a>
+      <a class="node" href="{{ $pub }}?sp=Zebrafish"><span class="bead"></span><span class="common">Zebrafish</span><span class="latin">Danio rerio</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- NEWS -->
+<section id="news" style="background:var(--white)">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="eyebrow">Latest news</div>
+      <h2>What's happening in the lab.</h2>
+      <div class="rule"></div>
+    </div>
+    <div class="post-list">
+      {{ range first 5 (where site.RegularPages "Section" "post").ByDate.Reverse }}
+      <article class="post-card">
+        <a class="pc-thumb" href="{{ .RelPermalink }}">
+          {{ with .Resources.GetMatch "featured.*" }}<img src="{{ (.Fill "480x300 Center q82").RelPermalink }}" alt="" loading="lazy">{{ end }}
+        </a>
+        <div class="pc-text">
+          <div class="pc-date">{{ .Date.Format "Jan 2, 2006" }}</div>
+          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+          {{ with .Params.summary }}<p>{{ . | markdownify | plainify | truncate 180 }}</p>{{ end }}
+          <a class="pc-more" href="{{ .RelPermalink }}">Read more →</a>
+        </div>
+      </article>
+      {{ end }}
+    </div>
+    <div class="news-foot">
+      <a class="btn btn-ghost" href="{{ "post/" | relLangURL }}">All news</a>
+    </div>
+  </div>
+</section>
+
+<!-- PEOPLE -->
+<section id="people" style="background:var(--paper);border-top:1px solid var(--line)">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="eyebrow">People</div>
+      <h2>A small team working at cellular resolution.</h2>
+      <div class="rule"></div>
+    </div>
+    {{/* SWAP: los avatares son iniciales sobre círculo. Para fotos reales, sustituir
+          <div class="avatar">XX</div> por <img class="avatar" src="/media/people/person-xx.jpg" alt="…">.
+          Fotos recomendadas: 300×300px · cuadradas (1:1) · JPG · encuadre de rostro centrado. */}}
+    <div class="people-grid">
+      <div class="person"><div class="avatar pi">VH</div><div class="pname">Vicente Herranz Pérez</div><div class="prole">Principal Investigator</div></div>
+      <div class="person"><div class="avatar">PG</div><div class="pname">Patricia García Tárraga</div><div class="prole">Lab Manager</div></div>
+      <div class="person"><div class="avatar">RM</div><div class="pname">Raquel Morales Gallel</div><div class="prole">AECC PhD Student</div></div>
+      <div class="person"><div class="avatar">RE</div><div class="pname">Rafael Esteve Pérez</div><div class="prole">GVA PhD Student</div></div>
+    </div>
+    <div class="news-foot"><a class="btn btn-ghost" href="{{ "people/" | relLangURL }}">Meet the full team</a></div>
+  </div>
+</section>
+
+<!-- JOIN -->
+<section id="join" class="join">
+  <div class="wrap">
+    <div class="eyebrow">Open positions &amp; stays</div>
+    <h2>Curious about how neurons <em>grow up</em>?</h2>
+    <p>We welcome motivated students and researchers in developmental neuroscience, comparative neuroanatomy and electron microscopy — Master's projects, PhD, and visiting stays.</p>
+    <a class="btn btn-primary" href="{{ "contact/" | relLangURL }}">Get in touch</a>
+  </div>
+</section>
+
+{{ end }}

@@ -22,4 +22,14 @@ publication_types:
 - article-journal
 publication: '*Cell Stem Cell*'
 doi: 10.1016/j.stem.2017.11.005
+
+# --- clasificación NeuroPlaNe (curado v2; revisar) ---
+np_topics:
+  - Migration
+  - Stem cells & niche
+  - Development
+  - Disease
+np_species:
+  - Mouse
+featured: true
 ---

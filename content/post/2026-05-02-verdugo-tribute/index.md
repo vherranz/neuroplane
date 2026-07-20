@@ -18,10 +18,6 @@ image:
   preview_only: true
 ---
 
-<figure style="text-align: center; margin: 2rem 0;">
-  <img src="featured.jpg" style="max-width: 520px; width: 100%; height: auto;">
-</figure>
-
 On May 18, 2026, Darwin Hall at the Burjassot Campus of the Universitat de València will host a tribute to José Manuel García Verdugo, Emeritus Professor at the Universitat de València and a leading figure in the field of neurobiology.
 
 The event, entitled **“Understanding Adult Neurogenesis through Neural Stem Cells and Their Niches: A Tribute to José Manuel García Verdugo”**, will bring together personal remembrance and a scientific program devoted to adult neurogenesis, neural stem cells, and neurodevelopment, fields in which García Verdugo left an internationally recognized legacy.

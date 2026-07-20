@@ -60,4 +60,13 @@ publication_types:
 - article-journal
 publication: '*Journal of Medical Genetics*'
 doi: 10.1136/jmedgenet-2016-104436
+
+# --- clasificación NeuroPlaNe (curado v2; revisar) ---
+np_topics:
+  - Disease
+  - Development
+  - Ultrastructure
+np_species:
+  - Human
+featured: false
 ---

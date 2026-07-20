@@ -13,16 +13,11 @@ tags: []
 categories: []
 
 image:
-  caption: ""
+  caption: |-
+    Cellular organization of the ventricular-subventricular zone (V-SVZ) in the neonatal microminipig brain.
   focal_point: "Center"
   preview_only: true
 ---
-
-<figure style="text-align: center; margin: 2rem 0;">
-  <img src="featured.jpg" style="max-width: 600px; width: 100%; height: auto;">
-  <figcaption style="font-size: 0.9em; color: #555; margin-top: 0.8rem; text-align: justify;">
-    Cellular organization of the ventricular-subventricular zone (V-SVZ) in the neonatal microminipig brain.
-</figure>
 
 We are pleased to share our latest article, published in *Stem Cell Reports*.
 

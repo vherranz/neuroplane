@@ -1,0 +1,33 @@
+{{ define "main" }}
+{{ $authors := where site.Pages "Section" "authors" }}
+<section class="page">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="eyebrow">People</div>
+      <h2>A small team working at cellular resolution.</h2>
+      <div class="rule"></div>
+    </div>
+
+    {{ $lab := sort (where $authors "Params.user_groups" "intersect" (slice "Lab Members")) "Weight" "asc" }}
+    {{ with $lab }}
+    <h3 class="group-title">Lab members</h3>
+    <div class="people-grid">
+      {{ range . }}{{ partial "np/person-card.html" . }}{{ end }}
+    </div>
+    {{ end }}
+
+    {{ $alumni := sort (where $authors "Params.user_groups" "intersect" (slice "Alumni")) "Weight" "asc" }}
+    {{ with $alumni }}
+    <h3 class="group-title">Alumni</h3>
+    <div class="people-grid">
+      {{ range . }}{{ partial "np/person-card.html" . }}{{ end }}
+    </div>
+    {{ end }}
+
+    {{ with .Content }}
+    <h3 class="group-title">Collaborators</h3>
+    <div class="prose collab">{{ . }}</div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

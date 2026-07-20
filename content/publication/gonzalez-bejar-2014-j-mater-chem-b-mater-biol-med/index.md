@@ -18,4 +18,11 @@ publication_types:
 - article-journal
 publication: '*Journal of Materials Chemistry B*'
 doi: 10.1039/c4tb00340c
+
+# --- clasificación NeuroPlaNe (curado v2; revisar) ---
+np_topics:
+  - Translational
+  - Disease
+np_species: []
+featured: false
 ---

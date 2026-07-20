@@ -1,0 +1,15 @@
+{{ define "main" }}
+<section class="page">
+  <div class="wrap">
+    <div class="page-head">
+      <div class="eyebrow">Index</div>
+      <h1>{{ .Title }}</h1>
+    </div>
+    <div class="chips" style="gap:10px">
+      {{ range .Data.Terms.Alphabetical }}
+      <a class="chip" style="text-decoration:none" href="{{ .Page.RelPermalink }}">{{ .Page.Title }} <span style="opacity:.6">· {{ .Count }}</span></a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

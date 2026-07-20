@@ -22,4 +22,11 @@ publication_types:
 - article-journal
 publication: '*Neurology*'
 doi: 10.1212/WNL.0000000000003778
+
+# --- clasificación NeuroPlaNe (curado v2; revisar) ---
+np_topics:
+  - Disease
+np_species:
+  - Human
+featured: false
 ---

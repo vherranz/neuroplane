@@ -19,4 +19,12 @@ publication_types:
 - article-journal
 publication: "*Journal of Alzheimer's Disease*"
 doi: 10.3233/JAD-151020
+
+# --- clasificación NeuroPlaNe (curado v2; revisar) ---
+np_topics:
+  - Disease
+  - Translational
+np_species:
+  - Mouse
+featured: false
 ---

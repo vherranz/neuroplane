@@ -1,0 +1,27 @@
+{{ define "main" }}
+<section class="page">
+  <div class="wrap">
+    <div class="page-head" style="border:0;padding-bottom:0;margin-bottom:8px">
+      <div class="eyebrow">Research programme</div>
+      <h1>How the brain is built, refined and remodelled.</h1>
+    </div>
+    {{ with .Params.intro }}<div class="research-intro">{{ . | markdownify }}</div>{{ end }}
+
+    <div class="research-lines">
+      {{ range .Params.programme }}
+      <article class="rline">
+        <div class="rline-side">
+          <div class="rnum">{{ .n }}</div>
+          <h2 class="rtitle">{{ .title }}</h2>
+          {{ with .subtitle }}<div class="rsubtitle">{{ . }}</div>{{ end }}
+          {{ with .keywords }}<div class="rkeywords">{{ . }}</div>{{ end }}
+        </div>
+        <div class="rline-body">{{ .body | markdownify }}</div>
+      </article>
+      {{ end }}
+    </div>
+
+    {{ with .Content }}<div class="funding-block">{{ . }}</div>{{ end }}
+  </div>
+</section>
+{{ end }}

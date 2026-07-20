@@ -17,4 +17,13 @@ publication_types:
 - article-journal
 publication: '*Journal of Comparative Neurology*'
 doi: 10.1002/cne.24001
+
+# --- clasificación NeuroPlaNe (curado v2; revisar) ---
+np_topics:
+  - Stem cells & niche
+  - Comparative
+  - Ultrastructure
+np_species:
+  - Zebrafish
+featured: false
 ---

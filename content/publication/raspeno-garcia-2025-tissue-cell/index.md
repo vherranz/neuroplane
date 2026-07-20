@@ -17,4 +17,11 @@ publication_types:
 publication: '*Tissue & Cell*'
 doi: 10.1016/j.tice.2025.102737
 url_pdf: /files/papers/raspeno-garcia-2025-tissue-cell.pdf
+
+# --- clasificación NeuroPlaNe (curado v2; revisar) ---
+np_topics:
+  - Ultrastructure
+np_species:
+  - Human
+featured: false
 ---

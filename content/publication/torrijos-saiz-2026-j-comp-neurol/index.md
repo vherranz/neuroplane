@@ -17,4 +17,13 @@ publication_types:
 publication: '*Journal of Comparative Neurology*'
 doi: 10.1002/cne.70155
 url_pdf: /files/papers/torrijos-saiz-2026-j-comp-neurol.pdf
+
+# --- clasificación NeuroPlaNe (curado v2; revisar) ---
+np_topics:
+  - Immature neurons
+  - Comparative
+  - Development
+np_species:
+  - Ferret
+featured: true
 ---

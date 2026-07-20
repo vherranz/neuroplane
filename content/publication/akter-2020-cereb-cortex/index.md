@@ -15,4 +15,13 @@ publication_types:
 - article-journal
 publication: '*Cerebral Cortex*'
 doi: 10.1093/cercor/bhaa031
+
+# --- clasificación NeuroPlaNe (curado v2; revisar) ---
+np_topics:
+  - Stem cells & niche
+  - Development
+  - Comparative
+np_species:
+  - Marmoset
+featured: false
 ---

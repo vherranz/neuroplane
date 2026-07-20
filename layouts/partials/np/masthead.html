@@ -1,0 +1,23 @@
+{{/* Cabecera compartida (masthead). Marca el enlace activo según la sección actual. */}}
+{{ $cur := .RelPermalink }}
+<header class="masthead">
+  <div class="wrap">
+    <a class="wordmark" href="{{ "/" | relLangURL }}">
+      {{ with resources.Get "images/logo.svg" }}
+      <img class="seal" src="{{ .RelPermalink }}" alt="NeuroPlaNe Lab" width="38" height="38">
+      {{ end }}
+      <div>
+        <div class="wm-name">NeuroPlaNe Lab</div>
+        <div class="wm-sub">Neurogenesis &amp; Neural Plasticity</div>
+      </div>
+    </a>
+    <nav class="nav">
+      <a href="{{ "research/" | relLangURL }}"{{ if hasPrefix $cur (relLangURL "research/") }} class="active"{{ end }}>Research</a>
+      <a href="{{ "publication/" | relLangURL }}"{{ if hasPrefix $cur (relLangURL "publication/") }} class="active"{{ end }}>Publications</a>
+      <a href="{{ "post/" | relLangURL }}"{{ if hasPrefix $cur (relLangURL "post/") }} class="active"{{ end }}>News</a>
+      <a href="{{ "people/" | relLangURL }}"{{ if hasPrefix $cur (relLangURL "people/") }} class="active"{{ end }}>People</a>
+      <a href="{{ "contact/" | relLangURL }}"{{ if hasPrefix $cur (relLangURL "contact/") }} class="active"{{ end }}>Contact</a>
+    </nav>
+    <button class="navtoggle" onclick="var n=document.querySelector('.nav');n.style.display=n.style.display==='flex'?'none':'flex'">Menu</button>
+  </div>
+</header>

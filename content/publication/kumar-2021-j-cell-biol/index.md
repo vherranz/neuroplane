@@ -21,4 +21,10 @@ publication_types:
 publication: '*Journal of Cell Biology*'
 doi: 10.1083/jcb.202011133
 url_pdf: /files/papers/kumar-2021-j-cell-biol.pdf
+
+# --- clasificación NeuroPlaNe (curado v2; revisar) ---
+np_topics:
+  - Ultrastructure
+np_species: []
+featured: false
 ---

@@ -21,4 +21,12 @@ publication_types:
 publication: '*Nature Communications*'
 doi: 10.1038/s41467-019-10765-1
 url_pdf: /files/papers/sorrells-2019-nat-commun.pdf
+
+# --- clasificación NeuroPlaNe (curado v2; revisar) ---
+np_topics:
+  - Immature neurons
+  - Development
+np_species:
+  - Human
+featured: true
 ---

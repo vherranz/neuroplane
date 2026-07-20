@@ -17,4 +17,12 @@ publication_types:
 publication: '*Frontiers in Neuroanatomy*'
 doi: 10.3389/fnana.2021.696376
 url_pdf: /files/papers/ulloa-navas-2021-front-neuroanat.pdf
+
+# --- clasificación NeuroPlaNe (curado v2; revisar) ---
+np_topics:
+  - Stem cells & niche
+  - Ultrastructure
+np_species:
+  - Human
+featured: false
 ---

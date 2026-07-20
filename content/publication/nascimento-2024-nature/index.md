@@ -23,4 +23,12 @@ publication_types:
 publication: '*Nature*'
 doi: 10.1038/s41586-023-06981-x
 url_pdf: /files/papers/nascimento-2024-nature.pdf
+
+# --- clasificación NeuroPlaNe (curado v2; revisar) ---
+np_topics:
+  - Immature neurons
+  - Development
+np_species:
+  - Human
+featured: true
 ---

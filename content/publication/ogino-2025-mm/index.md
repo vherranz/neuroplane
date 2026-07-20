@@ -24,4 +24,11 @@ publication_types:
 publication: '*eLife*'
 doi: 10.7554/eLife.99502
 url_pdf: /files/papers/ogino-2025-mm.pdf
+
+# --- clasificación NeuroPlaNe (curado v2; revisar) ---
+np_topics:
+  - Migration
+np_species:
+  - Mouse
+featured: false
 ---

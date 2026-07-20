@@ -23,4 +23,12 @@ publication_types:
 - article-journal
 publication: '*Biomaterials*'
 doi: 10.1016/j.biomaterials.2023.122003
+
+# --- clasificación NeuroPlaNe (curado v2; revisar) ---
+np_topics:
+  - Migration
+  - Translational
+np_species:
+  - Mouse
+featured: false
 ---

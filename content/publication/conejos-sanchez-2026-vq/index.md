@@ -30,4 +30,11 @@ publication_types:
 publication: '*Biomaterials*'
 doi: 10.1016/j.biomaterials.2025.123867
 url_pdf: /files/papers/conejos-sanchez-2026-vq.pdf
+
+# --- clasificación NeuroPlaNe (curado v2; revisar) ---
+np_topics:
+  - Translational
+np_species:
+  - Mouse
+featured: false
 ---

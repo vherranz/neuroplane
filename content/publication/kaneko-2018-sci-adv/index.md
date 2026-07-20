@@ -21,4 +21,12 @@ publication_types:
 publication: '*Science Advances*'
 doi: 10.1126/sciadv.aav0618
 url_pdf: /files/papers/kaneko-2018-sci-adv.pdf
+
+# --- clasificación NeuroPlaNe (curado v2; revisar) ---
+np_topics:
+  - Migration
+  - Disease
+np_species:
+  - Mouse
+featured: false
 ---

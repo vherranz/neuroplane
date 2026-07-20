@@ -20,4 +20,12 @@ publication_types:
 - article-journal
 publication: '*Nature Metabolism*'
 doi: 10.1038/s42255-018-0029-0
+
+# --- clasificación NeuroPlaNe (curado v2; revisar) ---
+np_topics:
+  - Immature neurons
+  - Development
+np_species:
+  - Mouse
+featured: false
 ---

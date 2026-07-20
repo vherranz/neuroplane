@@ -44,4 +44,11 @@ publication_types:
 publication: '*Acta Neuropathologica*'
 doi: 10.1007/s00401-024-02794-y
 url_pdf: /files/papers/zufiria-2024-acta-neuropathol.pdf
+
+# --- clasificación NeuroPlaNe (curado v2; revisar) ---
+np_topics:
+  - Disease
+np_species:
+  - Mouse
+featured: false
 ---

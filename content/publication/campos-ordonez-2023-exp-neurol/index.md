@@ -16,4 +16,12 @@ publication_types:
 - article-journal
 publication: '*Experimental Neurology*'
 doi: 10.1016/j.expneurol.2023.114412
+
+# --- clasificación NeuroPlaNe (curado v2; revisar) ---
+np_topics:
+  - Stem cells & niche
+  - Disease
+np_species:
+  - Mouse
+featured: false
 ---

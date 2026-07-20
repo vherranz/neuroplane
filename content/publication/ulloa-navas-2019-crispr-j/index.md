@@ -12,4 +12,10 @@ publication_types:
 - article-journal
 publication: '*The CRISPR Journal*'
 doi: 10.1089/crispr.2019.0032
+
+# --- clasificación NeuroPlaNe (curado v2; revisar) ---
+np_topics:
+  - Ultrastructure
+np_species: []
+featured: false
 ---

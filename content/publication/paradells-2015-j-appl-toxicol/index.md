@@ -17,4 +17,12 @@ publication_types:
 - article-journal
 publication: '*Journal of Applied Toxicology*'
 doi: 10.1002/jat.3061
+
+# --- clasificación NeuroPlaNe (curado v2; revisar) ---
+np_topics:
+  - Stem cells & niche
+  - Disease
+np_species:
+  - Mouse
+featured: false
 ---

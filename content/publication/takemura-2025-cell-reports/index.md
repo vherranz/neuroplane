@@ -24,4 +24,12 @@ publication_types:
 publication: '*Cell Reports*'
 doi: 10.1016/j.celrep.2025.116029
 url_pdf: /files/papers/takemura-2025-cell-reports.pdf
+
+# --- clasificación NeuroPlaNe (curado v2; revisar) ---
+np_topics:
+  - Stem cells & niche
+  - Development
+np_species:
+  - Mouse
+featured: false
 ---

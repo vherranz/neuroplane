@@ -12,4 +12,12 @@ publication_types:
 publication: '*Frontiers in Neuroscience*'
 doi: 10.3389/fnins.2021.668243
 url_pdf: /files/papers/rocamonde-2021-front-neurosci.pdf
+
+# --- clasificación NeuroPlaNe (curado v2; revisar) ---
+np_topics:
+  - Stem cells & niche
+  - Development
+np_species:
+  - Mouse
+featured: false
 ---

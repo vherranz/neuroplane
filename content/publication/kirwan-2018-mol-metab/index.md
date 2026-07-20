@@ -24,4 +24,11 @@ publication_types:
 publication: '*Molecular Metabolism*'
 doi: 10.1016/j.molmet.2018.08.006
 url_pdf: /files/papers/kirwan-2018-mol-metab.pdf
+
+# --- clasificación NeuroPlaNe (curado v2; revisar) ---
+np_topics:
+  - Disease
+np_species:
+  - Human
+featured: false
 ---

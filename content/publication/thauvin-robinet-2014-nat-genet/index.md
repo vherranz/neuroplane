@@ -37,4 +37,13 @@ publication_types:
 - article-journal
 publication: '*Nature Genetics*'
 doi: 10.1038/ng.3031
+
+# --- clasificación NeuroPlaNe (curado v2; revisar) ---
+np_topics:
+  - Disease
+  - Ultrastructure
+  - Development
+np_species:
+  - Human
+featured: false
 ---

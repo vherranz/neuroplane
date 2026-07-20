@@ -1,0 +1,30 @@
+{{ define "main" }}
+{{ $img := .Resources.GetMatch "featured.*" }}
+<article class="page">
+  <div class="wrap">
+    <div class="page-head" style="border:0;padding-bottom:0;margin-bottom:28px">
+      <div class="eyebrow">News</div>
+      <h1>{{ .Title }}</h1>
+      <div class="meta">{{ .Date.Format "January 2, 2006" }}{{ with .Params.authors }} · {{ delimit . ", " }}{{ end }}</div>
+    </div>
+
+    <div class="post-grid{{ if not $img }} no-aside{{ end }}">
+      <div class="post-body prose">
+        {{ .Content }}
+      </div>
+      {{ with $img }}
+      <aside class="post-aside">
+        <figure>
+          <a href="{{ .RelPermalink }}" target="_blank" rel="noopener" aria-label="Open full image">
+            <img src="{{ (.Resize "820x q90").RelPermalink }}" alt="{{ $.Title }}" loading="lazy">
+          </a>
+          {{ with $.Params.image.caption }}<figcaption>{{ . | markdownify }}</figcaption>{{ end }}
+        </figure>
+      </aside>
+      {{ end }}
+    </div>
+
+    <div class="news-foot"><a class="btn btn-ghost" href="{{ "post/" | relLangURL }}">← All news</a></div>
+  </div>
+</article>
+{{ end }}

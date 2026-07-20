@@ -20,4 +20,12 @@ publication_types:
 publication: '*Genes & Development*'
 doi: 10.1101/gad.353426.125
 url_pdf: /files/papers/liu-2026-genes-dev.pdf
+
+# --- clasificación NeuroPlaNe (curado v2; revisar) ---
+np_topics:
+  - Ultrastructure
+  - Development
+np_species:
+  - Mouse
+featured: true
 ---

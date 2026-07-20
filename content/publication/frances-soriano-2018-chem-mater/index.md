@@ -19,4 +19,10 @@ publication_types:
 - article-journal
 publication: '*Chemistry of Materials*'
 doi: 10.1021/acs.chemmater.8b00276
+
+# --- clasificación NeuroPlaNe (curado v2; revisar) ---
+np_topics:
+  - Translational
+np_species: []
+featured: false
 ---

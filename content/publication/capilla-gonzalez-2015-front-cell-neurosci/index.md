@@ -12,4 +12,12 @@ publication_types:
 publication: '*Frontiers in Cellular Neuroscience*'
 doi: 10.3389/fncel.2015.00365
 url_pdf: /files/papers/capilla-gonzalez-2015-front-cell-neurosci.pdf
+
+# --- clasificación NeuroPlaNe (curado v2; revisar) ---
+np_topics:
+  - Stem cells & niche
+  - Development
+np_species:
+  - Mouse
+featured: false
 ---

@@ -37,4 +37,12 @@ publication_types:
 publication: '*Nature Communications*'
 doi: 10.1038/s41467-024-45825-8
 url_pdf: /files/papers/nakajima-2024-nat-commun.pdf
+
+# --- clasificación NeuroPlaNe (curado v2; revisar) ---
+np_topics:
+  - Migration
+  - Disease
+np_species:
+  - Mouse
+featured: false
 ---

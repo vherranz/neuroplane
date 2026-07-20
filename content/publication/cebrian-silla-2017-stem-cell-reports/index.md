@@ -18,4 +18,12 @@ publication_types:
 publication: '*Stem Cell Reports*'
 doi: 10.1016/j.stemcr.2017.05.024
 url_pdf: /files/papers/cebrian-silla-2017-stem-cell-reports.pdf
+
+# --- clasificación NeuroPlaNe (curado v2; revisar) ---
+np_topics:
+  - Stem cells & niche
+  - Ultrastructure
+np_species:
+  - Mouse
+featured: false
 ---

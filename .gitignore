@@ -7,3 +7,19 @@ public/
 assets/jsconfig.json
 content/.DS_Store
 content/.DS_Store
+
+# macOS
+.DS_Store
+
+# Working docs / notas internas (no publicar en GitHub)
+CLAUDE.md
+MEMORY.md
+ARCHITECTURE.md
+IDEAS.md
+SECURITY.md
+handoff.md
+ROADMAP.md
+
+# Docs de trabajo adicionales
+PUBLICATIONS-REVIEW.md
+tools/

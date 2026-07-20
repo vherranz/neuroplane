@@ -14,4 +14,11 @@ publication_types:
 - article-journal
 publication: '*Journal of Neuroscience*'
 doi: 10.1523/JNEUROSCI.0686-15.2015
+
+# --- clasificación NeuroPlaNe (curado v2; revisar) ---
+np_topics:
+  - Ultrastructure
+np_species:
+  - Mouse
+featured: false
 ---

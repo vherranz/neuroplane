@@ -12,4 +12,10 @@ publication_types:
 publication: '*Frontiers in Neuroscience*'
 doi: 10.3389/fnins.2022.868876
 url_pdf: /files/papers/morales-garcia-2022-front-neurosci.pdf
+
+# --- clasificación NeuroPlaNe (curado v2; revisar) ---
+np_topics:
+  - Stem cells & niche
+np_species: []
+featured: false
 ---

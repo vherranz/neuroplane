@@ -13,4 +13,10 @@ publication_types:
 publication: '*Frontiers in Cellular Neuroscience*'
 doi: 10.3389/fncel.2022.932281
 url_pdf: /files/papers/capilla-gonzalez-2022-front-cell-neurosci.pdf
+
+# --- clasificación NeuroPlaNe (curado v2; revisar) ---
+np_topics:
+  - Translational
+np_species: []
+featured: false
 ---

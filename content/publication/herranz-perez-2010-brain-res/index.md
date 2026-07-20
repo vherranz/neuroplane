@@ -12,4 +12,11 @@ publication_types:
 - article-journal
 publication: '*Brain Research*'
 doi: 10.1016/j.brainres.2009.10.013
+
+# --- clasificación NeuroPlaNe (curado v2; revisar) ---
+np_topics:
+  - Disease
+np_species:
+  - Mouse
+featured: false
 ---

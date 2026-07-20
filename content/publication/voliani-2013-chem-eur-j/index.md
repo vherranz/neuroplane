@@ -14,4 +14,10 @@ publication_types:
 - article-journal
 publication: '*Chemistry - A European Journal*'
 doi: 10.1002/chem.201301353
+
+# --- clasificación NeuroPlaNe (curado v2; revisar) ---
+np_topics:
+  - Translational
+np_species: []
+featured: false
 ---

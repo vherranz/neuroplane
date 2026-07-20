@@ -49,6 +49,6 @@ url_pdf: /files/papers/zufiria-2024-acta-neuropathol.pdf
 np_topics:
   - Disease
 np_species:
-  - Mouse
+  - Human
 featured: false
 ---

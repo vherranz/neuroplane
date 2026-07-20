@@ -19,6 +19,7 @@ doi: 10.1093/hmg/ddl421
 # --- clasificación NeuroPlaNe (curado v2; revisar) ---
 np_topics:
   - Disease
-np_species: []
+np_species:
+  - Human
 featured: false
 ---

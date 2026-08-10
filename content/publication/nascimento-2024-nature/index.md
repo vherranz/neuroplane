@@ -30,5 +30,4 @@ np_topics:
   - Development
 np_species:
   - Human
-featured: true
 ---

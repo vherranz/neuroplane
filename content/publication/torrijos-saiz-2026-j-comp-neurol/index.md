@@ -25,5 +25,4 @@ np_topics:
   - Development
 np_species:
   - Ferret
-featured: true
 ---

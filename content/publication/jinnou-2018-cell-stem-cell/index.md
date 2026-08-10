@@ -31,5 +31,4 @@ np_topics:
   - Disease
 np_species:
   - Mouse
-featured: true
 ---

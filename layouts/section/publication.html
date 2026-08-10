@@ -27,10 +27,6 @@
           {{ range $species }}<button class="chip" data-kind="sp" data-val="{{ . }}">{{ . }}</button>{{ end }}
         </div>
       </div>
-      <div class="filter-group" style="padding-bottom:20px">
-        <span class="flabel">Highlight</span>
-        <div class="chips"><button class="chip feat" id="featChip">★ Featured only</button></div>
-      </div>
     </div>
 
     <div class="ex-meta">
@@ -46,12 +42,11 @@
       {{ $tp := .Params.np_topics }}{{ $sp := .Params.np_species }}
       {{ $journal := .Params.publication | markdownify }}
       {{ $search := lower (printf "%s %s %s" .Title (delimit $au " ") ($journal | plainify)) }}
-      <article class="paper{{ if .Params.featured }} feat{{ end }}"
+      <article class="paper"
                data-search="{{ $search }}"
                data-topics="{{ delimit $tp "|" }}"
                data-species="{{ delimit $sp "|" }}"
-               data-year="{{ .Date.Format "2006" }}"
-               data-feat="{{ if .Params.featured }}1{{ else }}0{{ end }}">
+               data-year="{{ .Date.Format "2006" }}">
         <div class="p-top">
           <div class="p-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></div>
           <div class="p-year">{{ .Date.Format "2006" }}</div>
@@ -59,7 +54,6 @@
         <div class="p-journal">{{ $journal }}</div>
         <div class="p-authors">{{ $authors }}</div>
         <div class="p-tags">
-          {{ if .Params.featured }}<span class="ptag feat">★ Featured</span>{{ end }}
           {{ range $sp }}<span class="ptag sp">{{ . }}</span>{{ end }}
           {{ range $tp }}<span class="ptag">{{ . }}</span>{{ end }}
         </div>
@@ -78,13 +72,12 @@
 (function(){
   var cards = Array.prototype.slice.call(document.querySelectorAll('#results .paper'));
   var TOTAL = cards.length;
-  var state = {q:"", topics:new Set(), sp:new Set(), feat:false};
+  var state = {q:"", topics:new Set(), sp:new Set()};
   var countEl = document.getElementById('count');
   var emptyEl = document.getElementById('empty');
 
   function setSome(set, fn){ var ok=false; set.forEach(function(v){ if(fn(v)) ok=true; }); return ok; }
   function match2(card){
-    if(state.feat && card.dataset.feat!=="1") return false;
     if(state.q && card.dataset.search.indexOf(state.q)===-1) return false;
     if(state.topics.size){
       var ct = card.dataset.topics ? card.dataset.topics.split("|") : [];
@@ -111,10 +104,8 @@
   }
   document.querySelectorAll('.chip[data-kind]').forEach(function(b){ b.onclick=function(){toggleChip(b);}; });
   document.getElementById('q').addEventListener('input', function(e){ state.q=e.target.value.toLowerCase(); render(); });
-  var featChip=document.getElementById('featChip');
-  featChip.onclick=function(){ state.feat=!state.feat; featChip.classList.toggle('on'); render(); };
   document.getElementById('reset').onclick=function(){
-    state.q=""; state.topics.clear(); state.sp.clear(); state.feat=false;
+    state.q=""; state.topics.clear(); state.sp.clear();
     document.getElementById('q').value="";
     document.querySelectorAll('.chip').forEach(function(c){c.classList.remove('on');});
     render();

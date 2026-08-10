@@ -27,5 +27,4 @@ np_topics:
   - Development
 np_species:
   - Mouse
-featured: true
 ---

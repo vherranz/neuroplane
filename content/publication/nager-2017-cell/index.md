@@ -20,5 +20,4 @@ doi: 10.1016/j.cell.2016.11.036
 np_topics:
   - Ultrastructure
 np_species: []
-featured: true
 ---

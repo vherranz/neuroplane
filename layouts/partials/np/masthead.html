@@ -12,6 +12,7 @@
       </div>
     </a>
     <nav class="nav">
+      <a href="{{ "/" | relLangURL }}"{{ if .IsHome }} class="active"{{ end }}>Home</a>
       <a href="{{ "research/" | relLangURL }}"{{ if hasPrefix $cur (relLangURL "research/") }} class="active"{{ end }}>Research</a>
       <a href="{{ "publication/" | relLangURL }}"{{ if hasPrefix $cur (relLangURL "publication/") }} class="active"{{ end }}>Publications</a>
       <a href="{{ "post/" | relLangURL }}"{{ if hasPrefix $cur (relLangURL "post/") }} class="active"{{ end }}>News</a>

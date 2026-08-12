@@ -291,7 +291,11 @@ footer.site .flinks a:hover{color:var(--blue)}
   .post-card{grid-template-columns:1fr;gap:12px}
   .people-grid{grid-template-columns:repeat(2,1fr)}
   .collaborators-list{columns:1}
-  .nav{display:none}
+  .nav{display:none;position:absolute;top:100%;left:0;right:0;flex-direction:column;gap:0;
+    background:var(--white);border-top:1px solid var(--line);border-bottom:1px solid var(--line);
+    box-shadow:0 12px 28px -16px rgba(20,27,40,.3)}
+  .nav a{padding:14px 32px;border-bottom:1px solid var(--line-soft)}
+  .nav a:last-child{border-bottom:0}
   .navtoggle{display:block}
   section{padding:56px 0}
 }

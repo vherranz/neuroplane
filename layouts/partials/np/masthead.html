@@ -19,6 +19,8 @@
       <a href="{{ "post/" | relLangURL }}"{{ if hasPrefix $cur (relLangURL "post/") }} class="active"{{ end }}>News</a>
       <a href="{{ "contact/" | relLangURL }}"{{ if hasPrefix $cur (relLangURL "contact/") }} class="active"{{ end }}>Contact</a>
     </nav>
-    <button class="navtoggle" onclick="var n=document.querySelector('.nav');n.style.display=n.style.display==='flex'?'none':'flex'">Menu</button>
+    <button class="navtoggle" aria-label="Menú" aria-expanded="false" onclick="var n=document.querySelector('.nav');var open=n.style.display==='flex';n.style.display=open?'none':'flex';this.classList.toggle('open',!open);this.setAttribute('aria-expanded',(!open).toString())">
+      <span></span><span></span><span></span>
+    </button>
   </div>
 </header>

@@ -2,7 +2,9 @@
 <footer class="site">
   <div class="wrap">
     <div>
-      <div class="fname">NeuroPlaNe Lab</div>
+      {{ with resources.Get "media/logo-full.svg" }}
+      <img class="flogo" src="{{ .RelPermalink }}" alt="NeuroPlaNe Lab" height="34">
+      {{ end }}
       <div class="fmeta">© {{ now.Format "2006" }} · Universitat de València</div>
       <div class="flinks" style="margin-top:8px"><a href="https://bsky.app/profile/neuroplanelab.bsky.social">Bluesky ↗</a> · <a href="https://scholar.google.es/citations?hl=es&pli=1&user=p7j6btsAAAAJ">Google Scholar ↗</a> · <a href="{{ "contact/" | relLangURL }}">Contact</a></div>
     </div>

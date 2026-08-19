@@ -68,7 +68,12 @@ section{padding:78px 0}
 .hero .wrap>div{max-width:680px}
 .hero h1{font-family:var(--serif);font-weight:500;font-size:clamp(2.125rem,4.6vw,3.25rem);line-height:1.08;
   letter-spacing:-.012em;margin:16px 0 22px}
-.hero h1 em{font-style:italic;color:var(--blue)}
+.hero h1 em{font-style:italic;
+  background:linear-gradient(100deg,var(--blue-deep) 0%,var(--blue) 45%,var(--accent) 100%);
+  background-size:200% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;
+  animation:reshapeShimmer 6s ease-in-out infinite alternate}
+@keyframes reshapeShimmer{0%{background-position:0% 50%}100%{background-position:100% 50%}}
+@media (prefers-reduced-motion:reduce){.hero h1 em{animation:none}}
 .hero .deck{font-size:1.0938rem;color:var(--soft);max-width:50ch;line-height:1.65}
 .hero .note{font-size:0.8125rem;color:var(--soft);max-width:50ch;line-height:1.5;margin-top:12px}
 .hero .note a{color:var(--blue);font-weight:500}

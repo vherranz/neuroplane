@@ -12,7 +12,7 @@
         <div class="ndate">{{ with .Date }}{{ .Format "Jan 2, 2006" }}{{ end }}</div>
         <div>
           <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-          {{ with .Params.publication }}<p style="font-family:var(--mono);color:var(--blue);font-style:italic;font-size:12.5px;margin-top:6px">{{ . | markdownify }}</p>
+          {{ with .Params.publication }}<p style="font-family:var(--mono);color:var(--blue);font-style:italic;font-size:13.5px;margin-top:6px">{{ . | markdownify }}</p>
           {{ else }}{{ with .Params.summary }}<p>{{ . | markdownify | plainify | truncate 200 }}</p>{{ end }}{{ end }}
         </div>
       </article>

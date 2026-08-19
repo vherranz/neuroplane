@@ -47,9 +47,7 @@ programme:
 
 ## Funding
 
-Our research is supported by the Generalitat Valenciana through the Prometeo Program (CIPROM2023-053), by the Ministry of Science, Innovation and Universities (PID2025-174526NB-I00), and by the Universitat de València.
-
-[Learn more about the project](https://www.uv.es/neurocomp/ciprom2023-53)
+Our research is supported by the Generalitat Valenciana through the [Prometeo Program (CIPROM2023-053)](https://www.uv.es/neurocomp/ciprom2023-53), by the Ministry of Science, Innovation and Universities (PID2025-174526NB-I00), and by the Universitat de València.
 
 <div class="funding-logos">
   <a href="https://www.gva.es" target="_blank" rel="noopener">

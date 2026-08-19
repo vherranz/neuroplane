@@ -64,8 +64,8 @@ section{padding:78px 0}
 
 /* hero */
 .hero{background:var(--white);border-bottom:1px solid var(--line)}
-.hero .wrap{padding:76px 32px 78px}
-.hero .wrap>div{max-width:820px}
+.hero .wrap{padding:76px 32px 78px;display:flex;justify-content:center}
+.hero .wrap>div{max-width:680px}
 .hero h1{font-family:var(--serif);font-weight:500;font-size:clamp(2.125rem,4.6vw,3.25rem);line-height:1.08;
   letter-spacing:-.012em;margin:16px 0 22px}
 .hero h1 em{font-style:italic;
@@ -74,8 +74,8 @@ section{padding:78px 0}
   animation:reshapeShimmer 6s ease-in-out infinite alternate}
 @keyframes reshapeShimmer{0%{background-position:0% 50%}100%{background-position:100% 50%}}
 @media (prefers-reduced-motion:reduce){.hero h1 em{animation:none}}
-.hero .deck{font-size:1.0938rem;color:var(--soft);max-width:62ch;line-height:1.65}
-.hero .note{font-size:0.8125rem;color:var(--soft);max-width:62ch;line-height:1.5;margin-top:12px}
+.hero .deck{font-size:1.0938rem;color:var(--soft);max-width:50ch;line-height:1.65}
+.hero .note{font-size:0.8125rem;color:var(--soft);max-width:50ch;line-height:1.5;margin-top:12px}
 .hero .note a{color:var(--blue);font-weight:500}
 .hero .note a:hover{text-decoration:underline}
 .cta-row{display:flex;gap:14px;flex-wrap:wrap;margin-top:32px}

@@ -56,7 +56,8 @@ section{padding:78px 0}
 
 /* hero */
 .hero{background:var(--white);border-bottom:1px solid var(--line)}
-.hero .wrap{display:grid;grid-template-columns:1.05fr .95fr;gap:56px;align-items:center;padding:76px 32px 78px}
+.hero .wrap{padding:76px 32px 78px;display:flex;justify-content:center}
+.hero .wrap>div{max-width:680px}
 .hero h1{font-family:var(--serif);font-weight:500;font-size:clamp(2.125rem,4.6vw,3.25rem);line-height:1.08;
   letter-spacing:-.012em;margin:16px 0 22px}
 .hero h1 em{font-style:italic;color:var(--blue)}
@@ -65,19 +66,6 @@ section{padding:78px 0}
 .hero .note a{color:var(--blue);font-weight:500}
 .hero .note a:hover{text-decoration:underline}
 .cta-row{display:flex;gap:14px;flex-wrap:wrap;margin-top:32px}
-
-/* atlas plate */
-.plate{border:1px solid var(--line);background:linear-gradient(160deg,var(--blue-soft) 0%,var(--paper) 65%);border-radius:3px;padding:22px 24px 14px;position:relative}
-.plate figure{margin:0}
-.plate svg,.plate img{width:100%;height:auto;display:block}
-.plate .figcap{font-family:var(--mono);font-size:0.6562rem;color:var(--soft);letter-spacing:.04em;
-  margin-top:12px;padding-top:11px;border-top:1px solid var(--line);display:flex;justify-content:space-between}
-.lead-line{stroke:var(--blue);stroke-width:1;stroke-dasharray:200;stroke-dashoffset:200;animation:draw 1s ease forwards}
-.lead-line.l2{animation-delay:.25s}
-.lead-line.l3{animation-delay:.5s}
-.plabel{font-family:var(--mono);font-size:0.625rem;fill:var(--ink);letter-spacing:.03em}
-.pnum{font-family:var(--mono);font-size:0.625rem;fill:var(--accent-deep)}
-@keyframes draw{to{stroke-dashoffset:0}}
 
 /* research list */
 .research-list{border-top:1px solid var(--line)}
@@ -289,7 +277,7 @@ footer.site .flinks a:hover{color:var(--blue)}
 
 @media(max-width:880px){
   .util{display:none}
-  .hero .wrap{grid-template-columns:1fr;gap:40px;padding:56px 32px}
+  .hero .wrap{padding:56px 32px}
   .entry{grid-template-columns:44px 1fr;gap:18px}
   .entry > div:nth-child(3){grid-column:2}
   .news-item{grid-template-columns:1fr;gap:6px}

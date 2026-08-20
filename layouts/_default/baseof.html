@@ -5,10 +5,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{{ block "title" . }}{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} · {{ site.Title }}{{ end }}{{ end }}</title>
 {{ partial "seo_tags.html" . }}
+{{ partial "site_verification.html" . }}
 {{ partial "np/head.html" . }}
 {{ block "head" . }}{{ end }}
 </head>
 <body>
+
+{{ with site.Params.marketing.analytics.google_tag_manager }}
+{{ if hugo.IsProduction }}
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ . }}"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+{{ end }}
+{{ end }}
 
 <div class="util">
   <div class="wrap">
@@ -23,6 +31,8 @@
 </main>
 
 {{ partial "np/footer.html" . }}
+
+{{ partial "analytics/main.html" . }}
 
 </body>
 </html>

@@ -23,6 +23,7 @@ url_pdf: /files/papers/berrosteguieta-2022-curr-res-neurobiol.pdf
 np_topics:
   - Comparative
   - Development
-np_species: []
+np_species:
+  - Killifish
 featured: false
 ---

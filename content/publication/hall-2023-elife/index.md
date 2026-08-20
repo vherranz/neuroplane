@@ -32,6 +32,7 @@ url_pdf: /files/papers/hall-2023-elife.pdf
 # --- clasificación NeuroPlaNe (curado v2; revisar) ---
 np_topics:
   - Ultrastructure
-np_species: []
+np_species:
+  - Mouse
 featured: false
 ---

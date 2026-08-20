@@ -20,5 +20,6 @@ doi: 10.1016/j.cell.2016.11.036
 # --- clasificación NeuroPlaNe (curado v2; revisar) ---
 np_topics:
   - Ultrastructure
-np_species: []
+np_species:
+  - Mouse
 ---

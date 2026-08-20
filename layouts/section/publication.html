@@ -1,7 +1,7 @@
 {{ define "main" }}
 {{ $pubs := where site.RegularPages "Section" "publication" }}
 {{ $topics := slice "Immature neurons" "Migration" "Stem cells & niche" "Comparative" "Ultrastructure" "Development" "Disease" "Translational" }}
-{{ $species := slice "Human" "Marmoset" "Ferret" "Pig" "Mouse" "Lizard" "Zebrafish" }}
+{{ $species := slice "Human" "Marmoset" "Ferret" "Pig" "Mouse" "Lizard" "Zebrafish" "Killifish" }}
 {{ $years := slice }}
 {{ range $pubs.ByDate.Reverse }}
   {{ $y := .Date.Format "2006" }}

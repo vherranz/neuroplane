@@ -9,12 +9,6 @@ appearance:
   font: neuroplane
   font_size: L
 
-# Google Fonts (Typography)
-
-google_fonts:
-  - family: Raleway
-    weights: [300,400,500,600]
-
 # SEO
 
 marketing:

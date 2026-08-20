@@ -1,0 +1,32 @@
+name: Check for broken links
+
+# Runs weekly (link rot happens slowly) and on demand. Fails only on
+# definite dead links (404/410) or a url_pdf pointing at a missing file —
+# everything else (bot-blocking 403s, timeouts) is a warning in the log,
+# not a failure, since those are common noise on academic/social sites.
+
+on:
+  schedule:
+    - cron: "0 6 * * 1" # Monday 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Check links
+        run: python .github/scripts/check_links.py

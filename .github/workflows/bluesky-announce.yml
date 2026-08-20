@@ -1,21 +1,38 @@
-name: Announce new publications on Bluesky
+name: Announce new publications and posts on Bluesky
 
-# Fires when the auto-generated "Import Publications From Bibtex" PR
-# (branch hugoblox-import-publications, see import-publications.yml) is
-# merged to main. Merging that PR is a manual, reviewed action, so it
-# doubles as the confirmation step before anything gets posted publicly.
+# Publications: fires when the auto-generated "Import Publications From
+# Bibtex" PR (branch hugoblox-import-publications, see
+# import-publications.yml) is merged to main. Merging that PR is a manual,
+# reviewed action, so it doubles as the confirmation step before anything
+# gets posted publicly.
 #
-# Can also be run manually (workflow_dispatch) for a single publication,
-# useful for testing without waiting for a real import PR.
+# News posts: fires on push to main whenever a new content/post/*/index.md
+# appears (content/post is edited directly, no PR flow) — only newly ADDED
+# files trigger a post, not edits to existing ones.
+#
+# Can also be run manually (workflow_dispatch) for a single publication or
+# post, useful for testing without waiting for a real merge/push.
 
 on:
   pull_request:
     types: [closed]
+  push:
+    branches: [main]
+    paths:
+      - "content/post/**"
   workflow_dispatch:
     inputs:
       slug:
-        description: "Publication slug to announce (content/publication/<slug>/), for manual testing"
+        description: "Slug to announce (content/<kind>/<slug>/), for manual testing"
         required: true
+      kind:
+        description: "Content type"
+        required: true
+        default: publication
+        type: choice
+        options:
+          - publication
+          - post
 
 permissions:
   contents: read
@@ -24,6 +41,7 @@ jobs:
   announce:
     if: |
       github.event_name == 'workflow_dispatch' ||
+      github.event_name == 'push' ||
       (github.event.pull_request.merged == true && github.event.pull_request.head.ref == 'hugoblox-import-publications')
     runs-on: ubuntu-latest
     steps:
@@ -34,9 +52,18 @@ jobs:
 
       - name: Find newly added publications
         if: github.event_name == 'pull_request'
-        id: diff
+        id: diff-publications
         run: |
           NEW_FILES=$(git diff --name-only --diff-filter=A "${{ github.event.pull_request.base.sha }}" "${{ github.event.pull_request.merge_commit_sha }}" -- 'content/publication/*/index.md')
+          echo "files<<EOF" >> "$GITHUB_OUTPUT"
+          echo "$NEW_FILES" >> "$GITHUB_OUTPUT"
+          echo "EOF" >> "$GITHUB_OUTPUT"
+
+      - name: Find newly added posts
+        if: github.event_name == 'push'
+        id: diff-posts
+        run: |
+          NEW_FILES=$(git diff --name-only --diff-filter=A "${{ github.event.before }}" "${{ github.sha }}" -- 'content/post/*/index.md')
           echo "files<<EOF" >> "$GITHUB_OUTPUT"
           echo "$NEW_FILES" >> "$GITHUB_OUTPUT"
           echo "EOF" >> "$GITHUB_OUTPUT"
@@ -49,12 +76,20 @@ jobs:
       - name: Install dependencies
         run: pip install requests pyyaml
 
-      - name: Post to Bluesky (from merged PR)
-        if: github.event_name == 'pull_request' && steps.diff.outputs.files != ''
+      - name: Post to Bluesky (new publications, from merged PR)
+        if: github.event_name == 'pull_request' && steps.diff-publications.outputs.files != ''
         env:
           BLUESKY_HANDLE: ${{ secrets.BLUESKY_HANDLE }}
           BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD }}
-          NEW_FILES: ${{ steps.diff.outputs.files }}
+          NEW_FILES: ${{ steps.diff-publications.outputs.files }}
+        run: python .github/scripts/bluesky_announce.py
+
+      - name: Post to Bluesky (new posts, from push)
+        if: github.event_name == 'push' && steps.diff-posts.outputs.files != ''
+        env:
+          BLUESKY_HANDLE: ${{ secrets.BLUESKY_HANDLE }}
+          BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD }}
+          NEW_FILES: ${{ steps.diff-posts.outputs.files }}
         run: python .github/scripts/bluesky_announce.py
 
       - name: Post to Bluesky (manual test)
@@ -62,4 +97,4 @@ jobs:
         env:
           BLUESKY_HANDLE: ${{ secrets.BLUESKY_HANDLE }}
           BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD }}
-        run: python .github/scripts/bluesky_announce.py --slug "${{ inputs.slug }}"
+        run: python .github/scripts/bluesky_announce.py --slug "${{ inputs.slug }}" --kind "${{ inputs.kind }}"

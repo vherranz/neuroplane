@@ -1,9 +1,10 @@
-"""Post a short announcement to Bluesky for newly added publications.
+"""Post a short announcement to Bluesky for newly added publications or news posts.
 
-Run from the repo root. Reads publication slugs from the NEW_FILES env var
-(newline-separated paths to content/publication/<slug>/index.md), or from a
-single --slug argument for manual testing. Credentials come from the
-BLUESKY_HANDLE / BLUESKY_APP_PASSWORD env vars (GitHub Actions secrets).
+Run from the repo root. Reads content/publication or content/post index.md
+paths from the NEW_FILES env var (newline-separated), or from a single
+--slug (+ --kind publication|post, default publication) for manual testing.
+The kind is otherwise inferred from the path itself. Credentials come from
+the BLUESKY_HANDLE / BLUESKY_APP_PASSWORD env vars (GitHub Actions secrets).
 """
 
 import os
@@ -33,7 +34,17 @@ def find_image(pub_dir: Path) -> Path:
     return Path("assets/media/sharing.png")
 
 
-def build_text(title: str, journal: str, year: str, url: str) -> str:
+def strip_markdown(text: str) -> str:
+    return re.sub(r"[*_]", "", text or "").strip()
+
+
+def truncate(text: str, limit: int = 300) -> str:
+    if len(text) <= limit:
+        return text
+    return text[: limit - 1].rstrip() + "…"
+
+
+def build_paper_text(title: str, journal: str, year: str, url: str) -> str:
     text = f"New paper: {title}"
     if journal:
         text += f" — published in {journal}"
@@ -41,20 +52,18 @@ def build_text(title: str, journal: str, year: str, url: str) -> str:
             text += f" ({year})"
     text += f".\n{url}"
     if len(text) > TEXT_LIMIT:
-        # Trim the title first, keep journal/year/url intact.
         overflow = len(text) - TEXT_LIMIT
         title = title[: max(0, len(title) - overflow - 1)].rstrip() + "…"
-        text = build_text_raw(title, journal, year, url)
+        return build_paper_text(title, journal, year, url)
     return text
 
 
-def build_text_raw(title: str, journal: str, year: str, url: str) -> str:
-    text = f"New paper: {title}"
-    if journal:
-        text += f" — published in {journal}"
-        if year:
-            text += f" ({year})"
-    text += f".\n{url}"
+def build_post_text(title: str, url: str) -> str:
+    text = f"New post: {title}.\n{url}"
+    if len(text) > TEXT_LIMIT:
+        overflow = len(text) - TEXT_LIMIT
+        title = title[: max(0, len(title) - overflow - 1)].rstrip() + "…"
+        return build_post_text(title, url)
     return text
 
 
@@ -83,22 +92,33 @@ def upload_thumb(headers: dict, img_path: Path) -> dict | None:
     return resp.json()["blob"]
 
 
-def announce(index_path: Path, headers: dict, did: str) -> None:
+def infer_kind(index_path: Path) -> str:
+    # content/publication/<slug>/index.md or content/post/<slug>/index.md
+    parts = index_path.parts
+    return "post" if "post" in parts else "publication"
+
+
+def announce(index_path: Path, headers: dict, did: str, kind: str) -> None:
     pub_dir = index_path.parent
     slug = pub_dir.name
     fm = parse_frontmatter(index_path)
-
     title = fm.get("title", slug)
-    journal = re.sub(r"\*", "", str(fm.get("publication", ""))).strip()
-    date = str(fm.get("date", ""))
-    year = date[:4] if date else ""
-    url = f"https://neuroplanelab.org/publication/{slug}/"
-    summary = fm.get("summary") or (f"{journal}, {year}." if journal else "")
 
-    text = build_text(title, journal, year, url)
+    if kind == "post":
+        url = f"https://neuroplanelab.org/post/{slug}/"
+        summary = strip_markdown(fm.get("summary", ""))
+        text = build_post_text(title, url)
+    else:
+        journal = strip_markdown(str(fm.get("publication", "")))
+        date = str(fm.get("date", ""))
+        year = date[:4] if date else ""
+        url = f"https://neuroplanelab.org/publication/{slug}/"
+        summary = strip_markdown(fm.get("summary", "")) or (f"{journal}, {year}." if journal else "")
+        text = build_paper_text(title, journal, year, url)
+
     thumb = upload_thumb(headers, find_image(pub_dir))
 
-    external = {"uri": url, "title": title, "description": summary}
+    external = {"uri": url, "title": title, "description": truncate(summary)}
     if thumb:
         external["thumb"] = thumb
 
@@ -133,13 +153,15 @@ def main() -> None:
 
     if "--slug" in sys.argv:
         slug = sys.argv[sys.argv.index("--slug") + 1]
-        files = [Path(f"content/publication/{slug}/index.md")]
+        kind = "post" if "--kind" in sys.argv and sys.argv[sys.argv.index("--kind") + 1] == "post" else "publication"
+        section = "post" if kind == "post" else "publication"
+        files = [Path(f"content/{section}/{slug}/index.md")]
     else:
         raw = os.environ.get("NEW_FILES", "")
         files = [Path(line.strip()) for line in raw.splitlines() if line.strip()]
 
     if not files:
-        print("No new publications to announce.")
+        print("Nothing new to announce.")
         return
 
     access_jwt, did = login(handle, password)
@@ -149,7 +171,7 @@ def main() -> None:
         if not f.exists():
             print(f"Skipping {f}: file not found", file=sys.stderr)
             continue
-        announce(f, headers, did)
+        announce(f, headers, did, infer_kind(f))
 
 
 if __name__ == "__main__":

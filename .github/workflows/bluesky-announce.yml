@@ -1,0 +1,65 @@
+name: Announce new publications on Bluesky
+
+# Fires when the auto-generated "Import Publications From Bibtex" PR
+# (branch hugoblox-import-publications, see import-publications.yml) is
+# merged to main. Merging that PR is a manual, reviewed action, so it
+# doubles as the confirmation step before anything gets posted publicly.
+#
+# Can also be run manually (workflow_dispatch) for a single publication,
+# useful for testing without waiting for a real import PR.
+
+on:
+  pull_request:
+    types: [closed]
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: "Publication slug to announce (content/publication/<slug>/), for manual testing"
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  announce:
+    if: |
+      github.event_name == 'workflow_dispatch' ||
+      (github.event.pull_request.merged == true && github.event.pull_request.head.ref == 'hugoblox-import-publications')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Find newly added publications
+        if: github.event_name == 'pull_request'
+        id: diff
+        run: |
+          NEW_FILES=$(git diff --name-only --diff-filter=A "${{ github.event.pull_request.base.sha }}" "${{ github.event.pull_request.merge_commit_sha }}" -- 'content/publication/*/index.md')
+          echo "files<<EOF" >> "$GITHUB_OUTPUT"
+          echo "$NEW_FILES" >> "$GITHUB_OUTPUT"
+          echo "EOF" >> "$GITHUB_OUTPUT"
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests pyyaml
+
+      - name: Post to Bluesky (from merged PR)
+        if: github.event_name == 'pull_request' && steps.diff.outputs.files != ''
+        env:
+          BLUESKY_HANDLE: ${{ secrets.BLUESKY_HANDLE }}
+          BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD }}
+          NEW_FILES: ${{ steps.diff.outputs.files }}
+        run: python .github/scripts/bluesky_announce.py
+
+      - name: Post to Bluesky (manual test)
+        if: github.event_name == 'workflow_dispatch'
+        env:
+          BLUESKY_HANDLE: ${{ secrets.BLUESKY_HANDLE }}
+          BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD }}
+        run: python .github/scripts/bluesky_announce.py --slug "${{ inputs.slug }}"

@@ -17,5 +17,5 @@ summary: Meet the NeuroPlaNe Lab team — principal investigator, lab members, a
   <li><a href="https://paredeslab.ucsf.edu" target="_blank" rel="noopener noreferrer">Mercedes Paredes</a> <span>University of California San Francisco</span></li>
   <li><a href="https://brainscience.doshisha.ac.jp/br/en/introduction/pat/nr.html" target="_blank" rel="noopener noreferrer">Naoko Kaneko</a> <span>Doshisha University</span></li>
   <li><a href="https://sites.google.com/view/sorrells-lab/home" target="_blank" rel="noopener noreferrer">Shawn Sorrells</a> <span>University of Pittsburgh</span></li>
-  <li><a href="https://www.cabimer.es/en/vivian-capilla-gonzalez/" target="_blank" rel="noopener noreferrer">Vivian Capilla González</a> <span>CABIMER</span></li>
+  <li><a href="https://cabimer.es/en/research-groups/stem-cells-and-translational-neurology/" target="_blank" rel="noopener noreferrer">Vivian Capilla González</a> <span>CABIMER</span></li>
 </ul>

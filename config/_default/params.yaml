@@ -76,7 +76,7 @@ features:
   comment:
     provider: ''
   search:
-    provider: wowchemy
+    provider: ''
   map:
     provider: 'mapnik'
     api_key: ''

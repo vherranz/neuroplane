@@ -14,6 +14,7 @@ publishDate: '2026-05-25T10:25:28.237954Z'
 publication_types:
 - article-journal
 publication: '*Cell*'
+summary: 'Andrew R Nager et al. — Cell, 2017.'
 doi: 10.1016/j.cell.2016.11.036
 
 # --- clasificación NeuroPlaNe (curado v2; revisar) ---

@@ -10,6 +10,7 @@ publishDate: '2026-05-25T10:25:28.071947Z'
 publication_types:
 - article-journal
 publication: '*Frontiers in Neuroscience*'
+summary: 'Brenda Rocamonde et al. — Frontiers in Neuroscience, 2021.'
 doi: 10.3389/fnins.2021.668243
 url_pdf: /files/papers/rocamonde-2021-front-neurosci.pdf
 

@@ -15,6 +15,7 @@ publishDate: '2026-05-25T10:25:27.995633Z'
 publication_types:
 - article-journal
 publication: '*Experimental Neurology*'
+summary: 'Tania Campos-Ordoñez et al. — Experimental Neurology, 2023.'
 doi: 10.1016/j.expneurol.2023.114412
 
 # --- clasificación NeuroPlaNe (curado v2; revisar) ---

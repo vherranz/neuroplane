@@ -13,6 +13,7 @@ publishDate: '2026-05-25T10:25:28.214768Z'
 publication_types:
 - article-journal
 publication: '*Chemistry - A European Journal*'
+summary: 'Valerio Voliani et al. — Chemistry - A European Journal, 2013.'
 doi: 10.1002/chem.201301353
 
 # --- clasificación NeuroPlaNe (curado v2; revisar) ---

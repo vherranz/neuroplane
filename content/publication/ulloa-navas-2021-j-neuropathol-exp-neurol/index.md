@@ -14,6 +14,7 @@ publishDate: '2026-05-25T10:25:28.083587Z'
 publication_types:
 - article-journal
 publication: '*Journal of Neuropathology & Experimental Neurology*'
+summary: 'María José Ulloa-Navas et al. — Journal of Neuropathology & Experimental Neurology, 2021.'
 doi: 10.1093/jnen/nlaa144
 
 # --- clasificación NeuroPlaNe (curado v2; revisar) ---

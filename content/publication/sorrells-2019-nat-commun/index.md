@@ -19,6 +19,7 @@ publishDate: '2026-05-25T10:25:28.119504Z'
 publication_types:
 - article-journal
 publication: '*Nature Communications*'
+summary: 'Shawn F Sorrells et al. — Nature Communications, 2019.'
 doi: 10.1038/s41467-019-10765-1
 url_pdf: /files/papers/sorrells-2019-nat-commun.pdf
 

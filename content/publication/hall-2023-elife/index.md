@@ -25,6 +25,7 @@ publishDate: '2026-05-25T10:25:28.007363Z'
 publication_types:
 - article-journal
 publication: '*eLife*'
+summary: 'Emma A Hall et al. — eLife, 2023.'
 doi: 10.7554/eLife.79299
 url_pdf: /files/papers/hall-2023-elife.pdf
 

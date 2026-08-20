@@ -14,6 +14,7 @@ publishDate: '2026-05-25T10:25:28.101851Z'
 publication_types:
 - article-journal
 publication: '*Cerebral Cortex*'
+summary: 'Mariyam Akter et al. — Cerebral Cortex, 2020.'
 doi: 10.1093/cercor/bhaa031
 
 # --- clasificación NeuroPlaNe (curado v2; revisar) ---

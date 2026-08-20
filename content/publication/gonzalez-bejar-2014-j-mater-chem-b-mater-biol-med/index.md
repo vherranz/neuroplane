@@ -17,6 +17,7 @@ publishDate: '2026-05-25T10:25:28.172981Z'
 publication_types:
 - article-journal
 publication: '*Journal of Materials Chemistry B*'
+summary: 'María González-Béjar et al. — Journal of Materials Chemistry B, 2014.'
 doi: 10.1039/c4tb00340c
 
 # --- clasificación NeuroPlaNe (curado v2; revisar) ---

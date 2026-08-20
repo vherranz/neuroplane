@@ -15,6 +15,7 @@ publishDate: '2026-05-25T10:25:28.249595Z'
 publication_types:
 - chapter
 publication: '*Neuromethods*'
+summary: 'Sara Gil-Perotin et al. — Neuromethods, 2016.'
 doi: 10.1007/978-1-4939-3064-7_14
 
 # --- clasificación NeuroPlaNe (curado v2; revisar) ---

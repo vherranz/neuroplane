@@ -18,6 +18,7 @@ publishDate: '2026-05-25T10:25:28.013489Z'
 publication_types:
 - article-journal
 publication: '*Cerebral Cortex*'
+summary: 'Alba Ortega-Gascó et al. — Cerebral Cortex, 2023.'
 doi: 10.1093/cercor/bhad340
 url_pdf: /files/papers/ortega-gasco-2023-cereb-cortex.pdf
 

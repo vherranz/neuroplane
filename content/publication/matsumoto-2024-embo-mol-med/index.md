@@ -24,6 +24,7 @@ publishDate: '2026-05-25T10:25:27.977362Z'
 publication_types:
 - article-journal
 publication: '*EMBO Molecular Medicine*'
+summary: 'Mami Matsumoto et al. — EMBO Molecular Medicine, 2024.'
 doi: 10.1038/s44321-024-00073-7
 url_pdf: /files/papers/matsumoto-2024-embo-mol-med.pdf
 

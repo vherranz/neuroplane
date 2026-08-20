@@ -22,6 +22,7 @@ publishDate: '2026-05-25T10:25:28.149495Z'
 publication_types:
 - article-journal
 publication: '*Journal of Neuroscience*'
+summary: 'Kazuma Fujikake et al. — Journal of Neuroscience, 2018.'
 doi: 10.1523/JNEUROSCI.1960-17.2018
 url_pdf: /files/papers/fujikake-2018-j-neurosci.pdf
 

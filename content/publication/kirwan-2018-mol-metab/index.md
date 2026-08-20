@@ -22,6 +22,7 @@ publishDate: '2026-05-25T10:25:28.137332Z'
 publication_types:
 - article-journal
 publication: '*Molecular Metabolism*'
+summary: 'Peter Kirwan et al. — Molecular Metabolism, 2018.'
 doi: 10.1016/j.molmet.2018.08.006
 url_pdf: /files/papers/kirwan-2018-mol-metab.pdf
 

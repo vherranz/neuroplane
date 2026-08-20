@@ -11,6 +11,7 @@ publishDate: '2026-05-25T10:25:28.161504Z'
 publication_types:
 - article-journal
 publication: '*Brain Research*'
+summary: 'Vicente Herranz-Pérez et al. — Brain Research, 2010.'
 doi: 10.1016/j.brainres.2009.10.013
 
 # --- clasificación NeuroPlaNe (curado v2; revisar) ---

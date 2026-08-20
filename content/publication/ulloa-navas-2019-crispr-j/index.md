@@ -11,6 +11,7 @@ publishDate: '2026-05-25T10:25:28.107666Z'
 publication_types:
 - article-journal
 publication: '*The CRISPR Journal*'
+summary: 'María José Ulloa-Navas et al. — The CRISPR Journal, 2019.'
 doi: 10.1089/crispr.2019.0032
 
 # --- clasificación NeuroPlaNe (curado v2; revisar) ---

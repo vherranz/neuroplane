@@ -10,6 +10,7 @@ publishDate: '2026-05-25T10:25:28.243873Z'
 publication_types:
 - article-journal
 publication: '*Frontiers in Cellular Neuroscience*'
+summary: 'Vivian Capilla-Gonzalez et al. — Frontiers in Cellular Neuroscience, 2015.'
 doi: 10.3389/fncel.2015.00365
 url_pdf: /files/papers/capilla-gonzalez-2015-front-cell-neurosci.pdf
 

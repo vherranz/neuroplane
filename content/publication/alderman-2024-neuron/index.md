@@ -22,6 +22,7 @@ publishDate: '2026-05-25T10:25:27.989594Z'
 publication_types:
 - article-journal
 publication: '*Neuron*'
+summary: 'Pia J Alderman et al. — Neuron, 2024.'
 doi: 10.1016/j.neuron.2023.11.010
 
 # --- clasificación NeuroPlaNe (curado v2; revisar) ---

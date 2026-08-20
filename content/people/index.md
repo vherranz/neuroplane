@@ -1,6 +1,7 @@
 ---
 title: People
 date: 2026-03-20
+summary: Meet the NeuroPlaNe Lab team — principal investigator, lab members, alumni and collaborators.
 # Se renderiza con layouts/people/single.html (diseño institucional).
 # Lab Members y Alumni se leen de content/authors/ (por user_groups + weight).
 # Los colaboradores se editan aquí abajo, en el cuerpo.

@@ -21,6 +21,7 @@ publishDate: '2026-05-25T10:25:27.913235Z'
 publication_types:
 - article-journal
 publication: '*Stem Cell Reports*'
+summary: 'Daijiro Kojima et al. — Stem Cell Reports, 2026.'
 doi: 10.1016/j.stemcr.2026.102893
 url_pdf: /files/papers/kojima-2026-stem-cell-reports.pdf
 

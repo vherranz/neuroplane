@@ -15,6 +15,7 @@ publishDate: '2026-05-25T10:25:28.066073Z'
 publication_types:
 - article-journal
 publication: '*Frontiers in Neuroanatomy*'
+summary: 'María José Ulloa-Navas et al. — Frontiers in Neuroanatomy, 2021.'
 doi: 10.3389/fnana.2021.696376
 url_pdf: /files/papers/ulloa-navas-2021-front-neuroanat.pdf
 

@@ -11,6 +11,7 @@ publishDate: '2026-05-25T10:25:28.232243Z'
 publication_types:
 - article-journal
 publication: '*European Journal of Neuroscience*'
+summary: 'Javier Simón-Sánchez et al. — European Journal of Neuroscience, 2006.'
 doi: 10.1111/j.1460-9568.2006.04616.x
 
 # --- clasificación NeuroPlaNe (curado v2; revisar) ---

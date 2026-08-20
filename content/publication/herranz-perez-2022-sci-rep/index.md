@@ -13,6 +13,7 @@ publishDate: '2026-05-25T10:25:28.048409Z'
 publication_types:
 - article-journal
 publication: '*Scientific Reports*'
+summary: 'Vicente Herranz-Pérez et al. — Scientific Reports, 2022.'
 doi: 10.1038/s41598-022-05526-y
 url_pdf: /files/papers/herranz-perez-2022-sci-rep.pdf
 

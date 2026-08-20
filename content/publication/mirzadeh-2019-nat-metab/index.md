@@ -19,6 +19,7 @@ publishDate: '2026-05-25T10:25:28.125452Z'
 publication_types:
 - article-journal
 publication: '*Nature Metabolism*'
+summary: 'Zaman Mirzadeh et al. — Nature Metabolism, 2019.'
 doi: 10.1038/s42255-018-0029-0
 
 # --- clasificación NeuroPlaNe (curado v2; revisar) ---

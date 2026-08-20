@@ -18,6 +18,7 @@ publishDate: '2026-05-25T10:25:28.095789Z'
 publication_types:
 - article-journal
 publication: '*Molecular Psychiatry*'
+summary: 'Diego García-González et al. — Molecular Psychiatry, 2021.'
 doi: 10.1038/s41380-020-0823-4
 url_pdf: /files/papers/garcia-gonzalez-2021-mol-psychiatry.pdf
 

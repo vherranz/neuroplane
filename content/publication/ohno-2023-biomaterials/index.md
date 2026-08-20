@@ -22,6 +22,7 @@ publishDate: '2026-05-25T10:25:28.025069Z'
 publication_types:
 - article-journal
 publication: '*Biomaterials*'
+summary: 'Yuya Ohno et al. — Biomaterials, 2023.'
 doi: 10.1016/j.biomaterials.2023.122003
 
 # --- clasificación NeuroPlaNe (curado v2; revisar) ---

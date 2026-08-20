@@ -59,6 +59,7 @@ publishDate: '2026-05-25T10:25:28.255361Z'
 publication_types:
 - article-journal
 publication: '*Journal of Medical Genetics*'
+summary: 'Ange-Line Bruel et al. — Journal of Medical Genetics, 2017.'
 doi: 10.1136/jmedgenet-2016-104436
 
 # --- clasificación NeuroPlaNe (curado v2; revisar) ---

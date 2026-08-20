@@ -16,6 +16,7 @@ publishDate: '2026-05-25T10:25:28.262740Z'
 publication_types:
 - article-journal
 publication: '*Stem Cell Reports*'
+summary: 'Arantxa Cebrián-Silla et al. — Stem Cell Reports, 2017.'
 doi: 10.1016/j.stemcr.2017.05.024
 url_pdf: /files/papers/cebrian-silla-2017-stem-cell-reports.pdf
 

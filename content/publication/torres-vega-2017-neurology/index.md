@@ -21,6 +21,7 @@ publishDate: '2026-05-25T10:25:28.208764Z'
 publication_types:
 - article-journal
 publication: '*Neurology*'
+summary: 'Estefanía Torres-Vega et al. — Neurology, 2017.'
 doi: 10.1212/WNL.0000000000003778
 
 # --- clasificación NeuroPlaNe (curado v2; revisar) ---

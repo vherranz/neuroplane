@@ -36,6 +36,7 @@ publishDate: '2026-05-25T10:25:28.184705Z'
 publication_types:
 - article-journal
 publication: '*Nature Genetics*'
+summary: 'Christel Thauvin-Robinet et al. — Nature Genetics, 2014.'
 doi: 10.1038/ng.3031
 
 # --- clasificación NeuroPlaNe (curado v2; revisar) ---

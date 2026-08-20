@@ -18,6 +18,7 @@ publishDate: '2026-05-25T10:25:28.143397Z'
 publication_types:
 - article-journal
 publication: '*Chemistry of Materials*'
+summary: 'Laura Francés-Soriano et al. — Chemistry of Materials, 2018.'
 doi: 10.1021/acs.chemmater.8b00276
 
 # --- clasificación NeuroPlaNe (curado v2; revisar) ---

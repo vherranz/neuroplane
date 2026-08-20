@@ -25,6 +25,7 @@ publishDate: '2026-05-25T10:25:28.113378Z'
 publication_types:
 - article-journal
 publication: '*Journal of Neuroscience*'
+summary: 'Mami Matsumoto et al. — Journal of Neuroscience, 2019.'
 doi: 10.1523/JNEUROSCI.1503-19.2019
 url_pdf: /files/papers/matsumoto-2019-j-neurosci.pdf
 

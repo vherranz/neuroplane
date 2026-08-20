@@ -14,6 +14,7 @@ publishDate: '2026-05-25T10:25:27.952369Z'
 publication_types:
 - article-journal
 publication: '*Journal of Comparative Neurology*'
+summary: 'Lucía Inés Torrijos-Saiz et al. — Journal of Comparative Neurology, 2025.'
 doi: 10.1002/cne.70070
 url_pdf: /files/papers/torrijos-saiz-2025-j-comp-neurol.pdf
 

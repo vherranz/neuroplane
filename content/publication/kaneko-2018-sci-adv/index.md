@@ -19,6 +19,7 @@ publishDate: '2026-05-25T10:25:28.131373Z'
 publication_types:
 - article-journal
 publication: '*Science Advances*'
+summary: 'N Kaneko et al. — Science Advances, 2018.'
 doi: 10.1126/sciadv.aav0618
 url_pdf: /files/papers/kaneko-2018-sci-adv.pdf
 

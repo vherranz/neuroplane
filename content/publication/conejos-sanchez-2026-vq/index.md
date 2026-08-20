@@ -28,6 +28,7 @@ publishDate: '2026-05-25T10:25:27.928164Z'
 publication_types:
 - article-journal
 publication: '*Biomaterials*'
+summary: 'Inmaculada Conejos-Sánchez et al. — Biomaterials, 2026.'
 doi: 10.1016/j.biomaterials.2025.123867
 url_pdf: /files/papers/conejos-sanchez-2026-vq.pdf
 

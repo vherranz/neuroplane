@@ -1,6 +1,7 @@
 ---
 title: Contact
 date: 2026-03-02
+summary: Get in touch with the NeuroPlaNe Lab — location, email and social media.
 # Se renderiza con layouts/contact/single.html (diseño institucional).
 # Edita aquí los datos de contacto; el mapa se configura en la plantilla.
 ---

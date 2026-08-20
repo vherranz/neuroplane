@@ -17,6 +17,7 @@ publishDate: '2026-05-25T10:25:28.226415Z'
 publication_types:
 - article-journal
 publication: '*Neuron*'
+summary: 'Shinya Ohata et al. — Neuron, 2014.'
 doi: 10.1016/j.neuron.2014.06.022
 
 # --- clasificación NeuroPlaNe (curado v2; revisar) ---

@@ -16,6 +16,7 @@ publishDate: '2026-05-25T10:25:28.220594Z'
 publication_types:
 - article-journal
 publication: '*Journal of Applied Toxicology*'
+summary: 'Sara Paradells et al. — Journal of Applied Toxicology, 2015.'
 doi: 10.1002/jat.3061
 
 # --- clasificación NeuroPlaNe (curado v2; revisar) ---

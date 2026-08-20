@@ -18,6 +18,7 @@ publishDate: '2026-05-25T10:25:28.268603Z'
 publication_types:
 - article-journal
 publication: '*Genes & Development*'
+summary: 'Yue Liu et al. — Genes & Development, 2026.'
 doi: 10.1101/gad.353426.125
 url_pdf: /files/papers/liu-2026-genes-dev.pdf
 

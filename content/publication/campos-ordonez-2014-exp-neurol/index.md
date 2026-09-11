@@ -11,18 +11,9 @@ authors:
 - Alfredo Quiñones-Hinojosa
 - Oscar Gonzalez-Perez
 date: '2014-11-01'
-publishDate: '2026-05-25T10:25:28.202941Z'
+publishDate: '2026-09-11T12:33:47.317541Z'
 publication_types:
 - article-journal
 publication: '*Experimental Neurology*'
-summary: 'Tania Campos-Ordoñez et al. — Experimental Neurology, 2014.'
 doi: 10.1016/j.expneurol.2014.05.011
-
-# --- clasificación NeuroPlaNe (curado v2; revisar) ---
-np_topics:
-  - Stem cells & niche
-  - Disease
-np_species:
-  - Mouse
-featured: false
 ---

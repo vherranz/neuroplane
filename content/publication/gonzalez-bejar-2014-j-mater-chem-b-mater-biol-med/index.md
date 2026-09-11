@@ -13,17 +13,9 @@ authors:
 - Juan C Scaiano
 - Julia Pérez-Prieto
 date: '2014-07-01'
-publishDate: '2026-05-25T10:25:28.172981Z'
+publishDate: '2026-09-11T12:33:47.282103Z'
 publication_types:
 - article-journal
 publication: '*Journal of Materials Chemistry B*'
-summary: 'María González-Béjar et al. — Journal of Materials Chemistry B, 2014.'
 doi: 10.1039/c4tb00340c
-
-# --- clasificación NeuroPlaNe (curado v2; revisar) ---
-np_topics:
-  - Translational
-  - Disease
-np_species: []
-featured: false
 ---

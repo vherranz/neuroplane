@@ -9,20 +9,10 @@ authors:
 - José Manuel García-Verdugo
 - Shinya Ohata
 date: '2022-01-01'
-publishDate: '2026-05-25T10:25:28.048409Z'
+publishDate: '2026-09-11T12:33:46.283139Z'
 publication_types:
 - article-journal
 publication: '*Scientific Reports*'
-summary: 'Vicente Herranz-Pérez et al. — Scientific Reports, 2022.'
 doi: 10.1038/s41598-022-05526-y
 url_pdf: /files/papers/herranz-perez-2022-sci-rep.pdf
-
-# --- clasificación NeuroPlaNe (curado v2; revisar) ---
-np_topics:
-  - Stem cells & niche
-  - Development
-  - Ultrastructure
-np_species:
-  - Mouse
-featured: false
 ---

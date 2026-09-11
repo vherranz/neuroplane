@@ -10,17 +10,9 @@ authors:
 - Philip A Barker
 - Jordi Pérez-Tur
 date: '2006-12-01'
-publishDate: '2026-05-25T10:25:28.197176Z'
+publishDate: '2026-09-11T12:33:47.310851Z'
 publication_types:
 - article-journal
 publication: '*Human Molecular Genetics*'
-summary: 'Maria Salomé Sirerol-Piquer et al. — Human Molecular Genetics, 2006.'
 doi: 10.1093/hmg/ddl421
-
-# --- clasificación NeuroPlaNe (curado v2; revisar) ---
-np_topics:
-  - Disease
-np_species:
-  - Human
-featured: false
 ---

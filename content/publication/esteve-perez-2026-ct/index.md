@@ -9,19 +9,10 @@ authors:
 - José Vicente Torres-Pérez
 - Carmen Agustín-Pavón
 date: '2026-01-01'
-publishDate: '2026-05-25T10:25:27.940463Z'
+publishDate: '2026-09-11T12:33:46.157331Z'
 publication_types:
 - article-journal
 publication: '*Neuroscience*'
-summary: 'Rafael Esteve-Pérez et al. — Neuroscience, 2026.'
 doi: 10.1016/j.neuroscience.2025.12.010
 url_pdf: /files/papers/esteve-perez-2026-ct.pdf
-
-# --- clasificación NeuroPlaNe (curado v2; revisar) ---
-np_topics:
-  - Immature neurons
-  - Disease
-np_species:
-  - Mouse
-featured: false
 ---

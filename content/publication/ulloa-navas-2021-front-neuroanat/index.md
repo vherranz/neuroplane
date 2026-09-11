@@ -11,19 +11,10 @@ authors:
 - Vicente Herranz-Pérez
 - José Manuel García-Verdugo
 date: '2021-06-01'
-publishDate: '2026-05-25T10:25:28.066073Z'
+publishDate: '2026-09-11T12:33:46.309355Z'
 publication_types:
 - article-journal
 publication: '*Frontiers in Neuroanatomy*'
-summary: 'María José Ulloa-Navas et al. — Frontiers in Neuroanatomy, 2021.'
 doi: 10.3389/fnana.2021.696376
 url_pdf: /files/papers/ulloa-navas-2021-front-neuroanat.pdf
-
-# --- clasificación NeuroPlaNe (curado v2; revisar) ---
-np_topics:
-  - Stem cells & niche
-  - Ultrastructure
-np_species:
-  - Human
-featured: false
 ---

@@ -11,18 +11,9 @@ authors:
 - José Manuel García-Verdugo
 - Oscar Gonzalez-Perez
 date: '2023-07-01'
-publishDate: '2026-05-25T10:25:27.995633Z'
+publishDate: '2026-09-11T12:33:46.221213Z'
 publication_types:
 - article-journal
 publication: '*Experimental Neurology*'
-summary: 'Tania Campos-Ordoñez et al. — Experimental Neurology, 2023.'
 doi: 10.1016/j.expneurol.2023.114412
-
-# --- clasificación NeuroPlaNe (curado v2; revisar) ---
-np_topics:
-  - Stem cells & niche
-  - Disease
-np_species:
-  - Mouse
-featured: false
 ---

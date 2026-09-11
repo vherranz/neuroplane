@@ -17,22 +17,10 @@ authors:
 - Naoko Kaneko
 - Kazunobu Sawamoto
 date: '2026-04-01'
-publishDate: '2026-05-25T10:25:27.913235Z'
+publishDate: '2026-09-11T12:33:46.128567Z'
 publication_types:
 - article-journal
 publication: '*Stem Cell Reports*'
-summary: 'Daijiro Kojima et al. — Stem Cell Reports, 2026.'
 doi: 10.1016/j.stemcr.2026.102893
 url_pdf: /files/papers/kojima-2026-stem-cell-reports.pdf
-
-# --- clasificación NeuroPlaNe (curado v2; revisar) ---
-np_topics:
-  - Stem cells & niche
-  - Migration
-  - Ultrastructure
-  - Development
-  - Comparative
-np_species:
-  - Pig
-featured: false
 ---

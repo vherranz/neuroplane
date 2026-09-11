@@ -17,19 +17,9 @@ authors:
 - Shinji Saitoh
 - Kazunobu Sawamoto
 date: '2018-01-01'
-publishDate: '2026-05-25T10:25:28.155541Z'
+publishDate: '2026-09-11T12:33:47.206988Z'
 publication_types:
 - article-journal
 publication: '*Cell Stem Cell*'
-summary: 'Hideo Jinnou et al. — Cell Stem Cell, 2018.'
 doi: 10.1016/j.stem.2017.11.005
-
-# --- clasificación NeuroPlaNe (curado v2; revisar) ---
-np_topics:
-  - Migration
-  - Stem cells & niche
-  - Development
-  - Disease
-np_species:
-  - Mouse
 ---

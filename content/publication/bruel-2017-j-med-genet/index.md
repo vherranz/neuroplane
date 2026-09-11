@@ -55,19 +55,9 @@ authors:
 - Laurence Faivre
 - Christel Thauvin-Robinet
 date: '2017-06-01'
-publishDate: '2026-05-25T10:25:28.255361Z'
+publishDate: '2026-09-11T12:33:47.378663Z'
 publication_types:
 - article-journal
 publication: '*Journal of Medical Genetics*'
-summary: 'Ange-Line Bruel et al. — Journal of Medical Genetics, 2017.'
 doi: 10.1136/jmedgenet-2016-104436
-
-# --- clasificación NeuroPlaNe (curado v2; revisar) ---
-np_topics:
-  - Disease
-  - Development
-  - Ultrastructure
-np_species:
-  - Human
-featured: false
 ---

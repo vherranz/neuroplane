@@ -15,18 +15,10 @@ authors:
 - Bradley K Yoder
 - Jeremy F Reiter
 date: '2021-09-01'
-publishDate: '2026-05-25T10:25:28.060128Z'
+publishDate: '2026-09-11T12:33:46.300977Z'
 publication_types:
 - article-journal
 publication: '*Journal of Cell Biology*'
-summary: 'Dhivya Kumar et al. — Journal of Cell Biology, 2021.'
 doi: 10.1083/jcb.202011133
 url_pdf: /files/papers/kumar-2021-j-cell-biol.pdf
-
-# --- clasificación NeuroPlaNe (curado v2; revisar) ---
-np_topics:
-  - Ultrastructure
-np_species:
-  - Mouse
-featured: false
 ---

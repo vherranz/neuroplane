@@ -24,18 +24,10 @@ authors:
 - José Manuel García-Verdugo
 - María Jesús Vicent
 date: '2026-05-01'
-publishDate: '2026-05-25T10:25:27.928164Z'
+publishDate: '2026-09-11T12:33:46.142886Z'
 publication_types:
 - article-journal
 publication: '*Biomaterials*'
-summary: 'Inmaculada Conejos-Sánchez et al. — Biomaterials, 2026.'
 doi: 10.1016/j.biomaterials.2025.123867
 url_pdf: /files/papers/conejos-sanchez-2026-vq.pdf
-
-# --- clasificación NeuroPlaNe (curado v2; revisar) ---
-np_topics:
-  - Translational
-np_species:
-  - Mouse
-featured: false
 ---

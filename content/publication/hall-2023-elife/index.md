@@ -21,18 +21,10 @@ authors:
 - Jeremy F Reiter
 - Pleasantine Mill
 date: '2023-02-01'
-publishDate: '2026-05-25T10:25:28.007363Z'
+publishDate: '2026-09-11T12:33:46.234936Z'
 publication_types:
 - article-journal
 publication: '*eLife*'
-summary: 'Emma A Hall et al. — eLife, 2023.'
 doi: 10.7554/eLife.79299
 url_pdf: /files/papers/hall-2023-elife.pdf
-
-# --- clasificación NeuroPlaNe (curado v2; revisar) ---
-np_topics:
-  - Ultrastructure
-np_species:
-  - Mouse
-featured: false
 ---

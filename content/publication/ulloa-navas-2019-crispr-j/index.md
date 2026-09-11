@@ -7,17 +7,9 @@ authors:
 - José Manuel García-Verdugo
 - Vicente Herranz-Pérez
 date: '2019-12-01'
-publishDate: '2026-05-25T10:25:28.107666Z'
+publishDate: '2026-09-11T12:33:46.378219Z'
 publication_types:
 - article-journal
 publication: '*The CRISPR Journal*'
-summary: 'María José Ulloa-Navas et al. — The CRISPR Journal, 2019.'
 doi: 10.1089/crispr.2019.0032
-
-# --- clasificación NeuroPlaNe (curado v2; revisar) ---
-np_topics:
-  - Ultrastructure
-np_species:
-  - Mouse
-featured: false
 ---

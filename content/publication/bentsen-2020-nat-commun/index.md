@@ -32,18 +32,10 @@ authors:
 - Michael W Schwartz
 - Tune H Pers
 date: '2020-09-01'
-publishDate: '2026-05-25T10:25:28.089343Z'
+publishDate: '2026-09-11T12:33:46.351511Z'
 publication_types:
 - article-journal
 publication: '*Nature Communications*'
-summary: 'Marie A Bentsen et al. — Nature Communications, 2020.'
 doi: 10.1038/s41467-020-17720-5
 url_pdf: /files/papers/bentsen-2020-nat-commun.pdf
-
-# --- clasificación NeuroPlaNe (curado v2; revisar) ---
-np_topics:
-  - Disease
-np_species:
-  - Mouse
-featured: false
 ---

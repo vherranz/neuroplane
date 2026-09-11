@@ -38,18 +38,10 @@ authors:
 - Francisco Gil-Bea
 - Sonia Alonso-Martín
 date: '2024-09-01'
-publishDate: '2026-05-25T10:25:27.964154Z'
+publishDate: '2026-09-11T12:33:46.184873Z'
 publication_types:
 - article-journal
 publication: '*Acta Neuropathologica*'
-summary: 'Mónica Zufiría et al. — Acta Neuropathologica, 2024.'
 doi: 10.1007/s00401-024-02794-y
 url_pdf: /files/papers/zufiria-2024-acta-neuropathol.pdf
-
-# --- clasificación NeuroPlaNe (curado v2; revisar) ---
-np_topics:
-  - Disease
-np_species:
-  - Human
-featured: false
 ---

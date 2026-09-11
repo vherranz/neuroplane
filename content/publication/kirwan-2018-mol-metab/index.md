@@ -18,18 +18,10 @@ authors:
 - Stephen O'Rahilly
 - Florian T Merkle
 date: '2018-11-01'
-publishDate: '2026-05-25T10:25:28.137332Z'
+publishDate: '2026-09-11T12:33:46.971295Z'
 publication_types:
 - article-journal
 publication: '*Molecular Metabolism*'
-summary: 'Peter Kirwan et al. — Molecular Metabolism, 2018.'
 doi: 10.1016/j.molmet.2018.08.006
 url_pdf: /files/papers/kirwan-2018-mol-metab.pdf
-
-# --- clasificación NeuroPlaNe (curado v2; revisar) ---
-np_topics:
-  - Disease
-np_species:
-  - Human
-featured: false
 ---

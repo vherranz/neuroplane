@@ -20,19 +20,10 @@ authors:
 - Nobuhiko Ohno
 - Kazunobu Sawamoto
 date: '2024-06-01'
-publishDate: '2026-05-25T10:25:27.977362Z'
+publishDate: '2026-09-11T12:33:46.200081Z'
 publication_types:
 - article-journal
 publication: '*EMBO Molecular Medicine*'
-summary: 'Mami Matsumoto et al. — EMBO Molecular Medicine, 2024.'
 doi: 10.1038/s44321-024-00073-7
 url_pdf: /files/papers/matsumoto-2024-embo-mol-med.pdf
-
-# --- clasificación NeuroPlaNe (curado v2; revisar) ---
-np_topics:
-  - Migration
-  - Disease
-np_species:
-  - Mouse
-featured: false
 ---

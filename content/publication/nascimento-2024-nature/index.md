@@ -17,18 +17,10 @@ authors:
 - Arturo Alvarez-Buylla
 - Shawn F Sorrells
 date: '2024-02-01'
-publishDate: '2026-05-25T10:25:27.983493Z'
+publishDate: '2026-09-11T12:33:46.207097Z'
 publication_types:
 - article-journal
 publication: '*Nature*'
-summary: 'Marcos Assis Nascimento et al. — Nature, 2024.'
 doi: 10.1038/s41586-023-06981-x
 url_pdf: /files/papers/nascimento-2024-nature.pdf
-
-# --- clasificación NeuroPlaNe (curado v2; revisar) ---
-np_topics:
-  - Immature neurons
-  - Development
-np_species:
-  - Human
 ---

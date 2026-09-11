@@ -18,18 +18,9 @@ authors:
 - Joshua G Corbin
 - Shawn F Sorrells
 date: '2024-02-01'
-publishDate: '2026-05-25T10:25:27.989594Z'
+publishDate: '2026-09-11T12:33:46.214099Z'
 publication_types:
 - article-journal
 publication: '*Neuron*'
-summary: 'Pia J Alderman et al. — Neuron, 2024.'
 doi: 10.1016/j.neuron.2023.11.010
-
-# --- clasificación NeuroPlaNe (curado v2; revisar) ---
-np_topics:
-  - Immature neurons
-  - Migration
-  - Development
-np_species:
-  - Mouse
 ---

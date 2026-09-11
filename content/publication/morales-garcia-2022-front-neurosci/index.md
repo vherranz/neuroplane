@@ -6,17 +6,10 @@ authors:
 - Naoko Kaneko
 - Vicente Herranz-Pérez
 date: '2022-03-01'
-publishDate: '2026-05-25T10:25:28.042757Z'
+publishDate: '2026-09-11T12:33:46.276415Z'
 publication_types:
 - article-journal
 publication: '*Frontiers in Neuroscience*'
-summary: 'Jose A Morales-García et al. — Frontiers in Neuroscience, 2022.'
 doi: 10.3389/fnins.2022.868876
 url_pdf: /files/papers/morales-garcia-2022-front-neurosci.pdf
-
-# --- clasificación NeuroPlaNe (curado v2; revisar) ---
-np_topics:
-  - Stem cells & niche
-np_species: []
-featured: false
 ---

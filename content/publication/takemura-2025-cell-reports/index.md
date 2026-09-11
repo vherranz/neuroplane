@@ -18,19 +18,10 @@ authors:
 - Konstantin Khodosevich
 - Kazunobu Sawamoto
 date: '2025-08-01'
-publishDate: '2026-05-25T10:25:27.946293Z'
+publishDate: '2026-09-11T12:33:46.164065Z'
 publication_types:
 - article-journal
 publication: '*Cell Reports*'
-summary: 'Shoko Takemura et al. — Cell Reports, 2025.'
 doi: 10.1016/j.celrep.2025.116029
 url_pdf: /files/papers/takemura-2025-cell-reports.pdf
-
-# --- clasificación NeuroPlaNe (curado v2; revisar) ---
-np_topics:
-  - Stem cells & niche
-  - Development
-np_species:
-  - Mouse
-featured: false
 ---

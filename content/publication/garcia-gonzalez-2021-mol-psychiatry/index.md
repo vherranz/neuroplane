@@ -14,20 +14,10 @@ authors:
 - Julieta Alfonso
 - Hannah Monyer
 date: '2021-09-01'
-publishDate: '2026-05-25T10:25:28.095789Z'
+publishDate: '2026-09-11T12:33:46.361020Z'
 publication_types:
 - article-journal
 publication: '*Molecular Psychiatry*'
-summary: 'Diego García-González et al. — Molecular Psychiatry, 2021.'
 doi: 10.1038/s41380-020-0823-4
 url_pdf: /files/papers/garcia-gonzalez-2021-mol-psychiatry.pdf
-
-# --- clasificación NeuroPlaNe (curado v2; revisar) ---
-np_topics:
-  - Stem cells & niche
-  - Disease
-  - Development
-np_species:
-  - Mouse
-featured: false
 ---

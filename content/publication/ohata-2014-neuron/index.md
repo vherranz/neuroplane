@@ -13,18 +13,9 @@ authors:
 - Anthony Wynshaw-Boris
 - Arturo Alvarez-Buylla
 date: '2014-08-01'
-publishDate: '2026-05-25T10:25:28.226415Z'
+publishDate: '2026-09-11T12:33:47.344867Z'
 publication_types:
 - article-journal
 publication: '*Neuron*'
-summary: 'Shinya Ohata et al. — Neuron, 2014.'
 doi: 10.1016/j.neuron.2014.06.022
-
-# --- clasificación NeuroPlaNe (curado v2; revisar) ---
-np_topics:
-  - Ultrastructure
-  - Disease
-np_species:
-  - Mouse
-featured: false
 ---

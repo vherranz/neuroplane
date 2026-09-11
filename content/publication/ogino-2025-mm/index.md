@@ -18,18 +18,10 @@ authors:
 - Junichi Nabekura
 - Kazunobu Sawamoto
 date: '2025-10-01'
-publishDate: '2026-05-25T10:25:27.934412Z'
+publishDate: '2026-09-11T12:33:46.150183Z'
 publication_types:
 - article-journal
 publication: '*eLife*'
-summary: 'Takashi Ogino et al. — eLife, 2025.'
 doi: 10.7554/eLife.99502
 url_pdf: /files/papers/ogino-2025-mm.pdf
-
-# --- clasificación NeuroPlaNe (curado v2; revisar) ---
-np_topics:
-  - Migration
-np_species:
-  - Mouse
-featured: false
 ---

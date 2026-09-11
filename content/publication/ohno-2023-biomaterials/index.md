@@ -18,18 +18,9 @@ authors:
 - Naoko Kaneko
 - Kazunobu Sawamoto
 date: '2023-03-01'
-publishDate: '2026-05-25T10:25:28.025069Z'
+publishDate: '2026-09-11T12:33:46.255780Z'
 publication_types:
 - article-journal
 publication: '*Biomaterials*'
-summary: 'Yuya Ohno et al. — Biomaterials, 2023.'
 doi: 10.1016/j.biomaterials.2023.122003
-
-# --- clasificación NeuroPlaNe (curado v2; revisar) ---
-np_topics:
-  - Migration
-  - Translational
-np_species:
-  - Mouse
-featured: false
 ---

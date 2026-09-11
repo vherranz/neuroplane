@@ -21,20 +21,10 @@ authors:
 - Nobuhiko Ohno
 - Kazunobu Sawamoto
 date: '2019-12-01'
-publishDate: '2026-05-25T10:25:28.113378Z'
+publishDate: '2026-09-11T12:33:46.386344Z'
 publication_types:
 - article-journal
 publication: '*Journal of Neuroscience*'
-summary: 'Mami Matsumoto et al. — Journal of Neuroscience, 2019.'
 doi: 10.1523/JNEUROSCI.1503-19.2019
 url_pdf: /files/papers/matsumoto-2019-j-neurosci.pdf
-
-# --- clasificación NeuroPlaNe (curado v2; revisar) ---
-np_topics:
-  - Ultrastructure
-  - Migration
-  - Development
-np_species:
-  - Mouse
-featured: false
 ---

@@ -11,18 +11,10 @@ authors:
 - José Manuel García-Verdugo
 - C de la Rosa-Prieto
 date: '2025-04-01'
-publishDate: '2026-05-25T10:25:27.958303Z'
+publishDate: '2026-09-11T12:33:46.178070Z'
 publication_types:
 - article-journal
 publication: '*Tissue & Cell*'
-summary: 'J F Raspeño-García et al. — Tissue & Cell, 2025.'
 doi: 10.1016/j.tice.2025.102737
 url_pdf: /files/papers/raspeno-garcia-2025-tissue-cell.pdf
-
-# --- clasificación NeuroPlaNe (curado v2; revisar) ---
-np_topics:
-  - Ultrastructure
-np_species:
-  - Human
-featured: false
 ---

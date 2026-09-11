@@ -6,19 +6,10 @@ authors:
 - José Manuel García-Verdugo
 - Emmanuelle Huillard
 date: '2021-04-01'
-publishDate: '2026-05-25T10:25:28.071947Z'
+publishDate: '2026-09-11T12:33:46.318115Z'
 publication_types:
 - article-journal
 publication: '*Frontiers in Neuroscience*'
-summary: 'Brenda Rocamonde et al. — Frontiers in Neuroscience, 2021.'
 doi: 10.3389/fnins.2021.668243
 url_pdf: /files/papers/rocamonde-2021-front-neurosci.pdf
-
-# --- clasificación NeuroPlaNe (curado v2; revisar) ---
-np_topics:
-  - Stem cells & niche
-  - Development
-np_species:
-  - Mouse
-featured: false
 ---

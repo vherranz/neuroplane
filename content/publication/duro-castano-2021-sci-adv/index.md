@@ -15,19 +15,10 @@ authors:
 - J Viña
 - M J Vicent
 date: '2021-03-01'
-publishDate: '2026-05-25T10:25:28.077654Z'
+publishDate: '2026-09-11T12:33:46.328279Z'
 publication_types:
 - article-journal
 publication: '*Science Advances*'
-summary: 'A Duro-Castano et al. — Science Advances, 2021.'
 doi: 10.1126/sciadv.abf9180
 url_pdf: /files/papers/duro-castano-2021-sci-adv.pdf
-
-# --- clasificación NeuroPlaNe (curado v2; revisar) ---
-np_topics:
-  - Disease
-  - Translational
-np_species:
-  - Mouse
-featured: false
 ---

@@ -14,19 +14,10 @@ authors:
 - Lluís Pujadas
 - Eduardo Soriano
 date: '2023-10-01'
-publishDate: '2026-05-25T10:25:28.013489Z'
+publishDate: '2026-09-11T12:33:46.242287Z'
 publication_types:
 - article-journal
 publication: '*Cerebral Cortex*'
-summary: 'Alba Ortega-Gascó et al. — Cerebral Cortex, 2023.'
 doi: 10.1093/cercor/bhad340
 url_pdf: /files/papers/ortega-gasco-2023-cereb-cortex.pdf
-
-# --- clasificación NeuroPlaNe (curado v2; revisar) ---
-np_topics:
-  - Stem cells & niche
-  - Development
-np_species:
-  - Mouse
-featured: false
 ---

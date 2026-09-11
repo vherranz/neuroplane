@@ -8,19 +8,10 @@ authors:
 - José Manuel García-Verdugo
 - Jeremy F Reiter
 date: '2021-12-01'
-publishDate: '2026-05-25T10:25:28.054409Z'
+publishDate: '2026-09-11T12:33:46.292057Z'
 publication_types:
 - article-journal
 publication: '*Developmental Cell*'
-summary: 'Chang Xie et al. — Developmental Cell, 2021.'
 doi: 10.1016/j.devcel.2021.11.020
 url_pdf: /files/papers/xie-2021-dev-cell.pdf
-
-# --- clasificación NeuroPlaNe (curado v2; revisar) ---
-np_topics:
-  - Ultrastructure
-  - Development
-np_species:
-  - Mouse
-featured: false
 ---

@@ -31,19 +31,10 @@ authors:
 - Michihiro Igarashi
 - Kazunobu Sawamoto
 date: '2024-03-01'
-publishDate: '2026-05-25T10:25:27.970872Z'
+publishDate: '2026-09-11T12:33:46.192664Z'
 publication_types:
 - article-journal
 publication: '*Nature Communications*'
-summary: 'Chikako Nakajima et al. — Nature Communications, 2024.'
 doi: 10.1038/s41467-024-45825-8
 url_pdf: /files/papers/nakajima-2024-nat-commun.pdf
-
-# --- clasificación NeuroPlaNe (curado v2; revisar) ---
-np_topics:
-  - Migration
-  - Disease
-np_species:
-  - Mouse
-featured: false
 ---

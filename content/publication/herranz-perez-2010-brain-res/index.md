@@ -7,17 +7,9 @@ authors:
 - José Manuel Morante-Redolat
 - Jordi Pérez-Tur
 date: '2010-01-01'
-publishDate: '2026-05-25T10:25:28.161504Z'
+publishDate: '2026-09-11T12:33:47.268689Z'
 publication_types:
 - article-journal
 publication: '*Brain Research*'
-summary: 'Vicente Herranz-Pérez et al. — Brain Research, 2010.'
 doi: 10.1016/j.brainres.2009.10.013
-
-# --- clasificación NeuroPlaNe (curado v2; revisar) ---
-np_topics:
-  - Disease
-np_species:
-  - Mouse
-featured: false
 ---

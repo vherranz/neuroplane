@@ -58,12 +58,15 @@ def build_paper_text(title: str, journal: str, year: str, url: str) -> str:
     return text
 
 
-def build_post_text(title: str, url: str) -> str:
-    text = f"New post: {title}.\n{url}"
+def build_post_text(title: str, url: str, doi: str = "") -> str:
+    if doi:
+        text = f"We are pleased to announce: {title}!\n{url}\nDOI: https://doi.org/{doi}"
+    else:
+        text = f"New post: {title}.\n{url}"
     if len(text) > TEXT_LIMIT:
         overflow = len(text) - TEXT_LIMIT
         title = title[: max(0, len(title) - overflow - 1)].rstrip() + "…"
-        return build_post_text(title, url)
+        return build_post_text(title, url, doi)
     return text
 
 
@@ -107,7 +110,8 @@ def announce(index_path: Path, headers: dict, did: str, kind: str) -> None:
     if kind == "post":
         url = f"https://neuroplanelab.org/post/{slug}/"
         summary = strip_markdown(fm.get("summary", ""))
-        text = build_post_text(title, url)
+        doi = str(fm.get("doi", "")).strip()
+        text = build_post_text(title, url, doi)
     else:
         journal = strip_markdown(str(fm.get("publication", "")))
         date = str(fm.get("date", ""))

@@ -49,8 +49,22 @@
     <div id="results">
       {{ range $pubs.ByDate.Reverse }}
       {{ $au := .Params.authors }}
-      {{ $authors := "" }}
-      {{ if gt (len $au) 6 }}{{ $authors = printf "%s, … %s" (delimit (first 4 $au) ", ") (index $au (sub (len $au) 1)) }}{{ else }}{{ $authors = delimit $au ", " }}{{ end }}
+      {{ $me := "Vicente Herranz-Pérez" }}
+      {{ $maxShow := 15 }}
+      {{ $head := $au }}
+      {{ $lastAuthor := "" }}
+      {{ $showLast := false }}
+      {{ if gt (len $au) $maxShow }}
+        {{ $headCount := sub $maxShow 1 }}
+        {{ $head = first $headCount $au }}
+        {{ $lastAuthor = index $au (sub (len $au) 1) }}
+        {{ $showLast = true }}
+        {{ if and (in $au $me) (not (in $head $me)) (ne $lastAuthor $me) }}
+          {{ $head = ($head | first (sub $headCount 1)) | append $me }}
+        {{ end }}
+      {{ end }}
+      {{ $authors := delimit $head ", " }}
+      {{ if $showLast }}{{ $authors = printf "%s, … %s" $authors $lastAuthor }}{{ end }}
       {{ $tp := .Params.np_topics }}{{ $sp := .Params.np_species }}
       {{ $journal := .Params.publication | markdownify }}
       {{ $search := lower (printf "%s %s %s" .Title (delimit $au " ") ($journal | plainify)) }}

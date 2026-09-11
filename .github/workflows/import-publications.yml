@@ -98,6 +98,14 @@ jobs:
               md.write_text(new_text, encoding="utf-8")
           PY
 
+      - name: Restore hand-curated fields lost by the Bibtex import
+        # `academic import --overwrite` only knows bibliographic fields, so it wipes
+        # `summary` and the NeuroPlaNe `np_topics`/`np_species`/`featured` classification
+        # block on every existing publication, not just the new one(s). This puts them
+        # back from the previous commit's version of each file (new publications have no
+        # previous commit, so nothing to restore there — which is expected).
+        run: python .github/scripts/restore_publication_curation.py
+
       - name: Create Pull Request
         # Set ID for `Check outputs` stage
         id: cpr

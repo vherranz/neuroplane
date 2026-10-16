@@ -114,6 +114,25 @@ section{padding:78px 0}
 .post-aside img{width:100%;height:auto;display:block}
 .post-aside figcaption{font-size:0.75rem;color:var(--soft);line-height:1.55;padding:14px 16px;border-top:1px solid var(--line);text-align:justify}
 
+/* job offers inside news posts (key-facts card, language switch, CTA) */
+.lang-switch{display:flex;gap:8px;margin:0 0 1.6em}
+.lang-switch a{font-family:var(--mono);font-size:0.75rem;letter-spacing:.08em;text-transform:uppercase;
+  padding:6px 12px;border:1px solid var(--line);border-radius:2px;color:var(--ink)}
+.prose .lang-switch a{border-bottom:1px solid var(--line)}
+.prose .lang-switch a:hover{border-color:var(--blue);color:var(--blue)}
+.offer-card{background:var(--white);border:1px solid var(--line);border-left:4px solid var(--accent);
+  border-radius:5px;padding:22px 26px;margin:1.4em 0 1.8em}
+.offer-card .oc-tag{font-family:var(--mono);font-size:0.7187rem;letter-spacing:.16em;text-transform:uppercase;color:var(--accent-deep)}
+.offer-card dl{display:grid;grid-template-columns:max-content 1fr;gap:8px 22px;margin:14px 0 18px}
+.offer-card dt{font-family:var(--mono);font-size:0.7813rem;color:var(--soft);letter-spacing:.03em;padding-top:3px}
+.offer-card dd{margin:0;font-size:0.9688rem;line-height:1.5}
+.offer-card .oc-cta{display:flex;flex-wrap:wrap;gap:10px}
+.prose .offer-card .btn{border-bottom:0}
+.prose .offer-card .btn-primary{color:#fff;border:1px solid var(--blue)}
+.prose .offer-card .btn-ghost{border:1px solid var(--line)}
+.prose .lang-sep{border-top:2px solid var(--line);margin:3em 0 2em}
+@media(max-width:560px){.offer-card dl{grid-template-columns:1fr;gap:2px 0}.offer-card dd{margin-bottom:8px}}
+
 /* news list cards (with normalized thumbnail) */
 .post-list{border-top:1px solid var(--line)}
 .post-card{display:grid;grid-template-columns:230px 1fr;gap:28px;padding:26px 0;border-bottom:1px solid var(--line);align-items:center}

@@ -15,7 +15,7 @@ authors:
 - Bradley K Yoder
 - Jeremy F Reiter
 date: '2021-09-01'
-publishDate: '2026-05-25T10:25:28.060128Z'
+publishDate: '2026-11-04T13:49:26.650191Z'
 publication_types:
 - article-journal
 publication: '*Journal of Cell Biology*'

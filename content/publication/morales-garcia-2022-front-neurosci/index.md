@@ -6,7 +6,7 @@ authors:
 - Naoko Kaneko
 - Vicente Herranz-Pérez
 date: '2022-03-01'
-publishDate: '2026-05-25T10:25:28.042757Z'
+publishDate: '2026-11-04T13:49:26.630812Z'
 publication_types:
 - article-journal
 publication: '*Frontiers in Neuroscience*'

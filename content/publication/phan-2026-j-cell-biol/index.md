@@ -9,7 +9,7 @@ authors:
 - Alma L Burlingame
 - Jeremy F Reiter
 date: '2026-11-01'
-publishDate: '2026-11-04T10:00:00.000000Z'
+publishDate: '2026-11-04T13:49:26.471011Z'
 publication_types:
 - article-journal
 publication: '*Journal of Cell Biology*'

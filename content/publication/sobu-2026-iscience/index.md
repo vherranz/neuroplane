@@ -15,7 +15,7 @@ authors:
 - Kazunobu Sawamoto
 - Naoko Kaneko
 date: '2026-09-01'
-publishDate: '2026-09-11T12:30:00.187899Z'
+publishDate: '2026-11-04T13:49:26.480419Z'
 publication_types:
 - article-journal
 publication: '*iScience*'

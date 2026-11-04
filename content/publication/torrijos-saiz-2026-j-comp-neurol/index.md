@@ -11,7 +11,7 @@ authors:
 - Vicente Herranz-Pérez
 - Shawn Sorrells
 date: '2026-04-01'
-publishDate: '2026-05-25T10:25:27.922081Z'
+publishDate: '2026-11-04T13:49:26.494256Z'
 publication_types:
 - article-journal
 publication: '*Journal of Comparative Neurology*'

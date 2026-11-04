@@ -8,7 +8,7 @@ authors:
 - Vicente Herranz-Pérez
 - José Manuel García-Verdugo
 date: '2021-01-01'
-publishDate: '2026-05-25T10:25:28.019380Z'
+publishDate: '2026-11-04T13:49:26.604005Z'
 publication_types:
 - chapter
 publication: '*Neuromethods*'

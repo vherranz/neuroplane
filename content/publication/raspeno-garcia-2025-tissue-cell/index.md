@@ -11,7 +11,7 @@ authors:
 - José Manuel García-Verdugo
 - C de la Rosa-Prieto
 date: '2025-04-01'
-publishDate: '2026-05-25T10:25:27.958303Z'
+publishDate: '2026-11-04T13:49:26.535151Z'
 publication_types:
 - article-journal
 publication: '*Tissue & Cell*'

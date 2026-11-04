@@ -31,7 +31,7 @@ authors:
 - Michihiro Igarashi
 - Kazunobu Sawamoto
 date: '2024-03-01'
-publishDate: '2026-05-25T10:25:27.970872Z'
+publishDate: '2026-11-04T13:49:26.549445Z'
 publication_types:
 - article-journal
 publication: '*Nature Communications*'

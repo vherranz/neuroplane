@@ -14,7 +14,7 @@ authors:
 - Brian L Black
 - Jeremy F Reiter
 date: '2026-05-01'
-publishDate: '2026-05-25T10:25:28.268603Z'
+publishDate: '2026-11-04T13:49:26.889139Z'
 publication_types:
 - article-journal
 publication: '*Genes & Development*'

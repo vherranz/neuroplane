@@ -7,7 +7,7 @@ authors:
 - Francisco Olucha-Bordonau
 - Jordi Pérez-Tur
 date: '2006-02-01'
-publishDate: '2026-05-25T10:25:28.232243Z'
+publishDate: '2026-11-04T13:49:26.846960Z'
 publication_types:
 - article-journal
 publication: '*European Journal of Neuroscience*'
